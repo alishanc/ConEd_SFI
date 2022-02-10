@@ -1,0 +1,22 @@
+{
+    "bundleName": "CreateApplication",
+    "objectList": {
+        "AccountNumberEligible": "",
+        "EstimateIDRandomNumber": "CI-2021016543",
+        "MarketSegment": {
+        },
+        "ProgramSelection": {
+        },
+        "STEP_EligibleAccount": null,
+        "STEP_EnterAccountNumber": null,
+        "STEP_IneligibleAccount": null,
+        "STEP_ProgramSelection": null,
+        "STEP_SaveEstimate": null,
+        "timeStamp": "2021-10-18T15:53:44.941Z",
+        "userCurrencyCode": "USD",
+        "userId": "0058G000000UCFnQAO",
+        "userName": "edonahue@coned.com.dev",
+        "userProfile": "System Administrator",
+        "userTimeZone": "-420"
+    }
+}

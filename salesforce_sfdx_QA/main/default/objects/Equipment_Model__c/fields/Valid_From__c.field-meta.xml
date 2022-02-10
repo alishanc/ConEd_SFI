@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_From__c</fullName>
+    <description>Beginning of date range during which this record would be used</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Beginning of date range during which this record would be used</inlineHelpText>
+    <label>Valid From</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

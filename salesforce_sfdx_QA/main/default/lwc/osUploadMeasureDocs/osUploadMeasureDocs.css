@@ -1,0 +1,17 @@
+.auto-margin {
+    margin: auto;
+}
+
+.upload-label {
+    font-size: 14px; 
+    padding-left: 2px; 
+    font-weight: bold;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.dropzone {
+    width: 100%;
+}

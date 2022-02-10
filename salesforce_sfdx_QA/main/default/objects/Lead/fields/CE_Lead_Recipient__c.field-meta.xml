@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Lead_Recipient__c</fullName>
+    <description>Select the team where this Lead is to be routed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the team where this Lead is to be routed.</inlineHelpText>
+    <label>Lead Recipient</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Con Ed</fullName>
+                <default>true</default>
+                <label>Con Ed</label>
+            </value>
+            <value>
+                <fullName>NYSERDA</fullName>
+                <default>false</default>
+                <label>NYSERDA</label>
+            </value>
+            <value>
+                <fullName>LM</fullName>
+                <default>false</default>
+                <label>LM</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

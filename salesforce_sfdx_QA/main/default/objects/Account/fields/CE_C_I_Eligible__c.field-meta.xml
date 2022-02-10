@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_C_I_Eligible__c</fullName>
+    <description>E -Electric; G-Gas; B- Both (Gas and Electric)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If E, Account is C&amp;I Electric eligible; If G- C&amp;I GasEligible; B- Both (Gas and Electric), N- not eligible for any C&amp;I program</inlineHelpText>
+    <label>C&amp;I Eligible</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>G</fullName>
+                <default>false</default>
+                <label>G</label>
+            </value>
+            <value>
+                <fullName>E</fullName>
+                <default>false</default>
+                <label>E</label>
+            </value>
+            <value>
+                <fullName>B</fullName>
+                <default>false</default>
+                <label>B</label>
+            </value>
+            <value>
+                <fullName>N</fullName>
+                <default>false</default>
+                <label>N</label>
+            </value>
+            <value>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Maybe</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

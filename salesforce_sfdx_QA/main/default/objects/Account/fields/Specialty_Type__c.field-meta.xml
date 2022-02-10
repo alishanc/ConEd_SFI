@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialty_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Specialty Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Air Compressor</fullName>
+                <default>false</default>
+                <label>Air Compressor</label>
+            </value>
+            <value>
+                <fullName>Air Flow Management</fullName>
+                <default>false</default>
+                <label>Air Flow Management</label>
+            </value>
+            <value>
+                <fullName>Air Sealing</fullName>
+                <default>false</default>
+                <label>Air Sealing</label>
+            </value>
+            <value>
+                <fullName>Boiler Cleaning &amp; Tune Up</fullName>
+                <default>false</default>
+                <label>Boiler Cleaning &amp; Tune Up</label>
+            </value>
+            <value>
+                <fullName>Boiler Controls</fullName>
+                <default>false</default>
+                <label>Boiler Controls</label>
+            </value>
+            <value>
+                <fullName>Boilers</fullName>
+                <default>false</default>
+                <label>Boilers</label>
+            </value>
+            <value>
+                <fullName>Boilers &amp; Domestic Hot Water</fullName>
+                <default>false</default>
+                <label>Boilers &amp; Domestic Hot Water</label>
+            </value>
+            <value>
+                <fullName>Building Design</fullName>
+                <default>false</default>
+                <label>Building Design</label>
+            </value>
+            <value>
+                <fullName>Chiller Controls &amp; EMS</fullName>
+                <default>false</default>
+                <label>Chiller Controls &amp; EMS</label>
+            </value>
+            <value>
+                <fullName>Chillers</fullName>
+                <default>false</default>
+                <label>Chillers</label>
+            </value>
+            <value>
+                <fullName>Compressed Air Refrigeration</fullName>
+                <default>false</default>
+                <label>Compressed Air Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Compressed Air Systems</fullName>
+                <default>false</default>
+                <label>Compressed Air Systems</label>
+            </value>
+            <value>
+                <fullName>Distributed Generation Renewables</fullName>
+                <default>false</default>
+                <label>Distributed Generation Renewables</label>
+            </value>
+            <value>
+                <fullName>Elevators</fullName>
+                <default>false</default>
+                <label>Elevators</label>
+            </value>
+            <value>
+                <fullName>Energy Analysis &amp; Benchmarking</fullName>
+                <default>false</default>
+                <label>Energy Analysis &amp; Benchmarking</label>
+            </value>
+            <value>
+                <fullName>Energy Audit &amp; Commissioning</fullName>
+                <default>false</default>
+                <label>Energy Audit &amp; Commissioning</label>
+            </value>
+            <value>
+                <fullName>Energy Management Systems</fullName>
+                <default>false</default>
+                <label>Energy Management Systems</label>
+            </value>
+            <value>
+                <fullName>Furnaces</fullName>
+                <default>false</default>
+                <label>Furnaces</label>
+            </value>
+            <value>
+                <fullName>Heating Tune-Ups</fullName>
+                <default>false</default>
+                <label>Heating Tune-Ups</label>
+            </value>
+            <value>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+                <label>HVAC</label>
+            </value>
+            <value>
+                <fullName>HVAC Refrigeration</fullName>
+                <default>false</default>
+                <label>HVAC Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Insulations</fullName>
+                <default>false</default>
+                <label>Insulations</label>
+            </value>
+            <value>
+                <fullName>IT Optimization</fullName>
+                <default>false</default>
+                <label>IT Optimization</label>
+            </value>
+            <value>
+                <fullName>Lighting &amp; Controls</fullName>
+                <default>false</default>
+                <label>Lighting &amp; Controls</label>
+            </value>
+            <value>
+                <fullName>Master Venting - Risers, TRV’s Orifice Plates</fullName>
+                <default>false</default>
+                <label>Master Venting - Risers, TRV’s Orifice Plates</label>
+            </value>
+            <value>
+                <fullName>Motors</fullName>
+                <default>false</default>
+                <label>Motors</label>
+            </value>
+            <value>
+                <fullName>Power Management Strategies</fullName>
+                <default>false</default>
+                <label>Power Management Strategies</label>
+            </value>
+            <value>
+                <fullName>Process Upgrades</fullName>
+                <default>false</default>
+                <label>Process Upgrades</label>
+            </value>
+            <value>
+                <fullName>Refrigeration</fullName>
+                <default>false</default>
+                <label>Refrigeration</label>
+            </value>
+            <value>
+                <fullName>VFDS</fullName>
+                <default>false</default>
+                <label>VFDS</label>
+            </value>
+            <value>
+                <fullName>Virtualization</fullName>
+                <default>false</default>
+                <label>Virtualization</label>
+            </value>
+            <value>
+                <fullName>Steam Trap</fullName>
+                <default>false</default>
+                <label>Steam Trap</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

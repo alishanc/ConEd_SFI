@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_eSign_Template_ID__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>used in formula to implement esign currently from workflow and outbound message action</description>
+    <externalId>false</externalId>
+    <inlineHelpText>pick template for application esign</inlineHelpText>
+    <label>Conga Template</label>
+    <referenceTo>APXTConga4__Conga_Template__c</referenceTo>
+    <relationshipLabel>Energy Efficiency Programs</relationshipLabel>
+    <relationshipName>Energy_Efficiency_Programs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

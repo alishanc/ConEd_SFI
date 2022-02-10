@@ -1,0 +1,13 @@
+[
+    "IntegrationProcedure/Incentives_BuildingShell",
+    "IntegrationProcedure/Incentives_CompressedAir",
+    "IntegrationProcedure/Incentives_Custom",
+    "IntegrationProcedure/Incentives_DomesticHotWaterControl",
+    "IntegrationProcedure/Incentives_HVAC",
+    "IntegrationProcedure/Incentives_HVACControl",
+    "IntegrationProcedure/Incentives_Lighting",
+    "IntegrationProcedure/Incentives_LightingControl",
+    "IntegrationProcedure/Incentives_MotorAndDrives",
+    "IntegrationProcedure/Incentives_Refrigeration",
+    "IntegrationProcedure/Incentives_RefrigerationControl"
+]

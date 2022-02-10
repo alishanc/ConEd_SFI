@@ -1,0 +1,23 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">{{{Case.Company_Name__c}}},<br />
+<br />
+Thank you for submitting a help form ticket. &nbsp;<br />
+<br />
+Your Ticket Number is: {{{Case.CaseNumber}}}<br />
+The Trade Ally Management team will get back to you shortly.&nbsp;<br />
+<br />
+Primary Contact Name: {{{Case.Name__c}}}<br />
+Primary Contact Email: {{{Case.Email__c}}}<br />
+Primary Phone Number:&nbsp;{{{Case.SuppliedPhone}}}<br />
+Type of issue:&nbsp;{{{Case.Type_of_Issue__c}}}<br />
+Problem Encountered:&nbsp;{{{Case.What_type_of_problem_you_are_facing__c}}}<br />
+<br />
+<br />
+Thank you,<br />
+<br />
+Con Edison<br />
+commercial@coned.com<br />
+Energy Efficiency &amp; Demand Management Team
+</body></html>

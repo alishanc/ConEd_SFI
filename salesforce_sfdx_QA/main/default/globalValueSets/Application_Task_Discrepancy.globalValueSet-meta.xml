@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Missing Scope of Work</fullName>
+        <default>false</default>
+        <label>Missing Scope of Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Cutsheet</fullName>
+        <default>false</default>
+        <label>Missing Cutsheet</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing/Incomplete Tool</fullName>
+        <default>false</default>
+        <label>Missing/Incomplete Tool</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Custom Calculations</fullName>
+        <default>false</default>
+        <label>Missing Custom Calculations</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Cost Proposal</fullName>
+        <default>false</default>
+        <label>Missing Cost Proposal</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing DLC Screen Shot</fullName>
+        <default>false</default>
+        <label>Missing DLC Screen Shot</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Sequence of Operation</fullName>
+        <default>false</default>
+        <label>Missing Sequence of Operation</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Boiler Nameplate Pic</fullName>
+        <default>false</default>
+        <label>Missing Boiler Nameplate Pic</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Steam Trap Survey</fullName>
+        <default>false</default>
+        <label>Missing Steam Trap Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Steam Trap Survey Cost (Invoice)</fullName>
+        <default>false</default>
+        <label>Missing Steam Trap Survey Cost (Invoice)</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Signed COMCHECK</fullName>
+        <default>false</default>
+        <label>Missing Signed COMCHECK</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Reflected Ceiling Plan</fullName>
+        <default>false</default>
+        <label>Missing Reflected Ceiling Plan</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Lighting Schedule</fullName>
+        <default>false</default>
+        <label>Missing Lighting Schedule</label>
+    </customValue>
+    <customValue>
+        <fullName>Vague Scope of Work</fullName>
+        <default>false</default>
+        <label>Vague Scope of Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Unsatisfactory Cutsheet</fullName>
+        <default>false</default>
+        <label>Unsatisfactory Cutsheet</label>
+    </customValue>
+    <customValue>
+        <fullName>Vague Cost Proposal</fullName>
+        <default>false</default>
+        <label>Vague Cost Proposal</label>
+    </customValue>
+    <customValue>
+        <fullName>Vague Sequence of Operation</fullName>
+        <default>false</default>
+        <label>Vague Sequence of Operation</label>
+    </customValue>
+    <customValue>
+        <fullName>Unsupported Assumptions/Variables</fullName>
+        <default>false</default>
+        <label>Unsupported Assumptions/Variables</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect Baseline</fullName>
+        <default>false</default>
+        <label>Incorrect Baseline</label>
+    </customValue>
+    <customValue>
+        <fullName>Proposed Equipment does not meet Minimum Code Requirement</fullName>
+        <default>false</default>
+        <label>Proposed Equipment does not meet Minimum Code Requirement</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculations do not meet Program Requirements</fullName>
+        <default>false</default>
+        <label>Calculations do not meet Program Requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect Savings/Incentives</fullName>
+        <default>false</default>
+        <label>Incorrect Savings/Incentives</label>
+    </customValue>
+    <customValue>
+        <fullName>Error Messages</fullName>
+        <default>false</default>
+        <label>Error Messages</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Detailed Scope of Work/Sequence of Operation</fullName>
+        <default>false</default>
+        <label>Missing Detailed Scope of Work/Sequence of Operation</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Formal Cost Proposal for Proposed Equipment</fullName>
+        <default>false</default>
+        <label>Missing Formal Cost Proposal for Proposed Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Formal Cost Proposal for Code-Compliant Equipment</fullName>
+        <default>false</default>
+        <label>Missing Formal Cost Proposal for Code-Compliant Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Proof of Equipment Functionality</fullName>
+        <default>false</default>
+        <label>Missing Proof of Equipment Functionality</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Docs to Support Existing Unit Efficiency Rating</fullName>
+        <default>false</default>
+        <label>Missing Docs to Support Existing Unit Efficiency Rating</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Age of Existing Equipment</fullName>
+        <default>false</default>
+        <label>Missing Age of Existing Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Repair Costs supported by Invoices</fullName>
+        <default>false</default>
+        <label>Missing Repair Costs supported by Invoices</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Completion Certificate</fullName>
+        <default>false</default>
+        <label>Missing Completion Certificate</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Invoice</fullName>
+        <default>false</default>
+        <label>Missing Invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Approved NYC DOB Permit</fullName>
+        <default>false</default>
+        <label>Missing Approved NYC DOB Permit</label>
+    </customValue>
+    <customValue>
+        <fullName>Invoice does not meet program requirements</fullName>
+        <default>false</default>
+        <label>Invoice does not meet program requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Material/Labor Cost Unclear</fullName>
+        <default>false</default>
+        <label>Material/Labor Cost Unclear</label>
+    </customValue>
+    <customValue>
+        <fullName>CC &amp; Invoice Irreconcilable</fullName>
+        <default>false</default>
+        <label>CC &amp; Invoice Irreconcilable</label>
+    </customValue>
+    <customValue>
+        <fullName>Submitted Project Outside of Portal</fullName>
+        <default>false</default>
+        <label>Submitted Project Outside of Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>Wrong Program Year</fullName>
+        <default>false</default>
+        <label>Wrong Program Year</label>
+    </customValue>
+    <customValue>
+        <fullName>Doesn't Match Account Name and/or Address In DMTS</fullName>
+        <default>false</default>
+        <label>Doesn't Match Account Name and/or Address In DMTS</label>
+    </customValue>
+    <customValue>
+        <fullName>Wrong Account Number</fullName>
+        <default>false</default>
+        <label>Wrong Account Number</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Estimated Completion Date</fullName>
+        <default>false</default>
+        <label>Did Not Provide Estimated Completion Date</label>
+    </customValue>
+    <customValue>
+        <fullName>Inaccurate Participating Contractor</fullName>
+        <default>false</default>
+        <label>Inaccurate Participating Contractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Doesn't Match Payee Information</fullName>
+        <default>false</default>
+        <label>Doesn't Match Payee Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Application Not Signed</fullName>
+        <default>false</default>
+        <label>Application Not Signed</label>
+    </customValue>
+    <customValue>
+        <fullName>Outdated Year</fullName>
+        <default>false</default>
+        <label>Outdated Year</label>
+    </customValue>
+    <customValue>
+        <fullName>Doesn't Match Application or Payee Authorization</fullName>
+        <default>false</default>
+        <label>Doesn't Match Application or Payee Authorization</label>
+    </customValue>
+    <customValue>
+        <fullName>Inaccurate Tax ID Number</fullName>
+        <default>false</default>
+        <label>Inaccurate Tax ID Number</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Tax ID Number</fullName>
+        <default>false</default>
+        <label>Missing Tax ID Number</label>
+    </customValue>
+    <customValue>
+        <fullName>W-9 Not Signed</fullName>
+        <default>false</default>
+        <label>W-9 Not Signed</label>
+    </customValue>
+    <customValue>
+        <fullName>Wrong Tool (Outdated)</fullName>
+        <default>false</default>
+        <label>Wrong Tool (Outdated)</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing or Inaccurate Information on Tool</fullName>
+        <default>false</default>
+        <label>Missing or Inaccurate Information on Tool</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Measures (PC's - IN)</fullName>
+        <default>false</default>
+        <label>Did Not Provide Measures (PC's - IN)</label>
+    </customValue>
+    <customValue>
+        <fullName>Inaccurate Customer Proposal / SOW</fullName>
+        <default>false</default>
+        <label>Inaccurate Customer Proposal / SOW</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Detailed SOW</fullName>
+        <default>false</default>
+        <label>Did Not Provide Detailed SOW</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Cut Sheets</fullName>
+        <default>false</default>
+        <label>Did Not Provide Cut Sheets</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide DLC's and/or Energy Star Certification</fullName>
+        <default>false</default>
+        <label>Did Not Provide DLC's and/or Energy Star Certification</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Project Costs</fullName>
+        <default>false</default>
+        <label>Did Not Provide Project Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Pictures of Chillers &amp; Nameplate</fullName>
+        <default>false</default>
+        <label>Did Not Provide Pictures of Chillers &amp; Nameplate</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Manufacturer Tune-Up Procedures</fullName>
+        <default>false</default>
+        <label>Did Not Provide Manufacturer Tune-Up Procedures</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing COMCheck analysis (Signed &amp; Sealed)</fullName>
+        <default>false</default>
+        <label>Missing COMCheck analysis (Signed &amp; Sealed)</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Mechanical equipment schedule</fullName>
+        <default>false</default>
+        <label>Did Not Provide Mechanical equipment schedule</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Existing &amp; proposed sequence of operations</fullName>
+        <default>false</default>
+        <label>Did Not Provide Existing &amp; proposed sequence of operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Cost of code compliant equipment vs cost of efficient equipment</fullName>
+        <default>false</default>
+        <label>Did Not Provide Cost of code compliant equipment vs cost of efficient equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Cutsheets for code compliant equipment</fullName>
+        <default>false</default>
+        <label>Did Not Provide Cutsheets for code compliant equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Proof of equipment operation</fullName>
+        <default>false</default>
+        <label>Did Not Provide Proof of equipment operation</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Existing equipment cutsheet (if available)</fullName>
+        <default>false</default>
+        <label>Did Not Provide Existing equipment cutsheet (if available)</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Proof of age of existing equipment</fullName>
+        <default>false</default>
+        <label>Did Not Provide Proof of age of existing equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Estimated equipment life remaining (years)</fullName>
+        <default>false</default>
+        <label>Did Not Provide Estimated equipment life remaining (years)</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide 3 years of maintenance/repair records </fullName>
+        <default>false</default>
+        <label>Did Not Provide 3 years of maintenance/repair records </label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Pictures of Boiler &amp; Nameplate</fullName>
+        <default>false</default>
+        <label>Did Not Provide Pictures of Boiler &amp; Nameplate</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Pipe Insulation Survey</fullName>
+        <default>false</default>
+        <label>Did Not Provide Pipe Insulation Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Steam Trap Survey Invoice</fullName>
+        <default>false</default>
+        <label>Did Not Provide Steam Trap Survey Invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Steam Trap Survey Tool</fullName>
+        <default>false</default>
+        <label>Did Not Provide Steam Trap Survey Tool</label>
+    </customValue>
+    <customValue>
+        <fullName>Cert Not Signed by Customer</fullName>
+        <default>false</default>
+        <label>Cert Not Signed by Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Cert Not Signed by Participating Contractor</fullName>
+        <default>false</default>
+        <label>Cert Not Signed by Participating Contractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Accurate Project Costs</fullName>
+        <default>false</default>
+        <label>Did Not Provide Accurate Project Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Provide Invoices</fullName>
+        <default>false</default>
+        <label>Did Not Provide Invoices</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Signature Not Associated With Project</fullName>
+        <default>false</default>
+        <label>Customer Signature Not Associated With Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Completed Post Inspection Form</fullName>
+        <default>false</default>
+        <label>Missing Completed Post Inspection Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Total Savings Amount</fullName>
+        <default>false</default>
+        <label>Total Savings Amount</label>
+    </customValue>
+    <customValue>
+        <fullName>Total Project Costs</fullName>
+        <default>false</default>
+        <label>Total Project Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Total Incentive Amount</fullName>
+        <default>false</default>
+        <label>Total Incentive Amount</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed Measurement Validation</fullName>
+        <default>false</default>
+        <label>Failed Measurement Validation</label>
+    </customValue>
+    <customValue>
+        <fullName>Application or W-9 Not Signed</fullName>
+        <default>false</default>
+        <label>Application or W-9 Not Signed</label>
+    </customValue>
+    <customValue>
+        <fullName>Inaccurate Mailing Address</fullName>
+        <default>false</default>
+        <label>Inaccurate Mailing Address</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Recipient &amp; Payee Contact or Account Doesn't Match</fullName>
+        <default>false</default>
+        <label>Payment Recipient &amp; Payee Contact or Account Doesn't Match</label>
+    </customValue>
+    <customValue>
+        <fullName>W-9 and Application Name Doesn't Match</fullName>
+        <default>false</default>
+        <label>W-9 and Application Name Doesn't Match</label>
+    </customValue>
+    <customValue>
+        <fullName>Outdated W-9</fullName>
+        <default>false</default>
+        <label>Outdated W-9</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing NTP/CC</fullName>
+        <default>false</default>
+        <label>Missing NTP/CC</label>
+    </customValue>
+    <customValue>
+        <fullName>Inaccurate Invoices</fullName>
+        <default>false</default>
+        <label>Inaccurate Invoices</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Invoices</fullName>
+        <default>false</default>
+        <label>Missing Invoices</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing Post Inspection Form</fullName>
+        <default>false</default>
+        <label>Missing Post Inspection Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing FIOL Attachment</fullName>
+        <default>false</default>
+        <label>Missing FIOL Attachment</label>
+    </customValue>
+    <customValue>
+        <fullName>Participating Contractor Inaccurate</fullName>
+        <default>false</default>
+        <label>Participating Contractor Inaccurate</label>
+    </customValue>
+    <masterLabel>Application Task Discrepancy</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

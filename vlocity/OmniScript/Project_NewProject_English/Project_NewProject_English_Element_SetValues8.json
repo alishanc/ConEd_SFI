@@ -1,0 +1,62 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "createNewProject",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "TXT_AnnualSavings": "=NUMBER(%AppAnnual%)",
+            "TXT_BuildingType": "=STRING(%BuildingTypeSelect%)",
+            "TXT_CO2": "%AppCO2%",
+            "TXT_CoolingSystemType": "%CoolingSystemSelect%",
+            "TXT_DistributionType": "%DistributionTypeSelect%",
+            "TXT_HeatingFuelType": "=STRING(%HeatingFuelSelect%)",
+            "TXT_HeatingSystemType": "%HeatingSystemSelect%",
+            "TXT_KW": "%AppkW%",
+            "TXT_MMBTU": "%AppMMBTU%",
+            "TXT_MarketSegment": "%MarketSegmentSelect%",
+            "TXT_PB": "%AppPB%",
+            "TXT_ProjectCost": "=NUMBER(%AppProject%)",
+            "TXT_ProjectIncentive": "=NUMBER(%AppIncentives%)",
+            "TXT_ProjectType": "%ProjectTypeSelect%",
+            "TXT_ROI": "%AppROI%",
+            "TXT_Therms": "%AppTherm%",
+            "TXT_TotalNetCost": "=NUMBER(%AppNetCost%)",
+            "TXT_kWh": "%AppkWH%"
+        },
+        "label": "SetValues6",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "createProject",
+                        "field": "CLWC_NavButtonsEstimatesSummary"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues8",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/SetValues8"
+}

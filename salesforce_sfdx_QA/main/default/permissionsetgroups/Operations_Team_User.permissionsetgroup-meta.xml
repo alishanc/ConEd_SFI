@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>EEDM Operations member with access to data in the program(s) in which they work. Should be able to view all program related data with edit access to specific fields. May require a permission set for payments and leads depending on role on the team.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Operations Team User</label>
+    <permissionSets>Account_Create</permissionSets>
+    <permissionSets>Account_Edit</permissionSets>
+    <permissionSets>Account_Read</permissionSets>
+    <permissionSets>Application_Edit</permissionSets>
+    <permissionSets>Application_Line_Item_Read</permissionSets>
+    <permissionSets>Application_Task_Create</permissionSets>
+    <permissionSets>Case_Create</permissionSets>
+    <permissionSets>Contact_Edit</permissionSets>
+    <permissionSets>Leads_Edit</permissionSets>
+    <permissionSets>Program_Read</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

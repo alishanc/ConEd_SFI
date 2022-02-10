@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Created_MV_Plan_Task__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>flag to track creation of task</description>
+    <externalId>false</externalId>
+    <label>Has Created MV Plan Task</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

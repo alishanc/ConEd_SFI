@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>EM&amp;V User</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EM&amp;V User</label>
+    <permissionSets>Account_Read</permissionSets>
+    <permissionSets>Application_Line_Item_Edit</permissionSets>
+    <permissionSets>Application_Read</permissionSets>
+    <permissionSets>Application_Task_Edit</permissionSets>
+    <permissionSets>Case_Create</permissionSets>
+    <permissionSets>Contact_Read</permissionSets>
+    <permissionSets>Leads_Read</permissionSets>
+    <permissionSets>Program_Read</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

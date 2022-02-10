@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Control_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Control Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Occupant sensing controls in large open plan offices: one sensor controlling an area no larger than 125 ft.²</fullName>
+                <default>false</default>
+                <label>Occupant sensing controls in large open plan offices: one sensor controlling an area no larger than 125 ft.²</label>
+            </value>
+            <value>
+                <fullName>Occupant sensing controls in large open plan offices: one sensor controlling an area no larger than 126 ft.² - 250 ft.²</fullName>
+                <default>false</default>
+                <label>Occupant sensing controls in large open plan offices: one sensor controlling an area no larger than 126 ft.² - 250 ft.²</label>
+            </value>
+            <value>
+                <fullName>Occupant sensing controls in large open plan offices: one sensor controlling an area no larger than 251 ft.² -500 ft.²</fullName>
+                <default>false</default>
+                <label>Occupant sensing controls in large open plan offices: one sensor controlling an area no larger than 251 ft.² -500 ft.²</label>
+            </value>
+            <value>
+                <fullName>Occupant sensing controls: applicable to all space types other than large open plan offices with one sensor controlling an area less than 500 ft.²</fullName>
+                <default>false</default>
+                <label>Occupant sensing controls: applicable to all space types other than large open plan offices with one sensor controlling an area less than 500 ft.²</label>
+            </value>
+            <value>
+                <fullName>Institutional tuning in non-daylit areas</fullName>
+                <default>false</default>
+                <label>Institutional tuning in non-daylit areas</label>
+            </value>
+            <value>
+                <fullName>Institutional tuning in daylit areas</fullName>
+                <default>false</default>
+                <label>Institutional tuning in daylit areas</label>
+            </value>
+            <value>
+                <fullName>Demand responsive control and buildings 10,000 ft.² or less</fullName>
+                <default>false</default>
+                <label>Demand responsive control and buildings 10,000 ft.² or less</label>
+            </value>
+            <value>
+                <fullName>Daylight dimming control - On/Off control: Luminaries in skylit daylit zone or primary sidelit zone</fullName>
+                <default>false</default>
+                <label>Daylight dimming control - On/Off control: Luminaries in skylit daylit zone or primary sidelit zone</label>
+            </value>
+            <value>
+                <fullName>Daylight dimming control - multiple step dimming</fullName>
+                <default>false</default>
+                <label>Daylight dimming control - multiple step dimming</label>
+            </value>
+            <value>
+                <fullName>Daylight dimming control - continuous dimming</fullName>
+                <default>false</default>
+                <label>Daylight dimming control - continuous dimming</label>
+            </value>
+            <value>
+                <fullName>Occupant sensing with daylight dimming controls - On/Off controls</fullName>
+                <default>false</default>
+                <label>Occupant sensing with daylight dimming controls - On/Off controls</label>
+            </value>
+            <value>
+                <fullName>Occupant sensing with daylight dimming controls - multiple step dimming</fullName>
+                <default>false</default>
+                <label>Occupant sensing with daylight dimming controls - multiple step dimming</label>
+            </value>
+            <value>
+                <fullName>Networked lighting controls</fullName>
+                <default>false</default>
+                <label>Networked lighting controls</label>
+            </value>
+            <value>
+                <fullName>Networked lighting controls: High occupancy hours</fullName>
+                <default>false</default>
+                <label>Networked lighting controls: High occupancy hours</label>
+            </value>
+            <value>
+                <fullName>Lighting Control - Network Sensor Control - Code Triggered</fullName>
+                <default>false</default>
+                <label>Lighting Control - Network Sensor Control - Code Triggered</label>
+            </value>
+            <value>
+                <fullName>Lighting Control - Network Sensor Control - Code Triggered High Occ</fullName>
+                <default>false</default>
+                <label>Lighting Control - Network Sensor Control - Code Triggered High Occ</label>
+            </value>
+            <value>
+                <fullName>On/Off Control</fullName>
+                <default>false</default>
+                <label>On/Off Control</label>
+            </value>
+            <value>
+                <fullName>Multistep Control</fullName>
+                <default>false</default>
+                <label>Multistep Control</label>
+            </value>
+            <value>
+                <fullName>No Control</fullName>
+                <default>false</default>
+                <label>No Control</label>
+            </value>
+            <value>
+                <fullName>On/Off</fullName>
+                <default>false</default>
+                <label>On/Off</label>
+            </value>
+            <value>
+                <fullName>Multispeed</fullName>
+                <default>false</default>
+                <label>Multispeed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

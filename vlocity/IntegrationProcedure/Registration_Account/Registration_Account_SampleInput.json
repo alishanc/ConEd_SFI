@@ -1,0 +1,307 @@
+{
+    "AccountInformationStep": {
+        "AccountInfo": {
+            "PhoneNumber": "1231231231",
+            "PriContFirstName": "asdf",
+            "PriContactEmail": "amindab.morales@salesforce.com",
+            "PriContactLastName": "asdf",
+            "PriContactTitle": "asdf"
+        },
+        "CompanyInfo": {
+            "City": "asdf",
+            "CompanyName": "asdf",
+            "Country": "US",
+            "NYEmployees": 12,
+            "PostalCode": "12312",
+            "ProvinceChoice": null,
+            "StateChoice": "AR",
+            "StreetAddress": "asdf",
+            "companyWebsite": "adsf.com",
+            "companyYears": 23,
+            "corpType": "partnership",
+            "numTotalEmployees": 12,
+            "ownershipYears": 12,
+            "taxId": "123123113"
+        },
+        "CompanyState": "AR",
+        "DRErrorMessage": true,
+        "DRSuccessFormula": false
+    },
+    "AccountUpsertSuccess": true,
+    "DRCreateAccountResponse": {
+        "AccountInformationStep": {
+            "AccountInfo": {
+                "PhoneNumber": "1231231231",
+                "PriContFirstName": "asdf",
+                "PriContactEmail": "amindab.morales@salesforce.com",
+                "PriContactLastName": "asdf",
+                "PriContactTitle": "asdf"
+            },
+            "CompanyInfo": {
+                "City": "asdf",
+                "CompanyName": "asdf",
+                "Country": "US",
+                "NYEmployees": 12,
+                "PostalCode": "12312",
+                "ProvinceChoice": null,
+                "StateChoice": "AR",
+                "StreetAddress": "asdf",
+                "companyWebsite": "adsf.com",
+                "companyYears": 23,
+                "corpType": "partnership",
+                "numTotalEmployees": 12,
+                "ownershipYears": 12,
+                "taxId": "123123113"
+            },
+            "CompanyState": "AR",
+            "DRErrorMessage": true,
+            "DRSuccessFormula": false
+        },
+        "AccountUpsertSuccess": true,
+        "CreateAccount": {
+            "AccountId": "",
+            "Account_1": [
+                {
+                    "%vlocity_namespace%__BillingEmailAddress__c": "amindab.morales@salesforce.com",
+                    "%vlocity_namespace%__TaxID__c": "123123113",
+                    "BillingCity": "asdf",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "12312",
+                    "BillingState": "AR",
+                    "BillingStreet": "asdf",
+                    "Id": "0018G000007CsyYQAS",
+                    "Name": "asdf",
+                    "NumberOfEmployees": 12,
+                    "Number_of_NY_Employees__c": 12,
+                    "Phone": "1231231231",
+                    "RecordTypeId": "0128G000000GrxwQAC",
+                    "Type_of_Corporation__c": "partnership",
+                    "UpsertSuccess": true,
+                    "Website": "adsf.com",
+                    "Years_Under_Current_Ownership__c": 12,
+                    "Years_in_Business__c": 23
+                }
+            ],
+            "error": "OK",
+            "responseType": "SObject"
+        },
+        "CreateAccountStatus": true,
+        "CreatePrimaryEmployee": {
+            "Contact_1": [
+            ],
+            "error": "OK",
+            "primaryContactId": "",
+            "responseType": "SObject"
+        },
+        "CreatePrimaryEmployeeStatus": true,
+        "DRCreateAccountResponse": {
+            "result": {
+                "AccountId": "",
+                "Account_1": [
+                    {
+                        "%vlocity_namespace%__BillingEmailAddress__c": "amindab.morales@salesforce.com",
+                        "%vlocity_namespace%__TaxID__c": "123123113",
+                        "BillingCity": "asdf",
+                        "BillingCountry": "US",
+                        "BillingPostalCode": "12312",
+                        "BillingState": "AR",
+                        "BillingStreet": "asdf",
+                        "Name": "asdf",
+                        "NumberOfEmployees": 12,
+                        "Number_of_NY_Employees__c": 12,
+                        "Phone": "1231231231",
+                        "RecordTypeId": "0128G000000GrxwQAC",
+                        "Type_of_Corporation__c": "partnership",
+                        "UpsertError": "duplicate value found: Contractor_Id__c duplicates value on record with id: 0018G0000058oiu ",
+                        "UpsertSuccess": false,
+                        "Website": "adsf.com",
+                        "Years_Under_Current_Ownership__c": 12,
+                        "Years_in_Business__c": 23
+                    }
+                ],
+                "error": true,
+                "errors": {
+                    "createNewAccount": {
+                        "0:0": {
+                            "1": "duplicate value found: Contractor_Id__c duplicates value on record with id: 0018G0000058oiu "
+                        }
+                    }
+                },
+                "errorsAsJson": {
+                    "AccountInformationStep": {
+                        "AccountInfo": {
+                            "PhoneNumber": "",
+                            "PriContFirstName": "",
+                            "PriContactEmail": "",
+                            "PriContactLastName": "",
+                            "PriContactTitle": ""
+                        },
+                        "CompanyInfo": {
+                            "City": "",
+                            "CompanyName": "",
+                            "Country": "",
+                            "NYEmployees": "",
+                            "PostalCode": "",
+                            "ProvinceChoice": null,
+                            "StateChoice": "",
+                            "StreetAddress": "",
+                            "companyWebsite": "",
+                            "companyYears": "",
+                            "corpType": "",
+                            "numTotalEmployees": "",
+                            "ownershipYears": "",
+                            "taxId": ""
+                        },
+                        "CompanyState": "",
+                        "DRErrorMessage": "",
+                        "DRSuccessFormula": ""
+                    },
+                    "AccountUpsertSuccess": "",
+                    "DRError": "duplicate value found: Contractor_Id__c duplicates value on record with id: 0018G0000058oiu ",
+                    "InstructionsStep": {
+                        "hasDocuments": ""
+                    },
+                    "options": {
+                        "chainable": "",
+                        "ignoreCache": "",
+                        "postTransformBundle": "",
+                        "preTransformBundle": "",
+                        "useContinuation": "",
+                        "useFuture": "",
+                        "useQueueableApexRemoting": "",
+                        "vlcClass": ""
+                    },
+                    "test": "",
+                    "timeStamp": "",
+                    "userCurrencyCode": "",
+                    "userId": "",
+                    "userName": "",
+                    "userProfile": "",
+                    "userTimeZone": ""
+                },
+                "responseType": "SObject"
+            },
+            "success": false
+        },
+        "InstructionsStep": {
+            "hasDocuments": true
+        },
+        "ResponseAction1Status": true,
+        "options": {
+            "chainable": false,
+            "ignoreCache": false,
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "useContinuation": false,
+            "useFuture": false,
+            "useQueueableApexRemoting": false,
+            "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+        },
+        "response": {
+        },
+        "result": {
+            "AccountId": "",
+            "Account_1": [
+                {
+                    "%vlocity_namespace%__BillingEmailAddress__c": "amindab.morales@salesforce.com",
+                    "%vlocity_namespace%__TaxID__c": "123123113",
+                    "BillingCity": "asdf",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "12312",
+                    "BillingState": "AR",
+                    "BillingStreet": "asdf",
+                    "Name": "asdf",
+                    "NumberOfEmployees": 12,
+                    "Number_of_NY_Employees__c": 12,
+                    "Phone": "1231231231",
+                    "RecordTypeId": "0128G000000GrxwQAC",
+                    "Type_of_Corporation__c": "partnership",
+                    "UpsertError": "duplicate value found: Contractor_Id__c duplicates value on record with id: 0018G0000058oiu ",
+                    "UpsertSuccess": false,
+                    "Website": "adsf.com",
+                    "Years_Under_Current_Ownership__c": 12,
+                    "Years_in_Business__c": 23
+                }
+            ],
+            "error": true,
+            "errors": {
+                "createNewAccount": {
+                    "0:0": {
+                        "1": "duplicate value found: Contractor_Id__c duplicates value on record with id: 0018G0000058oiu "
+                    }
+                }
+            },
+            "errorsAsJson": {
+                "AccountInformationStep": {
+                    "AccountInfo": {
+                        "PhoneNumber": "",
+                        "PriContFirstName": "",
+                        "PriContactEmail": "",
+                        "PriContactLastName": "",
+                        "PriContactTitle": ""
+                    },
+                    "CompanyInfo": {
+                        "City": "",
+                        "CompanyName": "",
+                        "Country": "",
+                        "NYEmployees": "",
+                        "PostalCode": "",
+                        "ProvinceChoice": null,
+                        "StateChoice": "",
+                        "StreetAddress": "",
+                        "companyWebsite": "",
+                        "companyYears": "",
+                        "corpType": "",
+                        "numTotalEmployees": "",
+                        "ownershipYears": "",
+                        "taxId": ""
+                    },
+                    "CompanyState": "",
+                    "DRErrorMessage": "",
+                    "DRSuccessFormula": ""
+                },
+                "AccountUpsertSuccess": "",
+                "DRError": "duplicate value found: Contractor_Id__c duplicates value on record with id: 0018G0000058oiu ",
+                "InstructionsStep": {
+                    "hasDocuments": ""
+                },
+                "options": {
+                    "chainable": "",
+                    "ignoreCache": "",
+                    "postTransformBundle": "",
+                    "preTransformBundle": "",
+                    "useContinuation": "",
+                    "useFuture": "",
+                    "useQueueableApexRemoting": "",
+                    "vlcClass": ""
+                },
+                "test": "",
+                "timeStamp": "",
+                "userCurrencyCode": "",
+                "userId": "",
+                "userName": "",
+                "userProfile": "",
+                "userTimeZone": ""
+            },
+            "responseType": "SObject"
+        },
+        "success": false,
+        "test": "test",
+        "timeStamp": "2021-11-08T22:05:21.104Z",
+        "userCurrencyCode": "USD",
+        "userId": "0058G000000UCFYQA4",
+        "userName": "aminadab.morales@coned.com.dev",
+        "userProfile": "System Administrator",
+        "userTimeZone": "-480"
+    },
+    "InstructionsStep": {
+        "hasDocuments": true
+    },
+    "test": "test",
+    "timeStamp": "2021-11-08T22:05:21.104Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480"
+}

@@ -1,0 +1,19 @@
+{
+    "AppLineId": "",
+    "CalculationType": "Prescriptive",
+    "Early Useful Life (EUL)": "",
+    "Horsepower": "",
+    "Measure Application": "",
+    "Measure Code": "COM-LIG-BI",
+    "Quantity": 1,
+    "applicationId": "a0L8G000000Y8aRUAS",
+    "baseIncentive": "",
+    "delkW": 0.034,
+    "delkWh": 438.526,
+    "estimateId": "EST-CI2021028166",
+    "incentive": "",
+    "lifetimekWh": 6577.884,
+    "measureCost": 10000,
+    "promoIncentive": "",
+    "totalIncentive": 85
+}

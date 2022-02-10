@@ -1,0 +1,9 @@
+.button-style {
+    height: 62px;
+    width: 243px;
+    border-radius: 30px;
+    background-color: #0078CF;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}

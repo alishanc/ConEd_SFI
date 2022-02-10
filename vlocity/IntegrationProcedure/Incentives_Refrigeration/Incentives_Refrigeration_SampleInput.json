@@ -1,0 +1,13 @@
+{
+    "input": {
+        "CalculationType": "Custom",
+        "MeasureCategory": "Refrigeration",
+        "MeasureCode": "COM-REF-RDC",
+        "MeasureCost": 20,
+        "applicationId": "a0L8G000000QjBd",
+        "delkWh": 1000,
+        "eul": 15,
+        "laborCost": 5,
+        "materialCost": 5
+    }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Validation_Override_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Validation Override Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Zero kW for exterior lighting</fullName>
+                <default>false</default>
+                <label>Zero kW for exterior lighting</label>
+            </value>
+            <value>
+                <fullName>Measure has no peak demand savings</fullName>
+                <default>false</default>
+                <label>Measure has no peak demand savings</label>
+            </value>
+            <value>
+                <fullName>Negative/ Zero savings confirmed by Engineering</fullName>
+                <default>false</default>
+                <label>Negative/ Zero savings confirmed by Engineering</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

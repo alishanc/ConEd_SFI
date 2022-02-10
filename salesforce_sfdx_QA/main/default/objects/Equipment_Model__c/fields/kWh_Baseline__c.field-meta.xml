@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kWh_Baseline__c</fullName>
+    <description>ENERGY STAR database (US Federal Standard (kWh/yr))</description>
+    <externalId>false</externalId>
+    <label>kWh Baseline</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>7</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

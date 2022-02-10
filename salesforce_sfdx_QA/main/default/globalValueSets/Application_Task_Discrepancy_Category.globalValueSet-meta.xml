@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Incomplete Application Package</fullName>
+        <default>false</default>
+        <label>Incomplete Application Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Inadequate Documentation</fullName>
+        <default>false</default>
+        <label>Inadequate Documentation</label>
+    </customValue>
+    <customValue>
+        <fullName>Questionable Calculations</fullName>
+        <default>false</default>
+        <label>Questionable Calculations</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete ER/EL Documentation</fullName>
+        <default>false</default>
+        <label>Incomplete ER/EL Documentation</label>
+    </customValue>
+    <customValue>
+        <fullName>Inspection Details Unclear</fullName>
+        <default>false</default>
+        <label>Inspection Details Unclear</label>
+    </customValue>
+    <customValue>
+        <fullName>2nd Inspection Required</fullName>
+        <default>false</default>
+        <label>2nd Inspection Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete Final Package</fullName>
+        <default>false</default>
+        <label>Incomplete Final Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Cost Issue</fullName>
+        <default>false</default>
+        <label>Project Cost Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>DMTS Error</fullName>
+        <default>false</default>
+        <label>DMTS Error</label>
+    </customValue>
+    <customValue>
+        <fullName>New Cutsheets Required</fullName>
+        <default>false</default>
+        <label>New Cutsheets Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Miscellaneous</fullName>
+        <default>false</default>
+        <label>Miscellaneous</label>
+    </customValue>
+    <customValue>
+        <fullName>Invalid Submission</fullName>
+        <default>false</default>
+        <label>Invalid Submission</label>
+    </customValue>
+    <customValue>
+        <fullName>Application</fullName>
+        <default>false</default>
+        <label>Application</label>
+    </customValue>
+    <customValue>
+        <fullName>W-9</fullName>
+        <default>false</default>
+        <label>W-9</label>
+    </customValue>
+    <customValue>
+        <fullName>Prescriptive / Custom Projects</fullName>
+        <default>false</default>
+        <label>Prescriptive / Custom Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiller Tune - Up (Prescriptive)</fullName>
+        <default>false</default>
+        <label>Chiller Tune - Up (Prescriptive)</label>
+    </customValue>
+    <customValue>
+        <fullName>Lighting Power Density (LPD) (Custom)</fullName>
+        <default>false</default>
+        <label>Lighting Power Density (LPD) (Custom)</label>
+    </customValue>
+    <customValue>
+        <fullName>BMS / EMS (Custom)</fullName>
+        <default>false</default>
+        <label>BMS / EMS (Custom)</label>
+    </customValue>
+    <customValue>
+        <fullName>Extended Life / Early Replacement (Custom)</fullName>
+        <default>false</default>
+        <label>Extended Life / Early Replacement (Custom)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipe Insulation (Custom)</fullName>
+        <default>false</default>
+        <label>Pipe Insulation (Custom)</label>
+    </customValue>
+    <customValue>
+        <fullName>Steam Traps (Custom)</fullName>
+        <default>false</default>
+        <label>Steam Traps (Custom)</label>
+    </customValue>
+    <customValue>
+        <fullName>Completion Certificate</fullName>
+        <default>false</default>
+        <label>Completion Certificate</label>
+    </customValue>
+    <customValue>
+        <fullName>Post Inspection</fullName>
+        <default>false</default>
+        <label>Post Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Final Engineering Review</fullName>
+        <default>false</default>
+        <label>Final Engineering Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Ops Final Peer Review</fullName>
+        <default>false</default>
+        <label>Ops Final Peer Review</label>
+    </customValue>
+    <masterLabel>Application Task Discrepancy Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

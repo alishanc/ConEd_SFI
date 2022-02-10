@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__InternalNotes__c": "**Note** the names of the blocks in the preview step will be mapped so that the override custom component 'customReviewBlock' will know what step to navigateto",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PCRegistration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "Account Information": "AccountInformationStep",
+            "Business Information": "BusinessInformationStep",
+            "Certificate of Insurance (COI) Policy Information": "a",
+            "Company Information": "AccountInformationStep",
+            "Contact Information": "AccountInformationStep",
+            "Customer References": "a",
+            "Licenses & Certifications": "a",
+            "Service Area & Program Options": "d",
+            "Worker's Compensation (WC) and Employer's Liability": "a"
+        },
+        "label": "Mapping block titles to omni steps",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "StepMappings",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/StepMappings"
+}

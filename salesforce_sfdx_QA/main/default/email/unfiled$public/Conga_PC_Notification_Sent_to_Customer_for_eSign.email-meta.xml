@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Conga - PC Notification Sent to Customer for eSign</name>
+    <style>none</style>
+    <subject>{!vlocity_cmt__Application__c.Project_Id__c} – {!vlocity_cmt__Application__c.vlocity_cmt__AccountId__c} - Please eSign within 30 days your incentive application to Con Edison’s C&amp;I Program</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "Incentives_RefrigerationControl_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Incentives_RefrigerationControl_Element_AntiCondensationDoorHeaterControl.json",
+        "Incentives_RefrigerationControl_Element_SetMultipleFactor.json",
+        "Incentives_RefrigerationControl_Element_CalculateIncentives_COM-REF-G.json",
+        "Incentives_RefrigerationControl_Element_ResponseAction1.json",
+        "Incentives_RefrigerationControl_Element_RefrigerationControlEvaporatorFan.json",
+        "Incentives_RefrigerationControl_Element_SetValues2.json",
+        "Incentives_RefrigerationControl_Element_CalculateIncentives_COM-REF-EVF.json",
+        "Incentives_RefrigerationControl_Element_ResponseAction2.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Incentives_RefrigerationControl",
+    "%vlocity_namespace%__PropertySet__c": "Incentives_RefrigerationControl_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "RefrigerationControl",
+    "%vlocity_namespace%__Type__c": "Incentives",
+    "Name": "IPCalculateIncentivesRefrigerationControl",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Incentives/RefrigerationControl/Procedure"
+}

@@ -1,0 +1,14 @@
+{
+    "ElapsedTime": 116,
+    "ElapsedTimeCPU": 83,
+    "Input": {
+        "contactEmail": "amindab.morales@salesforce.com",
+        "contactFirstName": "asdf",
+        "contactLastName": "asdf",
+        "contactPhone": "1231231231",
+        "contactTitle": "asdf",
+        "parentAccountId": "0018G000007CszgQAC"
+    },
+    "Status": true,
+    "Type": "DataRaptor Post Action"
+}

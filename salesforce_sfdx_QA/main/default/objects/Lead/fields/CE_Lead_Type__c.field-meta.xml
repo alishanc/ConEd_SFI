@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Lead_Type__c</fullName>
+    <description>Used to differentiate leads for portfolio customers, and will be used to segment email campaigns</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Primary or secondary, used to differentiate leads for portfolio customers, and will be used to segment email campaigns</inlineHelpText>
+    <label>Lead Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Utility Customer (Direct)</fullName>
+                <default>false</default>
+                <label>Utility Customer (Direct)</label>
+            </value>
+            <value>
+                <fullName>Market Partner</fullName>
+                <default>false</default>
+                <label>Market Partner</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
+            </value>
+            <value>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+                <label>Secondary</label>
+            </value>
+            <value>
+                <fullName>SEP Lead</fullName>
+                <default>false</default>
+                <label>SEP Lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

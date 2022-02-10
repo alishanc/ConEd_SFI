@@ -1,0 +1,116 @@
+{
+    "AccountNumber": 123456789012345,
+    "ApplicationId": "a0L8G000000PD5wUAG",
+    "BillingCity": "pat",
+    "BillingCountry": "United States",
+    "BillingPostalCode": "23145",
+    "BillingState": "AZ",
+    "BillingStreet": "123 pat",
+    "CustomerAccount": [
+        {
+            "Id": "0018G000002qYzGQAU",
+            "Name": "testAccount1"
+        }
+    ],
+    "CustomerAccountId": "0018G000002qYzGQAU",
+    "CustomerInformationStep": {
+        "customerContactBlock": {
+            "CustomerEmail": "bob@builder.com",
+            "CustomerFirstName": "bob",
+            "CustomerLastName": "builder",
+            "CustomerPriPhone": "1236661234",
+            "CustomerTitle": "BOSS",
+            "SelectCustomerContact": "0038G000003mSpMQAU",
+            "customerAddressBlock": {
+                "CustomerCity": "San Francisco",
+                "CustomerCountry": "United States",
+                "CustomerState": "CA",
+                "CustomerStreetAddress": "123 Main Street",
+                "CustomerZipCode": "94105"
+            }
+        },
+        "projectContactBlock": {
+            "PCEmail": "aminadab.morales@salesforce.com",
+            "PCFirstName": "aaa",
+            "PCLastName": "aa",
+            "PCPriPhone": "2131231231",
+            "PCTitle": "aa",
+            "SelectPCContact": null
+        }
+    },
+    "CustomerName": "bob builder",
+    "DRId_%vlocity_namespace%__Application__c": "a0L8G000000PD5wUAG",
+    "PCAccountId": "0018G000002trpiQAA",
+    "PCData": [
+        {
+            "Account": {
+                "BillingAddress": {
+                    "city": "pat",
+                    "country": "United States",
+                    "geocodeAccuracy": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "postalCode": "23145",
+                    "state": "AZ",
+                    "street": "123 pat"
+                },
+                "BillingCity": "pat",
+                "BillingCountry": "United States",
+                "BillingPostalCode": "23145",
+                "BillingState": "AZ",
+                "BillingStreet": "123 pat",
+                "Id": "0018G000002trpiQAA",
+                "Primary_Contact__c": "0038G0000026TD1QAM",
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v53.0/sobjects/Account/0018G000002trpiQAA"
+                }
+            },
+            "AccountId": "0018G000002trpiQAA",
+            "Id": "0038G0000026TD1QAM"
+        }
+    ],
+    "PCName": "aaa aa",
+    "PCPriContactId": "0038G0000026TD1QAM",
+    "PayeeCity": "pat",
+    "PayeeCountry": "United States",
+    "PayeeInformationStep": {
+        "PayeeBlock": {
+            "PayeeAddressBlock": {
+                "CustomerPayeeAddress": null,
+                "CustomerPayeeCity": null,
+                "CustomerPayeeCountry": null,
+                "CustomerPayeeState": null,
+                "CustomerPayeeZip": null,
+                "OtherPayeeAddress": null,
+                "OtherPayeeCity": null,
+                "OtherPayeeCountry": null,
+                "OtherPayeeState": null,
+                "OtherPayeeZip": null,
+                "PCPayeeAddress": "123 pat",
+                "PCPayeeCity": "pat",
+                "PCPayeeCountry": "United States",
+                "PCPayeeState": "AZ",
+                "PCPayeeZip": "23145"
+            },
+            "PayeeInformationBlock": {
+                "CheckName": "aaa aa",
+                "CustomerPayeeTitle": null,
+                "OtherPayeeTitle": null,
+                "PCPayeeTitle": "aa",
+                "payeeType": "Participating Contractor"
+            }
+        }
+    },
+    "PayeeState": "AZ",
+    "PayeeStreet": "123 pat",
+    "PayeeTitle": "aa",
+    "PayeeZip": "23145",
+    "customerState": "",
+    "timeStamp": "2021-10-24T20:52:05.451Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

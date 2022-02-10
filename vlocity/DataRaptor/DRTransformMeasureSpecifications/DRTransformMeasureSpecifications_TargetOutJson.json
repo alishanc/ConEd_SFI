@@ -1,0 +1,161 @@
+{
+    "specificationinputs": [
+        {
+            "displayName": "Quantity",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "quantity",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "type": "number",
+            "units": null
+        },
+        {
+            "displayName": "Building Type",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": "reference",
+            "listValues": [
+                "Commuinity College + University/College",
+                "Dormitory",
+                "Elm/Hschool",
+                "Grocery",
+                "Health",
+                "High School + Elm/Hschool",
+                "Hospital",
+                "Hotel + Hotel/Motel",
+                "Large Retail",
+                "Motel",
+                "Multi-Family",
+                "Offices",
+                "Restaurant",
+                "University + University/College",
+                "Warehouse"
+            ],
+            "name": "buildingType",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "type": "list",
+            "units": null
+        },
+        {
+            "displayName": "VFD Application",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": "reference",
+            "listValues": [
+                "Chilled Water Pump",
+                "Hot Water Pump",
+                "Return Fan",
+                "Supply Fan",
+                "Tower Fan",
+                "Exhaust Fan",
+                "Boiler Feedwater Pump",
+                "MAF",
+                "Water Loop Heat Pump Circ Pump",
+                "Condenser Water Pump"
+            ],
+            "name": "vfdApplication",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "type": "list",
+            "units": null
+        },
+        {
+            "displayName": "Horsepower of Fan/Pump",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "horsePower",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "type": "number",
+            "units": null
+        },
+        {
+            "displayName": "Early Useful Life (EUL)",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "eul",
+            "readOnlyRule": "",
+            "type": "number",
+            "units": null
+        },
+        {
+            "displayName": "Mark as Custom?",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": "simple",
+            "listValues": [
+                "Yes",
+                "No"
+            ],
+            "name": "customMeasure",
+            "readOnlyRule": "",
+            "type": "list",
+            "units": null
+        },
+        {
+            "displayName": "kWh Savings",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "customkWh",
+            "readOnlyRule": "",
+            "type": "number",
+            "units": null
+        },
+        {
+            "displayName": "kW Savings",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "customkW",
+            "readOnlyRule": "",
+            "type": "number",
+            "units": null
+        },
+        {
+            "displayName": "kWh/Hp",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "kwhHpUserInput",
+            "readOnlyRule": "customMeasure=='Yes'",
+            "type": "number",
+            "units": null
+        },
+        {
+            "displayName": "kW/Hp",
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "kwHpUserInput",
+            "readOnlyRule": "customMeasure=='Yes'",
+            "type": "number",
+            "units": null
+        }
+    ]
+}

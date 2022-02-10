@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_type_of_problem_you_are_facing__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Explain what type of problem you are facing in portal?</inlineHelpText>
+    <label>What type of problem you are facing?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,10 @@
+{
+    "input": {
+        "MeasureCode": "COM-CUS-BASC",
+        "MeasureCost": "100",
+        "customSecondrySteam": 1,
+        "customTherms": 1,
+        "customkW": 1,
+        "customkWh": 1
+    }
+}

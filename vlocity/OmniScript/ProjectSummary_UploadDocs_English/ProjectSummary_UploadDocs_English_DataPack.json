@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "ProjectSummary_UploadDocs_English_Element_AppId.json",
+        "ProjectSummary_UploadDocs_English_Element_UpdateReinstatementRequest.json",
+        "ProjectSummary_UploadDocs_English_Element_uploadDocs.json",
+        "ProjectSummary_UploadDocs_English_Element_FileUpload.json",
+        "ProjectSummary_UploadDocs_English_Element_PDFUpload.json",
+        "ProjectSummary_UploadDocs_English_Element_TextBlock1.json",
+        "ProjectSummary_UploadDocs_English_Element_UpdateDocTitleUpload.json",
+        "ProjectSummary_UploadDocs_English_Element_UpdateApplicationInvoice.json",
+        "ProjectSummary_UploadDocs_English_Element_UpdateApplicationCC.json",
+        "ProjectSummary_UploadDocs_English_Element_completionStep.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "ProjectSummary_UploadDocs_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "UploadDocs",
+    "%vlocity_namespace%__Type__c": "ProjectSummary",
+    "Name": "UploadAdditionalDocs",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ProjectSummary/UploadDocs/English"
+}

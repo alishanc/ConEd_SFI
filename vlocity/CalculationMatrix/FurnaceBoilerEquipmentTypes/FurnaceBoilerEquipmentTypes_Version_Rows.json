@@ -1,0 +1,708 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "5820a9",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Incentive"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "9b493c",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "boilerSteamType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bd53a5",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "heatingCapacity"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "cf90a8",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "boilerType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d12acb",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "equipmentType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "e4aca7",
+            "dataType": "Text",
+            "displayOrder": 7,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Unit"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "ea0b6",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "boilerHotwaterType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "0-299"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "080fb351b08a9aff18d07f4b6dcbda0c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "1000-2500"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 7500,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "94831fa2e3873ea500967e5affd5c018",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "2501-100000"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 15000,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "e5133101d4e182839355282f919284cf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "300-499"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "a3393390284759642c07b7ff422961d9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "500-999"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "175f1fd206d13bd1a34080a747ed050d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Forced Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "0-299"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "47845ad42ed55168ca0d787e21f4f699",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Forced Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "1000-2500"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 2500,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "f80a5ca4d6f6c0e41b35da8d2715a6e7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Forced Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "2501-100000"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 10000,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "da96b209a8b6eec1953e5e1328299d40",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Forced Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "300-999"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "71b392a36628db536b5a6a25c79fdbbc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "N/A",
+            "boilerType": "N/A",
+            "equipmentType": "Furnace",
+            "heatingCapacity": "0-224"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "549073b1234d084c82df6c847e4bc2bd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "N/A",
+            "boilerType": "N/A",
+            "equipmentType": "Furnace",
+            "heatingCapacity": "1000-100000"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 5000,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "a4917c34578a29e607a4f6d9c9e9abfb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "N/A",
+            "boilerType": "N/A",
+            "equipmentType": "Furnace",
+            "heatingCapacity": "225-299"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "e78c519259b32b4ce2ddf6ee97dcceae",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "N/A",
+            "boilerType": "N/A",
+            "equipmentType": "Furnace",
+            "heatingCapacity": "300-499"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 1500,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "bfab766b8414cba59bb15425fb079c45",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "N/A",
+            "boilerType": "N/A",
+            "equipmentType": "Furnace",
+            "heatingCapacity": "500-999"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 2500,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "a1f797eb9472e987e3c755da7bc39fea",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Natural Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "0-299"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "b0e90159b0c1a5edabb75b229891b078",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Natural Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "1000-2500"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 1000,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "6c9de6a8dc2ca0b13999343900ef3af9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Natural Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "2501-100000"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 7500,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "4aaf1ba8f101eadd565a036a2ac238af",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "N/A",
+            "boilerSteamType": "Natural Draft",
+            "boilerType": "Steam",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "300-999"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "e862c526d6648952cf58b6bce17e6c85",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Non-Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "0-299"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "66a11b6a587addb9f71ac2300a4783bd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Non-Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "1000-2500"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 4500,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "1b03b91fe5eb2d05ef4f6e7a2186930c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Non-Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "2501-100000"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 10000,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "b67c87c3eaa2fa51e308752e63f6f0b1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Non-Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "300-499"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "0dff1cb3f457661d3c0c4cfa30103d17",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "FurnaceBoilerEquipmentTypes",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/FurnaceBoilerEquipmentTypes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "boilerHotwaterType": "Non-Condensing",
+            "boilerSteamType": "N/A",
+            "boilerType": "Hot Water",
+            "equipmentType": "Boiler",
+            "heatingCapacity": "500-999"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "Incentive": 0,
+            "Unit": "Per Unit USD"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-18T22:40:32.000Z",
+        "Name": "4f0eca52c77db3df7d26f4ec8a73c5f0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

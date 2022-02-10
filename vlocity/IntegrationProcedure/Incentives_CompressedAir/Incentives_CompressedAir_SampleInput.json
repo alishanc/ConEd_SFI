@@ -1,0 +1,8 @@
+{
+    "input": {
+        "MeasureCode": "COM-CAIR-AIR",
+        "MeasureCost": "15000",
+        "kwh": "30",
+        "quantity": 3
+    }
+}

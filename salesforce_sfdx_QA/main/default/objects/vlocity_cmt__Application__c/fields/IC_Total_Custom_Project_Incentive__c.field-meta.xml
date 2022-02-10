@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IC_Total_Custom_Project_Incentive__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Track</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Express Project</fullName>
+                <default>false</default>
+                <label>Express Project</label>
+            </value>
+            <value>
+                <fullName>Mainstream Project</fullName>
+                <default>false</default>
+                <label>Mainstream Project</label>
+            </value>
+            <value>
+                <fullName>M&amp;V Project - Large</fullName>
+                <default>false</default>
+                <label>M&amp;V Project - Large</label>
+            </value>
+            <value>
+                <fullName>M&amp;V Project - New Technology</fullName>
+                <default>false</default>
+                <label>M&amp;V Project - New Technology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

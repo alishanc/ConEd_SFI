@@ -1,0 +1,60 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "{\n    \"AppDC\": \"Small Commercial\",\n    \"CoolingSystem\": \"Packaged System AC\",\n    \"HeatingSystem\": \"Furnace\",\n    \"DistributionSystemType\": \"Fan Coil\",\n    \"AppxDSystemType\": \"AC with Gas Heat\"\n  }",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "IPLookupAppDClassification",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Lookup/AppDClassification/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "defaultMatrixResult": {
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "MatrixAction1",
+        "matrix Input Parameters": [
+            {
+                "name": "LookupAppDC|1:AppDC",
+                "value": "AppDC"
+            },
+            {
+                "name": "CoolingSystem",
+                "value": "CoolingSystem"
+            },
+            {
+                "name": "HeatingSystem",
+                "value": "HeatingSystem"
+            },
+            {
+                "name": "DistributionSystemType",
+                "value": "DistributionSystemType"
+            }
+        ],
+        "remoteOptions": {
+            "matrixName": "AppDClassifcationsMap"
+        },
+        "responseJSONNode": "LookupAppxDSystemType",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Matrix Action",
+    "Name": "LookupAppxDSystemType",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Lookup/AppDClassification/Procedure/LookupAppxDSystemType"
+}

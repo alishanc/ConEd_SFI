@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Savings_Incentive_Factor__c</fullName>
+    <externalId>false</externalId>
+    <label>Savings Incentive Factor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>unit</fullName>
+                <default>false</default>
+                <label>unit</label>
+            </value>
+            <value>
+                <fullName>kwh</fullName>
+                <default>false</default>
+                <label>kwh</label>
+            </value>
+            <value>
+                <fullName>therms</fullName>
+                <default>false</default>
+                <label>therms</label>
+            </value>
+            <value>
+                <fullName>ton</fullName>
+                <default>false</default>
+                <label>ton</label>
+            </value>
+            <value>
+                <fullName>mmbtu</fullName>
+                <default>false</default>
+                <label>mmbtu</label>
+            </value>
+            <value>
+                <fullName>Per Unit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Per Unit</label>
+            </value>
+            <value>
+                <fullName>Savings Variable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Savings Variable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

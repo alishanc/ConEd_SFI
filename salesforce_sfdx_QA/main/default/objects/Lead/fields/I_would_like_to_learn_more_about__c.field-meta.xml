@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>I_would_like_to_learn_more_about__c</fullName>
+    <externalId>false</externalId>
+    <label>I would like to learn more about</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Large Commercial efficiency</fullName>
+                <default>false</default>
+                <label>Large Commercial efficiency</label>
+            </value>
+            <value>
+                <fullName>Small Business efficiency</fullName>
+                <default>false</default>
+                <label>Small Business efficiency</label>
+            </value>
+            <value>
+                <fullName>Smart Usage Rewards (Demand Response)</fullName>
+                <default>false</default>
+                <label>Smart Usage Rewards (Demand Response)</label>
+            </value>
+            <value>
+                <fullName>Multifamily efficiency (5+ units)</fullName>
+                <default>false</default>
+                <label>Multifamily efficiency (5+ units)</label>
+            </value>
+            <value>
+                <fullName>Large Commercial Customers</fullName>
+                <default>false</default>
+                <label>Large Commercial Customers</label>
+            </value>
+            <value>
+                <fullName>Small Business</fullName>
+                <default>false</default>
+                <label>Small Business</label>
+            </value>
+            <value>
+                <fullName>Renters and Homeowners</fullName>
+                <default>false</default>
+                <label>Renters and Homeowners</label>
+            </value>
+            <value>
+                <fullName>Multi-Family Buildings</fullName>
+                <default>false</default>
+                <label>Multi-Family Buildings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

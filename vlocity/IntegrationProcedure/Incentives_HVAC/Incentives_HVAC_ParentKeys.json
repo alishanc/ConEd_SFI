@@ -1,0 +1,5 @@
+[
+    "CalculationMatrix/FurnaceBoilerEquipmentTypes",
+    "CalculationProcedure/CalculateIncentivesByProductCode",
+    "DataRaptor/TransformHeatingCapacitybyLookupCode"
+]

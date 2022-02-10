@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employees__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>list of employees with Contact objects</description>
+    <externalId>false</externalId>
+    <label>* Employees</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Employees)</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

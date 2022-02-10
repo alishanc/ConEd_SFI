@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>EEDM internal user with access to the Leads object, view only for incentive navigator and any other fields the Business Development team needs to access.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales Manager</label>
+    <permissionSets>Account_Read</permissionSets>
+    <permissionSets>Application_Create</permissionSets>
+    <permissionSets>Application_Line_Item_Read</permissionSets>
+    <permissionSets>Application_Task_Read</permissionSets>
+    <permissionSets>Case_Create</permissionSets>
+    <permissionSets>Contact_Edit</permissionSets>
+    <permissionSets>Leads_Create</permissionSets>
+    <permissionSets>Program_Read</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

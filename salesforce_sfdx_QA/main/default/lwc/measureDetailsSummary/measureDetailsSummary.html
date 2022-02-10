@@ -1,0 +1,1574 @@
+<template>
+    <template for:each={measureList} for:item="Measure">
+
+        <!--  MAD   -->
+
+        <template if:true={MAD}>
+            <div key={Measure}>
+                <template if:true={Measure.MAD_VFD_VFD}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">{Measure.MAD_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="MAD" onclick={handleClick}></lightning-button>
+                        </div>
+                        <template if:true={VFDpromo}>
+                            <div  class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-12 ">
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_11-of-12 ">
+                                <div>To be eligible for promo bonuses, project must be submitted by {submitDate}, Post inspection completed by {inspectionDate}
+                                </div>
+                            </div>
+
+                        </template>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Calculation Type"
+                                value={Measure.MAD_VFD_Measures.MAD_VFD_CalculationType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="VFD Application"
+                                value={Measure.MAD_VFD_Measures.MAD_VFD_vfdApplication} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Quantity"
+                                value={Measure.MAD_VFD_Measures.MAD_VFD_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="Horsepower of fan/pump" value={Measure.MAD_VFD_Measures.MAD_VFD_horsePower} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.MAD_VFD_Measures.MAD_VFD_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.MAD_VFD_Measures.MAD_VFD_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.MAD_VFD_Measures.MAD_VFD_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.MAD_VFD_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.MAD_VFD_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.MAD_VFD_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.MAD_VFD_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template if:true={Measure.MAD_ELE_ELE}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">{Measure.MAD_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="MAD" onclick={handleClick}></lightning-button>
+                        </div>
+                        <template if:true={ELEpromo}>
+                            <div  class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-12 ">
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_11-of-12 ">
+                                <div>To be eligible for promo bonuses, project must be submitted by {submitDate}, Post inspection completed by {inspectionDate}
+                                </div>
+                            </div>
+
+                        </template>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired ELEApplication" label="Elevator Set Type"
+                                value={Measure.MAD_ELE_Measures.MAD_ELE_elevatorSetType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  ELEQuantity" type="number" label="Quantity of Elevators"
+                                value={Measure.MAD_ELE_Measures.MAD_ELE_quantityOfElevators} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="ELELaborCost" label="Make"
+                                    value={Measure.MAD_ELE_Measures.MAD_ELE_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="ELEMaterialCost" label="Model"
+                                    value={Measure.MAD_ELE_Measures.MAD_ELE_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="ELEMaterialCost" label="Measure Location"
+                                    value={Measure.MAD_ELE_Measures.MAD_ELE_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="ELELaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.MAD_ELE_customkW} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="ELEMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.MAD_ELE_customkWh} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="ELEMaterialCost" type="number" label="Incentive"
+                                    value={Measure.MAD_ELE_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="ELEMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.MAD_ELE_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+        <!--  LIGC    -->
+
+        <template if:true={LIGC}>
+            <div key={Measure}>
+                <template if:true={Measure.LIGC_BIL_BIL}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.LIGC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={VFDpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="LIGC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2 slds-float_right">
+                            <lightning-input class="calcRequired VFDApplication" label="Watts Existing"
+                                value={Measure.LIGC_BIL_Measures.LIGC_BIL_wattsExisting} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Quantity"
+                                value={Measure.LIGC_BIL_Measures.LIGC_BIL_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="Proposed Watts @ full output"
+                                value={Measure.LIGC_BIL_Measures.LIGC_BIL_proposedWattsFullLightOutput} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="Proposed Watts in low power"
+                                value={Measure.LIGC_BIL_Measures.LIGC_BIL_proposedWattsLowPowerMode} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="Low Power Factor"
+                                value={Measure.LIGC_BIL_Measures.LIGC_BIL_lowPowerFactor} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="text" label="Location Type"
+                                value={Measure.LIGC_BIL_Measures.LIGC_BIL_locationType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.LIGC_BIL_Measures.LIGC_BIL_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.LIGC_BIL_Measures.LIGC_BIL_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.LIGC_BIL_Measures.LIGC_BIL_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.LIGC_BIL_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.LIGC_BIL_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.LIGC_BIL_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.LIGC_BIL_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template if:true={Measure.LIGC_ILC_ILC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.LIGC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={VFDpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="LIGC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Quantity"
+                                value={Measure.LIGC_ILC_Measures.LIGC_ILC_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number" label="Watts Controlled"
+                                value={Measure.LIGC_ILC_Measures.LIGC_ILC_wattsControlled} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="Full Load Operating Hours, Base"
+                                value={Measure.LIGC_ILC_Measures.LIGC_ILC_fullLoadHrsBase} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="text" label="Control Type"
+                                value={Measure.LIGC_ILC_Measures.LIGC_ILC_controlType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.LIGC_ILC_Measures.LIGC_ILC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.LIGC_ILC_Measures.LIGC_ILC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.LIGC_ILC_Measures.LIGC_ILC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.LIGC_ILC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.LIGC_ILC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.LIGC_ILC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.LIGC_ILC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+        <!--  BS    -->
+
+        <template if:true={BS}>
+            <div key={Measure}>
+                <template if:true={Measure.BS_WINFLM_WINFLM}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.BS_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={AIRpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="BS" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Units" type="number"
+                                value={Measure.BS_WINFLM_Measures.BS_WINFLM_units} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Glazing Area"
+                                value={Measure.BS_WINFLM_Measures.BS_WINFLM_glazingArea} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Location"
+                                value={Measure.BS_WINFLM_Measures.BS_WINFLM_location} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.BS_WINFLM_Measures.BS_WINFLM_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.BS_WINFLM_Measures.BS_WINFLM_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.BS_WINFLM_Measures.BS_WINFLM_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.BS_WINFLM_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.BS_WINFLM_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.BS_WINFLM_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.BS_WINFLM_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+                <template if:true={Measure.BS_ISPI_ISPI}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.BS_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={AIRpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="BS" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Therms Savings" type="number"
+                                value={Measure.BS_ISPI_Measures.BS_ISPI_thermSavings} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Linear Feet"
+                                value={Measure.BS_ISPI_Measures.BS_ISPI_linearFeet} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Pipe Diameter"
+                                value={Measure.BS_ISPI_Measures.BS_ISPI_pipeDiameter} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.BS_ISPI_Measures.BS_ISPI_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.BS_ISPI_Measures.BS_ISPI_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.BS_ISPI_Measures.BS_ISPI_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.BS_ISPI_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.BS_ISPI_measureCost} readonly></lightning-input>
+                            </div>
+                    </div>
+
+                </template>
+            </div>
+        </template>
+
+        <!--  ComAir    -->
+
+        <template if:true={ComAir}>
+            <div key={Measure}>
+                <template if:true={Measure.ComAir_AIR_AIR}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.ComAir_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={AIRpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="ComAir" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity"
+                                value={Measure.ComAir_AIR_Measures.ComAir_AIR_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number"
+                                label="Compressor Horsepower"
+                                value={Measure.ComAir_AIR_Measures.ComAir_AIR_compressorHp} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Compressor Type"
+                                value={Measure.ComAir_AIR_Measures.ComAir_AIR_compressorType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number" label="Operating Hours"
+                                value={Measure.ComAir_AIR_Measures.ComAir_AIR_operatingHours} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.ComAir_AIR_Measures.ComAir_AIR_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.ComAir_AIR_Measures.ComAir_AIR_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.ComAir_AIR_Measures.ComAir_AIR_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.ComAir_AIR_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.ComAir_AIR_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.ComAir_AIR_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.ComAir_AIR_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+            </div>
+        </template>
+
+        <!--  LIG    -->
+
+        <template if:true={LIG}>
+            <div key={Measure}>
+                <template if:true={Measure.LIG_CLED_CLED}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.LIG_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={CLEDpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="LIG" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity Base"
+                                value={Measure.LIG_CLED_Measures.LIG_CLED_quantityBase} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity Ee"
+                                value={Measure.LIG_CLED_Measures.LIG_CLED_quantityEe} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Lighting Hours"
+                                value={Measure.LIG_CLED_Measures.LIG_CLED_hours} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Luminaire Length"
+                                value={Measure.LIG_CLED_Measures.LIG_CLED_displayCaseType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Existing Lighting Type"
+                                value={Measure.LIG_CLED_Measures.LIG_CLED_existingLightingType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.LIG_CLED_Measures.LIG_CLED_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.LIG_CLED_Measures.LIG_CLED_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.LIG_CLED_Measures.LIG_CLED_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.LIG_CLED_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.LIG_CLED_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.LIG_CLED_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.LIG_CLED_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+                <template if:true={Measure.LIG_IEL_IEL}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.LIG_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={CLEDpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="LIG" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity Base"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_quantityBase} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity Ee"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_quantityEe} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Watts EE"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_wattsEe} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Location Type"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_locationType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Reported Sector Hours"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_reportedSectorHours} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number" label="Reported Hours"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_reportedHours} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Replacement Type"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_replacementType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Replacement Luminaire Category"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_replacementLuminaireCategory} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Existing Luminaire Category"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_existingLuminaireCategory} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Existing Luminaire Type"
+                                value={Measure.LIG_IEL_Measures.LIG_IEL_existingLuminaireType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.LIG_IEL_Measures.LIG_IEL_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.LIG_IEL_Measures.LIG_IEL_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.LIG_IEL_Measures.LIG_IEL_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.LIG_IEL_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.LIG_IEL_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.LIG_IEL_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.LIG_IEL_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+            </div>
+        </template>
+
+        <!--  HVAC    -->
+
+        <template if:true={HVAC}>
+            <div key={Measure}>
+                <template if:true={Measure.HVAC_ACUAC_ACUAC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.HVAC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={ACUACpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="HVAC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" label="Cooling Cap Tons"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_tons} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="SEER_IEER"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_seerEe} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" label="EER_EE"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_eerEe} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Heating Section Type"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_heatingSectionType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Equipment Type"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_equipmentType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Baseline Type"
+                                value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_baselineType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.HVAC_ACUAC_Measures.HVAC_ACUAC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.HVAC_ACUAC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.HVAC_ACUAC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.HVAC_ACUAC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.HVAC_ACUAC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+                <template if:true={Measure.HVAC_AWCHIL_AWCHIL}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.HVAC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={ACUACpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="HVAC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDApplication" label="Quantity"
+                                value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                            <lightning-input class="calcRequired VFDApplication" label="Cooling Cap Tons"
+                                value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_coolingCapacity} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Chiller Type"
+                                value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_chillerType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Speed Drive Control"
+                                value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_speedDriveControl} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Equipment Type"
+                                value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_equipmentType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.HVAC_AWCHIL_Measures.HVAC_AWCHIL_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.HVAC_AWCHIL_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.HVAC_AWCHIL_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.HVAC_AWCHIL_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.HVAC_AWCHIL_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+                <template if:true={Measure.HVAC_PTAC_PTAC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.HVAC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={PTACpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="HVAC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Quantity"
+                                value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Heating Capacity"
+                                value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_heatingCapacity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Cop EE"
+                                value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_copEe} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number" label="Cooling Capacity"
+                                value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_coolingCapacity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number" label="Eer EE"
+                                value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_eerEe} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.HVAC_PTAC_Measures.HVAC_PTAC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.HVAC_PTAC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.HVAC_PTAC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.HVAC_PTAC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.HVAC_PTAC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+                <template if:true={Measure.HVAC_TUNCHS_TUNCHS}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.HVAC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={TUNCHSpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="HVAC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Units"
+                                value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_units} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Tons Per Unit"
+                                value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_tonsPerUnit} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired  VFDQuantity" label="Chiller Type"
+                                value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_chillerType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Equipment Type"
+                                value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_equipmentType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.HVAC_TUNCHS_Measures.HVAC_TUNCHS_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.HVAC_TUNCHS_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.HVAC_TUNCHS_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.HVAC_TUNCHS_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.HVAC_TUNCHS_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+                <template if:true={Measure.HVAC_FURBOI_FURBOI}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.HVAC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={FURBOIpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="HVAC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Quantity"
+                                value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Heating Capacity"
+                                value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_heatingCapacity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired  VFDQuantity" label="Efficency EE"
+                                value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_eeEfficient} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                            <lightning-input class="calcRequired VFDHorsepower" label="Equipment Type"
+                                value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_equipmentType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.HVAC_FURBOI_Measures.HVAC_FURBOI_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (Therms)"
+                                    value={Measure.HVAC_FURBOI_thermsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.HVAC_FURBOI_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.HVAC_FURBOI_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+            </div>
+        </template>
+
+        <!--  HVACC   -->
+
+        <template if:true={HVACC}>
+            <div key={Measure}>
+                <template if:true={Measure.HVACC_STLPSH_STLPSH}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.HVACC_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={ACUACpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="HVAC" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="calcRequired VFDApplication" label="Failed Traps"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_failedTraps} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="calcRequired VFDApplication" label="Custom Therms"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_customTherms} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="calcRequired VFDApplication" label="Boiler Efficiency"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_boilerEfficiency} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="calcRequired VFDApplication" label="Boiler Equipment Type"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_boilerEquipmentType} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="calcRequired VFDApplication" label="Boiler Size"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_boilerSize} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.HVACC_STLPSH_Measures.HVACC_STLPSH_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.HVACC_STLPSH_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.HVACC_STLPSH_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+
+                </template>
+            </div>
+        </template>
+        <!--  REFRCON   -->
+
+        <template if:true={REFRCON}>
+            <div key={Measure}>
+                <template if:true={Measure.REFRCON_ASHC_ASHC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.REFRCON_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={REFRCONpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="REFRCON" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="Doors Per Controller"
+                                value={Measure.REFRCON_ASHC_Measures.REFRCON_ASHC_doorsPerController} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" label="Refrigeration Type"
+                                value={Measure.REFRCON_ASHC_Measures.REFRCON_ASHC_refrigerationType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="kW Doors Heaters" value={Measure.REFRCON_ASHC_Measures.REFRCON_ASHC_kWdoorHeaters} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.REFRCON_ASHC_Measures.REFRCON_ASHC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.REFRCON_ASHC_Measures.REFRCON_ASHC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.REFRCON_ASHC_Measures.REFRCON_ASHC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.REFRCON_ASHC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.REFRCON_ASHC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.REFRCON_ASHC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.REFRCON_ASHC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template if:true={Measure.REFRCON_EVFC_EVFC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.REFRCON_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={REFRCONpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="REFRCON" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Quantity"
+                                value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Fan HP"
+                                value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_fanHp} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Proposed Control Type" value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_proposedControlType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Existing Motor Type" value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_existingMotorType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Refrigerator Type" value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_refrigeratorType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.REFRCON_EVFC_Measures.REFRCON_EVFC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.REFRCON_EVFC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.REFRCON_EVFC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.REFRCON_EVFC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.REFRCON_EVFC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+        <!--  REFRIG   -->
+
+        <template if:true={REFRIG}>
+            <div key={Measure}>
+                <template if:true={Measure.REFRIG_STRC_STRC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.REFRIG_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={REFRIGpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="REFRIG" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" label="SF Door"
+                                value={Measure.REFRIG_STRC_Measures.REFRIG_STRC_SFdoor} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" label="Refrigerator Type"
+                                value={Measure.REFRIG_STRC_Measures.REFRIG_STRC_refrigeratorType} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower" type="number"
+                                label="Chilled Storage Area" value={Measure.REFRIG_STRC_Measures.REFRIG_STRC_chilledStorageArea} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.REFRIG_STRC_Measures.REFRIG_STRC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.REFRIG_STRC_Measures.REFRIG_STRC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.REFRIG_STRC_Measures.REFRIG_STRC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.REFRIG_STRC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.REFRIG_STRC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.REFRIG_STRC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.REFRIG_STRC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template if:true={Measure.REFRIG_GASK_GASK}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.REFRIG_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={REFRIGpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="REFRIG" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="LF Door"
+                                value={Measure.REFRIG_GASK_Measures.REFRIG_GASK_LFdoor} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Total Length Installed"
+                                value={Measure.REFRIG_GASK_Measures.REFRIG_GASK_totalLengthInstalled} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Refrigerator Type" value={Measure.REFRIG_GASK_Measures.REFRIG_GASK_refrigerationType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.REFRIG_GASK_Measures.REFRIG_GASK_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.REFRIG_GASK_Measures.REFRIG_GASK_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.REFRIG_GASK_Measures.REFRIG_GASK_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.REFRIG_GASK_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.REFRIG_GASK_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.REFRIG_GASK_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.REFRIG_GASK_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template if:true={Measure.REFRIG_ECM_ECM}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.REFRIG_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={REFRIGpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="REFRIG" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Refrigerator Type" value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_refrigerationType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Cooler/Freezer" value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_coolerFreezer} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Units"
+                                value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_units} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Phase"
+                                value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_phase} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Volts"
+                                value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_volts} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Amps"
+                                value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_amps} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" label="Cooler Control System"
+                                value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_coolerControlSystem} readonly></lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.REFRIG_ECM_Measures.REFRIG_ECM_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.REFRIG_ECM_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.REFRIG_ECM_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.REFRIG_ECM_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.REFRIG_ECM_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template if:true={Measure.REFRIG_CNC_CNC}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.REFRIG_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={REFRIGpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <lightning-button class="slds-float_right" variant="base" label="Edit" title="Edit"
+                                data-parent="REFRIG" onclick={handleClick}></lightning-button>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDApplication" type="number" label="Quantity"
+                                value={Measure.REFRIG_CNC_Measures.REFRIG_CNC_quantity} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired  VFDQuantity" type="number" label="Total Display Area"
+                                value={Measure.REFRIG_CNC_Measures.REFRIG_CNC_totalDisplayArea} readonly></lightning-input>
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                            <lightning-input class="calcRequired VFDHorsepower"
+                                label="Refrigerator Case Type" value={Measure.REFRIG_CNC_Measures.REFRIG_CNC_refrigeratorCaseType} readonly>
+                            </lightning-input>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDLaborCost" label="Make"
+                                    value={Measure.REFRIG_CNC_Measures.REFRIG_CNC_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Model"
+                                    value={Measure.REFRIG_CNC_Measures.REFRIG_CNC_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="VFDMaterialCost" label="Measure Location"
+                                    value={Measure.REFRIG_CNC_Measures.REFRIG_CNC_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDLaborCost" type="number" label="Power Savings (kW)"
+                                    value={Measure.REFRIG_CNC_kWsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Savings (kWH)"
+                                    value={Measure.REFRIG_CNC_kWHsavings} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Incentive"
+                                    value={Measure.REFRIG_CNC_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-4">
+                                <lightning-input class="VFDMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.REFRIG_CNC_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+        
+        <!--  CUST   -->
+
+        <template if:true={CUST}>
+            <div key={Measure}>
+                <template if:true={Measure.CUST_CST_CST}>
+                    <div class="slds-grid slds-wrap slds-box box-margin">
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">{Measure.CUST_MeasureName}
+                        </div>
+                        <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3 slds-float_right">
+                            <template if:true={CUSTpromo}>
+                                <vlocity_cmt-icon icon-name="custom:custom17" size="large" variant="success">
+                                </vlocity_cmt-icon>
+                            </template>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_2-of-2">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="CSTLaborCost" label="Custom Therms"
+                                    value={Measure.CUST_CST_Measures.CUST_CST_customTherms} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="CSTMaterialCost" label="Custom kWh"
+                                    value={Measure.CUST_CST_Measures.CUST_CST_customkWh} readonly></lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="CSTLaborCost" label="Make"
+                                    value={Measure.CUST_CST_Measures.CUST_CST_make} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="CSTMaterialCost" label="Model"
+                                    value={Measure.CUST_CST_Measures.CUST_CST_model} readonly></lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-3">
+                                <lightning-input class="CSTMaterialCost" label="Measure Location"
+                                    value={Measure.CUST_CST_Measures.CUST_CST_measureLocation} readonly>
+                                </lightning-input>
+                            </div>
+                        </div>
+                        <div class="slds-grid slds-wrap slds-size_3-of-3">
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="CSTMaterialCost" type="number" label="Incentive"
+                                    value={Measure.CUST_CST_totalIncentive} formatter="currency" step=".01" readonly>
+                                </lightning-input>
+                            </div>
+                            <div class="slds-p-around_medium lgc-bg slds-col slds-size_1-of-2">
+                                <lightning-input class="CSTMaterialCost" type="number" label="Measure Cost"
+                                    value={Measure.CUST_CST_measureCost} readonly></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+
+    </template>
+</template>

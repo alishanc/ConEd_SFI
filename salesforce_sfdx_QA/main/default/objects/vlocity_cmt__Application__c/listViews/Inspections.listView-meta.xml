@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inspections</fullName>
+    <columns>NAME</columns>
+    <columns>Action_Required__c</columns>
+    <columns>vlocity_cmt__Status__c</columns>
+    <columns>Inspection_Date__c</columns>
+    <columns>Inspection_Result__c</columns>
+    <columns>Project_Incentive_Amount__c</columns>
+    <columns>Total_kWH_Savings__c</columns>
+    <columns>Total_Therm_Savings__c</columns>
+    <columns>Total_MMBTU__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>vlocity_cmt__Status__c</field>
+        <operation>equals</operation>
+        <value>Pre-Inspection,QA/QC Pre-Inspection,Post-Inspection,QA/QC Post-Inspection</value>
+    </filters>
+    <label>Inspections</label>
+</ListView>

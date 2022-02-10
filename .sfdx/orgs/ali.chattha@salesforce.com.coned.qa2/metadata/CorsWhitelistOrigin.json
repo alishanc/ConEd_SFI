@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055Y00000G75ReQAJ",
+    "createdByName": "Pratap Kotra",
+    "createdDate": "2021-11-03T20:45:24.000Z",
+    "fileName": "corsWhitelistOrigins/https_connedev_vlocity_cmt_visualforce_com.corsWhitelistOrigin",
+    "fullName": "https_connedev_vlocity_cmt_visualforce_com",
+    "id": "0745Y0000004DNKQA2",
+    "lastModifiedById": "0055Y00000G75ReQAJ",
+    "lastModifiedByName": "Pratap Kotra",
+    "lastModifiedDate": "2021-11-03T20:45:24.000Z",
+    "manageableState": "unmanaged",
+    "type": "CorsWhitelistOrigin"
+  }
+}

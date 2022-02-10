@@ -1,0 +1,152 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Cancelled Project"  collapsible="true"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element0block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ECreated%20Date%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BDates.CreatedDate%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element1block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element1block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ECancelled%20Date%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BDates.CancelledDate%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element2block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element2block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EAction%20Required%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BFields.Action_Required__c%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element3_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element3block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element3block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EReinstatement%20Request%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BReinstatement.Reinstatement%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element2block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element1block_element2block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3EIf%20requesting%20reinstatement,%20have%20any%20relevant%20documents%20ready%20to%20submit.%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element3_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element3block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element3block_element0_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1639174378441","type":"Flyout","displayName":"Request Reinstatement","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","flyoutType":"OmniScripts","openFlyoutIn":"Modal","osName":"ProjectSummary/UploadDocs/English","flyoutLwc":"project-summary-upload-docs-english","hasExtraParams":true,"flyoutParams":{"ApplicationId":"{recordId}","Reinstatement":"true"}}'  hide-action-icon="true"  display-as-button="true"  button-variant="brand"  theme="slds"><div slot="flyout"> <vlocity_cmt-custom-lwc-wrapper element-name="c-project-summary-upload-docs-english" property='\{"prefill":"{\"ApplicationId\":\"{recordId}\",\"Reinstatement\":\"true\"}"}' records={records} record-id={recordId} record={record}  card={card} >
+     <c-project-summary-upload-docs-english   layout='lightning'    ></c-project-summary-upload-docs-english>
+    </vlocity_cmt-custom-lwc-wrapper></div></vlocity_cmt-action>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Cancelled Project"  collapsible="true"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element0block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ECreated%20Date%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BDates.CreatedDate%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element1block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element1block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ECancelled%20Date%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BDates.CancelledDate%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element2block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element2block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EAction%20Required%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BFields.Action_Required__c%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element0block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0block_element3_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element3block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element3block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EReinstatement%20Request%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E%7BReinstatement.Reinstatement%7D%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element2block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element1block_element2block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3EIf%20requesting%20reinstatement,%20have%20any%20relevant%20documents%20ready%20to%20submit.%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1block_element3" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1block_element3_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element3block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element3block_element0_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1639174378441","type":"Flyout","displayName":"Request Reinstatement","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","flyoutType":"OmniScripts","openFlyoutIn":"Modal","osName":"ProjectSummary/UploadDocs/English","flyoutLwc":"project-summary-upload-docs-english","hasExtraParams":true,"flyoutParams":{"ApplicationId":"{recordId}","Reinstatement":"true"}}'  hide-action-icon="true"  display-as-button="true"  button-variant="brand"  theme="slds"><div slot="flyout"> <vlocity_cmt-custom-lwc-wrapper element-name="c-project-summary-upload-docs-english" property='\{"prefill":"{\"ApplicationId\":\"{recordId}\",\"Reinstatement\":\"true\"}"}' records={records} record-id={recordId} record={record}  card={card} >
+     <c-project-summary-upload-docs-english   layout='lightning'    ></c-project-summary-upload-docs-english>
+    </vlocity_cmt-custom-lwc-wrapper></div></vlocity_cmt-action>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

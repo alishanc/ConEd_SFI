@@ -1,0 +1,15 @@
+<template>
+    <!-- <p>here</p>
+    <button type="button" data-id="dashboard" class="white-button slds-button slds-button_brand button-brand" onclick={handleClick}>Back To Dashboard</button> -->
+
+        <div class="btn-container">
+            <template if:true={showMeasureTypeBtn}>
+                <button style="margin-right: 10px;" type="button" data-id="measureTypes" class="white-button slds-button slds-button_brand button-brand" onclick={handleClick}>Add Measures</button>
+            </template>
+            <template if:true={btnOneType}>
+                <button type="button" data-id={btnOneType} class="slds-button slds-button_outline button-outline" onclick={handleClick}>{btnOneLabel}</button>
+            </template>
+            <button type="button" data-id={btnTwoType} class="white-button slds-button slds-button_brand button-brand" onclick={handleClick}>{btnTwoLabel}</button>
+
+        </div>
+</template>

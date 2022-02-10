@@ -1,0 +1,112 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "EstimateCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "EstimateCreation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "LIG_IEL_Measures",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/LIG_IEL_Measures",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "LIG_IEL_Measures",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "This is a sample help text to help the user understand this field",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Replacement Luminaire Category",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "LED Exit Sign",
+                "value": "LED Exit Sign"
+            },
+            {
+                "name": "Direct Linear Ambient Luminaires",
+                "value": "Direct Linear Ambient Luminaires"
+            },
+            {
+                "name": "Linear Ambient Luminaires with Indirect Component",
+                "value": "Linear Ambient Luminaires with Indirect Component"
+            },
+            {
+                "name": "Parking Garage/Fuel Canopy Luminaires",
+                "value": "Parking Garage/Fuel Canopy Luminaires"
+            },
+            {
+                "name": "Outdoor Pole Mounted Luminaires",
+                "value": "Outdoor Pole Mounted Luminaires"
+            },
+            {
+                "name": "Downlights w. Screw-In or Pin-Based Lamps",
+                "value": "Downlights w. Screw-In or Pin-Based Lamps"
+            },
+            {
+                "name": "Bollards/Landscape/Accent Flood and Spot Luminaires",
+                "value": "Bollards/Landscape/Accent Flood and Spot Luminaires"
+            },
+            {
+                "name": "Track or Mono-Point Luminaires",
+                "value": "Track or Mono-Point Luminaires"
+            },
+            {
+                "name": "High Bay/Low Bay Luminaires",
+                "value": "High Bay/Low Bay Luminaires"
+            },
+            {
+                "name": "1x4 Luminaires for Ambient Lighting",
+                "value": "1x4 Luminaires for Ambient Lighting"
+            },
+            {
+                "name": "2x2 Luminaires for Ambient Lighting",
+                "value": "2x2 Luminaires for Ambient Lighting"
+            },
+            {
+                "name": "2x4 Luminaires for Ambient Lighting",
+                "value": "2x4 Luminaires for Ambient Lighting"
+            },
+            {
+                "name": "Outdoor Full-Cutoff/Non-Cutoff/Semi-Cutoff Wall-Mounted Luminaires",
+                "value": "Outdoor Full-Cutoff/Non-Cutoff/Semi-Cutoff Wall-Mounted Luminaires"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "LIG_IEL_replacementLuminaireCategory",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/LIG_IEL_replacementLuminaireCategory"
+}

@@ -1,0 +1,128 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20class=%22slds-text-heading_small%22%20style=%22font-size:%2018pt;%20font-family:%20verdana;%22%3ESave%20time,%20money,%20and%20effort%20with%20the%20incentive%20navigator.%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3EParticipaing%20contractors%20can%20create%20branded%20estimates,%20submit%20applications,%20and%20schedule%20your%20pre-inspections%20digitally.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-action data-style-id="state0element0block_element0block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631713770394","type":"Custom","displayName":"Create Estimates","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'  display-as-button="true"  button-variant="brand"  icon-size="large"  theme="slds" ></vlocity_cmt-action>
+      </div><div data-style-id="state0element0block_element0block_element2" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element2_child"     card={card}  record={record}  merge-field="%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%20font-family:%20verdana;%22%3EIf%20you%20aren't%20currently%20a%20participating%20contractor,%20register%20by%20applying%20here%20to%20access%20the%20incentive%20navigator%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element1_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004FE2QAM","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 9.59.00 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004FE2QAM","title":"Screen Shot 2021-09-09 at 9.59.00 AM","Id":"0688G0000004FE2QAM","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="c-home-page-video" property='\{}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><c-home-page-video  ></c-home-page-video></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element0block_element3" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element3_child"     card={card}  record={record}  merge-field="%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2018pt;%22%3EParticipating%20in%20the%20CI%20program%20has%20never%20been%20so%20easy.%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element4" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element4block_element0block_element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004ELNQA2","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 10.12.03 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004ELNQA2","title":"Screen Shot 2021-09-09 at 10.12.03 AM","Id":"0688G0000004ELNQA2","attachmentType":"ContentVersion"}}'  img-height="100px"  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element4block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element4block_element0block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3ECreate%20and%20download%20simple%20branded%20estimates.%20View%20estimates%20of%20savings%20and%20incentives%20or%20equipment%20upgrades%20to%20share%20with%20your%20customers.&nbsp;%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element4block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element1block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element4block_element1block_element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004ELJQA2","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 10.12.07 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004ELJQA2","title":"Screen Shot 2021-09-09 at 10.12.07 AM","Id":"0688G0000004ELJQA2","attachmentType":"ContentVersion"}}'  img-height="100px"  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element4block_element1block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element4block_element1block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3EGenerate,%20submit,%20and%20track%20your%20projects.%20Pre-populate%20details%20from%20your%20estimate%20to%20get%20a%20jump-start%20on%20your%20rebate%20application%20providing%20visibility%20across%20the%20project%20process%20in%20one%20centralized%20system.&nbsp;%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element4block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4block_element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element2block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element4block_element2block_element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004EMLQA2","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 10.12.12 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004EMLQA2","title":"Screen Shot 2021-09-09 at 10.12.12 AM","Id":"0688G0000004EMLQA2","attachmentType":"ContentVersion"}}'  img-height="100px"  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element4block_element2block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element4block_element2block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3ESchedule%20a%20pre-inspection.%20More%20controle%20over%20the%20sceduleing%20process.%20Easily%20schedule%20a%20pre-inspection%20appointment%20online,%20after%20submitting%20your%20application.%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element5" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element5_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20class=%22slds-text-heading_small%22%20style=%22font-size:%2018pt;%20font-family:%20verdana;%22%3ESave%20time,%20money,%20and%20effort%20with%20the%20incentive%20navigator.%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3EParticipaing%20contractors%20can%20create%20branded%20estimates,%20submit%20applications,%20and%20schedule%20your%20pre-inspections%20digitally.%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-action data-style-id="state0element0block_element0block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631713770394","type":"Custom","displayName":"Create Estimates","vlocityIcon":"","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'  display-as-button="true"  button-variant="brand"  icon-size="large"  theme="slds" ></vlocity_cmt-action>
+      </div><div data-style-id="state0element0block_element0block_element2" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element2_child"     card={card}  record={record}  merge-field="%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%20font-family:%20verdana;%22%3EIf%20you%20aren't%20currently%20a%20participating%20contractor,%20register%20by%20applying%20here%20to%20access%20the%20incentive%20navigator%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element1_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004FE2QAM","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 9.59.00 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004FE2QAM","title":"Screen Shot 2021-09-09 at 9.59.00 AM","Id":"0688G0000004FE2QAM","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-custom-lwc-wrapper element-name="c-home-page-video" property='\{}' data-rindex={rindex} records={records} record={record} record-id={recordId} card={card}><c-home-page-video  ></c-home-page-video></vlocity_cmt-custom-lwc-wrapper>
+    </div><div data-style-id="state0element0block_element3" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element3_child"     card={card}  record={record}  merge-field="%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E%0A%3Cdiv%3E%3Cspan%20style=%22font-size:%2018pt;%22%3EParticipating%20in%20the%20CI%20program%20has%20never%20been%20so%20easy.%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element4" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element4block_element0block_element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004ELNQA2","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 10.12.03 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004ELNQA2","title":"Screen Shot 2021-09-09 at 10.12.03 AM","Id":"0688G0000004ELNQA2","attachmentType":"ContentVersion"}}'  img-height="100px"  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element4block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element4block_element0block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3ECreate%20and%20download%20simple%20branded%20estimates.%20View%20estimates%20of%20savings%20and%20incentives%20or%20equipment%20upgrades%20to%20share%20with%20your%20customers.&nbsp;%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element4block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element1block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element4block_element1block_element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004ELJQA2","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 10.12.07 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004ELJQA2","title":"Screen Shot 2021-09-09 at 10.12.07 AM","Id":"0688G0000004ELJQA2","attachmentType":"ContentVersion"}}'  img-height="100px"  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element4block_element1block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element4block_element1block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3EGenerate,%20submit,%20and%20track%20your%20projects.%20Pre-populate%20details%20from%20your%20estimate%20to%20get%20a%20jump-start%20on%20your%20rebate%20application%20providing%20visibility%20across%20the%20project%20process%20in%20one%20centralized%20system.&nbsp;%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element4block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element4block_element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element4block_element2block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-flex-img data-style-id="state0element0block_element4block_element2block_element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0688G0000004EMLQA2","alternativeText":"Image description","document":{"label":"Screen Shot 2021-09-09 at 10.12.12 AM (Version:1)","value":"/sfc/servlet.shepherd/version/download/0688G0000004EMLQA2","title":"Screen Shot 2021-09-09 at 10.12.12 AM","Id":"0688G0000004EMLQA2","attachmentType":"ContentVersion"}}'  img-height="100px"  theme="slds"  ></vlocity_cmt-flex-img>
+      </div><div data-style-id="state0element0block_element4block_element2block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element4block_element2block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-family:%20verdana;%20font-size:%2012pt;%22%3ESchedule%20a%20pre-inspection.%20More%20controle%20over%20the%20sceduleing%20process.%20Easily%20schedule%20a%20pre-inspection%20appointment%20online,%20after%20submitting%20your%20application.%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element5" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element5_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

@@ -1,0 +1,58 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000G75ReQAJ",
+      "createdByName": "Pratap Kotra",
+      "createdDate": "2021-12-15T19:34:37.000Z",
+      "fileName": "contentassets/APXT_CongaSign__logo_conga.asset",
+      "fullName": "APXT_CongaSign__logo_conga",
+      "id": "03S03000000GuueEAC",
+      "lastModifiedById": "0055Y00000G75ReQAJ",
+      "lastModifiedByName": "Pratap Kotra",
+      "lastModifiedDate": "2021-12-15T19:35:37.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "APXT_CongaSign",
+      "type": "ContentAsset"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-15T20:38:27.000Z",
+      "fileName": "contentassets/Screen_Shot_20210920_at_93326_AM1.asset",
+      "fullName": "Screen_Shot_20210920_at_93326_AM1",
+      "id": "03S03000000Gu7hEAC",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-15T20:38:27.000Z",
+      "manageableState": "unmanaged",
+      "type": "ContentAsset"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-15T20:38:54.000Z",
+      "fileName": "contentassets/Screen_Shot_20210920_at_93326_AM11.asset",
+      "fullName": "Screen_Shot_20210920_at_93326_AM11",
+      "id": "03S03000000Gu7mEAC",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-15T20:38:54.000Z",
+      "manageableState": "unmanaged",
+      "type": "ContentAsset"
+    },
+    {
+      "createdById": "00503000001duq6AAA",
+      "createdByName": "Aminadab Morales",
+      "createdDate": "2022-01-11T03:27:25.000Z",
+      "fileName": "contentassets/conedLetterhead.asset",
+      "fullName": "conedLetterhead",
+      "id": "03S03000000GvgxEAC",
+      "lastModifiedById": "00503000001duq6AAA",
+      "lastModifiedByName": "Aminadab Morales",
+      "lastModifiedDate": "2022-01-11T03:27:25.000Z",
+      "manageableState": "unmanaged",
+      "type": "ContentAsset"
+    }
+  ]
+}

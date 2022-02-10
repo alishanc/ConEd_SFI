@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Created for Faucet - Low Flow Aerator and Other Domestic Hot Water Control",
+    "%vlocity_namespace%__CustomJavaScript__c": "Incentives_DomesticHotWaterControl_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Incentives_DomesticHotWaterControl_Element_FaucetLowFlowAerator.json",
+        "Incentives_DomesticHotWaterControl_Element_SetQuantity.json",
+        "Incentives_DomesticHotWaterControl_Element_CalculateIncentives_COM-DHW-LFA.json",
+        "Incentives_DomesticHotWaterControl_Element_ResponseAction1.json",
+        "Incentives_DomesticHotWaterControl_Element_LowFlowPreRinseSprayValve.json",
+        "Incentives_DomesticHotWaterControl_Element_SV_Low_Flow_PRSV.json",
+        "Incentives_DomesticHotWaterControl_Element_CalculateIncentivesLowFlowPRSV.json",
+        "Incentives_DomesticHotWaterControl_Element_ResponseActionLowFlowPRSV.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Incentives_DomesticHotWaterControl",
+    "%vlocity_namespace%__PropertySet__c": "Incentives_DomesticHotWaterControl_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "DomesticHotWaterControl",
+    "%vlocity_namespace%__Type__c": "Incentives",
+    "Name": "IPCalculateIncentivesDomesticHotWaterControl",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Incentives/DomesticHotWaterControl/Procedure"
+}

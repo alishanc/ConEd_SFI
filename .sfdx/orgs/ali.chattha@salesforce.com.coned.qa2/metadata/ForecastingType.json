@@ -1,0 +1,149 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityQuantityScheduleDate.forecastingType",
+      "fullName": "OpportunityQuantityScheduleDate",
+      "id": "0Db5Y000000AULtSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/LineItemRevenueProductDate.forecastingType",
+      "fullName": "LineItemRevenueProductDate",
+      "id": "0Db5Y000000AULqSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/LineItemQuantityScheduleDate.forecastingType",
+      "fullName": "LineItemQuantityScheduleDate",
+      "id": "0Db5Y000000AULvSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityQuantityProductDate.forecastingType",
+      "fullName": "OpportunityQuantityProductDate",
+      "id": "0Db5Y000000AULpSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityLineItemQuantity.forecastingType",
+      "fullName": "OpportunityLineItemQuantity",
+      "id": "0Db5Y000000AULmSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityRevenueProductDate.forecastingType",
+      "fullName": "OpportunityRevenueProductDate",
+      "id": "0Db5Y000000AULoSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/LineItemQuantityProductDate.forecastingType",
+      "fullName": "LineItemQuantityProductDate",
+      "id": "0Db5Y000000AULrSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityQuantity.forecastingType",
+      "fullName": "OpportunityQuantity",
+      "id": "0Db5Y000000AULkSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityLineItemRevenue.forecastingType",
+      "fullName": "OpportunityLineItemRevenue",
+      "id": "0Db5Y000000AULlSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityRevenue.forecastingType",
+      "fullName": "OpportunityRevenue",
+      "id": "0Db5Y000000AULiSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/OpportunityRevenueScheduleDate.forecastingType",
+      "fullName": "OpportunityRevenueScheduleDate",
+      "id": "0Db5Y000000AULsSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "forecastingTypes/LineItemRevenueScheduleDate.forecastingType",
+      "fullName": "LineItemRevenueScheduleDate",
+      "id": "0Db5Y000000AULuSAO",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ForecastingType"
+    }
+  ]
+}

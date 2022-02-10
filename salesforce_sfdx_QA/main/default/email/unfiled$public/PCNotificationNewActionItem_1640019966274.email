@@ -1,0 +1,23 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear {{{vlocity_cmt__Application__c.Contractor_Full_Name__c}}},<br />
+&nbsp;</p>
+
+<p>Con&nbsp;Edison&nbsp;has created a new action item on&nbsp;Incentive&nbsp;Navigator&nbsp;regarding&nbsp;{{{vlocity_cmt__Application__c.Name}}}. Please click on the&nbsp;link below for&nbsp;this&nbsp;project&nbsp;and&nbsp;provide the requested information within the next&nbsp;3&nbsp;days.&nbsp;If you have any questions, contact your energy advisor or email us at&nbsp;Commercial@coned.com.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><b>Project link</b><br />
+https://dev-coned1.cs219.force.com/homepage/s/application/{{{vlocity_cmt__Application__c.Id}}}</p>
+
+<p>Thank you,&nbsp;</p>
+
+<p>Con Edison&nbsp;</p>
+
+<p>commercial@coned.com&nbsp;</p>
+
+<p>Energy Efficiency &amp; Demand Management Team&nbsp;</p>
+
+</body></html>

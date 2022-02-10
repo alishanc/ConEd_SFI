@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Status_Date__c</fullName>
+    <description>3.6.2019: Changed field name from closed status date to deactivated date for leads 2019 enhancements by Chrissy</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Lead was changed to Deactivated</inlineHelpText>
+    <label>Deactivated Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

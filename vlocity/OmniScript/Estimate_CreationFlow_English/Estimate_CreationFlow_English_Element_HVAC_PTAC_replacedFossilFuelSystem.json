@@ -1,0 +1,96 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "EstimateCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "EstimateCreation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "HVAC_PTAC_Measures",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/HVAC_PTAC_Measures",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "HVAC_PTAC_Measures",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Optional if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "This is a sample help text to help the user understand this field",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Replaced Fossil Fuel System",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Warm Air Furnace, Gas Fired - LT 225 kBtuh",
+                "value": "Warm Air Furnace, Gas Fired - LT 225 kBtuh"
+            },
+            {
+                "name": "Warm Air Furnace, Gas Fired - GTE 225 kBtuh",
+                "value": "Warm Air Furnace, Gas Fired - GTE 225 kBtuh"
+            },
+            {
+                "name": "Warm Air Unit Heaters, Gas Fired",
+                "value": "Warm Air Unit Heaters, Gas Fired"
+            },
+            {
+                "name": "Boiler, Hot Water, Gas Fired - LTE 2500 kBtuh",
+                "value": "Boiler, Hot Water, Gas Fired - LTE 2500 kBtuh"
+            },
+            {
+                "name": "Boiler, Hot Water, Gas Fired - GT 2500 kBtuh",
+                "value": "Boiler, Hot Water, Gas Fired - GT 2500 kBtuh"
+            },
+            {
+                "name": "Boiler, Steam, Gas Fired, All Except Nat Draft - LTE 300 kBtuh",
+                "value": "Boiler, Steam, Gas Fired, All Except Nat Draft - LTE 300 kBtuh"
+            },
+            {
+                "name": "Boiler, Steam, Gas Fired, All Except Nat Draft - GT 300 kBtuh",
+                "value": "Boiler, Steam, Gas Fired, All Except Nat Draft - GT 300 kBtuh"
+            },
+            {
+                "name": "Boiler, Steam, Gas Fired, Nat Draft - LTE 300 kBtuh",
+                "value": "Boiler, Steam, Gas Fired, Nat Draft - LTE 300 kBtuh"
+            },
+            {
+                "name": "Boiler, Steam, Gas Fired, Nat Draft - GT 300 kBtuh",
+                "value": "Boiler, Steam, Gas Fired, Nat Draft - GT 300 kBtuh"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "HVAC_PTAC_replacedFossilFuelSystem",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/HVAC_PTAC_replacedFossilFuelSystem"
+}

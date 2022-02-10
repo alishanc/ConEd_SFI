@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Assembly</fullName>
+        <default>false</default>
+        <label>Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>Automotive/Transportation Service or Repair Facility</fullName>
+        <default>false</default>
+        <label>Automotive/Transportation Service or Repair Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Bakery</fullName>
+        <default>false</default>
+        <label>Bakery</label>
+    </customValue>
+    <customValue>
+        <fullName>Banks</fullName>
+        <default>false</default>
+        <label>Banks</label>
+    </customValue>
+    <customValue>
+        <fullName>Cafeteria</fullName>
+        <default>false</default>
+        <label>Cafeteria</label>
+    </customValue>
+    <customValue>
+        <fullName>College - University</fullName>
+        <default>false</default>
+        <label>College - University</label>
+    </customValue>
+    <customValue>
+        <fullName>College - Community</fullName>
+        <default>false</default>
+        <label>College - Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Condos</fullName>
+        <default>false</default>
+        <label>Commercial Condos</label>
+    </customValue>
+    <customValue>
+        <fullName>Convenience Stores</fullName>
+        <default>false</default>
+        <label>Convenience Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>Convention Center</fullName>
+        <default>false</default>
+        <label>Convention Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Court House</fullName>
+        <default>false</default>
+        <label>Court House</label>
+    </customValue>
+    <customValue>
+        <fullName>Dormitory</fullName>
+        <default>false</default>
+        <label>Dormitory</label>
+    </customValue>
+    <customValue>
+        <fullName>Entertainment</fullName>
+        <default>false</default>
+        <label>Entertainment</label>
+    </customValue>
+    <customValue>
+        <fullName>Exercise Center</fullName>
+        <default>false</default>
+        <label>Exercise Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Grocery/Food Store</fullName>
+        <default>false</default>
+        <label>Grocery/Food Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Gymnasium</fullName>
+        <default>false</default>
+        <label>Gymnasium</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital</fullName>
+        <default>false</default>
+        <label>Hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial/Manufacturing</fullName>
+        <default>false</default>
+        <label>Industrial/Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>Laundromats</fullName>
+        <default>false</default>
+        <label>Laundromats</label>
+    </customValue>
+    <customValue>
+        <fullName>Library</fullName>
+        <default>false</default>
+        <label>Library</label>
+    </customValue>
+    <customValue>
+        <fullName>Lodging - Hotel</fullName>
+        <default>false</default>
+        <label>Lodging - Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Lodging - Motel</fullName>
+        <default>false</default>
+        <label>Lodging - Motel</label>
+    </customValue>
+    <customValue>
+        <fullName>Mall Concourse</fullName>
+        <default>false</default>
+        <label>Mall Concourse</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Offices</fullName>
+        <default>false</default>
+        <label>Medical Offices</label>
+    </customValue>
+    <customValue>
+        <fullName>Motion Picture Theatre</fullName>
+        <default>false</default>
+        <label>Motion Picture Theatre</label>
+    </customValue>
+    <customValue>
+        <fullName>Single Family</fullName>
+        <default>false</default>
+        <label>Single Family</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi-Family High-Rise</fullName>
+        <default>false</default>
+        <label>Multi-Family High-Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi-Family Low-Rise</fullName>
+        <default>false</default>
+        <label>Multi-Family Low-Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi-Family Common Area</fullName>
+        <default>false</default>
+        <label>Multi-Family Common Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Museum</fullName>
+        <default>false</default>
+        <label>Museum</label>
+    </customValue>
+    <customValue>
+        <fullName>Nursing Homes High-Rise</fullName>
+        <default>false</default>
+        <label>Nursing Homes High-Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Nursing Homes Low-Rise</fullName>
+        <default>false</default>
+        <label>Nursing Homes Low-Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Office - Large</fullName>
+        <default>false</default>
+        <label>Office - Large</label>
+    </customValue>
+    <customValue>
+        <fullName>Office - Small</fullName>
+        <default>false</default>
+        <label>Office - Small</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking Garage</fullName>
+        <default>false</default>
+        <label>Parking Garage</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking Lot</fullName>
+        <default>false</default>
+        <label>Parking Lot</label>
+    </customValue>
+    <customValue>
+        <fullName>Penitentiary</fullName>
+        <default>false</default>
+        <label>Penitentiary</label>
+    </customValue>
+    <customValue>
+        <fullName>Performing Arts Theatre</fullName>
+        <default>false</default>
+        <label>Performing Arts Theatre</label>
+    </customValue>
+    <customValue>
+        <fullName>Police/Firestation</fullName>
+        <default>false</default>
+        <label>Police/Firestation</label>
+    </customValue>
+    <customValue>
+        <fullName>Post Office</fullName>
+        <default>false</default>
+        <label>Post Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Pump Stations</fullName>
+        <default>false</default>
+        <label>Pump Stations</label>
+    </customValue>
+    <customValue>
+        <fullName>Religious/Church</fullName>
+        <default>false</default>
+        <label>Religious/Church</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurant - Quick Service/Fast Food</fullName>
+        <default>false</default>
+        <label>Restaurant - Quick Service/Fast Food</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurant - Casual Dining</fullName>
+        <default>false</default>
+        <label>Restaurant - Casual Dining</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurant - Full Service</fullName>
+        <default>false</default>
+        <label>Restaurant - Full Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail - Big Box/Large</fullName>
+        <default>false</default>
+        <label>Retail - Big Box/Large</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail - Small</fullName>
+        <default>false</default>
+        <label>Retail - Small</label>
+    </customValue>
+    <customValue>
+        <fullName>School - Jr./Sr. High</fullName>
+        <default>false</default>
+        <label>School - Jr./Sr. High</label>
+    </customValue>
+    <customValue>
+        <fullName>School - Preschool/Elementary</fullName>
+        <default>false</default>
+        <label>School - Preschool/Elementary</label>
+    </customValue>
+    <customValue>
+        <fullName>School - Technical/Vocational</fullName>
+        <default>false</default>
+        <label>School - Technical/Vocational</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Services</fullName>
+        <default>false</default>
+        <label>Small Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Sports Arena</fullName>
+        <default>false</default>
+        <label>Sports Arena</label>
+    </customValue>
+    <customValue>
+        <fullName>Town Hall</fullName>
+        <default>false</default>
+        <label>Town Hall</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse - Refrigerated</fullName>
+        <default>false</default>
+        <label>Warehouse - Refrigerated</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse - Non-Refrigerated</fullName>
+        <default>false</default>
+        <label>Warehouse - Non-Refrigerated</label>
+    </customValue>
+    <customValue>
+        <fullName>Waste Water Treatment Plant</fullName>
+        <default>false</default>
+        <label>Waste Water Treatment Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>Workshop</fullName>
+        <default>false</default>
+        <label>Workshop</label>
+    </customValue>
+    <masterLabel>Building Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

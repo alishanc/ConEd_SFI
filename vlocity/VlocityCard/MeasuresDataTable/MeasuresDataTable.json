@@ -1,0 +1,306 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "a0L8G000000T7BTUA0"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "GetApplicationLineItems",
+            "dsDelay": 0,
+            "inputMap": {
+                "ApplicationId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "isRepeatable": false,
+    "lwc": {
+        "DeveloperName": "cfMeasuresDataTable_1_Dab",
+        "Id": "0Rb8G000000Ckl2SAC",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfMeasuresDataTable_1_Dab",
+        "NamespacePrefix": "c"
+    },
+    "requiredPermission": "",
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "dataTable",
+                            "elementLabel": "Datatable-1",
+                            "name": "Datatable",
+                            "property": {
+                                "cellLevelEdit": false,
+                                "columns": [
+                                    {
+                                        "editable": "false",
+                                        "fieldName": "MeasureName",
+                                        "label": "Project Measure Name",
+                                        "searchable": "true",
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "editable": "false",
+                                        "fieldName": "MeasureType",
+                                        "label": "Measure Type",
+                                        "searchable": "true",
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "editable": "false",
+                                        "fieldName": "Make",
+                                        "label": "Make",
+                                        "searchable": "true",
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "editable": "false",
+                                        "fieldName": "Model",
+                                        "label": "Model",
+                                        "searchable": "true",
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "editable": "false",
+                                        "fieldName": "TotalQuantity",
+                                        "label": "Total Quantity",
+                                        "searchable": "true",
+                                        "sortable": true,
+                                        "type": "number"
+                                    },
+                                    {
+                                        "editable": "false",
+                                        "fieldName": "Location",
+                                        "label": "Location",
+                                        "searchable": "true",
+                                        "sortable": "true",
+                                        "type": "text"
+                                    }
+                                ],
+                                "groupOrder": "asc",
+                                "issearchavailable": true,
+                                "issortavailable": true,
+                                "pagelimit": "0",
+                                "pagesize": "",
+                                "records": "{records}",
+                                "styles": {
+                                    "cellBgColor": "",
+                                    "cellBorderColor": "",
+                                    "cellBoxShadow": "",
+                                    "cellMargin": [
+                                    ],
+                                    "cellPadding": [
+                                    ],
+                                    "headBgColor": "",
+                                    "rowBgColor": "",
+                                    "tableBgColor": "",
+                                    "tableBorderColor": "#FFFFFF"
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "#FFFFFF",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "cellBgColor": "",
+                                        "cellBorderColor": "",
+                                        "cellBoxShadow": "",
+                                        "cellMargin": [
+                                        ],
+                                        "cellPadding": [
+                                        ],
+                                        "headBgColor": "",
+                                        "rowBgColor": "",
+                                        "tableBgColor": "",
+                                        "tableBorderColor": "#FFFFFF"
+                                    }
+                                },
+                                "inlineStyle": ".slds-grid.slds-gutters {\n    background-color: rgb(255, 255, 255);\n    color: white;\n}",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "background-color:#FFFFFF;     : #ccc 1px solid; \n         .slds-grid.slds-gutters {\n    background-color: rgb(255, 255, 255);\n    color: white;\n}",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "#FFFFFF",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "cellBgColor": "",
+                                                "cellBorderColor": "",
+                                                "cellBoxShadow": "",
+                                                "cellMargin": [
+                                                ],
+                                                "cellPadding": [
+                                                ],
+                                                "headBgColor": "",
+                                                "rowBgColor": "",
+                                                "tableBgColor": "",
+                                                "tableBorderColor": "#FFFFFF"
+                                            }
+                                        },
+                                        "inlineStyle": ".slds-grid.slds-gutters {\n    background-color: rgb(255, 255, 255);\n    color: white;\n}",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "background-color:#FFFFFF;     : #ccc 1px solid; \n         .slds-grid.slds-gutters {\n    background-color: rgb(255, 255, 255);\n    color: white;\n}",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "MeasuresDataTable",
+    "xmlObject": {
+        "apiVersion": 48,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "MeasuresDataTable",
+        "runtimeNamespace": "%vlocity_namespace%",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdDb21tdW5pdHlfX0RlZmF1bHQiPg0KICAgICAgPHByb3BlcnR5IG5hbWU9InJlY29yZElkIiB0eXBlPSJTdHJpbmciLz4NCiAgICA8L3RhcmdldENvbmZpZz4=",
+        "targets": {
+            "target": [
+                "lightning__AppPage",
+                "lightning__HomePage",
+                "lightning__RecordPage",
+                "lightningCommunity__Page",
+                "lightningCommunity__Default"
+            ]
+        }
+    }
+}

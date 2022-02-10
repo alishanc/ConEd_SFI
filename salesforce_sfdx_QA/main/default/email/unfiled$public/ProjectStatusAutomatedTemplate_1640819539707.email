@@ -1,0 +1,19 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">{{{vlocity_cmt__Application__c.Project_Id__c}}}&nbsp;{{{vlocity_cmt__Application__c.Name}}} has moved to {{{vlocity_cmt__Application__c.vlocity_cmt__Status__c}}}<br />
+<br />
+Operation Lead:&nbsp;{{{vlocity_cmt__Application__c.Original_Project_Owner__c}}}<br />
+Business Development Manager: {{{vlocity_cmt__Application__c.Business_Development_Manager__c}}}<br />
+<br />
+Project Summary<br />
+Project Cost&nbsp;{{{vlocity_cmt__Application__c.Total_Net_Cost__c}}}<br />
+Project Incentive {{{vlocity_cmt__Application__c.Project_Incentive_Amount__c}}}<br />
+<br />
+Please press the link below to view additional project details.<br />
+https://connedev--dev.lightning.force.com/lightning/r/vlocity_cmt__Application__c{{{vlocity_cmt__Application__c.Id}}}/view<br />
+<br />
+This is a system generated automated email notification. If you believe you received this email in error, please reach out to the Operations lead on the project.<br />
+<br />
+&nbsp;
+</body></html>

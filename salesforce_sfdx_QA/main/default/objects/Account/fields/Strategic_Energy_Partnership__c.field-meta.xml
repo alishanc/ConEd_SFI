@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Energy_Partnership__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SEP lookup field.</description>
+    <externalId>false</externalId>
+    <label>Strategic Energy Partnership</label>
+    <referenceTo>Strategic_Energy_Partnership__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

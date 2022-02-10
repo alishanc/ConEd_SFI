@@ -1,0 +1,87 @@
+{
+    "bundleName": "UpdateApplicationEstimateFlow",
+    "objectList": {
+        "Details": {
+            "AccountNumberEligible": "",
+            "BS": null,
+            "BuildingAndHvac": {
+                "BuildingTypeBlock": {
+                    "BuildingTypeSelect": "Automotive/Transportation Service or Repair Facility"
+                },
+                "CoolingSystemBlock": {
+                    "CoolingSystemSelect": "Packaged System AC"
+                },
+                "DistributionTypeBlock": {
+                    "DistributionTypeSelect": "CV with Economizer"
+                },
+                "HeatingFuelBlock": {
+                    "HeatingFuelSelect": "District Steam"
+                },
+                "HeatingSystemBlock": {
+                    "HeatingSystemSelect": "Heat Pump"
+                }
+            },
+            "CUST": null,
+            "ComAir": null,
+            "CustomerInformationStep": null,
+            "DRId_%vlocity_namespace%__Application__c": "a0L8G000000bwj1UAA",
+            "EstimateID": "CI-2022017514",
+            "EstimateIDRandomNumber": "EST-CI2022023222",
+            "HVAC": null,
+            "HVACC": null,
+            "LIG": null,
+            "LIGC": null,
+            "MAD": null,
+            "MarketSegment": {
+                "MarketSegmentSelect": "CI"
+            },
+            "MarketSegmentResponse": "CI",
+            "MeasureSelection": null,
+            "OmniScriptFmtData": {
+                "BuildingAndHvac:BuildingTypeBlock|1:BuildingTypeSelect": "Automotive/Transportation Service or Repair Facility",
+                "BuildingAndHvac:CoolingSystemBlock|1:CoolingSystemSelect": "Packaged System AC",
+                "BuildingAndHvac:DistributionTypeBlock|1:DistributionTypeSelect": "CV with Economizer",
+                "BuildingAndHvac:HeatingFuelBlock|1:HeatingFuelSelect": "District Steam",
+                "BuildingAndHvac:HeatingSystemBlock|1:HeatingSystemSelect": "Heat Pump",
+                "MarketSegment:MarketSegmentSelect": "Commercial and Industrial",
+                "ProgramSelection:ProgramSelect": "Commercial and Industrial Energy Efficiency Program",
+                "ProjectType:ProjectTypeSelect": "Existing Building"
+            },
+            "PayeeInformationStep": null,
+            "ProgramForApp": "[object Object]",
+            "ProgramNeeded": "CI",
+            "ProgramSelection": {
+                "ProgramSelect": "Commercial and Industrial Energy Efficiency Program"
+            },
+            "ProjectName": {
+                "ProjectNameTextInput": "New Project"
+            },
+            "ProjectType": {
+                "ProjectTypeSelect": "Existing Building"
+            },
+            "REFRCON": null,
+            "REFRIG": null,
+            "RandomNumber": "2022017514",
+            "STEP_ApplicationRequirementsAndDocuments": null,
+            "STEP_EligibleAccount": null,
+            "STEP_EnterAccountNumber": null,
+            "STEP_EstimatesSummary": null,
+            "STEP_IneligibleAccount": null,
+            "STEP_MeasureDocs": null,
+            "STEP_MeasureType": null,
+            "STEP_PreviewApplication": null,
+            "STEP_ProgramSelection": null,
+            "STEP_SaveEstimate": null,
+            "STEP_ThankYou": null,
+            "STEP_VFDOption": null,
+            "SiteInformationStep": null,
+            "timeStamp": "2022-01-06T15:34:27.533Z",
+            "totalMeasurecount": 0,
+            "userCurrencyCode": "USD",
+            "userId": "0058G000000UCFnQAO",
+            "userName": "edonahue@coned.com.dev",
+            "userProfile": "System Administrator",
+            "userTimeZone": "-480"
+        }
+    }
+}

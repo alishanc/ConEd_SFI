@@ -1,0 +1,11 @@
+{
+    "input": {
+        "CalculationType": "Prescriptive",
+        "MeasureCategory": "Domestic Hot Water Control",
+        "MeasureCode": "COM-DHW-PRSV",
+        "MeasureCost": 500,
+        "laborCost": 855,
+        "materialCost": 265,
+        "quantity": 2
+    }
+}

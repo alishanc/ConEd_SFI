@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "profileSessionSettings/PT2_profileSessionSetting1568660541553.profileSessionSetting",
+      "fullName": "PT2_profileSessionSetting1568660541553",
+      "id": "0HU5Y0000008bISWAY",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "profileSessionSettings/PT1_profileSessionSetting1481671771629.profileSessionSetting",
+      "fullName": "PT1_profileSessionSetting1481671771629",
+      "id": "0HU5Y0000008bIUWAY",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "profileSessionSettings/PT3_profileSessionSetting1568660558507.profileSessionSetting",
+      "fullName": "PT3_profileSessionSetting1568660558507",
+      "id": "0HU5Y0000008bITWAY",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+    "AccountStep": {
+        "AccountInfo": {
+            "PhoneNumber": "1231231231",
+            "PriContFirstName": "dora",
+            "PriContactEmail": "aminadab.morales@salesforce.com",
+            "PriContactLastName": "dora",
+            "PriContactTitle": "dora"
+        },
+        "CompanyInfo": {
+            "City": "dora",
+            "CompanyName": "dora",
+            "Country": "USA",
+            "NYEmployees": 1,
+            "PostalCode": "12332",
+            "ProvinceChoice": null,
+            "StateChoice": "AK",
+            "StreetAddress": "123 dora",
+            "companyWebsite": "dora.com",
+            "companyYears": 1,
+            "corpType": "proprieter",
+            "numTotalEmployees": 1,
+            "ownershipYears": 1,
+            "taxId": "991190001"
+        },
+        "ContactInfo": {
+            "Contact1": {
+                "contactEmail1": "boots@dora.com",
+                "contactFirstName1": "boots",
+                "contactLastName1": "boots",
+                "contactPhone1": "1231231232",
+                "contactTitle1": "boots"
+            },
+            "Contact2": {
+                "contactEmail2": "swiper@dora.com",
+                "contactFirstName2": "swipper",
+                "contactLastName2": "swiper",
+                "contactPhone2": "1231231313",
+                "contactTitle2": "swiping"
+            }
+        }
+    },
+    "AccountStep:CompanyInfo:State": "AK",
+    "AcknowledgementStep": {
+        "AcknowledgmentBlock": {
+            "agreementDate": "2021-10-12",
+            "agreementEmail": "aminadab.morales@salesforce.com",
+            "agreementFirstName": "a",
+            "agreementLastName": "s",
+            "agreementPhone": "1231231231",
+            "agreementSignature": "a s",
+            "agreementTitle": "adf"
+        },
+        "Disclosure1": true
+    },
+    "BusinessStep": {
+        "BusinessInfo": {
+            "BusinessClassification": {
+                "businessClassification1": "Veteran Owned Business"
+            },
+            "BusinessTypeBlock": {
+                "businessType1": "Consultant"
+            },
+            "SpecialtyBlock": {
+                "specialtyType1": "Air Flow Management"
+            }
+        },
+        "LicensesBlock": {
+            "license1": {
+                "licenseExp1": null
+            },
+            "license2": {
+                "licenseExp2": null
+            },
+            "license3": {
+                "licenseExp3": null
+            }
+        },
+        "ProgramOptionsBlock": {
+            "Block1": {
+                "otherViolation": null,
+                "violation": "no",
+                "violationProgram": null
+            },
+            "Block2": {
+                "Referral": "ConEdison Employee",
+                "otherReferral": null
+            },
+            "FuelSpecialtyBlock": {
+                "fuelSpecialty1": "Gas"
+            },
+            "ServiceAreaBlock": {
+                "serviceArea1": "All",
+                "serviceArea2": null,
+                "serviceArea3": null,
+                "serviceArea4": null,
+                "serviceArea5": null,
+                "serviceArea6": null
+            }
+        }
+    },
+    "COIStep": {
+        "COIBlock": {
+            "COIAddress": "123 coi",
+            "COICompanyName": "dora coi",
+            "COICountry": "Canada",
+            "coiCity": "coi",
+            "coiContactName": "boots dora",
+            "coiCoverageAmount": 1231231231231,
+            "coiCoverages": "dfsdf",
+            "coiEffDate": "2021-09-29",
+            "coiExpDate": "2021-11-17",
+            "coiPhone": "1231231231",
+            "coiProvinceChoice": "BC",
+            "coiStateChoice": null,
+            "coiZip": 2312312312312
+        },
+        "WorkersCompBlock": {
+            "WCAccident": null,
+            "WCDisease": null,
+            "WCEffDate": null,
+            "WCExpDate": null,
+            "WCLiabilityName": null,
+            "WCPolicyLimit": null,
+            "provideWorkersComp": false
+        }
+    },
+    "CustomerReferencesStep": {
+        "CustomerReferencesBlock": {
+            "reference1": {
+                "referenceCompany1": "dora co",
+                "referenceContact1": "dora boots",
+                "referenceDescription1": "dfdf",
+                "referenceTelephone1": "2312313132"
+            },
+            "reference2": {
+                "referenceCompany2": "asdf",
+                "referenceContact2": "asdf",
+                "referenceDescription2": "asdf",
+                "referenceTelephone2": "2312312312"
+            },
+            "reference3": {
+                "referenceCompany3": "asdf",
+                "referenceContact3": "asdf",
+                "referenceDescription3": "df",
+                "referenceTelephone3": "2131231231"
+            }
+        }
+    },
+    "ExistingAccount": "valid",
+    "InstructionsStep": {
+        "hasDocuments": true
+    },
+    "PreviewStep": {
+        "Block15": {
+            "Block16": {
+                "Telephone1": null,
+                "Text36": "dora co",
+                "Text40": "dora boots",
+                "Text42": "dfdf"
+            },
+            "Block17": {
+                "Telephone2": null,
+                "Text41": "asdf",
+                "Text43": "asdf",
+                "Text44": "asdf"
+            },
+            "Block18": {
+                "Telephone3": null,
+                "Text45": "asdf",
+                "Text47": "df",
+                "Text48": "asdf"
+            }
+        },
+        "Block19": {
+            "Date4": "2021-09-29",
+            "Date5": "2021-11-17",
+            "Text46": "dora coi",
+            "Text49": "123 coi",
+            "Text50": "coi",
+            "Text51": "BC",
+            "Text52": "BC",
+            "Text53": "boots dora",
+            "Text54": "1231231231",
+            "Text56": "dfsdf"
+        },
+        "Block20": null,
+        "BusinessInfoReview": {
+            "Block4": {
+                "Text9": "Veteran Owned Business"
+            },
+            "Block5": {
+                "Text12": "Consultant"
+            },
+            "Block6": {
+                "Text16": "Air Flow Management"
+            }
+        },
+        "CompanyInfoBlock": {
+            "previewCity": "dora",
+            "previewCompany": "dora",
+            "previewCorpType": "proprieter",
+            "previewStreet": "123 dora",
+            "previewTaxId": "991190001",
+            "previewWebsite": "dora.com",
+            "previewZip": "12332"
+        },
+        "ServiceAreaPreview": {
+            "Block10": {
+                "Text27": null,
+                "Text28": "ConEdison Employee"
+            },
+            "Block3": {
+                "Text1": "All"
+            },
+            "Block7": {
+                "Text18": "Gas"
+            },
+            "Block8": {
+                "Text22": "Gas"
+            },
+            "Block9": {
+                "Text24": null,
+                "Text25": "no",
+                "Text26": null
+            },
+            "previewProgramOptionsBlock": {
+                "Text29": "BQDM Small Commercial;"
+            }
+        },
+        "accountInfoBlock": {
+            "previewEmail": "aminadab.morales@salesforce.com",
+            "previewFirstName": "dora",
+            "previewLastName": "dora",
+            "previewPhone": "1231231231",
+            "previewTitle": "dora"
+        },
+        "contactInfo": {
+            "ContactReview1": {
+                "previewContactEmail1": "boots@dora.com",
+                "previewContactPhone1": "1231231232",
+                "previewContactTitle1": "boots"
+            },
+            "ContactReview2": {
+                "previewContactEmail2": "swiper@dora.com",
+                "previewContactPhone2": "1231231313",
+                "previewContactTitle2": "swiping"
+            }
+        }
+    },
+    "agreementFullName": "a s",
+    "businessSpecialty": "Air Flow Management,,",
+    "businessTypes": "Consultant,,,",
+    "coiState": "BC",
+    "favoriteOptions": "BQDM Small Commercial;",
+    "serviceAreas": "All,,,,,",
+    "test": "test",
+    "timeStamp": "2021-10-07T18:25:29.547Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

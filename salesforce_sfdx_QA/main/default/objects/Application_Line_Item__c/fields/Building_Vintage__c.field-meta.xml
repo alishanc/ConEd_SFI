@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Vintage__c</fullName>
+    <externalId>false</externalId>
+    <label>Building Vintage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-War Uninsulated Brick</fullName>
+                <default>false</default>
+                <label>Pre-War Uninsulated Brick</label>
+            </value>
+            <value>
+                <fullName>Prior to 1979</fullName>
+                <default>false</default>
+                <label>Prior to 1979</label>
+            </value>
+            <value>
+                <fullName>From 1979 Through 2006</fullName>
+                <default>false</default>
+                <label>From 1979 Through 2006</label>
+            </value>
+            <value>
+                <fullName>From 2007 Through Present</fullName>
+                <default>false</default>
+                <label>From 2007 Through Present</label>
+            </value>
+            <value>
+                <fullName>Old</fullName>
+                <default>false</default>
+                <label>Old</label>
+            </value>
+            <value>
+                <fullName>Average</fullName>
+                <default>false</default>
+                <label>Average</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Pre-War Uninsulated Black EMS</fullName>
+                <default>false</default>
+                <label>Pre-War Uninsulated Black EMS</label>
+            </value>
+            <value>
+                <fullName>Prior to 1979 EMS</fullName>
+                <default>false</default>
+                <label>Prior to 1979 EMS</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

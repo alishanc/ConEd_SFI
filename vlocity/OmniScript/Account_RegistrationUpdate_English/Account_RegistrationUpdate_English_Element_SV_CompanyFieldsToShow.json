@@ -1,0 +1,44 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AccountAuthorizationUpdate",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/RegistrationUpdate/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "showCC": "=IF(CONTAINS(%fields%, \"TXT_CC\"), \"show\", false)",
+            "showCN": "=IF(CONTAINS(%fields%, \"TXT_CN\"), \"show\", false)",
+            "showCNTE": "=IF(CONTAINS(%fields%, \"NUM_CNTE\"), \"show\", false)",
+            "showCNYE": "=IF(CONTAINS(%fields%, \"NUM_CNYE\"), \"show\", false)",
+            "showCS": "=IF(CONTAINS(%fields%, \"SLCT_CS\"), \"show\", false)",
+            "showCSA": "=IF(CONTAINS(%fields%, \"TXT_CSA\"), \"show\", false)",
+            "showCT": "=IF(CONTAINS(%fields%, \"SLCT_CT\"), \"show\", false)",
+            "showCW": "=IF(CONTAINS(%fields%, \"TXT_CW\"), \"show\", false)",
+            "showCYB": "=IF(CONTAINS(%fields%, \"NUM_CYB\"), \"show\", false)",
+            "showCYCO": "=IF(CONTAINS(%fields%, \"NUM_CYCO\"), \"show\", false)",
+            "showCZ": "=IF(CONTAINS(%fields%, \"NUM_CZ\"), \"show\", false)"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV_CompanyFieldsToShow",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/RegistrationUpdate/English/SV_CompanyFieldsToShow"
+}

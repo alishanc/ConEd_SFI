@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discrepancy_3__c</fullName>
+    <externalId>false</externalId>
+    <label>Discrepancy 3</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Discrepancy_Category_3__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Application_Task_Discrepancy</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Completion Certificate</controllingFieldValue>
+            <valueName>Cert Not Signed by Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completion Certificate</controllingFieldValue>
+            <valueName>Cert Not Signed by Participating Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completion Certificate</controllingFieldValue>
+            <valueName>Did Not Provide Accurate Project Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completion Certificate</controllingFieldValue>
+            <valueName>Did Not Provide Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completion Certificate</controllingFieldValue>
+            <valueName>Customer Signature Not Associated With Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Post Inspection</controllingFieldValue>
+            <valueName>Missing Completed Post Inspection Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Final Engineering Review</controllingFieldValue>
+            <valueName>Total Savings Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Final Engineering Review</controllingFieldValue>
+            <valueName>Total Project Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Final Engineering Review</controllingFieldValue>
+            <valueName>Total Incentive Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Failed Measurement Validation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Application or W-9 Not Signed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Inaccurate Mailing Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Payment Recipient &amp; Payee Contact or Account Doesn't Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>W-9 and Application Name Doesn't Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Outdated W-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Missing NTP/CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Inaccurate Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Missing Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Missing Post Inspection Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Missing FIOL Attachment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ops Final Peer Review</controllingFieldValue>
+            <valueName>Participating Contractor Inaccurate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invalid Submission</controllingFieldValue>
+            <valueName>Submitted Project Outside of Portal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invalid Submission</controllingFieldValue>
+            <valueName>Wrong Program Year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Doesn't Match Account Name and/or Address In DMTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Wrong Account Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Did Not Provide Estimated Completion Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Inaccurate Participating Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Doesn't Match Payee Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application</controllingFieldValue>
+            <valueName>Application Not Signed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>W-9</controllingFieldValue>
+            <valueName>Outdated Year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>W-9</controllingFieldValue>
+            <valueName>Doesn't Match Application or Payee Authorization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>W-9</controllingFieldValue>
+            <valueName>Inaccurate Tax ID Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>W-9</controllingFieldValue>
+            <valueName>Missing Tax ID Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>W-9</controllingFieldValue>
+            <valueName>W-9 Not Signed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Wrong Tool (Outdated)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Missing or Inaccurate Information on Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Did Not Provide Measures (PC's - IN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Inaccurate Customer Proposal / SOW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Did Not Provide Detailed SOW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Did Not Provide Cut Sheets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Did Not Provide DLC's and/or Energy Star Certification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prescriptive / Custom Projects</controllingFieldValue>
+            <valueName>Did Not Provide Project Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chiller Tune - Up (Prescriptive)</controllingFieldValue>
+            <valueName>Did Not Provide Pictures of Chillers &amp; Nameplate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chiller Tune - Up (Prescriptive)</controllingFieldValue>
+            <valueName>Did Not Provide Manufacturer Tune-Up Procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting Power Density (LPD) (Custom)</controllingFieldValue>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Reflected Ceiling Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting Power Density (LPD) (Custom)</controllingFieldValue>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Lighting Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lighting Power Density (LPD) (Custom)</controllingFieldValue>
+            <valueName>Missing COMCheck analysis (Signed &amp; Sealed)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMS / EMS (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Mechanical equipment schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMS / EMS (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Existing &amp; proposed sequence of operations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Cost of code compliant equipment vs cost of efficient equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Cutsheets for code compliant equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Proof of equipment operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Existing equipment cutsheet (if available)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Proof of age of existing equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Estimated equipment life remaining (years)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Extended Life / Early Replacement (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide 3 years of maintenance/repair records </valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Scope of Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Cutsheet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing/Incomplete Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Custom Calculations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Cost Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing DLC Screen Shot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Sequence of Operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Boiler Nameplate Pic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Steam Trap Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Steam Trap Survey Cost (Invoice)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Application Package</controllingFieldValue>
+            <valueName>Missing Signed COMCHECK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inadequate Documentation</controllingFieldValue>
+            <valueName>Vague Scope of Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inadequate Documentation</controllingFieldValue>
+            <valueName>Unsatisfactory Cutsheet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inadequate Documentation</controllingFieldValue>
+            <valueName>Vague Cost Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inadequate Documentation</controllingFieldValue>
+            <valueName>Vague Sequence of Operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questionable Calculations</controllingFieldValue>
+            <valueName>Unsupported Assumptions/Variables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questionable Calculations</controllingFieldValue>
+            <valueName>Incorrect Baseline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questionable Calculations</controllingFieldValue>
+            <valueName>Proposed Equipment does not meet Minimum Code Requirement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questionable Calculations</controllingFieldValue>
+            <valueName>Calculations do not meet Program Requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Detailed Scope of Work/Sequence of Operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Formal Cost Proposal for Proposed Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Formal Cost Proposal for Code-Compliant Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Proof of Equipment Functionality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Docs to Support Existing Unit Efficiency Rating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Age of Existing Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete ER/EL Documentation</controllingFieldValue>
+            <valueName>Missing Repair Costs supported by Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Final Package</controllingFieldValue>
+            <valueName>Missing Completion Certificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Final Package</controllingFieldValue>
+            <valueName>Missing Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incomplete Final Package</controllingFieldValue>
+            <valueName>Missing Approved NYC DOB Permit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Cost Issue</controllingFieldValue>
+            <valueName>Invoice does not meet program requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Cost Issue</controllingFieldValue>
+            <valueName>Material/Labor Cost Unclear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Cost Issue</controllingFieldValue>
+            <valueName>CC &amp; Invoice Irreconcilable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMTS Error</controllingFieldValue>
+            <valueName>Incorrect Savings/Incentives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DMTS Error</controllingFieldValue>
+            <valueName>Error Messages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pipe Insulation (Custom)</controllingFieldValue>
+            <controllingFieldValue>Steam Traps (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Pictures of Boiler &amp; Nameplate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pipe Insulation (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Pipe Insulation Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Steam Traps (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Steam Trap Survey Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Steam Traps (Custom)</controllingFieldValue>
+            <valueName>Did Not Provide Steam Trap Survey Tool</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Measure_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Measure Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Motors and Drives</fullName>
+                <default>false</default>
+                <label>Motors and Drives</label>
+            </value>
+            <value>
+                <fullName>Refrigeration</fullName>
+                <default>false</default>
+                <label>Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Building Shell</fullName>
+                <default>false</default>
+                <label>Building Shell</label>
+            </value>
+            <value>
+                <fullName>Compressed Air</fullName>
+                <default>false</default>
+                <label>Compressed Air</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+                <label>HVAC</label>
+            </value>
+            <value>
+                <fullName>HVAC - Control</fullName>
+                <default>false</default>
+                <label>HVAC - Control</label>
+            </value>
+            <value>
+                <fullName>Lighting - Control</fullName>
+                <default>false</default>
+                <label>Lighting - Control</label>
+            </value>
+            <value>
+                <fullName>Lighting</fullName>
+                <default>false</default>
+                <label>Lighting</label>
+            </value>
+            <value>
+                <fullName>Refrigeration - Control</fullName>
+                <default>false</default>
+                <label>Refrigeration - Control</label>
+            </value>
+            <value>
+                <fullName>Domestic Hot Water - Control</fullName>
+                <default>false</default>
+                <label>Domestic Hot Water - Control</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

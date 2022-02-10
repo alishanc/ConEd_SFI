@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Options__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Options</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BQDM Commercial</fullName>
+                <default>false</default>
+                <label>BQDM Commercial</label>
+            </value>
+            <value>
+                <fullName>BQDM Multi-Family</fullName>
+                <default>false</default>
+                <label>BQDM Multi-Family</label>
+            </value>
+            <value>
+                <fullName>BQDM Small Commercial</fullName>
+                <default>false</default>
+                <label>BQDM Small Commercial</label>
+            </value>
+            <value>
+                <fullName>Commercial Direct Install</fullName>
+                <default>false</default>
+                <label>Commercial Direct Install</label>
+            </value>
+            <value>
+                <fullName>Demand Mgt Program</fullName>
+                <default>false</default>
+                <label>Demand Mgt Program</label>
+            </value>
+            <value>
+                <fullName>Demand Response (Pre-Apprvd)</fullName>
+                <default>false</default>
+                <label>Demand Response (Pre-Apprvd)</label>
+            </value>
+            <value>
+                <fullName>HVAC Upstream Electric</fullName>
+                <default>false</default>
+                <label>HVAC Upstream Electric</label>
+            </value>
+            <value>
+                <fullName>HVAC Upstream Gas</fullName>
+                <default>false</default>
+                <label>HVAC Upstream Gas</label>
+            </value>
+            <value>
+                <fullName>Instant Lightning Incentive Participant</fullName>
+                <default>false</default>
+                <label>Instant Lightning Incentive Participant</label>
+            </value>
+            <value>
+                <fullName>Inst Lgt Incent Apprvd Distr(Pre-Apprvd)</fullName>
+                <default>false</default>
+                <label>Inst Lgt Incent Apprvd Distr(Pre-Apprvd)</label>
+            </value>
+            <value>
+                <fullName>Large Commercial and Industrial</fullName>
+                <default>false</default>
+                <label>Large Commercial and Industrial</label>
+            </value>
+            <value>
+                <fullName>Multi-Family Program</fullName>
+                <default>false</default>
+                <label>Multi-Family Program</label>
+            </value>
+            <value>
+                <fullName>Non-Wire Solution Program</fullName>
+                <default>false</default>
+                <label>Non-Wire Solution Program</label>
+            </value>
+            <value>
+                <fullName>Commercial &amp; Industrial Program</fullName>
+                <default>false</default>
+                <label>Commercial &amp; Industrial Program</label>
+            </value>
+            <value>
+                <fullName>Small-Medium Business Program</fullName>
+                <default>false</default>
+                <label>Small-Medium Business Program</label>
+            </value>
+            <value>
+                <fullName>Residential Program</fullName>
+                <default>false</default>
+                <label>Residential Program</label>
+            </value>
+            <value>
+                <fullName>Instant Lighting Program</fullName>
+                <default>false</default>
+                <label>Instant Lighting Program</label>
+            </value>
+            <value>
+                <fullName>Small-Medium Business Clean Heat</fullName>
+                <default>false</default>
+                <label>Small-Medium Business Clean Heat</label>
+            </value>
+            <value>
+                <fullName>Small-Medium Business Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Small-Medium Business Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Residential Clean Heat</fullName>
+                <default>false</default>
+                <label>Residential Clean Heat</label>
+            </value>
+            <value>
+                <fullName>Residential Smart Kids</fullName>
+                <default>false</default>
+                <label>Residential Smart Kids</label>
+            </value>
+            <value>
+                <fullName>Residential Retail Lighting</fullName>
+                <default>false</default>
+                <label>Residential Retail Lighting</label>
+            </value>
+            <value>
+                <fullName>Residential Market Place</fullName>
+                <default>false</default>
+                <label>Residential Market Place</label>
+            </value>
+            <value>
+                <fullName>Residential HVAC</fullName>
+                <default>false</default>
+                <label>Residential HVAC</label>
+            </value>
+            <value>
+                <fullName>Residential Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Residential Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Weatherization</fullName>
+                <default>false</default>
+                <label>Weatherization</label>
+            </value>
+            <value>
+                <fullName>Non-Pipe Solutions: Geothermal Heat Pumps</fullName>
+                <default>false</default>
+                <label>Non-Pipe Solutions: Geothermal Heat Pumps</label>
+            </value>
+            <value>
+                <fullName>Demand Response Management System_Distributed Load Relief Program</fullName>
+                <default>false</default>
+                <label>Demand Response Management System_Distributed Load Relief Program</label>
+            </value>
+            <value>
+                <fullName>Demand Response Management System_Commercial System Relief Program</fullName>
+                <default>false</default>
+                <label>Demand Response Management System_Commercial System Relief Program</label>
+            </value>
+            <value>
+                <fullName>Multi-Family Clean Heat</fullName>
+                <default>false</default>
+                <label>Multi-Family Clean Heat</label>
+            </value>
+            <value>
+                <fullName>Multi-Family Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Multi-Family Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Commercial &amp; Industrial Clean Heat</fullName>
+                <default>false</default>
+                <label>Commercial &amp; Industrial Clean Heat</label>
+            </value>
+            <value>
+                <fullName>Non-Lighting Commercial Upstream</fullName>
+                <default>false</default>
+                <label>Non-Lighting Commercial Upstream</label>
+            </value>
+            <value>
+                <fullName>Commercial &amp; Industrial Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Commercial &amp; Industrial Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Instant Lighting</fullName>
+                <default>false</default>
+                <label>Instant Lighting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

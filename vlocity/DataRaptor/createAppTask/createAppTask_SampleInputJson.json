@@ -1,0 +1,37 @@
+{
+    "ApplicationStatus": "Post-Inspection",
+    "ContextId": "a0L8G000000SbbNUAS",
+    "DRId_%vlocity_namespace%__Application__c": "a0L8G000000SbbNUAS",
+    "DRId_Application_Task__c": "a6E8G000000IKKJUA4",
+    "STEP_SafetyChecklist": {
+        "RAD_AdvisoriesInArea": "No",
+        "SLCT_ActiveConstructionSite": "Yes",
+        "SLCT_AsbestosFree": "Yes",
+        "SLCT_CovidTestingRequirements": "Yes",
+        "SLCT_FaceProtection": "Yes",
+        "SLCT_FootProtection": "Yes",
+        "SLCT_HaveYouStartedConstruction": "Yes",
+        "SLCT_HazardousConditions": "Yes",
+        "SLCT_HeadProtection": "Yes",
+        "SLCT_HearingProtection": "Yes",
+        "SLCT_LegionellaFree": "Yes",
+        "SLCT_ProofOfVaccination": "Yes",
+        "SLCT_RequiringProtectiveEquipment": "Yes",
+        "SLCT_SpecialProcedures": "Yes",
+        "TXT_AdvisoryInfo": "okie dokie"
+    },
+    "STEP_ScheduleInspection": {
+        "DATE_PostInspection": "2021-12-16T08:00:00.000Z",
+        "DATE_PreInspection": "2021-12-16T08:00:00.000Z",
+        "FRM_ScheduledForHoliday": false,
+        "TIME_PreInspection": "01:30:00.000Z"
+    },
+    "TaskName": "Post-InspectionScheduled",
+    "customerEmail": "kyle.russell@salesforce.com",
+    "timeStamp": "2021-12-14T20:46:52.636Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UAgSQAW",
+    "userName": "kyle.russell@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480"
+}

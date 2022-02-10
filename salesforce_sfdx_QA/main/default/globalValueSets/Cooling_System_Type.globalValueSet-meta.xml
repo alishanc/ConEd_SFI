@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Split System AC</fullName>
+        <default>false</default>
+        <label>Split System AC</label>
+    </customValue>
+    <customValue>
+        <fullName>Packaged System AC</fullName>
+        <default>false</default>
+        <label>Packaged System AC</label>
+    </customValue>
+    <customValue>
+        <fullName>Heat Pump</fullName>
+        <default>false</default>
+        <label>Heat Pump</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Chiller</fullName>
+        <default>false</default>
+        <label>Electric Chiller</label>
+    </customValue>
+    <customValue>
+        <fullName>Room/Window AC</fullName>
+        <default>false</default>
+        <label>Room/Window AC</label>
+    </customValue>
+    <customValue>
+        <fullName>VRF or VRV</fullName>
+        <default>false</default>
+        <label>VRF or VRV</label>
+    </customValue>
+    <customValue>
+        <fullName>PTAC/PTHP</fullName>
+        <default>false</default>
+        <label>PTAC/PTHP</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Cooled Ammonia Screw Compressors</fullName>
+        <default>false</default>
+        <label>Water Cooled Ammonia Screw Compressors</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>Cooling System Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

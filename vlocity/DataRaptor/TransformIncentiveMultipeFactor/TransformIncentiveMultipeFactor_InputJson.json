@@ -1,0 +1,14 @@
+{
+    "input": {
+        "Location": "",
+        "MeasureCategory": "HVAC",
+        "MeasureCode": "COM-HVAC-ACUAC",
+        "MeasureCost": 10000,
+        "Watts": "",
+        "compressorHp": 50,
+        "delkWh": 36,
+        "glazingArea": 25,
+        "kwh": 1459,
+        "quantity": 1
+    }
+}

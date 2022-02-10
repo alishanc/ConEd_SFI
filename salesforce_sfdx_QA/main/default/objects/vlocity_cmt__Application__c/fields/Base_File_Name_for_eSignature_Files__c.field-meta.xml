@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_File_Name_for_eSignature_Files__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(YEAR(TODAY())) + RIGHT("0" + TEXT(MONTH(TODAY())),2) + RIGHT("0" + TEXT(DAY(TODAY())),2) + TEXT(HOUR(TIMEVALUE(Now()))) + RIGHT("0" + TEXT(MINUTE(TIMENOW())),2) + RIGHT("0" + TEXT(SECOND(TIMENOW())),2)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Base File Name for eSignature Files</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_C_I_Review_Result__c</fullName>
+    <description>Eligibility Result</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Eligibility Result</inlineHelpText>
+    <label>C&amp;I Review Result</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approved Both</fullName>
+                <default>false</default>
+                <label>Approved Both</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Approved Electric</fullName>
+                <default>false</default>
+                <label>Approved Electric</label>
+            </value>
+            <value>
+                <fullName>Approved Gas</fullName>
+                <default>false</default>
+                <label>Approved Gas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

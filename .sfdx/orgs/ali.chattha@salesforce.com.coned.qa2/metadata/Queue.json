@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055Y00000EuxceQAB",
+    "createdByName": "Admin User",
+    "createdDate": "2021-02-26T17:35:43.000Z",
+    "fileName": "queues/Q1.queue",
+    "fullName": "Q1",
+    "id": "00G5Y000005rVm9UAE",
+    "lastModifiedById": "0055Y00000EuxceQAB",
+    "lastModifiedByName": "Admin User",
+    "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+    "type": "Queue"
+  }
+}

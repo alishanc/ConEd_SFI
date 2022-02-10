@@ -1,0 +1,30 @@
+{
+    "STEP_SafetyChecklist": {
+        "111 SLCT_RequiringProtectiveEquipment": "Yes",
+        "RAD_AdvisoriesInArea": "Yes",
+        "SLCT_ActiveConstructionSite": "Yes",
+        "SLCT_AsbestosFree": "Yes",
+        "SLCT_CovidTestingRequirements": "Yes",
+        "SLCT_FaceProtection": "Yes",
+        "SLCT_FootProtection": "Yes",
+        "SLCT_HaveYouStartedConstruction": "Yes",
+        "SLCT_HazardousConditions": "Yes",
+        "SLCT_HeadProtection": "Yes",
+        "SLCT_HearingProtection": "Yes",
+        "SLCT_LegionellaFree": "Yes",
+        "SLCT_ProofOfVaccination": "Yes",
+        "SLCT_SpecialProcedures": "Yes",
+        "TXT_AdvisoryInfo": "asdf"
+    },
+    "STEP_SchedulePreInspection": {
+        "DATE_PreInspection": "2021-12-08",
+        "FRM_ScheduledForHoliday": false,
+        "TIME_PreInspection": "00:30:00.000Z"
+    },
+    "timeStamp": "2021-12-13T14:25:10.664Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UAgSQAW",
+    "userName": "kyle.russell@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480"
+}

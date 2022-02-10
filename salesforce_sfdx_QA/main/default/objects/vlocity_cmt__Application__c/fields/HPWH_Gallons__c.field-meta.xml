@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HPWH_Gallons__c</fullName>
+    <description>Clean Heat Proposed Technology sub item for Heat Pump Water Heater.  Less than or Greater Than 120 Gallons.</description>
+    <externalId>false</externalId>
+    <label>HPWH Gallons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LessThan</fullName>
+                <default>false</default>
+                <label>LessThan</label>
+            </value>
+            <value>
+                <fullName>GreaterThan</fullName>
+                <default>false</default>
+                <label>GreaterThan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

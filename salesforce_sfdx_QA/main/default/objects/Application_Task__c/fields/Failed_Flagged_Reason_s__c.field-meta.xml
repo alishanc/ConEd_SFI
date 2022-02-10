@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failed_Flagged_Reason_s__c</fullName>
+    <externalId>false</externalId>
+    <label>Failed / Flagged Reason(s)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quantity Differential</fullName>
+                <default>false</default>
+                <label>Quantity Differential</label>
+            </value>
+            <value>
+                <fullName>Measure Type/Measure Name Incorrect</fullName>
+                <default>false</default>
+                <label>Measure Type/Measure Name Incorrect</label>
+            </value>
+            <value>
+                <fullName>Installation Completed before / Pre Inspection</fullName>
+                <default>false</default>
+                <label>Installation Completed before / Pre Inspection</label>
+            </value>
+            <value>
+                <fullName>Equipment not operational</fullName>
+                <default>false</default>
+                <label>Equipment not operational</label>
+            </value>
+            <value>
+                <fullName>Measure not installed for Post Inspection</fullName>
+                <default>false</default>
+                <label>Measure not installed for Post Inspection</label>
+            </value>
+            <value>
+                <fullName>Missing Critical / Essential Information</fullName>
+                <default>false</default>
+                <label>Missing Critical / Essential Information</label>
+            </value>
+            <value>
+                <fullName>No Access / Unable to Verify</fullName>
+                <default>false</default>
+                <label>No Access / Unable to Verify</label>
+            </value>
+            <value>
+                <fullName>Equipment not qualified</fullName>
+                <default>false</default>
+                <label>Equipment not qualified</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+            <value>
+                <fullName>Flagged</fullName>
+                <default>false</default>
+                <label>Flagged</label>
+            </value>
+            <value>
+                <fullName>Incorrect Hours of Operation</fullName>
+                <default>false</default>
+                <label>Incorrect Hours of Operation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

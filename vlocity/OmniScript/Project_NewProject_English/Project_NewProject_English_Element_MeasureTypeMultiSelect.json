@@ -1,0 +1,126 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "createNewProject",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "createNewProject",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "STEP_MeasureType",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/STEP_MeasureType",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "STEP_MeasureType",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "documentNames": [
+            "CACBBABEAf5ad58bcba684cf2bc4fd19f8ad88985",
+            "CACBBABEA66341f7ad6494b218412fe5620580d86",
+            "CACBBABEAaa34af42d02f4389bbf69158fc2f3fba",
+            "CACBBABEAeaeaf845b9294d669624516464bb20f2",
+            "CACBBABEA40733655f211466fb4182ae68b0ea39d",
+            "CACBBABEA071a61a9dc6b4c518c4b194ee0ec0a70",
+            "CACBBABEAaf8b7a78f01e4878bc517880f9316348",
+            "CACBBABEAe30bc72a5f16498081e8135f09cfb0d4",
+            "CACBBABEAb07893cbdc2345c9b99c342b2fbab3a8",
+            "CACBBABEA26dbc8557e3849e2baeeb6b19413c29a"
+        ],
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 3,
+        "inputWidth": 12,
+        "label": null,
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": "image"
+        },
+        "optionWidth": 50,
+        "options": [
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HEDAA2&&docName=CACBBABEAf5ad58bcba684cf2bc4fd19f8ad88985&&oid=00D030000008pDyEAI",
+                "name": "Building Shell",
+                "value": "Building Shell"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HDyAAM&&docName=CACBBABEA66341f7ad6494b218412fe5620580d86&&oid=00D030000008pDyEAI",
+                "name": "Compressed Air",
+                "value": "Compressed Air"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HE8AAM&&docName=CACBBABEAaa34af42d02f4389bbf69158fc2f3fba&&oid=00D030000008pDyEAI",
+                "name": "HVACMain",
+                "value": "HVAC"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HE3AAM&&docName=CACBBABEAeaeaf845b9294d669624516464bb20f2&&oid=00D030000008pDyEAI",
+                "name": "HVACControl",
+                "value": "HVAC - Control"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HDoAAM&&docName=CACBBABEA40733655f211466fb4182ae68b0ea39d&&oid=00D030000008pDyEAI",
+                "name": "LightingMain",
+                "value": "Lighting"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HDZAA2&&docName=CACBBABEA071a61a9dc6b4c518c4b194ee0ec0a70&&oid=00D030000008pDyEAI",
+                "name": "LightingControl",
+                "value": "Lighting - Control"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HEIAA2&&docName=CACBBABEAaf8b7a78f01e4878bc517880f9316348&&oid=00D030000008pDyEAI",
+                "name": "Motors and Drives",
+                "value": "Motors and Drives"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HDtAAM&&docName=CACBBABEAe30bc72a5f16498081e8135f09cfb0d4&&oid=00D030000008pDyEAI",
+                "name": "RefrigerationMain",
+                "value": "Refrigeration"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HDjAAM&&docName=CACBBABEAb07893cbdc2345c9b99c342b2fbab3a8&&oid=00D030000008pDyEAI",
+                "name": "RefrigerationControl",
+                "value": "Refrigeration  - Control"
+            },
+            {
+                "imgId": "../servlet/servlet.ImageServer?id=015030000001HDeAAM&&docName=CACBBABEA26dbc8557e3849e2baeeb6b19413c29a&&oid=00D030000008pDyEAI",
+                "name": "Custom",
+                "value": "Custom"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "MeasureTypeMultiSelect",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/MeasureTypeMultiSelect"
+}

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card  class="slds-align_absolute-center">
+
+        <!--
+            the src url here should be the published site domain in order to work properly for unauthenticated site users.
+            todo - possibly configure the controller to retrieve from a custom setting or service? is it possible to find the site domain via soql query?
+            is it worth the complexity?
+            
+        -->
+          <iframe width="600" height="300" src='https://qa-coned1.cs196.force.com/homepage/resource/conEdHomePage' allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
+   </lightning-card>
+  </template>

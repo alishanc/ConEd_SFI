@@ -1,0 +1,21 @@
+.border {
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 0 0 rgba(210,205,205,0.5), 1px 1px 0 0 rgba(209,203,203,0.5);
+}
+
+.new-label {
+    color: #2A2A2A !important;
+    size: 14px;
+}
+
+.buttons {
+    float: right;
+    color: #0078CF;
+    font-size: 16px;
+}
+
+.measure-section {
+    padding: 1rem 2rem;
+}

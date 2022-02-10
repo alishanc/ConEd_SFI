@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Submissions</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Action_Required__c</columns>
+    <columns>vlocity_cmt__Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>eSignature_Countdown__c</columns>
+    <columns>Project_Incentive_Amount__c</columns>
+    <columns>Total_kWH_Savings__c</columns>
+    <columns>Total_Therm_Savings__c</columns>
+    <columns>Total_MMBTU__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>vlocity_cmt__Status__c</field>
+        <operation>equals</operation>
+        <value>Estimate</value>
+    </filters>
+    <filters>
+        <field>vlocity_cmt__Status__c</field>
+        <operation>equals</operation>
+        <value>Pending Submission</value>
+    </filters>
+    <filters>
+        <field>vlocity_cmt__Status__c</field>
+        <operation>equals</operation>
+        <value>Pending eSignature</value>
+    </filters>
+    <label>Pending Submissions</label>
+</ListView>

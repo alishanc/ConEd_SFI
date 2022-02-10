@@ -1,0 +1,7 @@
+{
+    "input": {
+        "MeasureCode": "COM-REF-ASHC",
+        "MeasureCost": 12,
+        "doorsPerController": "1"
+    }
+}

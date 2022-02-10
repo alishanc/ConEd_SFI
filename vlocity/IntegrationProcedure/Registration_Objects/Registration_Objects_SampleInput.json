@@ -1,0 +1,296 @@
+{
+    "Account Information": "AccountInformationStep",
+    "AccountInformationStep": {
+        "AccountInfo": {
+            "PhoneNumber": "3423423422",
+            "PriContFirstName": "weez",
+            "PriContactEmail": "aminadab.morales@salesforce.com",
+            "PriContactLastName": "weez",
+            "PriContactTitle": "wee"
+        },
+        "CompanyInfo": {
+            "City": "wee",
+            "CompanyName": "wee",
+            "Country": "US",
+            "NYEmployees": 12,
+            "PostalCode": "12312",
+            "ProvinceChoice": null,
+            "StateChoice": "AL",
+            "StreetAddress": "123 wee",
+            "companyWebsite": "wee.com",
+            "companyYears": 12,
+            "corpType": "proprieter",
+            "numTotalEmployees": 12,
+            "ownershipYears": 12,
+            "taxId": "444333888"
+        }
+    },
+    "AcknowledgementStep": {
+        "AcknowledgmentBlock": {
+            "agreementDate": "2021-10-20",
+            "agreementEmail": "aminadab.morales@salesforce.com",
+            "agreementFirstName": "asdf",
+            "agreementLastName": "asdf",
+            "agreementPhone": "1231231231",
+            "agreementSignature": "asdf asdf",
+            "agreementTitle": "asdf"
+        },
+        "Disclosure1": true
+    },
+    "Business Information": "BusinessInformationStep",
+    "BusinessInformationStep": {
+        "BusinessInfo": {
+            "BusinessClassificationBlock": {
+                "businessClassification1": "Veteran Owned Business"
+            },
+            "BusinessTypeBlock": {
+                "businessType1": "Consultant"
+            },
+            "SpecialtyBlock": {
+                "specialtyType1": "Air Sealing"
+            }
+        },
+        "LicensesBlock": {
+            "license1": {
+                "licenseExp1": null,
+                "licenseType1": null
+            },
+            "license2": {
+                "licenseExp2": null
+            },
+            "license3": {
+                "licenseExp3": null
+            }
+        },
+        "ProgramOptionsBlock": {
+            "Block1": {
+                "otherViolation": null,
+                "violation": "no",
+                "violationProgram": null
+            },
+            "Block2": {
+                "Referral": "Website",
+                "otherReferral": null
+            },
+            "FuelSpecialtyBlock": {
+                "fuelSpecialty1": "Electric",
+                "fuelSpecialty2": "Gas"
+            },
+            "ServiceAreaBlock": {
+                "serviceArea1": "Brooklyn",
+                "serviceArea2": "Bronx"
+            }
+        }
+    },
+    "COIStep": {
+        "COIBlock": {
+            "COIAddress": "1312 adsf",
+            "COICompanyName": "asdfadf",
+            "COICountry": "CA",
+            "coiCity": "asdf",
+            "coiContactName": "asdfafd",
+            "coiCoverageAmount": 1231231231211,
+            "coiCoverages": "afadfadf",
+            "coiEffDate": "2021-09-29",
+            "coiExpDate": "2021-12-01",
+            "coiPhone": "2131232131",
+            "coiProvinceChoice": "BC",
+            "coiStateChoice": null,
+            "coiZip": "12312"
+        },
+        "WorkersCompBlock": {
+            "WCAccident": 2321312,
+            "WCEffDate": "2021-09-29",
+            "WCEmployee": 123123,
+            "WCExpDate": "2021-10-20",
+            "WCLiabilityName": "asdfa",
+            "WCPolicyLimit": 123123,
+            "provideWorkersComp": true
+        }
+    },
+    "Certificate of Insurance (COI) Policy Information": "a",
+    "Company Information": "AccountInformationStep",
+    "CompanyState": "AL",
+    "Contact Information": "AccountInformationStep",
+    "Customer References": "a",
+    "CustomerReferencesStep": {
+        "CustomerReferencesBlock": {
+            "reference1": {
+                "referenceCompany1": "wee",
+                "referenceContact1": "wefwef",
+                "referenceDescription1": "dfadfa",
+                "referenceTelephone1": "1231231231"
+            },
+            "reference2": {
+                "referenceCompany2": "asdfadsf",
+                "referenceContact2": "asdfaf",
+                "referenceDescription2": "adfasdf",
+                "referenceTelephone2": "1231232312"
+            },
+            "reference3": {
+                "referenceCompany3": "afasfdas",
+                "referenceContact3": "asdfasdfa",
+                "referenceDescription3": "asdfadfa",
+                "referenceTelephone3": "3213123123"
+            }
+        }
+    },
+    "ExistingAccount": "valid",
+    "InstructionsStep": {
+        "hasDocuments": true
+    },
+    "Licenses & Certifications": "a",
+    "PreviewStep": {
+        "Block15": {
+            "Block16": {
+                "Telephone1": null,
+                "Text36": "wee",
+                "Text40": "wefwef",
+                "Text42": "dfadfa"
+            },
+            "Block17": {
+                "Telephone2": null,
+                "Text41": "asdfadsf",
+                "Text43": "asdfaf",
+                "Text44": "adfasdf"
+            },
+            "Block18": {
+                "Telephone3": null,
+                "Text45": "afasfdas",
+                "Text47": "asdfadfa",
+                "Text48": "asdfasdfa"
+            }
+        },
+        "Block19": {
+            "Date4": "2021-09-29",
+            "Date5": "2021-12-01",
+            "Text46": "asdfadf",
+            "Text49": "1312 adsf",
+            "Text50": "asdf",
+            "Text51": "BC",
+            "Text52": "BC",
+            "Text53": "asdfafd",
+            "Text54": "2131232131",
+            "Text56": "afadfadf"
+        },
+        "Block20": {
+            "Date6": "2021-10-20",
+            "Date7": "2021-09-29",
+            "Text57": "asdfa"
+        },
+        "BusinessInfoReview": {
+            "Block4": {
+                "Text9": "Veteran Owned Business"
+            },
+            "Block5": {
+                "Text12": "Consultant"
+            },
+            "Block6": {
+                "Text16": "Air Sealing"
+            }
+        },
+        "CompanyInfoBlock": {
+            "previewCity": "wee",
+            "previewCompany": "wee",
+            "previewCorpType": "proprieter",
+            "previewStreet": "123 wee",
+            "previewTaxId": "444333888",
+            "previewWebsite": "wee.com",
+            "previewZip": "12312"
+        },
+        "ServiceAreaPreview": {
+            "Block10": {
+                "Text27": null,
+                "Text28": "Website"
+            },
+            "Block3": {
+                "Text1": "Brooklyn",
+                "Text2": "Bronx",
+                "Text3": null,
+                "Text7": null,
+                "Text8": null
+            },
+            "Block7": {
+                "Text18": "Electric",
+                "Text19": "Gas"
+            },
+            "Block8": {
+                "Text21": "Gas",
+                "Text22": "Electric"
+            },
+            "Block9": {
+                "Text24": null,
+                "Text25": "no",
+                "Text26": null
+            },
+            "previewProgramOptionsBlock": {
+                "Text29": "Commercial Direct Install;BQDM Multi-Family;"
+            }
+        },
+        "accountInfoBlock": {
+            "previewEmail": "aminadab.morales@salesforce.com",
+            "previewFirstName": "wee",
+            "previewLastName": "wee",
+            "previewPhone": "3423423422",
+            "previewTitle": "wee"
+        },
+        "contactInfo": {
+            "ContactReview1": {
+                "previewContactEmail1": "boo@boo.com",
+                "previewContactFirst1": "boo",
+                "previewContactLast1": "boo",
+                "previewContactPhone1": "1232131231",
+                "previewContactTitle1": "boo"
+            }
+        }
+    },
+    "Service Area & Program Options": "d",
+    "Worker's Compensation (WC) and Employer's Liability": "a",
+    "agreementFullName": "asdf asdf",
+    "businessClassification": "Veteran Owned Business;;",
+    "businessSpecialty": "Air Sealing;;;",
+    "businessTypes": "Consultant",
+    "coiState": "BC",
+    "favoriteOptions": "Commercial Direct Install;BQDM Multi-Family;",
+    "fuelSpecialty": "Electric;Gas;",
+    "result": {
+        "Contact_1": [
+            {
+                "AccountId": "0018G0000058yyqQAA",
+                "UpsertError": "Required fields are missing: [Last Name] ",
+                "UpsertSuccess": false
+            }
+        ],
+        "error": true,
+        "errors": {
+            "createEmployeeContact": {
+                "1:0": {
+                    "1": "You're creating a duplicate record. We recommend you use an existing record instead. "
+                },
+                "3:0": {
+                    "1": "Required fields are missing: [Last Name] "
+                }
+            }
+        },
+        "errorsAsJson": {
+            "DRError": "Required fields are missing: Last Name",
+            "contactEmail": "",
+            "contactFirstName": "",
+            "contactLastName": "",
+            "contactPhone": "",
+            "contactTitle": "",
+            "parentAccountId": ""
+        },
+        "primaryContactId": "",
+        "responseType": "SObject"
+    },
+    "serviceAreas": "Brooklyn;Bronx;;;;",
+    "success": false,
+    "test": "test",
+    "timeStamp": "2021-10-20T13:00:36.944Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

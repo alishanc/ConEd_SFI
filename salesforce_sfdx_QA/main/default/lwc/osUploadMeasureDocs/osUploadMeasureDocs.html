@@ -1,0 +1,82 @@
+<template>
+    <template if:true={isPageLoading}>
+        <vlocity_cmt-spinner variant="brand" 
+            alternative-text="Loading..." 
+            theme={_theme} 
+            size="medium"></vlocity_cmt-spinner>
+    </template>
+    <div class="auto-margin nds-file-custom-selector nds-form-container nds-medium-size_10-of-12 nds-small-size_12-of-12">
+        <div class="dropzone auto-margin nds-file-selector__dropzone">
+            <div class="nds-form-element nds-p-around--small">
+                <slot>
+                    <div class={_containerClasses}>
+                        <div>
+                            <label class="nds-form-element__label omni-input-label" 
+                                aria-label={_propSetMap.label} 
+                                for="fileUpload">
+                                <abbr if:true={_propSetMap.required} class="nds-required" title="required">*</abbr>
+                                <span>{_propSetMap.label}</span>
+                            </label>
+                            <vlocity_cmt-tooltip if:true={_propSetMap.help} 
+                                class="nds-tooltip_container" 
+                                theme={_theme} 
+                                content={_propSetMap.helpText}>
+                            </vlocity_cmt-tooltip>
+                        </div>
+                        <div class="nds-m-bottom_medium nds-text-align_center nds-grid omni-file-input">
+                            <lightning-file-upload 
+                                label={_propSetMap.label}
+                                id="fileUpload"
+                                name={jsonDef.lwcId}
+                                accept={_propSetMap.acceptedFormats}
+                                record-id={scriptHeaderDef.sOmniScriptId}
+                                onuploadfinished={handleUploadFinished}
+                                multiple
+                                class="nds-has-dividers_around-space omni-file nds-m-bottom_xx-small nds-size_12-of-12 nds-medium-size_12-of-12">
+                            </lightning-file-upload>
+                        </div>
+                    </div>
+                </slot>
+                <slot name="files">
+                    <span id="upload-status" class="nds-assistive-text">{ariaLiveStatusText}</span>
+                    <div aria-labelledby="upload-status" aria-live={ariaLiveStatus}></div>
+                    <div class="nds-grid">
+                        <ul class="no-margin nds-has-dividers_around-space omni-file nds-file-list nds-file-list-lwc nds-m-bottom_xx-small nds-size_12-of-12 nds-medium-size_12-of-12" aria-live="polite">
+                            <template for:each={_value} for:item="item" for:index="index">
+                                <li key={item.data} class="nds-item">
+                                    <div class="nds-grid">
+                                        <span class="nds-m-bottom_xx-small nds-size_11-of-12 nds-medium-size_11-of-12 nds-truncate">
+                                            {item.filename}
+                                        </span>
+                                        <span class="remove-file-icon nds-m-bottom_xx-small nds-size_1-of-12 nds-medium-size_1-of-12 nds-text-align_right">
+                                            <button class="nds-button nds-button_icon"
+                                                title={item.deleteLabel}
+                                                onclick={deleteFile}
+                                                data-index={index}
+                                                data-id={item.data}>
+                                                <vlocity_cmt-icon theme={_theme}
+                                                    extraclass="nds-button__icon"
+                                                    iconposition="left"
+                                                    icon-name="action:delete"
+                                                    color="brand"
+                                                    alternative-text={item.deleteLabel}
+                                                    size="x-small"
+                                                    data-index={index}
+                                                    data-id={item.data}></vlocity_cmt-icon>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                </slot>
+            </div>
+        </div>
+        <div if:true={_showValidation} class="nds-has-error nds-medium-size_8-of-12 nds-small-size_8-of-12">
+            <span class="nds-form-element__help omni-file-required">
+            Required
+            </span>
+        </div>
+    </div>
+</template>

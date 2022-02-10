@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Annual_Average_of_Billed_Demand__c</fullName>
+    <description>CIS Data - Imported - Annual Average of billed demand</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CIS Data - Imported - Annual Average of billed demand</inlineHelpText>
+    <label>Annual Average of Billed Demand</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

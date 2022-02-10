@@ -1,0 +1,108 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "EstimateCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "EstimateCreation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "REFRIG_CNC_Measures",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/REFRIG_CNC_Measures",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "REFRIG_CNC_Measures",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "This is a sample help text to help the user understand this field",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Refrigerator Case Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Vertical Open - Remote Condensing - Medium Temp",
+                "value": "Vertical Open - Remote Condensing - Medium Temp"
+            },
+            {
+                "name": "Vertical Open - Self Contained - Medium Temp",
+                "value": "Vertical Open - Self Contained - Medium Temp"
+            },
+            {
+                "name": "Horizontal Open - Remote Condensing - Medium Temp",
+                "value": "Horizontal Open - Remote Condensing - Medium Temp"
+            },
+            {
+                "name": "Horizontal Open - Self Contained - Medium Temp",
+                "value": "Horizontal Open - Self Contained - Medium Temp"
+            },
+            {
+                "name": "Vertical Open - Remote Condensing - Low Temp",
+                "value": "Vertical Open - Remote Condensing - Low Temp"
+            },
+            {
+                "name": "Vertical Open - Self Contained - Low Temp",
+                "value": "Vertical Open - Self Contained - Low Temp"
+            },
+            {
+                "name": "Horizontal Open - Remote Condensing - Low Temp",
+                "value": "Horizontal Open - Remote Condensing - Low Temp"
+            },
+            {
+                "name": "Horizontal Open - Self Contained - Low Temp",
+                "value": "Horizontal Open - Self Contained - Low Temp"
+            },
+            {
+                "name": "Vertical Open - Remote Condensing - Ice Cream",
+                "value": "Vertical Open - Remote Condensing - Ice Cream"
+            },
+            {
+                "name": "Vertical Open - Self Contained - Ice Cream",
+                "value": "Vertical Open - Self Contained - Ice Cream"
+            },
+            {
+                "name": "Horizontal Open - Remote Condensing - Ice Cream",
+                "value": "Horizontal Open - Remote Condensing - Ice Cream"
+            },
+            {
+                "name": "Horizontal Open - Self Contained - Ice Cream",
+                "value": "Horizontal Open - Self Contained - Ice Cream"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "REFRIG_CNC_refrigeratorCaseType",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/REFRIG_CNC_refrigeratorCaseType"
+}

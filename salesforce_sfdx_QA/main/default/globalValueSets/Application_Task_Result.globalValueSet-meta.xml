@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pass</fullName>
+        <default>false</default>
+        <label>Pass</label>
+    </customValue>
+    <customValue>
+        <fullName>Cured</fullName>
+        <default>false</default>
+        <label>Cured</label>
+    </customValue>
+    <customValue>
+        <fullName>Flagged</fullName>
+        <default>false</default>
+        <label>Flagged</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed</fullName>
+        <default>false</default>
+        <label>Failed</label>
+    </customValue>
+    <masterLabel>Application Task Result</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

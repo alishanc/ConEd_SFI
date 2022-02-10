@@ -1,0 +1,41 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:37:09.000Z",
+      "fileName": "milestoneTypes/Close Case.milestoneType",
+      "fullName": "Close Case",
+      "id": "5575Y000000TWIIQA4",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:37:09.000Z",
+      "type": "MilestoneType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:37:09.000Z",
+      "fileName": "milestoneTypes/Escalate Case.milestoneType",
+      "fullName": "Escalate Case",
+      "id": "5575Y000000TWIHQA4",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:37:09.000Z",
+      "type": "MilestoneType"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:37:09.000Z",
+      "fileName": "milestoneTypes/First Response to Customer.milestoneType",
+      "fullName": "First Response to Customer",
+      "id": "5575Y000000TWIGQA4",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:37:09.000Z",
+      "type": "MilestoneType"
+    }
+  ]
+}

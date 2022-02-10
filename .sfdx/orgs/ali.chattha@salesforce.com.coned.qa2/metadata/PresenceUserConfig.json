@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "presenceUserConfigs/cases_configuration.presenceUserConfig",
+      "fullName": "cases_configuration",
+      "id": "0Nd5Y000000CcPuSAK",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "PresenceUserConfig"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "presenceUserConfigs/default_presence_config.presenceUserConfig",
+      "fullName": "default_presence_config",
+      "id": "0Nd5Y000000CcPtSAK",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "PresenceUserConfig"
+    }
+  ]
+}

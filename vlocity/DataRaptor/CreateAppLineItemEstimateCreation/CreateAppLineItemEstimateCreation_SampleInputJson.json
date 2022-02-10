@@ -1,0 +1,21 @@
+{
+    "AppLineId": "",
+    "CalculationType": "Prescriptive",
+    "Early Useful Life (EUL)": "15",
+    "HorsePower": 10,
+    "Measure Application": "Chilled Water Pump",
+    "Measure Category": "Motors and Drives",
+    "Measure Code": "COM-MD-VFD",
+    "Quantity": 1,
+    "applicationId": "a0L8G000000aUfkUAE",
+    "baseIncentive": 3254.7,
+    "delkW": 0.488,
+    "delkWh": 17130,
+    "estimateId": "EST-CI2021088318",
+    "incentive": "",
+    "lifetimekWh": 256950,
+    "measureCost": 10000,
+    "promoIncentive": "",
+    "therms": "",
+    "totalIncentive": 3254.7
+}

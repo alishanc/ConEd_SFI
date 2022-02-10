@@ -1,0 +1,591 @@
+{
+    "ContextId": null,
+    "CustomerInformationStep": {
+        "AppProjectId": null,
+        "customerContactBlock": {
+            "CustomerEmail": null,
+            "CustomerFirstName": null,
+            "CustomerLastName": null,
+            "CustomerPriPhone": null,
+            "CustomerSecPhone": null,
+            "CustomerTitle": null,
+            "SelectCustomerContact": null,
+            "customerAddressBlock": {
+                "CustomerCity": null,
+                "CustomerCountry": null,
+                "CustomerPostalCode": null,
+                "CustomerProvince": null,
+                "CustomerState": null,
+                "CustomerStreetAddress": null,
+                "CustomerZipCode": null
+            }
+        },
+        "projectContactBlock": {
+            "PCEmail": null,
+            "PCFirstName": null,
+            "PCLastName": null,
+            "PCPriPhone": null,
+            "PCSecPhone": null,
+            "PCTitle": null,
+            "SelectPCContact": null
+        }
+    },
+    "PayeeInformationStep": {
+        "PayeeBlock": {
+            "PayeeAddressBlock": {
+                "CustomerPayeeAddress": null,
+                "CustomerPayeeCity": null,
+                "CustomerPayeeCountry": null,
+                "CustomerPayeePostalCode": null,
+                "CustomerPayeeProvince": null,
+                "CustomerPayeeState": null,
+                "CustomerPayeeZip": null,
+                "OtherPayeeAddress": null,
+                "OtherPayeeCity": null,
+                "OtherPayeeCountry": null,
+                "OtherPayeePostalCode": null,
+                "OtherPayeeProvince": null,
+                "OtherPayeeState": null,
+                "OtherPayeeZip": null,
+                "PCPayeeAddress": null,
+                "PCPayeeCity": null,
+                "PCPayeeCountry": null,
+                "PCPayeePostalCode": null,
+                "PCPayeeProvince": null,
+                "PCPayeeState": null,
+                "PCPayeeZip": null
+            },
+            "PayeeInformationBlock": {
+                "CustomerAttnFirstName": null,
+                "CustomerAttnLastName": null,
+                "CustomerCheckName": null,
+                "CustomerPayeeTitle": null,
+                "OtherAttnFirstName": null,
+                "OtherAttnLastName": null,
+                "OtherCheckName": null,
+                "OtherPayeeTitle": null,
+                "PCAttnFirstName": null,
+                "PCAttnLastName": null,
+                "PCCheckName": null,
+                "PCPayeeTitle": null,
+                "payeeType": null
+            }
+        },
+        "Text1": null
+    },
+    "STEP_ApplicationRequirementsAndDocuments": {
+        "BLK_CustomNonLighting": {
+            "FILE_CompletedProgramApplication_CustomNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CustomAnalysis_CustomNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SOW_CustomNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_CustomNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "File4": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "BLK_EarlyReplacement": {
+            "FILE_AdditionalDocuments_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CalculatedSavings_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CompletedProgramApplication_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ConEdisonElectricTool_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CutSheets_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ExistingEquipmentInstallationDate_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_NYCCodeCompliant_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SOW_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SupportingDocuments_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_EarlyReplacement": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "BLK_ExtendedLife": {
+            "FILE_AdditionalDocuments_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CalculatedSavings_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CompletedProgramApplication_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ConEdisonElectricTool_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CutSheets_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ExistingEquipmentInstallationDate_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_NYCCodeCompliant_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_RepairDocumentation_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SOW_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SupportingDocuments_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_WriteUp_ExtendedLife": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "BLK_LightOneForOne": {
+            "FILE_CompleteElectricTool_LightingOneForOne": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CompletedProgramApplication_LightingOneForOne": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CustomerProposal": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CutSheets_LightingOneForOne": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_DLCScreenshot_LightingOneForOne": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_LightingAuditSurvey_LightingOneForOne": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_LightingOneForOne": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "BLK_LightingLPD": {
+            "FILE_ApprovedNYCDOBPermit": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ComCheckAnalysis": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CompletedProgramApplication_LightingLPD": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ConEdisonElectricTool_LightingLPD": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CutSheets_LightingLPD": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_LightingSchedule": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_NYCDepartmentOfBuildingPermitApplication": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ReflectedCeilingPlans": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SOW_LightingLPD": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_LPD": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "BLK_NewTechnology": {
+            "FILE_3rdPartyStudies_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_AdoptionByOtherEnergyEfficiencyPrograms_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CompletedProgramApplication_NewT": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CustomAnalysis_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ManufacturerClaimedSavings_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ProductLiterature_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_TrendData_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_NewTechnology": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "File3": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "File5": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "BLK_PrescriptiveNonLighting": {
+            "FILE_CompletedProgramApplication_PrescriptiveNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_ConEdisonElectricTool_PrescriptiveNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_CutSheets_PrescriptiveNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_SOW_PrescriptiveNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "FILE_W9_PrescriptiveNonLighting": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "SLCT_HowDidYouHear": null,
+        "TXT_HowDidYouHearSpecify": null
+    },
+    "STEP_Measures": {
+        "CLWC_BackToMeasures": null,
+        "SelectedMeasureTypes": {
+            "Measures": {
+                "Block15": {
+                },
+                "Block16": {
+                },
+                "CalcType": null,
+                "FILE_UploadMeasureDocs": [
+                    {
+                        "data": null,
+                        "filename": null,
+                        "size": null
+                    }
+                ],
+                "HorsepowerOfFanPump": null,
+                "LaborCost": null,
+                "MaterialCost": null,
+                "Quantity": null,
+                "VFDApplication": null
+            }
+        }
+    },
+    "STEP_PreviewApplication": {
+    },
+    "SiteInformationStep": {
+        "ProjectInfoBlock": {
+            "ContainsSpecificMeasures": null,
+            "EstimatedTherms": null,
+            "EstimatedkWPowerSavings": null,
+            "EstimatedkWhSavings": null,
+            "OtherSystems": null,
+            "additionalIncentives": null,
+            "conEdIncentives": null,
+            "equipmentAge": null,
+            "programIncludesOther": null,
+            "programMultiSelect": null,
+            "scopeSummary": null
+        },
+        "SiteInformationBlock": {
+            "SqFootage": null,
+            "numFloors": null,
+            "yearsBuilt": null
+        },
+        "Text2": null,
+        "estimationDatesBlock": {
+            "EstCompDate": null,
+            "EstInstDate": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CustomerAccountID": null,
+        "CustomerId": null,
+        "CustomerInformationStep": null,
+        "DRGetAppProjectId": null,
+        "DRUpdateAppStatus": null,
+        "DRgetAppSavings": null,
+        "PCaccountInfo": null,
+        "PayeeInfo": null,
+        "PayeeInformationStep": null,
+        "PayeeStates": null,
+        "STEP_ApplicationRequirementsAndDocuments": null,
+        "STEP_Measures": null,
+        "STEP_PreviewApplication": null,
+        "SeedSummaryValues": null,
+        "SetErrorsDatesValidations": null,
+        "SiteInformationStep": null,
+        "getApplicationMeasureInfo": null,
+        "getCustomerAccountId": null,
+        "getPCAccountInfo": null,
+        "getPrimaryContactData": null,
+        "savePayeeData": null,
+        "state/province": null,
+        "updateApplicationContact": null,
+        "updateSiteInfo": null
+    }
+}

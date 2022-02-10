@@ -1,0 +1,19 @@
+{
+    "CalculationType": "Prescriptive",
+    "MeasureCategory": "Lighting - Control",
+    "MeasureCode": "COM-LIG-BI",
+    "applicationId": "a0L030000031QoNEAU",
+    "estimateId": "EST-CI2022045993",
+    "laborCost": 500,
+    "locationType": "Stairwell",
+    "lowPowerFactor": 0.7,
+    "make": "Ford",
+    "materialCost": 1000,
+    "measureLocation": "Detroit",
+    "model": "Mustang",
+    "proposedWattsFullLightOutput": 200,
+    "proposedWattsLowPowerMode": 50,
+    "quantity": 10,
+    "userId": "00503000001fTQZAA2",
+    "wattsExisting": 100
+}

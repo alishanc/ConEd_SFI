@@ -1,0 +1,19 @@
+{
+    "CalculationType": "Custom",
+    "MeasureCategory": "Motors and Drives",
+    "MeasureCode": "COM-MD-VFD",
+    "applicationId": "a0L030000031TVjEAM",
+    "buildingType": "Office - Large",
+    "eul": "15",
+    "horsePower": 10,
+    "kWHSaving": 1000,
+    "kWSavings": 10,
+    "laborCost": 10000,
+    "make": "Make",
+    "materialCost": 10000,
+    "measureLocation": "Location",
+    "model": "Model",
+    "quantity": 1,
+    "userId": "00503000001dut5AAA",
+    "vfdApplication": "Chilled Water Pump"
+}

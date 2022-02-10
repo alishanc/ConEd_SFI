@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055Y00000EuxcfQAB",
+    "createdByName": "Platform Integration User",
+    "createdDate": "2021-02-26T17:35:43.000Z",
+    "fileName": "connectedApps/CPQIntegrationUserApp.connectedApp",
+    "fullName": "CPQIntegrationUserApp",
+    "id": "09H5Y000000H6fpUAC",
+    "lastModifiedById": "0055Y00000EuxcfQAB",
+    "lastModifiedByName": "Platform Integration User",
+    "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+    "type": "ConnectedApp"
+  }
+}

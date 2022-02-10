@@ -1,0 +1,138 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Pass list of program options in JSON node \"Options\"",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PCRegistration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "PCRegistration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ProgramOptionsBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/ProgramOptionsBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ProgramOptionsBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "Options": [
+            {
+                "developerName": null,
+                "label": "Small-Medium Business Clean Heat",
+                "value": "Small-Medium Business Clean Heat"
+            },
+            {
+                "developerName": null,
+                "label": "Small-Medium Business Energy Efficiency",
+                "value": "Small-Medium Business Energy Efficiency"
+            },
+            {
+                "developerName": null,
+                "label": "Residential Clean Heat",
+                "value": "Residential Clean Heat"
+            },
+            {
+                "developerName": null,
+                "label": "Residential Smart Kids",
+                "value": "Residential Smart Kids"
+            },
+            {
+                "developerName": null,
+                "label": "Residential Retail Lighting ",
+                "value": "Residential Retail Lighting "
+            },
+            {
+                "developerName": null,
+                "label": "Residential Market Place",
+                "value": "Residential Market Place"
+            },
+            {
+                "developerName": null,
+                "label": "Residential HVAC",
+                "value": "Residential HVAC"
+            },
+            {
+                "developerName": null,
+                "label": "Residential Energy Efficiency",
+                "value": "Residential Energy Efficiency"
+            },
+            {
+                "developerName": null,
+                "label": "Weatherization",
+                "value": "Weatherization"
+            },
+            {
+                "developerName": null,
+                "label": "Non-Pipe Solutions: Geothermal Heat Pumps",
+                "value": "Non-Pipe Solutions: Geothermal Heat Pumps"
+            },
+            {
+                "developerName": null,
+                "label": "Demand Response Management System_Distributed Load Relief Program",
+                "value": "Demand Response Management System_Distributed Load Relief Program"
+            },
+            {
+                "developerName": null,
+                "label": "Demand Response Management System_Commercial System Relief Program",
+                "value": "Demand Response Management System_Commercial System Relief Program"
+            },
+            {
+                "developerName": null,
+                "label": "Multi-Family Clean Heat",
+                "value": "Multi-Family Clean Heat"
+            },
+            {
+                "developerName": null,
+                "label": "Multi-Family Energy Efficiency",
+                "value": "Multi-Family Energy Efficiency"
+            },
+            {
+                "developerName": null,
+                "label": "Commercial & Industrial Clean Heat",
+                "value": "Commercial & Industrial Clean Heat"
+            },
+            {
+                "developerName": null,
+                "label": "Non-Lighting Commercial Upstream",
+                "value": "Non-Lighting Commercial Upstream"
+            },
+            {
+                "developerName": null,
+                "label": "Commercial & Industrial Energy Efficiency",
+                "value": "Commercial & Industrial Energy Efficiency"
+            },
+            {
+                "developerName": null,
+                "label": "Instant Lighting ",
+                "value": "Instant Lighting "
+            },
+            {
+                "developerName": null,
+                "label": "Non-Wire Solution",
+                "value": "Non-Wire Solution"
+            }
+        ],
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+        ],
+        "hide": false,
+        "label": "Program Options Multi-Select",
+        "lwcName": "programOptionsMultiSelect",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Custom Lightning Web Component",
+    "Name": "programOptionMultiSelect",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/programOptionMultiSelect"
+}

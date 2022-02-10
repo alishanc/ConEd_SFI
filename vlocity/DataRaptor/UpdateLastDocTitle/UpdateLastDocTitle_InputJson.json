@@ -1,0 +1,31 @@
+{
+    "ContextId": null,
+    "completionStep": {
+    },
+    "timeStamp": null,
+    "uploadDocs": {
+        "FileUpload": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AppId": null,
+        "EmailDocWasUploaded": null,
+        "UpdateApplicationCC": null,
+        "UpdateApplicationInvoice": null,
+        "UpdateDocTitleUpload": null,
+        "UpdateReinstatementRequest": null,
+        "completionStep": null,
+        "uploadDocs": null
+    }
+}

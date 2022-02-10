@@ -1,0 +1,130 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PCRegistration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "PCRegistration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "BusinessTypeBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/BusinessTypeBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "BusinessTypeBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Business Type",
+        "optionSource": {
+            "source": "Account.Business_Type__c",
+            "type": "SObject"
+        },
+        "options": [
+            {
+                "developerName": null,
+                "name": "Architect",
+                "value": "Architect"
+            },
+            {
+                "developerName": null,
+                "name": "Consultant",
+                "value": "Consultant"
+            },
+            {
+                "developerName": null,
+                "name": "Data Center Specialist",
+                "value": "Data Center Specialist"
+            },
+            {
+                "developerName": null,
+                "name": "Distributor",
+                "value": "Distributor"
+            },
+            {
+                "developerName": null,
+                "name": "DR Aggregator",
+                "value": "DR Aggregator"
+            },
+            {
+                "developerName": null,
+                "name": "Electrical Contractor",
+                "value": "Electrical Contractor"
+            },
+            {
+                "developerName": null,
+                "name": "Engineer",
+                "value": "Engineer"
+            },
+            {
+                "developerName": null,
+                "name": "Financial Services",
+                "value": "Financial Services"
+            },
+            {
+                "developerName": null,
+                "name": "General Contracting",
+                "value": "General Contracting"
+            },
+            {
+                "developerName": null,
+                "name": "Manufacturer",
+                "value": "Manufacturer"
+            },
+            {
+                "developerName": null,
+                "name": "Manufacturer's Rep",
+                "value": "Manufacturer's Rep"
+            },
+            {
+                "developerName": null,
+                "name": "Master Plumber",
+                "value": "Master Plumber"
+            },
+            {
+                "developerName": null,
+                "name": "Mechanical Contractor (HVAC)",
+                "value": "Mechanical Contractor (HVAC)"
+            },
+            {
+                "developerName": null,
+                "name": "Retailer",
+                "value": "Retailer"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "businessType1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/businessType1"
+}

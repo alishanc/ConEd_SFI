@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>notifications@coned.com</email>
+    <name>New Application Que</name>
+    <queueMembers>
+        <users>
+            <user>aminadab.morales@coned.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>vlocity_cmt__AccountOffer__c</sobjectType>
+    </queueSobject>
+</Queue>

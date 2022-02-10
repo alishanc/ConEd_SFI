@@ -1,0 +1,83 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "profileSessionSettings/PT2_profileSessionSetting1568660541553.profileSessionSetting",
+      "fullName": "PT2_profileSessionSetting1568660541553",
+      "id": "0HU5Y0000008bISWAY",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "profileSessionSettings/PT1_profileSessionSetting1481671771629.profileSessionSetting",
+      "fullName": "PT1_profileSessionSetting1481671771629",
+      "id": "0HU5Y0000008bIUWAY",
+      "lastModifiedById": "00503000001eLSBAA2",
+      "lastModifiedByName": "Jeremy-ADMIN Brown",
+      "lastModifiedDate": "2021-12-20T20:29:29.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "profileSessionSettings/PT3_profileSessionSetting1568660558507.profileSessionSetting",
+      "fullName": "PT3_profileSessionSetting1568660558507",
+      "id": "0HU5Y0000008bITWAY",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "00503000001eLSBAA2",
+      "createdByName": "Jeremy-ADMIN Brown",
+      "createdDate": "2021-12-06T18:03:28.000Z",
+      "fileName": "profileSessionSettings/null_profileSessionSetting1638813808051.profileSessionSetting",
+      "fullName": "null_profileSessionSetting1638813808051",
+      "id": "0HU03000000Go3HGAS",
+      "lastModifiedById": "00503000001eLSBAA2",
+      "lastModifiedByName": "Jeremy-ADMIN Brown",
+      "lastModifiedDate": "2021-12-06T18:03:28.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "00503000001eLSBAA2",
+      "createdByName": "Jeremy-ADMIN Brown",
+      "createdDate": "2021-12-06T18:03:16.000Z",
+      "fileName": "profileSessionSettings/null_profileSessionSetting1638813796077.profileSessionSetting",
+      "fullName": "null_profileSessionSetting1638813796077",
+      "id": "0HU03000000Go3CGAS",
+      "lastModifiedById": "00503000001eLSBAA2",
+      "lastModifiedByName": "Jeremy-ADMIN Brown",
+      "lastModifiedDate": "2021-12-20T18:03:10.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    },
+    {
+      "createdById": "00503000001eLSBAA2",
+      "createdByName": "Jeremy-ADMIN Brown",
+      "createdDate": "2021-12-06T18:03:39.000Z",
+      "fileName": "profileSessionSettings/null_profileSessionSetting1638813819494.profileSessionSetting",
+      "fullName": "null_profileSessionSetting1638813819494",
+      "id": "0HU03000000Go3MGAS",
+      "lastModifiedById": "00503000001eLSBAA2",
+      "lastModifiedByName": "Jeremy-ADMIN Brown",
+      "lastModifiedDate": "2021-12-06T18:03:39.000Z",
+      "manageableState": "unmanaged",
+      "type": "ProfileSessionSetting"
+    }
+  ]
+}

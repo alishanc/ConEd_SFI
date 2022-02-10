@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Minority Owned Business</fullName>
+                <default>false</default>
+                <label>Minority Owned Business</label>
+            </value>
+            <value>
+                <fullName>Veteran Owned Business</fullName>
+                <default>false</default>
+                <label>Veteran Owned Business</label>
+            </value>
+            <value>
+                <fullName>Woman Owned Business</fullName>
+                <default>false</default>
+                <label>Woman Owned Business</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

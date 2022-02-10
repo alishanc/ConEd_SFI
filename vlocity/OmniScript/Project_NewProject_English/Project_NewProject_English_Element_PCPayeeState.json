@@ -1,0 +1,331 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "createNewProject",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "createNewProject",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "PayeeAddressBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/PayeeAddressBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PayeeAddressBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": "SObject"
+        },
+        "defaultValue": "%CustomerState%",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "State",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "AL",
+                "value": "AL"
+            },
+            {
+                "autoAdv": null,
+                "name": "AK",
+                "value": "AK"
+            },
+            {
+                "autoAdv": null,
+                "name": "AZ",
+                "value": "AZ"
+            },
+            {
+                "autoAdv": null,
+                "name": "AR",
+                "value": "AR"
+            },
+            {
+                "autoAdv": null,
+                "name": "CA",
+                "value": "CA"
+            },
+            {
+                "autoAdv": null,
+                "name": "CO",
+                "value": "CO"
+            },
+            {
+                "autoAdv": null,
+                "name": "CT",
+                "value": "CT"
+            },
+            {
+                "autoAdv": null,
+                "name": "DE",
+                "value": "DE"
+            },
+            {
+                "autoAdv": null,
+                "name": "DC",
+                "value": "DC"
+            },
+            {
+                "autoAdv": null,
+                "name": "FL",
+                "value": "FL"
+            },
+            {
+                "autoAdv": null,
+                "name": "GA",
+                "value": "GA"
+            },
+            {
+                "autoAdv": null,
+                "name": "HI",
+                "value": "HI"
+            },
+            {
+                "autoAdv": null,
+                "name": "ID",
+                "value": "ID"
+            },
+            {
+                "autoAdv": null,
+                "name": "IL",
+                "value": "IL"
+            },
+            {
+                "autoAdv": null,
+                "name": "IN",
+                "value": "IN"
+            },
+            {
+                "autoAdv": null,
+                "name": "IA",
+                "value": "IA"
+            },
+            {
+                "autoAdv": null,
+                "name": "KS",
+                "value": "KS"
+            },
+            {
+                "autoAdv": null,
+                "name": "KY",
+                "value": "KY"
+            },
+            {
+                "autoAdv": null,
+                "name": "LA",
+                "value": "LA"
+            },
+            {
+                "autoAdv": null,
+                "name": "ME",
+                "value": "ME"
+            },
+            {
+                "autoAdv": null,
+                "name": "MD",
+                "value": "MD"
+            },
+            {
+                "autoAdv": null,
+                "name": "MA",
+                "value": "MA"
+            },
+            {
+                "autoAdv": null,
+                "name": "MI",
+                "value": "MI"
+            },
+            {
+                "autoAdv": null,
+                "name": "MN",
+                "value": "MN"
+            },
+            {
+                "autoAdv": null,
+                "name": "MS",
+                "value": "MS"
+            },
+            {
+                "autoAdv": null,
+                "name": "MO",
+                "value": "MO"
+            },
+            {
+                "autoAdv": null,
+                "name": "MT",
+                "value": "MT"
+            },
+            {
+                "autoAdv": null,
+                "name": "NE",
+                "value": "NE"
+            },
+            {
+                "autoAdv": null,
+                "name": "NV",
+                "value": "NV"
+            },
+            {
+                "autoAdv": null,
+                "name": "NH",
+                "value": "NH"
+            },
+            {
+                "autoAdv": null,
+                "name": "NJ",
+                "value": "NJ"
+            },
+            {
+                "autoAdv": null,
+                "name": "NM",
+                "value": "NM"
+            },
+            {
+                "autoAdv": null,
+                "name": "NY",
+                "value": "NY"
+            },
+            {
+                "autoAdv": null,
+                "name": "NC",
+                "value": "NC"
+            },
+            {
+                "autoAdv": null,
+                "name": "ND",
+                "value": "ND"
+            },
+            {
+                "autoAdv": null,
+                "name": "OH",
+                "value": "OH"
+            },
+            {
+                "autoAdv": null,
+                "name": "OK",
+                "value": "OK"
+            },
+            {
+                "autoAdv": null,
+                "name": "OR",
+                "value": "OR"
+            },
+            {
+                "autoAdv": null,
+                "name": "PA",
+                "value": "PA"
+            },
+            {
+                "autoAdv": null,
+                "name": "PR",
+                "value": "PR"
+            },
+            {
+                "autoAdv": null,
+                "name": "RI",
+                "value": "RI"
+            },
+            {
+                "autoAdv": null,
+                "name": "SC",
+                "value": "SC"
+            },
+            {
+                "autoAdv": null,
+                "name": "SD",
+                "value": "SD"
+            },
+            {
+                "autoAdv": null,
+                "name": "TN",
+                "value": "TN"
+            },
+            {
+                "autoAdv": null,
+                "name": "TX",
+                "value": "TX"
+            },
+            {
+                "autoAdv": null,
+                "name": "UT",
+                "value": "UT"
+            },
+            {
+                "autoAdv": null,
+                "name": "VT",
+                "value": "VT"
+            },
+            {
+                "autoAdv": null,
+                "name": "VA",
+                "value": "VA"
+            },
+            {
+                "autoAdv": null,
+                "name": "WA",
+                "value": "WA"
+            },
+            {
+                "autoAdv": null,
+                "name": "WV",
+                "value": "WV"
+            },
+            {
+                "autoAdv": null,
+                "name": "WI",
+                "value": "WI"
+            },
+            {
+                "autoAdv": null,
+                "name": "WY",
+                "value": "WY"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "United States",
+                        "field": "PCPayeeCountry"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "PCPayeeState",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/PCPayeeState"
+}

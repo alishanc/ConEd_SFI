@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Low_Demand_indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (vlocity_cmt__AccountId__r.CE_Annual_Average_of_Billed_Demand__c &lt; Program__r.CE_Low_demand_kW_eligibility__c,true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Low Demand indicator</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

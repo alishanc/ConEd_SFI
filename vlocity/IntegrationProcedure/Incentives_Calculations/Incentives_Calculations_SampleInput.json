@@ -1,0 +1,5 @@
+{
+    "MeasureCategory": "Refrigeration - Control",
+    "MeasureCode": "COM-REF-ASHC",
+    "doorsPerController": 4
+}

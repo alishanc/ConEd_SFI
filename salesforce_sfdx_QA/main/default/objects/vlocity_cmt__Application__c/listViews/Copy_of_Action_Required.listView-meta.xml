@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Action_Required</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Action_Required__c</columns>
+    <columns>vlocity_cmt__Status__c</columns>
+    <columns>Submission_Date__c</columns>
+    <columns>Review_Result__c</columns>
+    <columns>Project_Incentive_Amount__c</columns>
+    <columns>Total_kWH_Savings__c</columns>
+    <columns>Total_Therm_Savings__c</columns>
+    <columns>Total_MMBTU__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>vlocity_cmt__Status__c</field>
+        <operation>equals</operation>
+        <value>Application Submitted</value>
+    </filters>
+    <filters>
+        <field>vlocity_cmt__Status__c</field>
+        <operation>equals</operation>
+        <value>Final Review,Pending Initial Review,Pending Final Review,Pending Mid Review</value>
+    </filters>
+    <label>Under Review</label>
+</ListView>

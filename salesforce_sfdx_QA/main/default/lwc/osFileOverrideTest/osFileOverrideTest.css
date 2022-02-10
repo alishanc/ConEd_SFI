@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-container {
+    min-width: 35%;
+}
+
+.file-label {
+    font-size: small;
+    color: black;
+}
+
+.no-border {
+    border: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .container :nth-child(1) {
+        order: 1;
+    }
+
+    .container :nth-child(2) {
+        order: 3;
+    }
+
+    .container :nth-child(3) {
+        order: 2;
+    }
+
+    .label-container {
+        margin-bottom: .5rem;
+        min-width: 100%;
+    }
+
+  }

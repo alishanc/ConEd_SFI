@@ -1,0 +1,93 @@
+For SF comps
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/force-app
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/backup-cpq2-6.15.20/force-app-copy2
+sudo sfdx force:source:deploy -u KP_SIT -d /Users/AliShan/Desktop/kaiser-cpq-vlocity/force-app
+
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/force-app 
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/backup-cpq2-6.15.20/force-app
+-make sure file path is correct and remove package.xml. Also point to target org with sfdx org display cmd
+-Remove applications, profiles, perm sets folders before deploying 
+
+Deploy All Vlocity:
+vlocity -sfdx.username KP_SIT -job job.yaml packDeploy --verbose --simpleLogging true
+vlocity -sfdx.username KP_SIT -job packExport.yaml packDeploy --verbose --simpleLogging true
+vlocity -sfdx.username KP_SIT -job job.yaml cleanOrgData / packUpdateSettings
+Products:
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/exportJob.yaml packDeploy --verbose --simpleLogging true > exportJob.log
+
+Export Single Vlocity DataPacks:
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type DocumentTemplate -id a5FR00000003Vej
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type ContentVersion -id 069R0000001eHw9
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type Omniscript -id a6qR00000004tq2IAA -depth 0
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type IntegrationProcedure -id a7t3I0000000ChRQAU 
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type DataRaptor -id a4yR0000004a2X3IAI 
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type VlocityCard -id aADR00000008iX6OAI
+vlocity -sfdx.username cpq2 -job packExport.yaml packExportSingle -type CalculationMatrixVersion -id a48R00000003trJ
+
+vlocity -sfdx.username cpq2 -job packExport.yaml packGetAllAvailableExports -type ContentVersion
+vlocity -sfdx.username cpq2 -job vlocity-manifests/PCATexport.yaml packExport
+vlocity -sfdx.username KP_PROD -job packExport.yaml packExportSingle -type Omniscript -id a833I0000000NqHQAU
+
+-brings all dependencies from source org. 
+
+Deploy Scripts:
+vlocity -sfdx.username KP_SIT -job job.yaml packDeploy --verbose --simpleLogging true > SITdeploy.log
+vlocity -sfdx.username KP_SIT -job job.yaml packDeploy
+
+Delta script:
+sfdx vlocityestools:sfsource:createdeltapackage -u Ali2 -p cmt -d salesforce_sfdx
+
+More deploy script variations:
+vlocity -sfdx.username KP_SIT -job job.yaml packDeploy --verbose --simpleLogging true > pr116.log
+/Users/AliShan/Desktop/kaiser-cpq-vlocity/vlocity-manifests
+vlocity -sfdx.username KP_SIT -job /Users/AliShan/Desktop/kaiser-cpq-vlocity/vlocity-manifests/exportJob.yaml packDeploy --verbose --simpleLogging true > SITdeploy.log
+vlocity -sfdx.username KP_SIT -job exportJob.yaml packDeploy --verbose --simpleLogging true > SITdeploy.log
+
+
+
+vlocity -sfdx.username cpq2 -job exportDocGen.yaml packExport
+
+vlocity -sfdx.username KP_SIT -job deployDocGen.yaml cleanOrgData
+
+vlocity -sfdx.username KP_SIT -job deployDocGen.yaml packDeploy 
+
+
+Product Catalog Scripts:
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-MS.yaml cleanOrgData
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-MS.yaml packDeploy --verbose --simpleLogging true > NWMS-SIT.log
+
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-TRAD.yaml cleanOrgData 
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-TRAD.yaml packDeploy --verbose --simpleLogging true > TRAD-SIT.log
+
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-PPO.yaml cleanOrgData 
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-PPO.yaml packDeploy --verbose --simpleLogging true > PPO-SIT.log
+
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-POS.yaml cleanOrgData 
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-POS.yaml packDeploy --verbose --simpleLogging true > POS-SIT.log
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-POS.yaml packContinue --verbose --simpleLogging true > POS-SIT.log
+
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-HDHP.yaml cleanOrgData
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-HDHP.yaml packDeploy --verbose --simpleLogging true > HDHP-SIT.log
+
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-DED.yaml cleanOrgData
+vlocity -sfdx.username KP_SIT -job vlocity-manifests/deployJob-products-DED.yaml packDeploy --verbose --simpleLogging true > DED-SIT.log
+
+vlocity -sfdx.username cpq2 /Users/AliShan/Desktop/kaiser-cpq-vlocity/vlocity-manifests/exportJob-products-DED.yaml packExport --verbose --simpleLogging true 
+
+vlocity -sfdx.username KP_SIT -job job.yaml packExport --verbose --simpleLogging true
+
+
+
+vlocity -sfdx.username KP_SIT -job job.yaml packDeploy --verbose --simpleLogging true
+
+sfdx force:mdapi:retrieve -r metadata -u KP_SIT -k /Users/AliShan/Desktop/KP-SIT
+
+
+vlocity -sfdx.username Ali2 -job job.yaml packDeploy --verbose --simpleLogging true
+vlocity -sfdx.username Ali2 -job job.yaml packUpdateSettings
+
+New SFDX version Deploy CMD - MUST be deployed from no other directory than force-app in project folder (in Prod)
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/force-app -l RunSpecifiedTests -r cpqBenefitsHandlerTest -u KP_PROD
+
+
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/prodapex -w 33 -l RunSpecifiedTests -r cpqBenefitsHandlerTest -u KP_PROD

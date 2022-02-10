@@ -1,0 +1,20 @@
+{
+    "CalculationType": "Prescriptive",
+    "MeasureCategory": "Lighting",
+    "dlcID": null,
+    "energyStarID": null,
+    "existingLuminaireCategory": "Linear Ambient Luminaires",
+    "existingLuminaireType": "4FT 1 Lamp",
+    "laborCost": 12,
+    "lifetimeHoursUserInput": 22000,
+    "locationType": "Interior",
+    "materialCost": 12,
+    "quantityBase": 10,
+    "quantityEe": 10,
+    "ratedSource": null,
+    "replacementLuminaireCategory": "2x2 Luminaires for Ambient Lighting",
+    "replacementType": "Fixture",
+    "reportedHours": 4000,
+    "reportedSectorHours": "Reported",
+    "wattsEe": 5
+}

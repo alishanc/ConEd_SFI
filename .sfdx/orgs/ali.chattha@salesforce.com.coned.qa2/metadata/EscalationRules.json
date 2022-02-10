@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "00503000001r1UrAAI",
+    "createdByName": "Ali Chatttha",
+    "createdDate": "1970-01-01T00:00:00.000Z",
+    "fileName": "escalationRules/Case.escalationRules",
+    "fullName": "Case",
+    "id": "",
+    "lastModifiedById": "00503000001r1UrAAI",
+    "lastModifiedByName": "Ali Chatttha",
+    "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+    "namespacePrefix": "",
+    "type": "EscalationRules"
+  }
+}

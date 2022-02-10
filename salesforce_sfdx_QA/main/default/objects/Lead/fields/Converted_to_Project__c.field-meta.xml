@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Converted_to_Project__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Completed by Flow when Lead is converted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically completed when Lead is converted</inlineHelpText>
+    <label>Converted to Project</label>
+    <referenceTo>vlocity_cmt__Application__c</referenceTo>
+    <relationshipLabel>Leads</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,175 @@
+{
+    "AccountStep": {
+        "AccountInfo": {
+            "PhoneNumber": "1111111111",
+            "PriContFirstName": "testFirst",
+            "PriContactEmail": "test@test.com",
+            "PriContactLastName": "testLast",
+            "PriContactTitle": "testTitle"
+        },
+        "CompanyInfo": {
+            "City": "city",
+            "CompanyName": "testCompany",
+            "NYEmployees": "12",
+            "PostalCode": "11111",
+            "State": "AL",
+            "StreetAddress": "123 street",
+            "companyWebsite": "test.com",
+            "companyYears": "1",
+            "corpType": "corp",
+            "numTotalEmployees": "123",
+            "ownershipYears": "1",
+            "taxId": "12345"
+        },
+        "ContactInfo": {
+            "Contact1": {
+                "contactEmail1": "test@test.com",
+                "contactFirstName1": "testContact1",
+                "contactLastName1": "testContact1",
+                "contactPhone1": "1111111111",
+                "contactTitle1": "testTitleContact"
+            },
+            "Contact2": {
+                "contactEmail2": "test@test1.com",
+                "contactFirstName2": "testContact2",
+                "contactLastName2": "tesctContact2",
+                "contactPhone2": "2222222222",
+                "contactTitle2": "testTitleContact2"
+            },
+            "Contact3": {
+                "contactEmail3": "test3@test3.com",
+                "contactFirstName3": "testContact3",
+                "contactLastName3": "testContact3",
+                "contactPhone3": "3333333333",
+                "contactTitle3": "title3"
+            }
+        }
+    },
+    "AcknowledgementStep": {
+        "AcknowledgmentBlock": {
+            "agreementDate": "2021-09-09",
+            "agreementEmail": "agreement@email.com",
+            "agreementFirstName": "agreementFirst",
+            "agreementLastName": "agreementLast",
+            "agreementPhone": "1231231233",
+            "agreementSignature": "agreementSign",
+            "agreementTitle": "agreementTitle"
+        },
+        "agreementCheckbox": true
+    },
+    "BusinessStep": {
+        "BusinessInfo": {
+            "Business Classification": {
+                "businessClassification1": "Minority Owned Business",
+                "businessClassification2": "Minority Owned Business",
+                "businessClassification3": "Veteran Owned Business"
+            },
+            "BusinessTypeBlock": {
+                "businessType1": "Consultant",
+                "businessType2": "Engineer",
+                "businessType3": "Data Center Specialist"
+            },
+            "SpecialtyBlock": {
+                "specialtyType1": "Air Flow Management",
+                "specialtyType2": "Boiler Cleaning & Tune Up",
+                "specialtyType3": "Air Sealing"
+            }
+        },
+        "LicensesBlock": {
+            "license1": {
+                "licenseAuthority1": "authority 1",
+                "licenseExp1": "2021-09-17",
+                "licenseNum1": "1111",
+                "licenseType1": "Type license 1"
+            },
+            "license2": {
+                "licenseAuthority2": "authority 2",
+                "licenseExp2": "2021-10-09",
+                "licenseNum2": "2222",
+                "licenseType2": "test license 2"
+            },
+            "license3": {
+                "licenseAuthority3": "authority 3",
+                "licenseExp3": "2021-11-06",
+                "licenseNum3": "3333",
+                "licenseType3": "test license 3"
+            }
+        },
+        "ProgramOptionsBlock": {
+            "Block1": {
+                "otherViolation": "otherViolation test",
+                "violation": "yes",
+                "violationProgram": "other"
+            },
+            "Block2": {
+                "Referral": "ConEdison Employee",
+                "otherReferral": null
+            },
+            "FuelSpecialtyBlock": {
+                "fuelSpecialty1": "Gas",
+                "fuelSpecialty2": "Electric",
+                "fuelSpecialty3": "Steam"
+            },
+            "ServiceAreaBlock": {
+                "serviceArea1": "Brooklyn",
+                "serviceArea2": "Queens",
+                "serviceArea3": "Queens",
+                "serviceArea5": "Queens"
+            }
+        }
+    },
+    "COIStep": {
+        "COIBlock": {
+            "COIAddress": "123 coi street",
+            "COICompanyName": "coi name",
+            "coiCity": "deer park",
+            "coiContactName": "coi contact anme",
+            "coiCoverageAmount": "12312312",
+            "coiCoverages": "types of coverages",
+            "coiEffDate": "2021-09-03",
+            "coiExpDate": "2021-10-01",
+            "coiPhone": "1231313131",
+            "coiState": "TX",
+            "coiZip": "12345"
+        }
+    },
+    "ContractAgreementStep": {
+        "Disclosure1": true
+    },
+    "CustomerReferencesStep": {
+        "CustomerReferencesBlock": {
+            "reference1": {
+                "referenceCompany1": "test reference name",
+                "referenceContact1": "test contact name",
+                "referenceDescription1": "description",
+                "referenceTelephone1": "1231111111"
+            },
+            "reference2": {
+                "referenceCompany2": "test reference 2",
+                "referenceContact2": "test reference. 2 ",
+                "referenceDescription2": "test description 2",
+                "referenceTelephone2": "1231231231"
+            },
+            "reference3": {
+                "referenceCompany3": "test reference 3",
+                "referenceContact3": "test reference 3",
+                "referenceDescription3": "test d 3",
+                "referenceTelephone3": "1231111111"
+            }
+        }
+    },
+    "ExistingAccount": "valid",
+    "InstructionsStep": {
+        "hasDocuments": true
+    },
+    "businessSpecialty": "Air Flow Management,Boiler Cleaning & Tune Up,Air Sealing",
+    "businessTypes": "Consultant,Engineer",
+    "favoriteOptions": "BQDM Small Commercial;BQDM Multi-Family;Commercial Direct Install;",
+    "test": "test",
+    "timeStamp": "2021-09-22T00:33:18.083Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

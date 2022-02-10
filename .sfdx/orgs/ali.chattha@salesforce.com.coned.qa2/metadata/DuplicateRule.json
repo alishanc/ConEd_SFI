@@ -1,0 +1,70 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "duplicateRules/Lead.Standard_Lead_Duplicate_Rule.duplicateRule",
+      "fullName": "Lead.Standard_Lead_Duplicate_Rule",
+      "id": "0Bm5Y000001mIueSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "duplicateRules/Lead.Standard_Lead_to_Contact_Duplicate_Rule.duplicateRule",
+      "fullName": "Lead.Standard_Lead_to_Contact_Duplicate_Rule",
+      "id": "0Bm5Y000001mIuhSAE",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "duplicateRules/Account.Standard_Account_Duplicate_Rule.duplicateRule",
+      "fullName": "Account.Standard_Account_Duplicate_Rule",
+      "id": "0Bm5Y000001mIugSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "duplicateRules/Contact.Standard_Contact_Duplicate_Rule.duplicateRule",
+      "fullName": "Contact.Standard_Contact_Duplicate_Rule",
+      "id": "0Bm5Y000001mIufSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "duplicateRules/Contact.Standard_Contact_to_Lead_Duplicate_Rule.duplicateRule",
+      "fullName": "Contact.Standard_Contact_to_Lead_Duplicate_Rule",
+      "id": "0Bm5Y000001mIuiSAE",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "DuplicateRule"
+    }
+  ]
+}

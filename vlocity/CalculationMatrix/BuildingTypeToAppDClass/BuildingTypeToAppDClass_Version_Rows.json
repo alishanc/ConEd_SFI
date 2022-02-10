@@ -1,0 +1,1167 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "1c426",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "BuildingType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "366d5b",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "AppDC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Assembly"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "0cda9bc642a7310d6834fa7fa0060ae3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Automotive/Transportation Service or Repair Facility"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "d5821497448b3fb47b9b5fab123dc975",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Bakery"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "3cac288dc61de9df0d22eb4239aee093",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Banks"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "d01a61ac5b4661eaf22e9a7318f96e90",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Cafeteria"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "d7f2e482960430fc01c49edd301cb723",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "College - Community"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "b312d67bd54a96177736eedf20b5d4f2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "College - University"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "ca0eabfe9283b340640f34b33b048a83",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Commercial Condos"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "c96b37e766bc717682dfd7526dbe2f06",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Convenience Stores"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "f2682761b212ea4c929c147f5cfa21c7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Convention Center"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "c6e7a63b75a982d20748838ed115c8bf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Court House"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "1816af0548ccb04eca5cd614a6ddcba1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Dormitory"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Multi-Family High Rise"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "cd539b550e8eeae86d3bc548f4966e42",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Entertainment"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "d60444ad8a6e0a7debdf7704d5d3f201",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Exercise Center"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "8ecc709ba66034020dbe2b8170fdb056",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Grocery/Food Store"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "6a5d4250b10ed85d573ce90598405c04",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Gymnasium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "7be38b9e9e69dcf24bc081a734dc8a64",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Hospital"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "f6b5fc773cdaa11635e43ce6373affe7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Industrial/Manufacturing"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "9292d7cf1b990e7ae199091aaaec8a1b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Laundromats"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "d668d9992473bbc2c849e6241b7ecdda",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Library"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "eb132be92a6db343c2eb2102aa9fc017",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Lodging - Hotel"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "af185d3563ae97d61cd8e51b48bb991b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Lodging - Motel"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "60677af166eebda5781816ab642dc30d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Mall Concourse"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "ea735ad2c565a334927ac1a6e61ef073",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Medical Offices"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "c85241e7aa77dba8281307a136e99448",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Motion Picture Theatre"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "90585b9604987d59cad601aea1b1a6ea",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Multi-Family Common Area"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Multi-Family High Rise"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "abbcda8cedb5deb3f3ca9228477fe7d4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Multi-Family High-Rise"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Multi-Family High Rise"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "9604acbaf1cb02ed3eff273a52192df2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Multi-Family Low-Rise"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "41c017ec02eac991486a02788eda8229",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Museum"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "8a7818fb0840e9cfb6550ffc31943144",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Nursing Homes High-Rise"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Multi-Family High Rise"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "a1c8510db2803b13a37ecc4905f7d282",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Nursing Homes Low-Rise"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "b482e9abd1eb64d79a34843772660284",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Office - Large"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "f5ec9ab7acc7ae1f1b4fa202828af835",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Office - Small"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "3c048ee7eca4fc57a2e4c101099b7f16",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Other"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "720284117894bed699a0e275e030357d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Parking Garage"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "728a016fec61df5485a435a5159c1797",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Parking Lot"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "7ab81927fb432ea9d224527a18561132",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Penitentiary"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Multi-Family High Rise"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "370a737811194c2f78fd97b8855106a4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Performing Arts Theatre"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "fbf3801143ac95a5184c8be4c9953db5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Police/Firestation"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "f147f9b4409b268b27f2c105fae3e91e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Post Office"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "bba54c6208ed25a54ab958e7137e14ff",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Pump Stations"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "5e0ebd8033abcfedf2cb2b4ad5ee74b7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Religious/Church"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "555f61be875c7cee2c05069d90939759",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Restaurant - Casual Dining"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "6c927b62189d684c4365350d40c0799a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Restaurant - Full Service"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "5ac9c05df009e9a77177ae1a45321ef8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Restaurant - Quick Service/Fast Food"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "6c36ada725cf5508bfa156b03a56dcef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Retail - Big Box/Large"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "9346b4b159707385b5c30449395bf2f1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Retail - Small"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "bf5e68f6cef0c5b0fbdcde32f4202a65",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "School - Jr./Sr. High"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Large Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "891e1d155fd9b309efb52f2a39e6a45c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "School - Preschool/Elementary"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "ce9f975e6868ad37be255facf8e99bac",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "School - Technical/Vocational"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "6d11f47d91a4649fd8c1a443c2d3bd9a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Single Family"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Single Family"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "b7bfd76b31f7eca842268b9f8eb98f81",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Small Services"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "92f7c33317e3b084b7ea609a5528f459",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Sports Arena"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "d7fcb7b7766d3791baae28b1604acb60",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Town Hall"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "9677007cca54d3720111ac47037dca5e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Transportation"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "bfefb82a399e937910aa6d6ab61d228b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Warehouse - Non-Refrigerated"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "33c5ea913498928a0c1fa5b125aa0039",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Warehouse - Refrigerated"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Refrigerated Warehouse"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "565f295c2c9aaf0fcd27bf19741c2013",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Waste Water Treatment Plant"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "a29cac81fbc463d68109cdd732ec0ac3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BuildingTypeToAppDClass",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/BuildingTypeToAppDClass",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "BuildingType": "Workshop"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AppDC": "Small Commercial"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-24T18:12:00.000Z",
+        "Name": "b9310b030672f069f844d4a52b313ca4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

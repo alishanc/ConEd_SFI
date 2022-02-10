@@ -1,0 +1,750 @@
+Name: SF - Layouts
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - layouts/%vlocity_namespace%__AccountAdServer__c-%vlocity_namespace%__Account Ad Server Layout
+    - layouts/%vlocity_namespace%__AccountAppliedPromotion__c-%vlocity_namespace%__Applied Promotion Layout
+    - layouts/%vlocity_namespace%__AccountAppliedPromotionItem__c-%vlocity_namespace%__Applied Promotion Affected Asset Layout
+    - layouts/%vlocity_namespace%__AccountBalance__c-%vlocity_namespace%__Account Balance %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__AccountDiscount__c-%vlocity_namespace%__Account Discount Layout
+    - layouts/%vlocity_namespace%__AccountDiscountItem__c-%vlocity_namespace%__Account Discount Item Layout
+    - layouts/%vlocity_namespace%__AccountDiscountPricing__c-%vlocity_namespace%__Account Discount Pricing Layout
+    - layouts/%vlocity_namespace%__AccountHold__c-%vlocity_namespace%__Account Hold Layout
+    - layouts/%vlocity_namespace%__AccountOffer__c-%vlocity_namespace%__Account Offer Layout
+    - layouts/%vlocity_namespace%__AccountPriceAdjustment__c-%vlocity_namespace%__Account Pricing Layout
+    - layouts/%vlocity_namespace%__AccountProductRollup__c-%vlocity_namespace%__Account Product Rollup Layout
+    - layouts/%vlocity_namespace%__ActivityContentDocument__c-%vlocity_namespace%__Activity Content Document Layout
+    - layouts/%vlocity_namespace%__ActivityTemplate__c-%vlocity_namespace%__Activity Template Layout
+    - layouts/%vlocity_namespace%__AdCreativeSizeType__c-%vlocity_namespace%__Ad Creative SizeType Layout
+    - layouts/%vlocity_namespace%__AdminTabLayout__c-%vlocity_namespace%__Admin Tab Layout Layout
+    - layouts/%vlocity_namespace%__AdServer__c-%vlocity_namespace%__Ad Server Layout
+    - layouts/%vlocity_namespace%__AdSpaceCreativeSizeType__c-%vlocity_namespace%__Ad Space Creative SizeType Layout
+    - layouts/%vlocity_namespace%__AdSpaceGroupMember__c-%vlocity_namespace%__Ad Space Group Member Layout
+    - layouts/%vlocity_namespace%__AdSpaceSpecification__c-%vlocity_namespace%__Ad Space Specification Layout
+    - layouts/%vlocity_namespace%__Application__c-%vlocity_namespace%__Application Layout
+    - layouts/%vlocity_namespace%__ApplicationPartyRelationship__c-%vlocity_namespace%__Application Party Relationship Layout
+    - layouts/%vlocity_namespace%__ApplicationTemplate__c-%vlocity_namespace%__Application Template Layout
+    - layouts/%vlocity_namespace%__Assessment__c-%vlocity_namespace%__Assessment Template Layout
+    - layouts/%vlocity_namespace%__AssessmentAnswer__c-%vlocity_namespace%__Assessment Answer Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Checkbox Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Date Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question FreeText Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Instruction Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question MultiSelect Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Number Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Select Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Table MultiSelect Layout
+    - layouts/%vlocity_namespace%__AssessmentQuestion__c-%vlocity_namespace%__Assessment Question Table Select Layout
+    - layouts/%vlocity_namespace%__AssetPricingAdjustment__c-%vlocity_namespace%__Asset Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout V1
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__AssignmentRule__c-%vlocity_namespace%__Manual Queue Assignment Rule Layout
+    - layouts/%vlocity_namespace%__Attribute__c-%vlocity_namespace%__Attribute %28Vlocity 2.5%29
+    - layouts/%vlocity_namespace%__Attribute__c-%vlocity_namespace%__Attribute Layout
+    - layouts/%vlocity_namespace%__Attribute__c-%vlocity_namespace%__Vlocity Attribute Detail Layout
+    - layouts/%vlocity_namespace%__AttributeAssignment__c-%vlocity_namespace%__Attribute Assignment %28Vlocity 2.5%29
+    - layouts/%vlocity_namespace%__AttributeAssignment__c-%vlocity_namespace%__Attribute Assignment Layout
+    - layouts/%vlocity_namespace%__AttributeAssignmentExport__c-%vlocity_namespace%__Attribute Assignment Export Layout
+    - layouts/%vlocity_namespace%__AttributeAssignmentRule__c-%vlocity_namespace%__Attribute Assignment Rule Layout
+    - layouts/%vlocity_namespace%__AttributeBinding__c-%vlocity_namespace%__Vlocity Attribute Binding Layout
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__AttrCategory_ProductConsole Layout
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__Attribute Category %28Vlocity 2.5%29
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__Attribute Category %28Vlocity 2.7%29
+    - layouts/%vlocity_namespace%__AttributeCategory__c-%vlocity_namespace%__Attribute Category Layout
+    - layouts/%vlocity_namespace%__BusinessSite__c-%vlocity_namespace%__Site Layout
+    - layouts/%vlocity_namespace%__BusinessSiteOffering__c-%vlocity_namespace%__Site Service & Product Layout
+    - layouts/%vlocity_namespace%__CachedAPIChange__c-%vlocity_namespace%__CachedAPIChange Layout
+    - layouts/%vlocity_namespace%__CachedAPIChangeEntry__c-%vlocity_namespace%__CachedAPIChangeEntry Layout
+    - layouts/%vlocity_namespace%__CachedAPIMigrate__c-%vlocity_namespace%__CachedAPIMigrate Layout
+    - layouts/%vlocity_namespace%__CachedAPIResponse__c-%vlocity_namespace%__CachedAPIResponse Layout
+    - layouts/%vlocity_namespace%__CachedAPIResponseOffers__c-%vlocity_namespace%__CachedAPIResponseOffers Layout
+    - layouts/%vlocity_namespace%__CachedDataSet__c-%vlocity_namespace%__Cached Data Set Layout
+    - layouts/%vlocity_namespace%__CachedFilterableAttribute__c-%vlocity_namespace%__Cached Filterable Attribute Layout
+    - layouts/%vlocity_namespace%__CachedKeyMapping__c-%vlocity_namespace%__CachedKeyMapping Layout
+    - layouts/%vlocity_namespace%__CachedPriceBookEntryAttributeValue__c-%vlocity_namespace%__Cached PriceBookEntry Attribute Value Layout
+    - layouts/%vlocity_namespace%__CachedProduct2Translation__c-%vlocity_namespace%__Cached Product Translation Layout
+    - layouts/%vlocity_namespace%__CachedPromotionTranslation__c-%vlocity_namespace%__Cached Promotion Translation Layout
+    - layouts/%vlocity_namespace%__CalculationMatrix__c-%vlocity_namespace%__Vlocity Grouped Pricing Matrix Layout
+    - layouts/%vlocity_namespace%__CalculationMatrix__c-%vlocity_namespace%__Vlocity Pricing Matrix Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixColumn__c-%vlocity_namespace%__Vlocity Calculation Matrix Column Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixDimension__c-%vlocity_namespace%__Vlocity Calculation Matrix Dimension Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixRow__c-%vlocity_namespace%__Vlocity Pricing Matrix Line Item Layout
+    - layouts/%vlocity_namespace%__CalculationMatrixVersion__c-%vlocity_namespace%__Vlocity Pricing Matrix Version Layout
+    - layouts/%vlocity_namespace%__CalculationProcedure__c-%vlocity_namespace%__Pricing Procedure Declarative %28Vlocity 3.0%29
+    - layouts/%vlocity_namespace%__CalculationProcedure__c-%vlocity_namespace%__Pricing Procedure Default %28Vlocity 3.0%29
+    - layouts/%vlocity_namespace%__CalculationProcedureStep__c-%vlocity_namespace%__Pricing Procedure Step Layout
+    - layouts/%vlocity_namespace%__CalculationProcedureVariable__c-%vlocity_namespace%__Vlocity Calculation Procedure Variable Layout
+    - layouts/%vlocity_namespace%__CalculationProcedureVersion__c-%vlocity_namespace%__Pricing Procedure Version Layout
+    - layouts/%vlocity_namespace%__CallbackURI__c-%vlocity_namespace%__CallbackURI Layout
+    - layouts/%vlocity_namespace%__CampaignContentDocument__c-%vlocity_namespace%__Campaign Content Document Layout
+    - layouts/%vlocity_namespace%__CampaignMemberActionLog__c-%vlocity_namespace%__Campaign Member Action Log Layout
+    - layouts/%vlocity_namespace%__Cart__c-%vlocity_namespace%__Cart %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__CartItem__c-%vlocity_namespace%__Cart Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__Catalog__c-%vlocity_namespace%__Catalog Layout %28Vlocity%29
+    - layouts/%vlocity_namespace%__CatalogProductRelationship__c-%vlocity_namespace%__Catalog Product Relationship Layout %28Vlocity%29
+    - layouts/%vlocity_namespace%__CatalogRelationship__c-%vlocity_namespace%__Catalog Relationship Layout %28Vlocity%29
+    - layouts/%vlocity_namespace%__ChargeMeasurement__c-%vlocity_namespace%__Charge Measurement Layout
+    - layouts/%vlocity_namespace%__ChargeMeasurement__c-%vlocity_namespace%__Vlocity EPC Charge Measurement Layout
+    - layouts/%vlocity_namespace%__CompiledAttributeOverride__c-%vlocity_namespace%__Compiled Attribute Override Layout
+    - layouts/%vlocity_namespace%__ConsoleActionLog__c-%vlocity_namespace%__Console Action Log Layout
+    - layouts/%vlocity_namespace%__ContextAction__c-%vlocity_namespace%__Context Action Layout
+    - layouts/%vlocity_namespace%__ContextDimension__c-%vlocity_namespace%__Context Dimension Layout
+    - layouts/%vlocity_namespace%__ContextMapping__c-%vlocity_namespace%__Vlocity Context Mapping Layout
+    - layouts/%vlocity_namespace%__ContextMappingArgument__c-%vlocity_namespace%__Vlocity Context Mapping Argument Layout
+    - layouts/%vlocity_namespace%__ContextRule__c-%vlocity_namespace%__Context Rule Layout
+    - layouts/%vlocity_namespace%__ContextRuleset__c-%vlocity_namespace%__Vlocity Context Ruleset Layout
+    - layouts/%vlocity_namespace%__ContextScope__c-%vlocity_namespace%__Context Scope Layout
+    - layouts/%vlocity_namespace%__ContractDocumentCollection__c-%vlocity_namespace%__Contract Document Element Layout
+    - layouts/%vlocity_namespace%__ContractEnvelope__c-%vlocity_namespace%__Contract Envelope Layout
+    - layouts/%vlocity_namespace%__ContractGroup__c-%vlocity_namespace%__Contract Group Layout
+    - layouts/%vlocity_namespace%__ContractLineItem__c-%vlocity_namespace%__Contract Line Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ContractLineItem__c-%vlocity_namespace%__Contract Line Item Layout
+    - layouts/%vlocity_namespace%__ContractRecipient__c-%vlocity_namespace%__Contract Recipient Layout
+    - layouts/%vlocity_namespace%__ContractSection__c-%vlocity_namespace%__Contract Document Section Layout
+    - layouts/%vlocity_namespace%__ContractTerm__c-%vlocity_namespace%__Contract Term Layout
+    - layouts/%vlocity_namespace%__ContractType__c-%vlocity_namespace%__Contract Type Layout
+    - layouts/%vlocity_namespace%__ContractTypeSetting__c-%vlocity_namespace%__Contract Type Setup Layout
+    - layouts/%vlocity_namespace%__ContractTypeTerm__c-%vlocity_namespace%__Contract Type Term Layout
+    - layouts/%vlocity_namespace%__ContractVersion__c-%vlocity_namespace%__Contract Document Sales Rep Layout
+    - layouts/%vlocity_namespace%__ContractVersion__c-%vlocity_namespace%__Contract Document Super User Layout
+    - layouts/%vlocity_namespace%__ContractVersionDiscount__c-%vlocity_namespace%__Contract Document Discount Layout
+    - layouts/%vlocity_namespace%__ContractVersionDiscountItem__c-%vlocity_namespace%__Contract Document Discount Item Layout
+    - layouts/%vlocity_namespace%__ContractVersionDiscountPricing__c-%vlocity_namespace%__Contract Document Discount Pricing Layout
+    - layouts/%vlocity_namespace%__CpqMemberType__mdt-%vlocity_namespace%__CPQ Group Member Type Layout
+    - layouts/%vlocity_namespace%__CustomerInteraction__c-%vlocity_namespace%__Customer Interaction Layout
+    - layouts/%vlocity_namespace%__CustomerInteractionTopic__c-%vlocity_namespace%__Customer Interaction Topic Layout
+    - layouts/%vlocity_namespace%__Datastore__c-%vlocity_namespace%__Vlocity Data Store Layout
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__DecompositionRelationship__c-%vlocity_namespace%__Decomposition Relationship %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__Document__c-%vlocity_namespace%__Document Layout
+    - layouts/%vlocity_namespace%__DocumentClause__c-%vlocity_namespace%__Document Clause Layout
+    - layouts/%vlocity_namespace%__DocumentSection__c-%vlocity_namespace%__Document Section Layout
+    - layouts/%vlocity_namespace%__DocumentTemplate__c-%vlocity_namespace%__Document Template Layout
+    - layouts/%vlocity_namespace%__DocumentTemplateElement__c-%vlocity_namespace%__Document Template Element Layout
+    - layouts/%vlocity_namespace%__DocumentTemplateSection__c-%vlocity_namespace%__Document Template Section Layout
+    - layouts/%vlocity_namespace%__DocumentTemplateSectionCondition__c-%vlocity_namespace%__Document Template Section Condition Layout
+    - layouts/%vlocity_namespace%__DocumentToken__c-%vlocity_namespace%__Document Token Layout
+    - layouts/%vlocity_namespace%__DRBatchQueue__c-%vlocity_namespace%__DRBatch Queue Layout
+    - layouts/%vlocity_namespace%__DRBulkData__c-%vlocity_namespace%__DataRaptor Bulk Data Layout
+    - layouts/%vlocity_namespace%__DRBundle__c-%vlocity_namespace%__DataRaptor Bundle Layout
+    - layouts/%vlocity_namespace%__DRMapItem__c-%vlocity_namespace%__DataRaptor Map Item Layout
+    - layouts/%vlocity_namespace%__DRMatchingKey__mdt-%vlocity_namespace%__Vlocity Matching Key Layout
+    - layouts/%vlocity_namespace%__Dunning__c-%vlocity_namespace%__Collections Activity Layout
+    - layouts/%vlocity_namespace%__Element__c-%vlocity_namespace%__Element Layout
+    - layouts/%vlocity_namespace%__EntityFilter__c-%vlocity_namespace%__Entity Filter %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__EntityFilter__c-%vlocity_namespace%__Entity Filter Layout
+    - layouts/%vlocity_namespace%__EntityFilterCondition__c-%vlocity_namespace%__Entity Filter Condition Layout
+    - layouts/%vlocity_namespace%__EntityFilterConditionArgument__c-%vlocity_namespace%__Vlocity Entity Filter Condition Argument Layout
+    - layouts/%vlocity_namespace%__EntityFilterMember__c-%vlocity_namespace%__Entity Filter Member %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__EntityFilterMember__c-%vlocity_namespace%__Entity Filter Member Layout
+    - layouts/%vlocity_namespace%__Error_Code__c-%vlocity_namespace%__Error Code Layout
+    - layouts/%vlocity_namespace%__Error_Code_Namespace__c-%vlocity_namespace%__Error Code Namespace Layout
+    - layouts/%vlocity_namespace%__ErrorCode__c-%vlocity_namespace%__Error Code Layout
+    - layouts/%vlocity_namespace%__ErrorCodeNamespace__c-%vlocity_namespace%__Error Code Namespace %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ErrorCodeNamespace__c-%vlocity_namespace%__Error Code Namespace Layout
+    - layouts/%vlocity_namespace%__EventDuringInteraction__c-%vlocity_namespace%__Event During Interaction Layout
+    - layouts/%vlocity_namespace%__EventMessage__c-%vlocity_namespace%__Vlocity Event Message Layout
+    - layouts/%vlocity_namespace%__ExpandedInteractionLog__c-%vlocity_namespace%__Expanded Interaction Log %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ExpandedInteractionLog__c-%vlocity_namespace%__Expanded Interaction Log Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequest__c-%vlocity_namespace%__Fulfilment Request %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequest__c-%vlocity_namespace%__Fulfilment Request Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestDecompRelationship__c-%vlocity_namespace%__Fulfilment Request Decomp Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestDecompRelationship__c-%vlocity_namespace%__Fulfilment Request Decomposition Rel Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLine__c-%vlocity_namespace%__Fulfilment Request Line %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLine__c-%vlocity_namespace%__Fulfilment Request Line Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineDecompRelationship__c-%vlocity_namespace%__Fulfilment Request Line Decomp Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineDecompRelationship__c-%vlocity_namespace%__FulfilmentRequestLineDecompRelationship Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineRelationship__c-%vlocity_namespace%__FulfilmentRequestLineRelationship Layout
+    - layouts/%vlocity_namespace%__FulfilmentRequestLineSourceRootOrderItem__c-%vlocity_namespace%__FRL Source Bundle Relationship Layout
+    - layouts/%vlocity_namespace%__FunctionDefinition__mdt-%vlocity_namespace%__Function Definition Layout
+    - layouts/%vlocity_namespace%__GenericDocument__c-%vlocity_namespace%__Generic DocuSign Document Layout
+    - layouts/%vlocity_namespace%__GenericEnvelope__c-%vlocity_namespace%__Generic DocuSign Envelope Layout
+    - layouts/%vlocity_namespace%__GenericRecipient__c-%vlocity_namespace%__Generic DocuSign Recipient Layout
+    - layouts/%vlocity_namespace%__GraphClone__c-%vlocity_namespace%__Graph Clone Layout
+    - layouts/%vlocity_namespace%__Household__c-%vlocity_namespace%__Household
+    - layouts/%vlocity_namespace%__Household__c-%vlocity_namespace%__Household %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__Household__c-%vlocity_namespace%__Household Core
+    - layouts/%vlocity_namespace%__InboundRESTInterface__c-%vlocity_namespace%__Inbound REST Interface %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Integration Retry Policy Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Monotonous Forever Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Monotonous Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__No Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__IntegrationRetryPolicy__c-%vlocity_namespace%__Staggered Retry Policy %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__Interface_BillingInfo__c-%vlocity_namespace%__Interface_BillingInfo Layout
+    - layouts/%vlocity_namespace%__Interface_DRGeneric__c-%vlocity_namespace%__Interface_DRGeneric Layout
+    - layouts/%vlocity_namespace%__Interface_ProductAttribute__c-%vlocity_namespace%__Product Attribute Interface Layout
+    - layouts/%vlocity_namespace%__InterfaceImplementation__c-%vlocity_namespace%__Interface Implementation Layout
+    - layouts/%vlocity_namespace%__InterfaceImplementationDetail__c-%vlocity_namespace%__Interface Implementation Detail Layout
+    - layouts/%vlocity_namespace%__InventoryItem__c-%vlocity_namespace%__Inventory Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__InventoryItem__c-%vlocity_namespace%__Inventory Item %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__InventoryItemDecompositionRelationship__c-%vlocity_namespace%__Inventory Item Decomposition Relationship %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__InventoryItemDecompositionRelationship__c-%vlocity_namespace%__Inventory Item DecompositionRelationship Layout
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__ItemImplementation__c-%vlocity_namespace%__Item Implementation Layout
+    - layouts/%vlocity_namespace%__Jurisdiction__c-%vlocity_namespace%__Jurisdiction Layout
+    - layouts/%vlocity_namespace%__LargeDataStore__c-%vlocity_namespace%__Large Data Store Layout
+    - layouts/%vlocity_namespace%__LineOfBusiness__c-%vlocity_namespace%__Line of Business Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V4
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity Thor%29 Layout V5
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__ManualQueue__c-%vlocity_namespace%__Manual Queue %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__ManualQueueMember__c-%vlocity_namespace%__Manual Queue Member %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__ManualQueueMember__c-%vlocity_namespace%__Manual Queue Member Layout
+    - layouts/%vlocity_namespace%__MediaProperty__c-%vlocity_namespace%__Media Property Layout
+    - layouts/%vlocity_namespace%__ObjectAppliedResult__c-%vlocity_namespace%__Object Applied Result Layout
+    - layouts/%vlocity_namespace%__ObjectClass__c-%vlocity_namespace%__Object Class Layout
+    - layouts/%vlocity_namespace%__ObjectClass__c-%vlocity_namespace%__Vlocity_EPC_Object_Class_Layout
+    - layouts/%vlocity_namespace%__ObjectElement__c-%vlocity_namespace%__Vlocity Object Section Element Layout
+    - layouts/%vlocity_namespace%__ObjectFacet__c-%vlocity_namespace%__Class Facet Layout
+    - layouts/%vlocity_namespace%__ObjectFacet__c-%vlocity_namespace%__Object Facet Layout
+    - layouts/%vlocity_namespace%__ObjectFieldAttribute__c-%vlocity_namespace%__Object Field Attribute Layout
+    - layouts/%vlocity_namespace%__ObjectLayout__c-%vlocity_namespace%__Object Layout Layout
+    - layouts/%vlocity_namespace%__ObjectRuleAssignment__c-%vlocity_namespace%__Vlocity Object Rule Assignment Layout
+    - layouts/%vlocity_namespace%__ObjectSection__c-%vlocity_namespace%__Vlocity Object Section Layout
+    - layouts/%vlocity_namespace%__OfferingProcedure__c-%vlocity_namespace%__Offering Procedure %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__OfferingProcedure__c-%vlocity_namespace%__Offering Procedure Layout
+    - layouts/%vlocity_namespace%__OfferMigrationComponentMapping__c-%vlocity_namespace%__Offer Migration Component Mapping Layout
+    - layouts/%vlocity_namespace%__OfferMigrationPlan__c-%vlocity_namespace%__Offer Migration Plan Layout
+    - layouts/%vlocity_namespace%__OfferMigrationPlan__c-%vlocity_namespace%__Vlocity Offer Migration Plan Layout
+    - layouts/%vlocity_namespace%__OfferPricingComponent__c-%vlocity_namespace%__Offer Pricing Component Layout
+    - layouts/%vlocity_namespace%__OmniScript__c-%vlocity_namespace%__OmniScript Layout
+    - layouts/%vlocity_namespace%__OmniScriptDefinition__c-%vlocity_namespace%__OmniScript Definition Layout
+    - layouts/%vlocity_namespace%__OmniScriptInstance__c-%vlocity_namespace%__Vlocity OmniScript Instance Layout
+    - layouts/%vlocity_namespace%__OmniUserSession__c-%vlocity_namespace%__Omni User Session Layout
+    - layouts/%vlocity_namespace%__OperatingHours__c-%vlocity_namespace%__Operating Hours Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Exception Operating Hours Entry %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Operating Hours Entry Exception Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Operating Hours Entry Standard Layout
+    - layouts/%vlocity_namespace%__OperatingHoursEntry__c-%vlocity_namespace%__Standard Operating Hours Entry %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OpportunityAppliedPromotion__c-%vlocity_namespace%__Opportunity Applied Promotion Layout
+    - layouts/%vlocity_namespace%__OpportunityAppliedPromotionItem__c-%vlocity_namespace%__Opportunity Applied Promotion Item Layout
+    - layouts/%vlocity_namespace%__OpportunityDiscount__c-%vlocity_namespace%__Opportunity Discount Layout
+    - layouts/%vlocity_namespace%__OpportunityDiscountItem__c-%vlocity_namespace%__Opportunity Discount Item Layout
+    - layouts/%vlocity_namespace%__OpportunityDiscountPricing__c-%vlocity_namespace%__Opportunity Discount Pricing Layout
+    - layouts/%vlocity_namespace%__OpportunityGroup__c-%vlocity_namespace%__Opportunity Group Layout
+    - layouts/%vlocity_namespace%__OpportunityLineItemRelationship__c-%vlocity_namespace%__Opportunity Line Item Relationship Layout
+    - layouts/%vlocity_namespace%__OpportunityMember__c-%vlocity_namespace%__Opportunity Member Layout
+    - layouts/%vlocity_namespace%__OpportunityPriceAdjustment__c-%vlocity_namespace%__Opportunity Pricing Layout
+    - layouts/%vlocity_namespace%__OrchestrationDependency__c-%vlocity_namespace%__Orchestration Dependency %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationDependency__c-%vlocity_namespace%__Orchestration Dependency %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationDependencyDefinition__c-%vlocity_namespace%__Orchestration Dependency Definition %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItem__c-%vlocity_namespace%__Orchestration Item %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Auto Task %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V10
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V11
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V12
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V13
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Callout %28Vlocity XOM%29 Layout V9
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Manual Task %28Vlocity XOM%29 Layout V9
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Orchestration Item Definition %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V4
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V5
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V6
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V7
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V8
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Push Event %28Vlocity XOM%29 Layout V9
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Sub-plan %28Vlocity Thor%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Sub-plan %28Vlocity Thor%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationItemDefinition__c-%vlocity_namespace%__Sub-plan %28Vlocity Thor%29 Layout V3
+    - layouts/%vlocity_namespace%__OrchestrationItemRelationship__c-%vlocity_namespace%__Orchestration Item Relationship Layout
+    - layouts/%vlocity_namespace%__OrchestrationItemSource__c-%vlocity_namespace%__Orchestration Item Source Layout
+    - layouts/%vlocity_namespace%__OrchestrationPlan__c-%vlocity_namespace%__Orchestration Plan %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationPlan__c-%vlocity_namespace%__Orchestration Plan %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationPlanDefinition__c-%vlocity_namespace%__Orchestration Plan Definition %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationQueue__c-%vlocity_namespace%__Orchestration Queue %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationQueue__c-%vlocity_namespace%__Orchestration Queue %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c-%vlocity_namespace%__Orchestration Queue Assignment Rule %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c-%vlocity_namespace%__Orchestration Queue Assignment Rule %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationQueueAssignmentRule__c-%vlocity_namespace%__Orchestration Queue Assignment Rule Layout
+    - layouts/%vlocity_namespace%__OrchestrationScenario__c-%vlocity_namespace%__Orchestration Scenario %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrchestrationScenario__c-%vlocity_namespace%__Orchestration Scenario %28Vlocity XOM%29 Layout V2
+    - layouts/%vlocity_namespace%__OrchestrationScenario__c-%vlocity_namespace%__Orchestration Scenario Layout
+    - layouts/%vlocity_namespace%__OrchestrationSchedulerImplementation__c-%vlocity_namespace%__Orchestration Scheduler Implementation %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__OrderAppliedPromotion__c-%vlocity_namespace%__Order Applied Promotion Layout
+    - layouts/%vlocity_namespace%__OrderAppliedPromotionItem__c-%vlocity_namespace%__Order Applied Promotion Affected Item Layout
+    - layouts/%vlocity_namespace%__OrderDiscount__c-%vlocity_namespace%__Order Discount Layout
+    - layouts/%vlocity_namespace%__OrderDiscountItem__c-%vlocity_namespace%__Order Discount Item Layout
+    - layouts/%vlocity_namespace%__OrderDiscountPricing__c-%vlocity_namespace%__Order Discount Pricing Layout
+    - layouts/%vlocity_namespace%__OrderGroup__c-%vlocity_namespace%__Order Group Layout
+    - layouts/%vlocity_namespace%__OrderItemAdPlacement__c-%vlocity_namespace%__Order Ad Placement Layout
+    - layouts/%vlocity_namespace%__OrderItemPriceAdjustment__c-%vlocity_namespace%__Order Item Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__OrderItemRelationship__c-%vlocity_namespace%__Order Product Relationship Layout
+    - layouts/%vlocity_namespace%__OrderMember__c-%vlocity_namespace%__Order Member Layout
+    - layouts/%vlocity_namespace%__OrderPayment__c-%vlocity_namespace%__Order Payment Layout
+    - layouts/%vlocity_namespace%__OrderPriceAdjustment__c-%vlocity_namespace%__Order Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__OrderProductRollup__c-%vlocity_namespace%__Order Product Rollup Layout
+    - layouts/%vlocity_namespace%__OrderRelationship__c-%vlocity_namespace%__Order Relationship Layout
+    - layouts/%vlocity_namespace%__OutboundConfiguration__c-%vlocity_namespace%__Outbound Configuration Layout
+    - layouts/%vlocity_namespace%__OverrideDefinition__c-%vlocity_namespace%__Product Override Layout
+    - layouts/%vlocity_namespace%__Party__c-%vlocity_namespace%__Client Default
+    - layouts/%vlocity_namespace%__Party_Association__c-%vlocity_namespace%__Party Association Layout
+    - layouts/%vlocity_namespace%__PartyMergeRequest__c-%vlocity_namespace%__Party Merge Request Layout
+    - layouts/%vlocity_namespace%__PartyRelationship__c-%vlocity_namespace%__Party Relationship Layout
+    - layouts/%vlocity_namespace%__PartyRelationshipType__c-%vlocity_namespace%__Relationship Type Layout
+    - layouts/%vlocity_namespace%__PaymentAdjustment__c-%vlocity_namespace%__Console Payment Adjustment %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PaymentAdjustment__c-%vlocity_namespace%__Payment Adjustment %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PaymentMethod__c-%vlocity_namespace%__Payment Method %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PaymentPlan__c-%vlocity_namespace%__Payment Plan Layout
+    - layouts/%vlocity_namespace%__Picklist__c-%vlocity_namespace%__Picklist Layout
+    - layouts/%vlocity_namespace%__Picklist__c-%vlocity_namespace%__VlocityPCPicklistLayout
+    - layouts/%vlocity_namespace%__PicklistSelectionEntry__c-%vlocity_namespace%__Picklist Selection Entry Layout
+    - layouts/%vlocity_namespace%__PicklistValue__c-%vlocity_namespace%__Vlocity Picklist Value Layout
+    - layouts/%vlocity_namespace%__Premises__c-%vlocity_namespace%__Premises %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__PremisesPartyRelationship__c-%vlocity_namespace%__PremisesPartyRelationship Layout
+    - layouts/%vlocity_namespace%__PriceList__c-%vlocity_namespace%__Price List Layout
+    - layouts/%vlocity_namespace%__PriceList__c-%vlocity_namespace%__Vlocity EPC Price List Layout
+    - layouts/%vlocity_namespace%__PriceListEntry__c-%vlocity_namespace%__Price List Entry Layout
+    - layouts/%vlocity_namespace%__PricingComponent__c-%vlocity_namespace%__Pricing Component Layout
+    - layouts/%vlocity_namespace%__PricingComponentRelationship__c-%vlocity_namespace%__Pricing Component Relationship Layout
+    - layouts/%vlocity_namespace%__PricingElement__c-%vlocity_namespace%__Pricing Element Layout
+    - layouts/%vlocity_namespace%__PricingPlan__c-%vlocity_namespace%__Pricing Plan Layout
+    - layouts/%vlocity_namespace%__PricingPlan__c-%vlocity_namespace%__Vlocity EPC Pricing Plan Layout
+    - layouts/%vlocity_namespace%__PricingPlanStep__c-%vlocity_namespace%__Pricing Plan Step Layout
+    - layouts/%vlocity_namespace%__PricingPlanStep__c-%vlocity_namespace%__Vlocity EPC Pricing Plan Step Layout
+    - layouts/%vlocity_namespace%__PricingVariable__c-%vlocity_namespace%__Pricing Variable Layout
+    - layouts/%vlocity_namespace%__PricingVariable__c-%vlocity_namespace%__Vlocity EPC Pricing Variable Layout
+    - layouts/%vlocity_namespace%__PricingVariableBinding__c-%vlocity_namespace%__Pricing Variable Binding Layout
+    - layouts/%vlocity_namespace%__PricingVariableBinding__c-%vlocity_namespace%__Vlocity EPC Pricing Variable Binding Layout
+    - layouts/%vlocity_namespace%__ProductAttribXN__c-%vlocity_namespace%__ProductAttribXN Layout
+    - layouts/%vlocity_namespace%__ProductAvailability__c-%vlocity_namespace%__Product Not Available %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductAvailability__c-%vlocity_namespace%__Product Not Available Layout
+    - layouts/%vlocity_namespace%__ProductChildItem__c-%vlocity_namespace%__Product Child Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductConfigurationProcedure__c-%vlocity_namespace%__Product Configuration Procedure Layout
+    - layouts/%vlocity_namespace%__ProductEligibility__c-%vlocity_namespace%__Product Eligibility %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductRelationship__c-%vlocity_namespace%__Product Relationship %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProductRelationship__c-%vlocity_namespace%__Product Relationship Layout
+    - layouts/%vlocity_namespace%__ProductRelationshipType__c-%vlocity_namespace%__Product Relationship Type Layout
+    - layouts/%vlocity_namespace%__ProductTemplate__c-%vlocity_namespace%__Product Template Layout
+    - layouts/%vlocity_namespace%__ProfileCategoryAssignment__c-%vlocity_namespace%__Product Template Assignment %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProfilingSegment__c-%vlocity_namespace%__Product Attribute Definition %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProfilingSegment__c-%vlocity_namespace%__Product Attribute Definition Layout
+    - layouts/%vlocity_namespace%__ProfilingSegment__c-%vlocity_namespace%__Profiling Segment Layout
+    - layouts/%vlocity_namespace%__ProfilingSegmentCategory__c-%vlocity_namespace%__Product Template Definition %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__ProfilingSegmentCategory__c-%vlocity_namespace%__Product Template Definition Layout
+    - layouts/%vlocity_namespace%__ProfilingSegmentCategory__c-%vlocity_namespace%__Profiling Segment Category Layout
+    - layouts/%vlocity_namespace%__Project__c-%vlocity_namespace%__Project Layout
+    - layouts/%vlocity_namespace%__Project__c-%vlocity_namespace%__Vlocity Project Layout
+    - layouts/%vlocity_namespace%__ProjectItem__c-%vlocity_namespace%__Project Item Layout
+    - layouts/%vlocity_namespace%__Promotion__c-%vlocity_namespace%__Promotion Layout
+    - layouts/%vlocity_namespace%__Promotion__c-%vlocity_namespace%__Vlocity EPC Discount Layout
+    - layouts/%vlocity_namespace%__Promotion__c-%vlocity_namespace%__Vlocity EPC Promotion Layout
+    - layouts/%vlocity_namespace%__PromotionApplicableProduct__c-%vlocity_namespace%__Promotion Applicable Product Layout
+    - layouts/%vlocity_namespace%__PromotionIncludedProduct__c-%vlocity_namespace%__Promotion Included Product Layout
+    - layouts/%vlocity_namespace%__PromotionItem__c-%vlocity_namespace%__Promotion Item Layout
+    - layouts/%vlocity_namespace%__PromotionPricingAlteration__c-%vlocity_namespace%__Promotion Pricing Alteration Layout
+    - layouts/%vlocity_namespace%__QuoteAppliedPromotion__c-%vlocity_namespace%__Quote Applied Promotion Layout
+    - layouts/%vlocity_namespace%__QuoteAppliedPromotionItem__c-%vlocity_namespace%__Quote Applied Promotion Affected Item Layout
+    - layouts/%vlocity_namespace%__QuoteDiscount__c-%vlocity_namespace%__Quote Discount Layout
+    - layouts/%vlocity_namespace%__QuoteDiscountItem__c-%vlocity_namespace%__Quote Discount Item Layout
+    - layouts/%vlocity_namespace%__QuoteDiscountPricing__c-%vlocity_namespace%__Quote Discount Pricing Layout
+    - layouts/%vlocity_namespace%__QuoteGroup__c-%vlocity_namespace%__Quote Group Layout
+    - layouts/%vlocity_namespace%__QuoteLineItemAdPlacement__c-%vlocity_namespace%__Media Plan Placement Layout
+    - layouts/%vlocity_namespace%__QuoteLineItemPricingAdjustment__c-%vlocity_namespace%__Quote Line Item Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__QuoteLineItemRelationship__c-%vlocity_namespace%__Quote Line Item Relationship Layout
+    - layouts/%vlocity_namespace%__QuoteMember__c-%vlocity_namespace%__Quote Member Layout
+    - layouts/%vlocity_namespace%__QuotePricingAdjustment__c-%vlocity_namespace%__Quote Pricing Adjustment Layout
+    - layouts/%vlocity_namespace%__QuoteProductRollup__c-%vlocity_namespace%__Quote Product Rollup Layout
+    - layouts/%vlocity_namespace%__RelationshipGraph__c-%vlocity_namespace%__Relationship Graph Layout
+    - layouts/%vlocity_namespace%__RelationshipGraphNodeType__c-%vlocity_namespace%__Relationship Graph Node Type Layout
+    - layouts/%vlocity_namespace%__RelationshipGraphTraversal__c-%vlocity_namespace%__Relationship Graph Traversal Layout
+    - layouts/%vlocity_namespace%__Rule__c-%vlocity_namespace%__Rule %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__Rule__c-%vlocity_namespace%__Rule Layout
+    - layouts/%vlocity_namespace%__RuleAction__c-%vlocity_namespace%__Rule Action Layout
+    - layouts/%vlocity_namespace%__RuleAssignment__c-%vlocity_namespace%__Vlocity Rule Assignment Layout
+    - layouts/%vlocity_namespace%__RuleFilter__c-%vlocity_namespace%__Rule Filter Layout
+    - layouts/%vlocity_namespace%__RuleProperty__c-%vlocity_namespace%__Rule Property Layout
+    - layouts/%vlocity_namespace%__RuleVariable__c-%vlocity_namespace%__Rule Variable Layout
+    - layouts/%vlocity_namespace%__ScreeningRule__c-%vlocity_namespace%__Screening Rule Layout
+    - layouts/%vlocity_namespace%__ScreeningRuleGroup__c-%vlocity_namespace%__Screening Rule Group Layout
+    - layouts/%vlocity_namespace%__SecurityDeposit__c-%vlocity_namespace%__Security Deposit Layout
+    - layouts/%vlocity_namespace%__ServicePoint__c-%vlocity_namespace%__Service Point %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__SpecTemplateAttributeMapping__c-%vlocity_namespace%__Spec Template Attribute Mapping Layout
+    - layouts/%vlocity_namespace%__SpecTemplateMapping__c-%vlocity_namespace%__Spec Template Mapping Layout
+    - layouts/%vlocity_namespace%__Stage__c-%vlocity_namespace%__Stage Layout
+    - layouts/%vlocity_namespace%__Statement__c-%vlocity_namespace%__Statement %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__StatementLineItem__c-%vlocity_namespace%__Statement Line Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/%vlocity_namespace%__StateTransition__c-%vlocity_namespace%__State Transition Layout
+    - layouts/%vlocity_namespace%__String__c-%vlocity_namespace%__Vlocity String Layout
+    - layouts/%vlocity_namespace%__StringTranslation__c-%vlocity_namespace%__Vlocity String Translation Layout
+    - layouts/%vlocity_namespace%__Subscription__c-%vlocity_namespace%__Subscription Layout
+    - layouts/%vlocity_namespace%__SyncDeltaObject__c-%vlocity_namespace%__Sync Delta Object Layout
+    - layouts/%vlocity_namespace%__SyncDeltaSnapshot__c-%vlocity_namespace%__Sync Delta Snapshot Layout
+    - layouts/%vlocity_namespace%__System__c-%vlocity_namespace%__System %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__System__c-%vlocity_namespace%__System Layout
+    - layouts/%vlocity_namespace%__SystemInterface__c-%vlocity_namespace%__System Interface %28Vlocity XOM%29 Layout
+    - layouts/%vlocity_namespace%__SystemInterface__c-%vlocity_namespace%__System Interface Layout
+    - layouts/%vlocity_namespace%__TestResult__c-%vlocity_namespace%__Test Result Layout
+    - layouts/%vlocity_namespace%__ThorOrchestrationQueue__c-%vlocity_namespace%__Thor Orchestration Queue Layout
+    - layouts/%vlocity_namespace%__TimePlan__c-%vlocity_namespace%__Time Plan Layout
+    - layouts/%vlocity_namespace%__TimePlan__c-%vlocity_namespace%__Vlocity EPC Time Plan Layout
+    - layouts/%vlocity_namespace%__TimePolicy__c-%vlocity_namespace%__Time Policy Layout
+    - layouts/%vlocity_namespace%__TimePolicy__c-%vlocity_namespace%__Vlocity EPC Time Policy Layout
+    - layouts/%vlocity_namespace%__UIFacet__c-%vlocity_namespace%__Vlocity UI Facet Layout
+    - layouts/%vlocity_namespace%__UISection__c-%vlocity_namespace%__Vlocity UI Section Layout
+    - layouts/%vlocity_namespace%__UserAdServer__c-%vlocity_namespace%__User Ad Server Layout
+    - layouts/%vlocity_namespace%__UserCalendar__c-%vlocity_namespace%__User Calendar Layout
+    - layouts/%vlocity_namespace%__VersionAwareObjectRelationship__mdt-%vlocity_namespace%__VersionAwareObjectRelationship Layout
+    - layouts/%vlocity_namespace%__VlocityAction__c-%vlocity_namespace%__Vlocity Action Layout
+    - layouts/%vlocity_namespace%__VlocityAPIMetadata__c-%vlocity_namespace%__Vlocity API Metadata Layout
+    - layouts/%vlocity_namespace%__VlocityAttachment__c-%vlocity_namespace%__Vlocity Attachment Layout
+    - layouts/%vlocity_namespace%__VlocityCard__c-%vlocity_namespace%__Vlocity Card Layout
+    - layouts/%vlocity_namespace%__VlocityContractServiceLog__c-%vlocity_namespace%__Vlocity Contract Service Log Layout
+    - layouts/%vlocity_namespace%__VlocityDataPack__c-%vlocity_namespace%__Vlocity Data Pack Layout
+    - layouts/%vlocity_namespace%__VlocityDataPackConfiguration__mdt-%vlocity_namespace%__Vlocity Data Pack Configuration Layout
+    - layouts/%vlocity_namespace%__VlocityDocuSignBranding__c-%vlocity_namespace%__Vlocity DocuSign Branding Layout
+    - layouts/%vlocity_namespace%__VlocityDocuSignTemplate__c-%vlocity_namespace%__Vlocity Docusign Template Layout
+    - layouts/%vlocity_namespace%__VlocityErrorLogEntry__c-%vlocity_namespace%__Vlocity Error Log Entry Layout
+    - layouts/%vlocity_namespace%__VlocityFunction__c-%vlocity_namespace%__Vlocity Function Layout
+    - layouts/%vlocity_namespace%__VlocityFunctionArgument__c-%vlocity_namespace%__Vlocity Function Argument Layout
+    - layouts/%vlocity_namespace%__VlocityIntegrationSetting__mdt-%vlocity_namespace%__Vlocity Integration Setting Layout
+    - layouts/%vlocity_namespace%__VlocityPartyRecordTypeSetting__mdt-%vlocity_namespace%__Vlocity Party Record Type Setting Layout
+    - layouts/%vlocity_namespace%__VlocityScheduledJob__c-%vlocity_namespace%__Vlocity Scheduled Job Layout
+    - layouts/%vlocity_namespace%__VlocitySearchWidgetActionsSetup__c-%vlocity_namespace%__Vlocity Interaction Launcher Action Layout
+    - layouts/%vlocity_namespace%__VlocitySearchWidgetSetup__c-%vlocity_namespace%__Vlocity Interaction Launcher Layout - Class Based
+    - layouts/%vlocity_namespace%__VlocitySearchWidgetSetup__c-%vlocity_namespace%__Vlocity Interaction Launcher Layout - Object Based
+    - layouts/%vlocity_namespace%__VlocityState__c-%vlocity_namespace%__Vlocity State Layout
+    - layouts/%vlocity_namespace%__VlocityStateModel__c-%vlocity_namespace%__Vlocity State Model Layout
+    - layouts/%vlocity_namespace%__VlocityStateModelVersion__c-%vlocity_namespace%__Vlocity State Model Version Layout
+    - layouts/%vlocity_namespace%__VlocityStateTransition__c-%vlocity_namespace%__Vlocity State Transition Layout
+    - layouts/%vlocity_namespace%__VlocityStateTransitionRule__c-%vlocity_namespace%__Vlocity State Transition Rule Layout
+    - layouts/%vlocity_namespace%__VlocitySystemLog__c-%vlocity_namespace%__Vlocity System Log Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingComponent__c-%vlocity_namespace%__Vlocity Tracking Component Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingEntry__c-%vlocity_namespace%__Vlocity Tracking Entry Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingGroup__c-%vlocity_namespace%__Vlocity Tracking Group Layout
+    - layouts/%vlocity_namespace%__VlocityUILayout__c-%vlocity_namespace%__Vlocity UI Layout Layout
+    - layouts/%vlocity_namespace%__VlocityUITemplate__c-%vlocity_namespace%__Vlocity UI Template Layout
+    - layouts/%vlocity_namespace%__VlocityWebTrackingConfiguration__c-%vlocity_namespace%__Vlocity Web Tracking Configuration Layout
+    - layouts/%vlocity_namespace%__VlocityWebTrackingEventType__c-%vlocity_namespace%__Vlocity Web Tracking Event Type Layout
+    - layouts/%vlocity_namespace%__VPLAbstractionLayerSetup__mdt-%vlocity_namespace%__VPLAbstractionLayerSetup Layout
+    - layouts/%vlocity_namespace%__VPLExpress__mdt-%vlocity_namespace%__VPLExpress Layout
+    - layouts/%vlocity_namespace%__VqMachine__c-%vlocity_namespace%__Vlocity Acuity Machine Layout
+    - layouts/%vlocity_namespace%__VqMachineResource__c-%vlocity_namespace%__Acuity Machine Resource Layout
+    - layouts/%vlocity_namespace%__VqResource__c-%vlocity_namespace%__Vlocity Acuity Resource Layout
+    - layouts/%vlocity_namespace%__XOMEventListener__mdt-%vlocity_namespace%__XOM Event Listener Layout
+    - layouts/01I03000000DFepEAG-Project ID Counter Layout
+    - layouts/Account-%vlocity_namespace%__Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Base Billing %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Base Business%28Vlocity Telecommunication Services%29 layout
+    - layouts/Account-%vlocity_namespace%__Base Consumer %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Base Service %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Billing %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Billing Aggregator %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Business%28Vlocity Telecommunication Services%29 layout
+    - layouts/Account-%vlocity_namespace%__Console Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Console Service Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Consumer %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Other Account %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Service %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-%vlocity_namespace%__Service Aggregator %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Account-Account Layout
+    - layouts/Account-Contractor Page Layout
+    - layouts/Account-Customer Page Layout
+    - layouts/Account-Energy Efficiency Partner
+    - layouts/AccountBrand-Account Brand Layout
+    - layouts/AccountContactRelation-Account Contact Relationship Layout
+    - layouts/AccountRelationship-Account RelationshipLayout
+    - layouts/Application_Approvals_Model__c-Application Approvals Model Layout
+    - layouts/Application_Approvers__c-Application Approver Layout
+    - layouts/Application_Document_Requirement_Model__c-Application Document Requirement Model Layout
+    - layouts/Application_Line_Item__c-Application Line Item Generic Default ALI
+    - layouts/Application_Line_Item__c-Application Line Item HVAC Air Water Cooled Chiller
+    - layouts/Application_Line_Item__c-Application Line Item Layout
+    - layouts/Application_Line_Item__c-Application Line Item Layout Motors and Drives Internal
+    - layouts/Application_Line_Item__c-Application Line Item Layout Refrigeration
+    - layouts/Application_Required_Documents__c-Application Required Document Layout
+    - layouts/Application_Task__c-Application Review Task Layout
+    - layouts/Application_Task__c-Application Task Layout
+    - layouts/Application_Task__c-Final Application Review Task Layout
+    - layouts/Application_Task__c-Final Engineering Review Task Layout
+    - layouts/Application_Task__c-FIOL Send Task Layout
+    - layouts/Application_Task__c-Generic Application Task Layout
+    - layouts/Application_Task__c-Initial Technical Review Task Layout
+    - layouts/Application_Task__c-Post-Inspection Cure Action %28MR2%29 Task Layout
+    - layouts/Application_Task__c-Post-Inspection Task Layout
+    - layouts/Application_Task__c-Pre-Inspection Cure Action %28MR1%29 Task Layout
+    - layouts/Application_Task__c-Pre-Inspection Task Layout
+    - layouts/Application_Task__c-QAQC Post-Inspection Task Layout
+    - layouts/Application_Task__c-QAQC Pre-Inspection Task Layout
+    - layouts/Application_Task__c-SOW Mid Review Task Layout
+    - layouts/Application_Task_Model__c-Application Task Model Layout
+    - layouts/APXT_CongaSign__Document__c-APXT_CongaSign__Document Layout
+    - layouts/APXT_CongaSign__Recipient__c-APXT_CongaSign__Recipient Layout
+    - layouts/APXT_CongaSign__Transaction__c-APXT_CongaSign__Transaction Layout
+    - layouts/APXTConga4__Composer_Host_Override__c-APXTConga4__Composer Host Override Layout
+    - layouts/APXTConga4__Composer_QuickMerge__c-APXTConga4__Composer QuickMerge Layout
+    - layouts/APXTConga4__Composer_Refresh_Token__c-APXTConga4__Composer Refresh Token Layout
+    - layouts/APXTConga4__Composer_Setting__mdt-APXTConga4__Composer Setting Layout
+    - layouts/APXTConga4__Conga_Collection__c-APXTConga4__Conga Collection Layout
+    - layouts/APXTConga4__Conga_Collection_Solution__c-APXTConga4__Conga Collection Solution Layout
+    - layouts/APXTConga4__Conga_Email_Staging__c-APXTConga4__Conga Email Staging Layout
+    - layouts/APXTConga4__Conga_Email_Template__c-APXTConga4__Conga Email Template Layout
+    - layouts/APXTConga4__Conga_Merge_Query__c-APXTConga4__Conga Query Layout
+    - layouts/APXTConga4__Conga_Solution__c-APXTConga4__Conga Solution Layout
+    - layouts/APXTConga4__Conga_Solution_Email_Template__c-APXTConga4__Conga Solution Email Template Layout
+    - layouts/APXTConga4__Conga_Solution_Export_Environment__mdt-APXTConga4__Conga Solution Export Environment Layout
+    - layouts/APXTConga4__Conga_Solution_Export_Setting__mdt-APXTConga4__Conga Solution Export Setting
+    - layouts/APXTConga4__Conga_Solution_Export_Setting__mdt-APXTConga4__Conga Solution Export Setting Layout
+    - layouts/APXTConga4__Conga_Solution_Parameter__c-APXTConga4__Conga Solution Parameter Layout
+    - layouts/APXTConga4__Conga_Solution_Query__c-APXTConga4__Conga Solution Query Layout
+    - layouts/APXTConga4__Conga_Solution_Report__c-APXTConga4__Conga Solution Report Layout
+    - layouts/APXTConga4__Conga_Solution_Template__c-APXTConga4__Conga Solution Template Layout
+    - layouts/APXTConga4__Conga_Template__c-APXTConga4__Conga Template Layout
+    - layouts/APXTConga4__Connected_App_Setting__mdt-APXTConga4__Connected App Setting Layout
+    - layouts/APXTConga4__Document_History__c-APXTConga4__Document History Layout
+    - layouts/APXTConga4__Document_History_Detail__c-APXTConga4__Document History Detail Layout
+    - layouts/APXTConga4__EventData__c-APXTConga4__EventData Layout
+    - layouts/APXTConga4__Lightning_Connected_App_Setting__c-APXTConga4__Lightning Connected App Setting Layout
+    - layouts/APXTConga4__VersionedData__c-APXTConga4__VersionedData Layout
+    - layouts/Asset-%vlocity_namespace%__Asset %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Asset-%vlocity_namespace%__Console Service Asset %28Vlocity Telecommunication Service%29 Layout
+    - layouts/Asset-Asset Layout
+    - layouts/AssetRelationship-Asset Relationship Layout
+    - layouts/AuthorizationForm-Authorization Form Layout
+    - layouts/AuthorizationFormConsent-Authorization Form Consent Layout
+    - layouts/AuthorizationFormDataUse-Authorization Form Data Use Layout
+    - layouts/AuthorizationFormText-Authorization Form Text Layout
+    - layouts/BusinessBrand-Business Brand Layout
+    - layouts/BuyerAccount-Buyer Account Layout
+    - layouts/Campaign-%vlocity_namespace%__Campaign Layout %28Vlocity%29
+    - layouts/Campaign-%vlocity_namespace%__Mobile Campaign %28Vlocity 2.5%29
+    - layouts/Campaign-%vlocity_namespace%__MobilePhoneCampaign
+    - layouts/Campaign-Campaign Layout
+    - layouts/CampaignMember-Campaign Member Page Layout
+    - layouts/Case-%vlocity_namespace%__Case %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Case-%vlocity_namespace%__Console Billing Dispute %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Case-%vlocity_namespace%__Mobile Case %28Vlocity 2.5%29
+    - layouts/Case-%vlocity_namespace%__MobilePhoneCase
+    - layouts/Case-Case Layout
+    - layouts/Case-Custom Case Layout
+    - layouts/CaseClose-Close Case Layout
+    - layouts/CaseInteraction-Case Feed Layout
+    - layouts/CaseMilestone-Case Milestone Layout
+    - layouts/ChannelProgram-Channel Program Layout
+    - layouts/ChannelProgramLevel-Channel Program Level Layout
+    - layouts/ChannelProgramMember-Channel Program Member Layout
+    - layouts/CIS_Integration_Connection__c-CIS Integration Connection Layout
+    - layouts/CollaborationGroup-Group Layout
+    - layouts/CongaWorkflow__Workflow_Region__mdt-CongaWorkflow__Workflow Region Layout
+    - layouts/CongaWorkflow__Workflow_Setting__mdt-CongaWorkflow__Workflow Setting Layout
+    - layouts/Contact-%vlocity_namespace%__Contact %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contact-%vlocity_namespace%__Mobile Contact %28Vlocity 2.5%29
+    - layouts/Contact-%vlocity_namespace%__MobilePhoneContact
+    - layouts/Contact-Contact Layout
+    - layouts/ContactPointAddress-Contact Point Address Layout
+    - layouts/ContactPointConsent-Contact Point Consent Layout
+    - layouts/ContactPointEmail-Contact Point Email Layout
+    - layouts/ContactPointPhone-Contact Point Phone Layout
+    - layouts/ContactPointTypeConsent-Contact Point Type Consent Layout
+    - layouts/ContentVersion-Content Version
+    - layouts/Contract-%vlocity_namespace%__Contract %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contract-%vlocity_namespace%__Contract Layout
+    - layouts/Contract-%vlocity_namespace%__Lightning Contract Layout
+    - layouts/Contract-%vlocity_namespace%__Read Only Contract %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contract-%vlocity_namespace%__Sample Contract With Action Bar %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Contract-Contract Layout
+    - layouts/ContractLineItem-Contract Line Item Layout
+    - layouts/CssDetail-View Case Layout
+    - layouts/CssDetail-View Case Page Layout
+    - layouts/CssEdit-Log a Case Layout
+    - layouts/CssEdit-Log a Case Page Layout
+    - layouts/Customer-Customer Layout
+    - layouts/DataUseLegalBasis-Data Use Legal Basis Layout
+    - layouts/DataUsePurpose-Data Use Purpose Layout
+    - layouts/DelegatedAccount-External Managed Account Layout
+    - layouts/DuplicateRecordSet-Duplicate Record Set Layout
+    - layouts/Eligibility_Rule__c-Approval Page Layout: Override Reqqest for Eligibility 04a0300000003Mo
+    - layouts/Eligibility_Rule__c-Eligibility Rule Layout
+    - layouts/EmailMessage-Email Message Layout
+    - layouts/Energy_Efficiency_Program__c-Energy Efficiency Program Layout
+    - layouts/EnhancedLetterhead-Enhanced Letterhead Layout
+    - layouts/Entitlement-Entitlement Layout
+    - layouts/EntityMilestone-Object Milestone Layout
+    - layouts/Equipment_Model__c-Equipment Model Layout
+    - layouts/Event-%vlocity_namespace%__Mobile Event %28Vlocity 2.5%29
+    - layouts/Event-%vlocity_namespace%__MobilePhoneEvent
+    - layouts/Event-Event Layout
+    - layouts/FeedItem-Feed Item Layout
+    - layouts/Global-Global Layout
+    - layouts/Idea-Idea Layout
+    - layouts/Individual-Individual Layout
+    - layouts/Knowledge__kav-FAQ - Author
+    - layouts/Knowledge__kav-FAQ - Reader
+    - layouts/Knowledge__kav-Procedure - Author
+    - layouts/Knowledge__kav-Procedure - Reader
+    - layouts/Lead-%vlocity_namespace%__Lead %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Lead-Lead Layout
+    - layouts/Lead-Lead Layout 2.0
+    - layouts/LiveAgentSession-Live Agent Session Layout
+    - layouts/LiveChatTranscript-Live Chat Transcript Layout
+    - layouts/LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout
+    - layouts/LiveChatTranscriptEvent-Live Chat Transcript Event Layout
+    - layouts/LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout
+    - layouts/LiveChatVisitor-Live Chat Visitor Layout
+    - layouts/Macro-Macro Layout
+    - layouts/Measure_Promotion_Request__c-Measure Promotion Request Layout
+    - layouts/NewsArticle-News Article Layout
+    - layouts/Opportunity-%vlocity_namespace%__Console Opportunity %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Opportunity-%vlocity_namespace%__Mobile Opportunity %28Vlocity 2.5%29
+    - layouts/Opportunity-%vlocity_namespace%__MobilePhoneOpportunity
+    - layouts/Opportunity-%vlocity_namespace%__Opportunity %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Opportunity-Opportunity Layout
+    - layouts/OpportunityLineItem-%vlocity_namespace%__Opportunity Product %28Vlocity Telecommunication Services%29 Layout
+    - layouts/OpportunityLineItem-Opportunity Product Layout
+    - layouts/Order-%vlocity_namespace%__Console Order %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Order-%vlocity_namespace%__Mobile Order %28Vlocity 2.5%29
+    - layouts/Order-%vlocity_namespace%__MobilePhoneOrder
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V2
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V3
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V4
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity Thor%29 Layout V5
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V10
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V11
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V12
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V2
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V3
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V4
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V5
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V6
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V7
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V8
+    - layouts/Order-%vlocity_namespace%__Order %28Vlocity XOM%29 Layout V9
+    - layouts/Order-Order Layout
+    - layouts/OrderItem-%vlocity_namespace%__Order Product %28Vlocity Telecommunication Services%29 Layout
+    - layouts/OrderItem-Order Product Layout
+    - layouts/Partner_Program_Relationship__c-Partner Program Relationship Layout
+    - layouts/Payment_Batch__c-Payment Batch Layout
+    - layouts/POET__c-POET Layout
+    - layouts/Pricebook2-Price Book Layout
+    - layouts/PricebookEntry-Price Book Entry Layout
+    - layouts/ProcessException-Process Exception Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity EPC%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity Thor%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity Thor%29 Layout V2
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V2
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V3
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V4
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V5
+    - layouts/Product2-%vlocity_namespace%__Product %28Vlocity XOM%29 Layout V6
+    - layouts/Product2-%vlocity_namespace%__Product Console Layout
+    - layouts/Product2-%vlocity_namespace%__Product Template %28Vlocity 3.5%29
+    - layouts/Product2-Product Layout
+    - layouts/ProfileSkill-Skill Layout
+    - layouts/ProfileSkillEndorsement-Endorsement Layout
+    - layouts/ProfileSkillUser-Skill User Layout
+    - layouts/Program_Catalogue_Relationship__c-Program Catalogue Relationship Layout
+    - layouts/Project_Payment__c-Project Payment Layout
+    - layouts/QuickText-Quick Text Layout
+    - layouts/Quote-%vlocity_namespace%__Console Quote %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Quote-%vlocity_namespace%__Quote %28Vlocity Telecommunication Services%29 Layout
+    - layouts/Quote-Quote Layout
+    - layouts/QuoteLineItem-%vlocity_namespace%__Quote Line Item %28Vlocity Telecommunication Services%29 Layout
+    - layouts/QuoteLineItem-Quote Line Item Layout
+    - layouts/Recommendation-%vlocity_namespace%__Recommendation Layout
+    - layouts/Scorecard-Scorecard Layout
+    - layouts/ScorecardAssociation-Scorecard Association Layout
+    - layouts/ScorecardMetric-Scorecard Metric Layout
+    - layouts/Seller-Seller Layout
+    - layouts/ServiceContract-Service Contract Layout
+    - layouts/SocialPersona-Social Persona Layout
+    - layouts/SocialPost-Social Post Layout
+    - layouts/Solution-APXTConga4__Solution Layout
+    - layouts/Solution-Solution Layout
+    - layouts/Strategic_Energy_Partnership__c-Strategic Energy Partnership Layout
+    - layouts/Sundry_Code__c-Sundry Code Layout
+    - layouts/Task-%vlocity_namespace%__Mobile Task %28Vlocity 2.5%29
+    - layouts/Task-%vlocity_namespace%__MobilePhoneTask
+    - layouts/Task-Task Layout
+    - layouts/UpgradePlan__c-Plan Layout
+    - layouts/UpgradePlan__c-UpgradePlan Layout
+    - layouts/UpgradeStep__c-Upgrade Step Layout
+    - layouts/User-%vlocity_namespace%__User %28Vlocity%29 Layout
+    - layouts/User-User Layout
+    - layouts/UserAlt-User Profile Layout
+    - layouts/UserAppMenuItem-Application Layout
+    - layouts/UserProvAccount-User Provisioning Account Layout
+    - layouts/UserProvisioningLog-User Provisioning Log Layout
+    - layouts/UserProvisioningRequest-User Provisioning Request Layout
+    - layouts/WorkAccess-Access Layout
+    - layouts/WorkBadge-Badge Layout
+    - layouts/WorkBadge-Badge Received Layout 192
+    - layouts/WorkBadgeDefinition-Badge Definition Layout
+    - layouts/WorkBadgeDefinition-Badge Layout 192
+    - layouts/WorkOrder-Work Order Layout
+    - layouts/WorkOrderLineItem-Work Order Line Item Layout
+    - layouts/WorkThanks-Thanks Layout
+VlocityTypesToFetch:
+
+SalesforceTypesToFetch:
+    - Layout

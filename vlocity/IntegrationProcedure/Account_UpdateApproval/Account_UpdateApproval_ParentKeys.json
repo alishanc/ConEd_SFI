@@ -1,0 +1,5 @@
+[
+    "DataRaptor/UpdateHoldAccount",
+    "DataRaptor/getAccountInfo",
+    "DataRaptor/updateAccountStatus"
+]

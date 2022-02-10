@@ -1,0 +1,30 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.button-brand {
+    height: 62px;
+    min-width: 243px;
+    border-radius: 30px;
+    background-color: #0078CF;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-left: 10px;
+}
+.button-outline {
+    height: 62px;
+    min-width: 243px;
+    border: 2px solid #0078CF;
+    color: #0078CF;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    justify-content: center;
+    /* margin-right: 10px; */
+}
+.white-button {
+    color: #FFFFFF;
+}

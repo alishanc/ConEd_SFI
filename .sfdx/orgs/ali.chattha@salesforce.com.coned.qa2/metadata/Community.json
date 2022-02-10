@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055Y00000EuxceQAB",
+    "createdByName": "Admin User",
+    "createdDate": "2021-02-26T17:35:43.000Z",
+    "fileName": "communities/Internal Community.community",
+    "fullName": "Internal Community",
+    "id": "09a5Y000000KtODQA0",
+    "lastModifiedById": "0055Y00000EuxceQAB",
+    "lastModifiedByName": "Admin User",
+    "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+    "type": "Community"
+  }
+}

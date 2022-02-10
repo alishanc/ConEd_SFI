@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "IncentiveFactor",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "IncentiveFactor_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "2022-12-31T20:00:00.000Z",
+    "%vlocity_namespace%__GlobalKey__c": "IncentiveFactor v16",
+    "%vlocity_namespace%__GroupKeyValue__c": "5",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": true,
+    "%vlocity_namespace%__Priority__c": 1,
+    "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": true,
+    "%vlocity_namespace%__VersionNumber__c": 16,
+    "Name": "IncentiveFactor v16",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor"
+}

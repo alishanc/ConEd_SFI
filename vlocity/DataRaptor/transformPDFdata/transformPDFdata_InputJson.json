@@ -1,0 +1,325 @@
+{
+    "AccountNumberEligible": "",
+    "AppAnnual": "412.23",
+    "AppCO2": "4.1753",
+    "AppIncentives": "\"$8.40\"",
+    "AppMMBTU": "0",
+    "AppNetCost": "3.6",
+    "AppPB": "0.01",
+    "AppProject": "12",
+    "AppProjectId": null,
+    "AppROI": "11450.83%",
+    "AppStatus": "\"Estimate\"",
+    "AppTherm": "0",
+    "AppkW": "0.634",
+    "AppkWH": "5889",
+    "BS": {
+        "BS_Measures": {
+            "BS_AppLineId": "a6C8G000000CfngUAC",
+            "BS_CalculationType": "Prescriptive",
+            "BS_MeasureCategory": "Building Shell",
+            "BS_MeasureCode": "COM-BS-WINFLM",
+            "BS_MeasureName": "Pipe Insulation",
+            "BS_WINFLM": true,
+            "BS_baseIncentive": 1,
+            "BS_buildingType": "Dormitory",
+            "BS_estimateId": "EST-CI2021082962",
+            "BS_glazingArea": 1,
+            "BS_kWHsavings": "",
+            "BS_kWsavings": "",
+            "BS_laborCost": 1,
+            "BS_location": "Upstate",
+            "BS_materialCost": 1,
+            "BS_promoIncentive": "",
+            "BS_systemType": "AC with Gas Heat",
+            "BS_totalIncentive": 1,
+            "BS_units": 1
+        }
+    },
+    "BuildingAndHvac": {
+        "BuildingTypeBlock": {
+            "BuildingTypeSelect": "Dormitory"
+        },
+        "CoolingSystemBlock": {
+            "CoolingSystemSelect": "Packaged System AC"
+        },
+        "DistributionTypeBlock": {
+            "DistributionTypeSelect": "Fan Coil"
+        },
+        "HeatingFuelBlock": {
+            "HeatingFuelSelect": "Gas"
+        },
+        "HeatingSystemBlock": {
+            "HeatingSystemSelect": "Heat Pump"
+        }
+    },
+    "CUST": null,
+    "ComAir": null,
+    "CustomerInformationStep": null,
+    "DRId_%vlocity_namespace%__Application__c": "a0L8G000000YqvXUAS",
+    "DistributionSystem": "Fan Coil",
+    "EstimateID": "CI-2021038268",
+    "EstimateIDRandomNumber": "EST-CI2021082962",
+    "HVAC": null,
+    "HVACC": null,
+    "LIG": null,
+    "LIGC": null,
+    "MAD": {
+        "MAD_Measures": [
+            {
+                "MAD_AppLineId": "a6C8G000000CfnhUAC",
+                "MAD_CalculationType": "Prescriptive",
+                "MAD_MeasureCategory": "Motors and Drives",
+                "MAD_MeasureCode": "COM-MD-VFD",
+                "MAD_MeasureName": "Variable Frequency Drive",
+                "MAD_VFD": true,
+                "MAD_baseIncentive": 774.63,
+                "MAD_buildingType": "Dormitory",
+                "MAD_estimateId": "EST-CI2021082962",
+                "MAD_eul": "15",
+                "MAD_horsePower": 3,
+                "MAD_kWHSaving": null,
+                "MAD_kWHsavings": 4077,
+                "MAD_kWSavings": null,
+                "MAD_kWsavings": 0.439,
+                "MAD_laborCost": 3,
+                "MAD_materialCost": 3,
+                "MAD_promoIncentive": "",
+                "MAD_quantity": 3,
+                "MAD_totalIncentive": 6,
+                "MAD_vfdApplication": "Chilled Water Pump"
+            },
+            {
+                "MAD_AppLineId": "a6C8G000000CfnlUAC",
+                "MAD_CalculationType": "Prescriptive",
+                "MAD_MeasureCategory": "Motors and Drives",
+                "MAD_MeasureCode": "COM-MD-VFD",
+                "MAD_MeasureName": "Variable Frequency Drive",
+                "MAD_VFD": true,
+                "MAD_baseIncentive": 344.28,
+                "MAD_buildingType": "Dormitory",
+                "MAD_estimateId": "EST-CI2021082962",
+                "MAD_eul": "15",
+                "MAD_horsePower": 2,
+                "MAD_kWHSaving": null,
+                "MAD_kWHsavings": 1812,
+                "MAD_kWSavings": null,
+                "MAD_kWsavings": 0.195,
+                "MAD_laborCost": 2,
+                "MAD_materialCost": 2,
+                "MAD_promoIncentive": "",
+                "MAD_quantity": 2,
+                "MAD_totalIncentive": 4,
+                "MAD_vfdApplication": "Chilled Water Pump"
+            }
+        ]
+    },
+    "MarketSegment": {
+        "MarketSegmentSelect": "Commercial and Industrial"
+    },
+    "MarketSegmentResponse": "Commercial and Industrial",
+    "MeasureCode": "COM-MD-VFD",
+    "MeasureDate": null,
+    "MeasureSelection": {
+        "BuildingShellBlock": {
+            "BuildingShellSelect": "Pipe Insulation"
+        },
+        "BuildingShellFormula": true,
+        "CompressedAirBlock": null,
+        "CompressedAirFormula": false,
+        "CustomBlock": null,
+        "CustomFormula": false,
+        "HVACBlock": null,
+        "HVACControlBlock": null,
+        "HVACControlFormula": false,
+        "HVACFormula": false,
+        "LWC_AllMeasures": {
+            "AllSelectedMeasures": [
+                {
+                    "MAD_Measures": [
+                        {
+                            "MAD_MeasureName": "Variable Frequency Drive"
+                        },
+                        {
+                            "MAD_MeasureName": "Variable Frequency Drive"
+                        }
+                    ],
+                    "MeasureTypeName": "Motors and Drives"
+                },
+                {
+                    "HVAC_Measures": [
+                    ],
+                    "MeasureTypeName": "HVAC"
+                },
+                {
+                    "LIG_Measures": [
+                    ],
+                    "MeasureTypeName": "Lighting"
+                },
+                {
+                    "BS_Measures": [
+                        {
+                            "BS_MeasureName": "Pipe Insulation"
+                        }
+                    ],
+                    "MeasureTypeName": "BuildingShell"
+                },
+                {
+                    "LIGC_Measures": [
+                    ],
+                    "MeasureTypeName": "LightingControl"
+                },
+                {
+                    "ComAir_Measures": [
+                    ],
+                    "MeasureTypeName": "CompressedAir"
+                }
+            ]
+        },
+        "LightingControlBlock": null,
+        "LightingControlFormula": false,
+        "LightingMainBlock": null,
+        "LightingMainFormula": false,
+        "MotorsandDrivesBlock": {
+            "MotorsandDrivesSelect": [
+                "Variable Frequency Drive",
+                "Variable Frequency Drive"
+            ]
+        },
+        "MotorsandDrivesFormula": true,
+        "RefrigerationControlBlock": null,
+        "RefrigerationControlFormula": false,
+        "RefrigerationMainBlock": null,
+        "RefrigerationMainFormula": false,
+        "SelectOrganizationFormula": [
+            "Pipe Insulation",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Variable Frequency Drive",
+            "Variable Frequency Drive",
+            null,
+            null,
+            null
+        ]
+    },
+    "MeasureType": {
+        "MeasureTypeMultiSelect": "Building Shell;Motors and Drives"
+    },
+    "PayeeInformationStep": null,
+    "ProgramForApp": "[object Object]",
+    "ProgramNeeded": "Commercial and Industrial",
+    "ProgramSelection": {
+        "ProgramSelect": "Commercial and Industrial Energy Efficiency Program"
+    },
+    "ProjectName": {
+        "ProjectNameTextInput": "New Project"
+    },
+    "ProjectType": {
+        "ProjectTypeSelect": "Existing Building"
+    },
+    "PromoList": [
+        {
+            "Variable Frequency Drive": "Variable Frequency Drive"
+        }
+    ],
+    "REFRCON": null,
+    "REFRIG": null,
+    "RandomNumber": "2021038268",
+    "STEP_ApplicationRequirementsAndDocuments": null,
+    "STEP_EligibleAccount": null,
+    "STEP_EnterAccountNumber": null,
+    "STEP_EstimatesSummary": {
+        "BLK_BSDetails": {
+        },
+        "BLK_ComAirDetails": null,
+        "BLK_LIGCDetails": null,
+        "BLK_LIGDetails": null,
+        "BLK_MADDetails": {
+        },
+        "BLK_SummaryHeader": {
+            "TXT_EstimateId": "EST-CI2021082962",
+            "TXT_ProjectID": null,
+            "TXT_ProjectName": "New Project",
+            "TXT_ProjectStatus": "\"Estimate\""
+        },
+        "BLK_SummaryInfo0": {
+            "TXT_AnnualSavings": 412.23,
+            "TXT_PB": "0.01",
+            "TXT_ProjectCost": 12,
+            "TXT_ProjectIncentive": 0,
+            "TXT_ROI": "11450.83%",
+            "TXT_TotalNetCost": 3.6
+        },
+        "BLK_SummaryInfo1": {
+            "TXT_BuildingType": "Dormitory",
+            "TXT_HeatingSystemType": "Heat Pump",
+            "TXT_MarketSegment": "Commercial and Industrial",
+            "TXT_ProjectType": "Existing Building"
+        },
+        "BLK_SummaryInfo2": {
+            "TXT_CoolingSystemType": "Packaged System AC",
+            "TXT_DistributionType": "Fan Coil",
+            "TXT_HeatingFuelType": "Gas"
+        },
+        "BLK_SummaryInfo3": {
+            "TXT_CO2": "4.1753",
+            "TXT_KW": "0.634",
+            "TXT_MMBTU": "0",
+            "TXT_SteamSavings": null,
+            "TXT_Therms": "0",
+            "TXT_kWh": "5889"
+        }
+    },
+    "STEP_IneligibleAccount": null,
+    "STEP_MeasureDocs": null,
+    "STEP_MeasureType": null,
+    "STEP_PreviewApplication": null,
+    "STEP_ProgramSelection": null,
+    "STEP_SaveEstimate": null,
+    "STEP_VFDOption": {
+        "RAD_VFDOption": "No"
+    },
+    "SiteInformationStep": null,
+    "buildingType": "Dormitory",
+    "coolingSystem": "Packaged System AC",
+    "eul": 15,
+    "heatingFuel": "Gas",
+    "heatingSystem": "Heat Pump",
+    "measuresList": [
+        {
+            "measureCost1": 450,
+            "measureIncentive1": 450,
+            "measureName1": "Air Compressor",
+            "measureQuantity1": 1,
+            "measureType1": "Compressed Air",
+            "measurekWHSavings1": 100.111
+        },
+        {
+            "measureCost2": 750,
+            "measureIncentive2": 100,
+            "measureName2": "Chiller Tune Up",
+            "measureQuantity2": 1,
+            "measureType2": "HVAC",
+            "measurekWHSavings2": 200.123
+        },
+        {
+            "measureCost3": 50,
+            "measureIncentive3": 20,
+            "measureName3": "Lighting One For One",
+            "measureQuantity3": 1,
+            "measureType3": "Lighting",
+            "measurekWHSavings3": ""
+        }
+    ],
+    "timeStamp": "2021-12-02T15:12:26.590Z",
+    "totalMeasurecount": 3,
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UAgSQAW",
+    "userName": "kyle.russell@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "vfdApplication": "Return Fan"
+}

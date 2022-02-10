@@ -1,0 +1,178 @@
+{
+    "AccountNumber": 123456789012345,
+    "ApplicationId": "a0L8G000000PD5wUAG",
+    "BillingCity": "CoCity",
+    "BillingCountry": "United States",
+    "BillingPostalCode": "23145",
+    "BillingProvince": "AZ",
+    "BillingState": "AZ",
+    "BillingStreet": "123 PC Street",
+    "CustomerAccount": [
+        {
+            "Id": "0018G000002qYzGQAU",
+            "Name": "testAccount1"
+        }
+    ],
+    "CustomerAccountId": "0018G000002qYzGQAU",
+    "CustomerAccountName": "testAccount1",
+    "CustomerInformationStep": {
+        "customerContactBlock": {
+            "CustomerEmail": "bob@builder.com",
+            "CustomerFirstName": "bob",
+            "CustomerLastName": "builder",
+            "CustomerPriPhone": "1236661234",
+            "CustomerTitle": "BOSS",
+            "SelectCustomerContact": "0038G000003mSpMQAU",
+            "customerAddressBlock": {
+                "CustomerCity": "San Francisco",
+                "CustomerCountry": "United States",
+                "CustomerPostalCode": null,
+                "CustomerProvince": null,
+                "CustomerState": "CA",
+                "CustomerStreetAddress": "123 Main Street",
+                "CustomerZipCode": "94105"
+            }
+        },
+        "projectContactBlock": {
+            "PCEmail": "aminadab.morales@salesforce.com",
+            "PCFirstName": "Primary",
+            "PCLastName": "Contact",
+            "PCPriPhone": "2131231231",
+            "PCTitle": "PC Title"
+        }
+    },
+    "CustomerName": "bob builder",
+    "DRId_%vlocity_namespace%__Application__c": "a0L8G000000PD5wUAG",
+    "PCAccountId": "0018G000002trpiQAA",
+    "PCCity": "Philladelphia",
+    "PCCompanyName": "Pat Co",
+    "PCCountry": "United States",
+    "PCData": [
+        {
+            "Account": {
+                "BillingAddress": {
+                    "city": "CoCity",
+                    "country": "United States",
+                    "geocodeAccuracy": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "postalCode": "23145",
+                    "state": "AZ",
+                    "street": "123 PC Street"
+                },
+                "BillingCity": "CoCity",
+                "BillingCountry": "United States",
+                "BillingPostalCode": "23145",
+                "BillingState": "AZ",
+                "BillingStreet": "123 PC Street",
+                "Id": "0018G000002trpiQAA",
+                "Name": "Pat Co",
+                "Primary_Contact__c": "0038G0000026TD1QAM",
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v53.0/sobjects/Account/0018G000002trpiQAA"
+                }
+            },
+            "AccountId": "0018G000002trpiQAA",
+            "Id": "0038G0000026TD1QAM"
+        }
+    ],
+    "PCName": "Primary Contact",
+    "PCPostalCode": "12345",
+    "PCPriContactId": "0038G0000026TD1QAM",
+    "PCProvince": "PA",
+    "PCState": "PA",
+    "PCZipCode": "12345",
+    "PayeeCheckName": "Pat Co",
+    "PayeeCity": "CoCity",
+    "PayeeCountry": "United States",
+    "PayeeInformationStep": {
+        "PayeeBlock": {
+            "PayeeAddressBlock": {
+                "CustomerPayeeAddress": null,
+                "CustomerPayeeCity": null,
+                "CustomerPayeeCountry": null,
+                "CustomerPayeePostalCode": null,
+                "CustomerPayeeProvince": null,
+                "CustomerPayeeState": null,
+                "CustomerPayeeZip": null,
+                "OtherPayeeAddress": null,
+                "OtherPayeeCity": null,
+                "OtherPayeeCountry": null,
+                "OtherPayeePostalCode": null,
+                "OtherPayeeProvince": null,
+                "OtherPayeeState": null,
+                "OtherPayeeZip": null,
+                "PCPayeeAddress": "123 PC Street",
+                "PCPayeeCity": "CoCity",
+                "PCPayeeCountry": "United States",
+                "PCPayeePostalCode": null,
+                "PCPayeeProvince": null,
+                "PCPayeeState": "AZ",
+                "PCPayeeZip": "23145"
+            },
+            "PayeeInformationBlock": {
+                "CustomerAttnFirstName": null,
+                "CustomerAttnLastName": null,
+                "CustomerCheckName": null,
+                "CustomerPayeeTitle": null,
+                "OtherAttnFirstName": null,
+                "OtherAttnLastName": null,
+                "OtherCheckName": null,
+                "OtherPayeeTitle": null,
+                "PCAttnFirstName": "Primary",
+                "PCAttnLastName": "Contact",
+                "PCCheckName": "Pat Co",
+                "PCPayeeTitle": "PC Title",
+                "payeeType": "Participating Contractor"
+            }
+        }
+    },
+    "PayeeState": "AZ",
+    "PayeeStreet": "123 PC Street",
+    "PayeeTitle": "PC Title",
+    "PayeeZip": "23145",
+    "STEP_ApplicationRequirementsAndDocuments": {
+        "SLCT_HowDidYouHear": "",
+        "TXT_HowDidYouHearSpecify": "",
+        "UploadedFiles": {
+            "ConEdisonToolUploaded": true,
+            "CustomerProposalUploaded": true,
+            "CutSheetsUploaded": true,
+            "StatementOfWorkUploaded": false,
+            "W9Uploaded": true
+        }
+    },
+    "SiteInformationStep": {
+        "ProjectInfoBlock": {
+            "EstimatedkWPowerSavings": "123.0000",
+            "EstimatedkWhSavings": "123.0000",
+            "OtherSystems": "asdfadsfadf",
+            "programMultiSelect": "Other (please specify)"
+        },
+        "systemsMsSelected": {
+            "FORMULA_Boilers_Selected": true,
+            "FORMULA_BuildingControlsandEMS_Selected": true,
+            "FORMULA_BuildingEnvelope_Selected": true,
+            "FORMULA_Chillers_Selected": true,
+            "FORMULA_CompressedAir_Selected": true,
+            "FORMULA_DomesticWaterHeating_Selected": true,
+            "FORMULA_Elevators_Selected": true,
+            "FORMULA_Furnaces_Selected": true,
+            "FORMULA_LightingControls_Selected": true,
+            "FORMULA_Lighting_Selected": true,
+            "FORMULA_Other_Selected": true,
+            "FORMULA_ProcessUpgrades_Selected": true,
+            "FORMULA_PumpsFansPipingandDucts_Selected": true,
+            "FORMULA_Refrigeration_Selected": true,
+            "FORMULA_VariableFrequencyDrives_Selected": true
+        }
+    },
+    "customerState": "CA",
+    "timeStamp": "2021-11-05T17:24:29.402Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Systems__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Systems</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Boilers</fullName>
+                <default>false</default>
+                <label>Boilers</label>
+            </value>
+            <value>
+                <fullName>Building Controls and EMS</fullName>
+                <default>false</default>
+                <label>Building Controls and EMS</label>
+            </value>
+            <value>
+                <fullName>Building Envelope</fullName>
+                <default>false</default>
+                <label>Building Envelope</label>
+            </value>
+            <value>
+                <fullName>Chillers</fullName>
+                <default>false</default>
+                <label>Chillers</label>
+            </value>
+            <value>
+                <fullName>Compressed Air</fullName>
+                <default>false</default>
+                <label>Compressed Air</label>
+            </value>
+            <value>
+                <fullName>Domestic Water Heating</fullName>
+                <default>false</default>
+                <label>Domestic Water Heating</label>
+            </value>
+            <value>
+                <fullName>Elevators</fullName>
+                <default>false</default>
+                <label>Elevators</label>
+            </value>
+            <value>
+                <fullName>Furnaces</fullName>
+                <default>false</default>
+                <label>Furnaces</label>
+            </value>
+            <value>
+                <fullName>Lighting</fullName>
+                <default>false</default>
+                <label>Lighting</label>
+            </value>
+            <value>
+                <fullName>Lighting Controls</fullName>
+                <default>false</default>
+                <label>Lighting Controls</label>
+            </value>
+            <value>
+                <fullName>Process Upgrades</fullName>
+                <default>false</default>
+                <label>Process Upgrades</label>
+            </value>
+            <value>
+                <fullName>Pumps, Fans, Piping, and Ducts</fullName>
+                <default>false</default>
+                <label>Pumps, Fans, Piping, and Ducts</label>
+            </value>
+            <value>
+                <fullName>Refrigeration</fullName>
+                <default>false</default>
+                <label>Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Variable Frequency Drives</fullName>
+                <default>false</default>
+                <label>Variable Frequency Drives</label>
+            </value>
+            <value>
+                <fullName>Other (please specify)</fullName>
+                <default>false</default>
+                <label>Other (please specify)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

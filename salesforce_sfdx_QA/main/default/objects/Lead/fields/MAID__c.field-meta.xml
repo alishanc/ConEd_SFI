@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MAID__c</fullName>
+    <description>Masked account ID used to identify Con Edison Accounts without using their account numbers</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Masked account ID used to identify Con Edison Accounts without using their account numbers</inlineHelpText>
+    <label>MAID</label>
+    <precision>15</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

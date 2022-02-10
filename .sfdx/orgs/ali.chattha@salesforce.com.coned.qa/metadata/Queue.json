@@ -1,0 +1,65 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "00503000001duq6AAA",
+      "createdByName": "Aminadab Morales",
+      "createdDate": "2022-01-14T23:29:37.000Z",
+      "fileName": "queues/KnowledgeTransfer.queue",
+      "fullName": "KnowledgeTransfer",
+      "id": "00G03000001VnF3EAK",
+      "lastModifiedById": "00503000001duq6AAA",
+      "lastModifiedByName": "Aminadab Morales",
+      "lastModifiedDate": "2022-01-14T23:29:37.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "00503000001duq6AAA",
+      "createdByName": "Aminadab Morales",
+      "createdDate": "2022-01-14T23:29:36.000Z",
+      "fileName": "queues/Inspections_Team_Queue.queue",
+      "fullName": "Inspections_Team_Queue",
+      "id": "00G03000001VnF2EAK",
+      "lastModifiedById": "00503000001duq6AAA",
+      "lastModifiedByName": "Aminadab Morales",
+      "lastModifiedDate": "2022-01-14T23:32:17.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "00503000001duq6AAA",
+      "createdByName": "Aminadab Morales",
+      "createdDate": "2022-01-14T23:29:37.000Z",
+      "fileName": "queues/New_Application_Que.queue",
+      "fullName": "New_Application_Que",
+      "id": "00G03000001VnF4EAK",
+      "lastModifiedById": "00503000001duq6AAA",
+      "lastModifiedByName": "Aminadab Morales",
+      "lastModifiedDate": "2022-01-14T23:29:37.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "queues/Q1.queue",
+      "fullName": "Q1",
+      "id": "00G5Y000005rVm9UAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "00503000001duq6AAA",
+      "createdByName": "Aminadab Morales",
+      "createdDate": "2022-01-14T23:29:36.000Z",
+      "fileName": "queues/Engineering_Team_Queue.queue",
+      "fullName": "Engineering_Team_Queue",
+      "id": "00G03000001VnF1EAK",
+      "lastModifiedById": "00503000001duq6AAA",
+      "lastModifiedByName": "Aminadab Morales",
+      "lastModifiedDate": "2022-01-14T23:29:36.000Z",
+      "type": "Queue"
+    }
+  ]
+}

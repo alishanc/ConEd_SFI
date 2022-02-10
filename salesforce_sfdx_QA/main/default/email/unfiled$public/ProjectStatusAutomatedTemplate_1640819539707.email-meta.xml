@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Project Status Automated Email Notification:</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ProjectStatusAutomatedTemplate</name>
+    <relatedEntityType>vlocity_cmt__Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Project Status Change Notification</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>EEDM Program Manager. Has full access on their program data within the system. Can do overrides, set incentive rates and manage payments for their program. May also have DoA for other programs when indicated.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Program Manager</label>
+    <permissionSets>Account_Create</permissionSets>
+    <permissionSets>Application_Create</permissionSets>
+    <permissionSets>Application_Line_Item_Read</permissionSets>
+    <permissionSets>Application_Task_Edit</permissionSets>
+    <permissionSets>Case_Create</permissionSets>
+    <permissionSets>Contact_Create</permissionSets>
+    <permissionSets>Leads_Create</permissionSets>
+    <permissionSets>Program_Read</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "00503000001dupmAAA",
+      "createdByName": "Ethan Donahue",
+      "createdDate": "2022-02-01T14:36:03.000Z",
+      "fileName": "navigationMenus/UnauthNave.navigationMenu",
+      "fullName": "UnauthNave",
+      "id": "0Lm030000008PDkCAM",
+      "lastModifiedById": "00503000001dupmAAA",
+      "lastModifiedByName": "Ethan Donahue",
+      "lastModifiedDate": "2022-02-01T14:36:53.000Z",
+      "manageableState": "unmanaged",
+      "type": "NavigationMenu"
+    },
+    {
+      "createdById": "00503000001eLSBAA2",
+      "createdByName": "Jeremy-ADMIN Brown",
+      "createdDate": "2021-12-30T04:46:58.000Z",
+      "fileName": "navigationMenus/Guests_Menu.navigationMenu",
+      "fullName": "Guests_Menu",
+      "id": "0Lm030000008PAbCAM",
+      "lastModifiedById": "00503000001duq6AAA",
+      "lastModifiedByName": "Aminadab Morales",
+      "lastModifiedDate": "2022-01-20T19:16:31.000Z",
+      "manageableState": "unmanaged",
+      "type": "NavigationMenu"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:23:48.000Z",
+      "fileName": "navigationMenus/SFDC_Default_Navigation_home.navigationMenu",
+      "fullName": "SFDC_Default_Navigation_home",
+      "id": "0Lm030000008P57CAE",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:23:48.000Z",
+      "manageableState": "unmanaged",
+      "type": "NavigationMenu"
+    }
+  ]
+}

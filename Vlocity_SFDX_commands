@@ -1,0 +1,93 @@
+PROD SF Deployment:
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/PROD-LWC -w 0 -l RunSpecifiedTests -r CPQHelperTest-u KP_PROD
+
+Run Apex Test Classes:
+sudo sfdx force:source:deploy --sourcepath /path/to/sfdx/folder -w 0 -l RunSpecifiedTests -r TestClass -u OrgAlias
+
+Code Coverage query testing:
+sfdx force:data:soql:query -q 'select ApexTestClass.Name, TestMethodName, ApexClassOrTrigger.Name, NumLinesUncovered, NumLinesCovered, Coverage from ApexCodeCoverage' -u Ali1 -t -r csv > testcoverage.csv
+
+
+Obtain status report by Job ID if SF deploy takes longer than 33 minutes:
+sudo  sfdx force:source:deploy:report -i 0Af4O00000GGFnTSAX
+
+sudo sfdx force:source:retrieve -u cpq2 -m LightningComponentBundle:kpLgRateSheet
+sudo sfdx force:source:retrieve -u cpq2 -m CustomField:Quote.MBA_Type__c
+sudo sfdx force:source:retrieve -u cpq2 -m CustomObject:Quote
+sudo sfdx force:source:retrieve -u cpq2 -m RecordType:Quote.vlocity_ins__LargeGroupQuote
+sudo sfdx force:source:retrieve -u cpq2 -m retrieve -m StandardValueSet:QuoteStatus
+
+# Retrieve components:
+sudo sfdx force:source:retrieve -u cpq2 -m ApexClass:cpqBenefitsHandler, cpqBenefitsHandlerTest
+sudo sfdx force:source:retrieve -u cpq2 -m Profile:Admin
+
+#Display default org
+sudo sfdx force:org:display 
+#Deploy to default org
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/11-3-sf-cpq4555
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/pcat-sandbox
+sudo sfdx force:source:deploy --sourcepath /Users/AliShan/Desktop/kaiser-cpq-vlocity/force-app -l RunSpecifiedTests -r cpqBenefitsHandlerTest -u KP_PROD
+
+sfdx force:source:push --targetusername=Ali2 --manifest=package.xml --verbose
+
+sudo sfdx force:source:retrieve -u cpq2 -m CustomObject:Request__c.RQR__c
+
+sfdx force:auth:web:login --instanceurl https://test.salesforce.com --setalias TST3
+  for test sandbox
+
+sfdx force:auth:web:login --instanceurl https://login.salesforce.com --setalias AliVDO
+  Vlocity Dev Org
+  
+sfdx force:org:display -u Ali2 --verbose
+
+sfdx force:org:list
+sfdx force:org:display -u KP_UAT --verbose
+sfdx force:org:display 
+-displays active or target org
+
+sfdx force:config:set defaultusername=KP_STG
+-sets default target org designedated by (U) in force:org:list
+
+sfdx force:source:deploy --sourcepath salesforce_sfdx --targetusername=${ALIAS}
+
+@Brandon and @Jaun I did a quick POC
+and we only need three DX command
+1) retrieve from ChangeSet
+Sfdx force:mdapi:retrieve -r ./mdapi -u Vlocity1 -p ChangeSetName
+
+2) Convert into source
+Sfdx force:mdapi:convert -r src -d force-app
+
+3) Source to MdApi
+sudo sfdx force:source:convert -d src
+
+
+sfdx force:data:soql:query -u AliVDO --usetoolingapi --json --query='SELECT Id, SubscriberPackageId, SubscriberPackage.NamespacePrefix,SubscriberPackage.Name, SubscriberPackageVersion.Id,SubscriberPackageVersion.Name, SubscriberPackageVersion.MajorVersion,SubscriberPackageVersion.MinorVersion,SubscriberPackageVersion.PatchVersion,SubscriberPackageVersion.BuildNumber FROM InstalledSubscriberPackage'
+
+Clone the Repo
+Process for Sf & vlocity
+Extract with VDX
+How to create a change set for SF and export it as a folder then merge into src folder
+sfdx force:mdapi:retrieve --packagenames=Test1 -u CMT_Test_106 -r ./salesforce_src_format - wrong commands
+Corrected: sfdx force:mdapi:retrieve -u AliVDO -r ./salesforce_src_format
+
+vlocity -sfdx.username ${ALIAS} -job Deploy_Delta.yaml packDeploy --verbose --simpleLogging true
+vlocity -sfdx.username Ali2 -job job.yaml packDeploy --verbose --simpleLogging true
+vlocity -sfdx.username CanadaVlo2 -job 20pay.yaml packExport --verbose --simpleLogging
+
+vlocity -sfdx.username ${ALIAS} --nojob packUpdateSettings  --verbose --simpleLogging true
+
+
+======================================================================
+Query commands to find a Product in salesforce
+Select Id From Product2 Where Name = 'Product2'
+
+sfdx force:data:soql:query -u ALIAS --usetoolingapi --json --query="SELECT Id, SubscriberPackageId, SubscriberPackage.NamespacePrefix,SubscriberPackage.Name, SubscriberPackageVersion.Id,SubscriberPackageVersion.Name, SubscriberPackageVersion.MajorVersion,SubscriberPackageVersion.MinorVersion,SubscriberPackageVersion.PatchVersion,SubscriberPackageVersion.BuildNumber FROM InstalledSubscriberPackage"
+
+VS CODE shortcut commands
+cmd + ? = uncomment/comment lines
+cmd p
+cmd shift p
+shift tab
+cmd shift l
+delete

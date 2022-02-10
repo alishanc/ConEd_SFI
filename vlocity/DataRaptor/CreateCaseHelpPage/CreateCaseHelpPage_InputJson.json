@@ -1,0 +1,16 @@
+{
+    "HelpForm": {
+        "AttemptingTextArea": null,
+        "BrowserSelect": null,
+        "CompanyNameText": null,
+        "ContactNumberText": null,
+        "EmailField": null,
+        "FullNameText": "qwerq adfsdfa",
+        "NameSplitFormula": [
+            "qwerq",
+            "adfsdfa"
+        ],
+        "ProblemTextArea": null,
+        "TypeIssueSelect": null
+    }
+}

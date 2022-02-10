@@ -1,0 +1,17 @@
+{
+    "ContextId": null,
+    "Event": "Event",
+    "LogContent": "Test",
+    "ObjectId": "ObjectId",
+    "ObjectName": "test",
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null
+    }
+}

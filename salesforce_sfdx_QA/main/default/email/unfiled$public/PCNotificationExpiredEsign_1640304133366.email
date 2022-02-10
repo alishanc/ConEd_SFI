@@ -1,0 +1,27 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear {{{vlocity_cmt__Application__c.Contractor_Full_Name__c}}},<br />
+<br />
+&nbsp;</p>
+
+<p>Site Name&nbsp;{{{vlocity_cmt__Application__c.vlocity_cmt__AccountId__c}}}-{{{vlocity_cmt__Application__c.vlocity_cmt__StreetAddress__c}}}&nbsp;application for&nbsp;{{{vlocity_cmt__Application__c.Name}}}&nbsp;has expired&nbsp;because the&nbsp;{{{vlocity_cmt__Application__c.Customer_Full_Name__c}}} never&nbsp;eSigned&nbsp;the application in the past 30 days&nbsp;and this project has been cancelled.&nbsp;If you believe the project was cancelled in error&nbsp;or shouldn’t be cancelled please&nbsp;contact your&nbsp;Business Development Manager&nbsp;or email us at&nbsp;Commercial@coned.com.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Portal Link: https://dev-coned1.cs219.force.com/homepage/s/application/{{{vlocity_cmt__Application__c.Id}}}</p>
+
+<p>Project ID:&nbsp;{{{vlocity_cmt__Application__c.Project_Id__c}}}</p>
+
+<p>&nbsp;</p>
+
+<p>Thank you,&nbsp;</p>
+
+<p>Con Edison&nbsp;</p>
+
+<p>commercial@coned.com&nbsp;</p>
+
+<p>Commercial &amp; Industrial Program&nbsp;Team&nbsp;</p>
+
+</body></html>

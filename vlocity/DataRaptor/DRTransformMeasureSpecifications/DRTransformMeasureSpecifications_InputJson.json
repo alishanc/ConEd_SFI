@@ -1,0 +1,424 @@
+{
+    "spec": [
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "description": null,
+            "displayName": "Quantity",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "4f13bb69-27c9-4884-a6d7-535df6d35352",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "quantity",
+            "onChangeRule": "",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "type": "number",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "defaultValue": "",
+            "description": null,
+            "displayName": "Building Type",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "2aa43250-7666-4ecc-96c6-2d5b66c991a1",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": "kWh_kW Master Table",
+            "listDataSourceColumn": "buildingType",
+            "listDataType": "string",
+            "listType": "reference",
+            "listValues": [
+                "Commuinity College + University/College",
+                "Dormitory",
+                "Elm/Hschool",
+                "Grocery",
+                "Health",
+                "High School + Elm/Hschool",
+                "Hospital",
+                "Hotel + Hotel/Motel",
+                "Large Retail",
+                "Motel",
+                "Multi-Family",
+                "Offices",
+                "Restaurant",
+                "University + University/College",
+                "Warehouse"
+            ],
+            "maxValue": null,
+            "minValue": null,
+            "name": "buildingType",
+            "onChangeRule": "",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "stepValue": 1,
+            "type": "list",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "defaultValue": "",
+            "description": null,
+            "displayName": "VFD Application",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "37603bd9-c1b4-4b5a-a1f0-a13b1756c0cc",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": "kWh_kW Master Table",
+            "listDataSourceColumn": "vfdApplication",
+            "listDataType": "string",
+            "listType": "reference",
+            "listValues": [
+                "Chilled Water Pump",
+                "Hot Water Pump",
+                "Return Fan",
+                "Supply Fan",
+                "Tower Fan",
+                "Exhaust Fan",
+                "Boiler Feedwater Pump",
+                "MAF",
+                "Water Loop Heat Pump Circ Pump",
+                "Condenser Water Pump"
+            ],
+            "maxValue": null,
+            "minValue": null,
+            "name": "vfdApplication",
+            "onChangeRule": "",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "stepValue": 1,
+            "type": "list",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "description": null,
+            "displayName": "Horsepower of Fan/Pump",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "3ab191c8-1904-4a39-b325-c5eb2db56f5c",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "horsePower",
+            "onChangeRule": "",
+            "readOnlyRule": "customMeasure == 'Yes'",
+            "type": "number",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "defaultValue": 15,
+            "description": null,
+            "displayName": "Early Useful Life (EUL)",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "11bf56f8-be88-4811-8be4-2173e316ee50",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "eul",
+            "onChangeRule": "",
+            "readOnlyRule": "",
+            "type": "number",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "defaultValue": "No",
+            "description": null,
+            "displayName": "Mark as Custom?",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "bcbf893e-f441-40d5-a970-99c9813fa946",
+            "isAllowPermutation": false,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": "simple",
+            "listValues": [
+                "Yes",
+                "No"
+            ],
+            "maxValue": null,
+            "minValue": null,
+            "name": "customMeasure",
+            "onChangeRule": "",
+            "readOnlyRule": "",
+            "stepValue": 1,
+            "type": "list",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "description": null,
+            "displayName": "kWh Savings",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "aba1e048-90d5-421c-bf27-81a48126e9fb",
+            "isAllowPermutation": false,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "customkWh",
+            "onChangeRule": "",
+            "readOnlyRule": "",
+            "type": "number",
+            "units": null,
+            "visibilityRule": "customMeasure=='Yes'"
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "description": null,
+            "displayName": "kW Savings",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "6295a0a6-ac23-4093-8a78-8b3b234a1043",
+            "isAllowPermutation": false,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "customkW",
+            "onChangeRule": "",
+            "readOnlyRule": "",
+            "type": "number",
+            "units": null,
+            "visibilityRule": "customMeasure=='Yes'"
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "description": null,
+            "displayName": "kWh/Hp",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "96eb8af5-36c0-4969-851e-69c8102206ac",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "kwhHpUserInput",
+            "onChangeRule": "",
+            "readOnlyRule": "customMeasure=='Yes'",
+            "type": "number",
+            "units": null,
+            "visibilityRule": ""
+        },
+        {
+            "apiLookup": {
+                "endPoint": {
+                },
+                "filters": [
+                ],
+                "responseFields": [
+                ],
+                "searchFields": [
+                ]
+            },
+            "description": null,
+            "displayName": "kW/Hp",
+            "filterableList": {
+                "dataSource": [
+                ],
+                "filterBy": null,
+                "valueColumn": null
+            },
+            "id": "dfd691ea-af72-4f2a-a5f3-25304a7f9cd2",
+            "isAllowPermutation": true,
+            "isConstant": false,
+            "isDisabled": false,
+            "isEditable": false,
+            "isMandatory": false,
+            "listDataSource": null,
+            "listDataSourceColumn": null,
+            "listDataType": "string",
+            "listType": null,
+            "listValues": [
+            ],
+            "name": "kwHpUserInput",
+            "onChangeRule": "",
+            "readOnlyRule": "customMeasure=='Yes'",
+            "type": "number",
+            "units": null,
+            "visibilityRule": ""
+        }
+    ]
+}

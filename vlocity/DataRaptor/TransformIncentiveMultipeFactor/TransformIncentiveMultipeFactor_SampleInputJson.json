@@ -1,0 +1,12 @@
+{
+    "input": {
+        "Location": "",
+        "MeasureCategory": "HVAC",
+        "MeasureCode": "COM-HVAC-ACUAC",
+        "MeasureCost": 10000,
+        "Watts": "",
+        "delkWh": 50,
+        "glazingArea": 25,
+        "quantity": 1
+    }
+}

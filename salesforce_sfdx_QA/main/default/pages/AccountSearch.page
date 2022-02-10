@@ -1,0 +1,143 @@
+<apex:page id="account-search-page" 
+  name="Account Search Page" title="Account Search"
+  showHeader="true" sidebar="true" 
+  controller="AccountSearchController" lightningstylesheets="true">
+
+    <style type="text/css">
+        #results-grid
+        {
+            width: 100%;
+            height: 250px;
+        }
+        span[id$="searching-status"], span[id$="reset-status"], span[id$="importing-status"]
+        {
+            display: inline-block;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+    </style>
+    
+    <apex:sectionHeader title="Account Search" description="Search for Accounts within Salesforce and the external CIS databases."/>
+
+    <apex:pageMessages id="messages" escape="false"/>
+
+    <!-- Start: Search form -->
+    <apex:form id="search-form">
+        <!-- Start: Search pageblock -->
+        <apex:pageBlock id="search-pageblock">
+            <!-- Start: Search options -->
+            <apex:outputLabel value="Search by" for="search-options" id="search-options-label"/>
+            <apex:selectRadio value="{!m_strSearchBy}" id="search-options">
+                <apex:selectOptions value="{!SearchOptions}" />
+                <apex:actionSupport event="onchange" reRender="search-pageblock"/>
+            </apex:selectRadio>
+            <!-- End: Search options -->
+            <!-- Start: Search filters section -->
+            <apex:pageBlockSection columns="3" collapsible="false" id="search-filters-section" title="Search Filters">
+                <!-- Start: Account Number item -->
+                <apex:pageBlockSectionItem id="account-number-item" labelStyle="width:15%;" dataStyle="width:15%;" rendered="{!IF(m_strSearchBy = 'Account Number', true, false)}">
+                    <apex:outputLabel id="field-label" value="{!m_objAccountNumber.strName}" title="{!m_objAccountNumber.strDescription}"/>
+                    <apex:inputField id="field-text" value="{!m_objPlaceholderAccount[m_objAccountNumber.strDestinationField]}" />
+                </apex:pageBlockSectionItem>
+                <!-- End: Account Number item -->
+                <!-- Start: Field repeat -->
+                <apex:repeat id="field-repeat" var="field" value="{!m_lstFields}">
+                    <!-- Start: Field section item -->
+                    <apex:pageBlockSectionItem id="field-item" labelStyle="width:15%;" dataStyle="width:15%;" rendered="{!IF(m_strSearchBy = 'Other Fields', true, false)}">
+                        <apex:outputLabel id="field-label" value="{!field.strName}" title="{!field.strDescription}"/>
+                        <apex:inputField id="field-text" value="{!m_objPlaceholderAccount[field.strDestinationField]}" required="false" />
+                    </apex:pageBlockSectionItem>
+                    <!-- End: Field section item -->
+                </apex:repeat>
+                <!-- End: Field repeat -->
+            </apex:pageBlockSection>
+            <!-- End: Search filters section -->
+
+            <!-- Start: Search settings section -->
+            <apex:pageBlockSection columns="3" collapsible="false" id="search-setting-section" title="Search Settings">
+                <!-- Start: Maximum Result Size item -->
+                <apex:pageBlockSectionItem id="maximum-result-item" labelStyle="width:15%;" dataStyle="width:15%;">
+                    <apex:outputText value="Maximum Result Size" id="maximum-result-label" />
+                    <apex:selectList id="maximum-result-select" value="{!m_intMaximumResultSize}" size="1">
+                        <apex:selectOptions value="{!MaxResultsOptions}" />
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <!-- End: Maximum Length item -->
+
+                <!-- Start: Include Local Accounts item -->
+                <apex:pageBlockSectionItem id="include-local-accounts-item" labelStyle="width:15%;" dataStyle="width:15%;">
+                    <apex:outputText value="Include Local Accounts" id="include-local-accounts-label" />
+                    <apex:inputCheckbox value="{!m_bIncludeLocalAccounts}" id="include-local-accounts-flag" />
+                </apex:pageBlockSectionItem>
+                <!-- End: Include Local Accounts item -->
+
+                <!-- Start: Include External Accounts item -->
+                <apex:pageBlockSectionItem id="include-external-accounts-item" labelStyle="width:15%;" dataStyle="width:15%;">
+                    <apex:outputText value="Include External Accounts" id="include-external-accounts-label" />
+                    <apex:inputCheckbox value="{!m_bIncludeExternalAccounts}" id="include-external-accounts-flag" />
+                </apex:pageBlockSectionItem>
+                <!-- End: Include Local Accounts item -->
+            </apex:pageBlockSection>
+            <!-- End: Search settings section -->
+
+            <!-- Start: Buttons section -->
+            <apex:pageBlockButtons id="search-section-buttons" location="bottom">
+                <apex:commandButton id="search-button" action="{!searchForAccounts}" value="Search" reRender="messages,results-form" status="searching-status"/>
+                <apex:commandButton id="reset-button" action="{!resetSearchPage}" value="Reset" reRender="messages,search-pageblock,results-form" status="reset-status"/>
+                <apex:actionStatus id="searching-status" startText="Searching..." stopText=""/>
+                <apex:actionStatus id="reset-status" startText="Resetting..." stopText=""/>
+            </apex:pageBlockButtons>
+            <!-- End: Buttons section -->
+
+        </apex:pageBlock>
+         <!-- End: Search pageblock -->
+    </apex:form>
+    <!-- End: Search form -->
+
+    <!-- Start: Search Results form -->
+    <apex:form id="results-form">
+        <!-- Start: Results pageblock -->
+        <apex:pageBlock id="results-pageblock" title="Results" rendered="{!m_bShowResults}">
+            <apex:outputText value="{!m_strResultsMessage}" rendered="{!IF(m_strResultsMessage = '', false, true)}" id="results-message" />
+            <div id="results-grid"></div>
+            <apex:inputHidden value="{!m_strSelectedAccountIds}" id="selected-account-ids"/>
+            <apex:includeScript value="{!URLFOR($Resource.DHTMLxTreeGrid, 'dhtmlx.js')}"/>
+            <apex:stylesheet value="{!URLFOR($Resource.DHTMLxTreeGrid, 'dhtmlx.css')}"/>
+            <script type="text/javascript">
+                result_grid = new dhtmlXGridObject("results-grid");
+                result_grid.setHeader("{!strColumnHeaders}");
+                result_grid.setColumnIds("{!strColumnIds}");
+                result_grid.setInitWidths("{!strInitWidths}");
+                result_grid.setColAlign("{!strColAlign}");
+                result_grid.setColTypes("{!strColTypes}");
+                result_grid.setColSorting("{!strColSorting}");
+                result_grid.init();
+                var data = {!strResultData};
+                result_grid.parse(data, "js");
+                
+                var selectedAccountIds = [];
+                function addAccountToList(e)
+                {
+                    var index = selectedAccountIds.indexOf(e.id);
+                    console.log(e.id + ' = ' + e.checked + ' = ' + index);
+                    
+                    if(e.checked == true && index == -1)
+                    {
+                        selectedAccountIds.push(e.id);
+                    }
+                    else if(e.checked == false && index > -1)
+                    {
+                        selectedAccountIds.splice(index, 1);
+                    }
+                    document.getElementById("account-search-page:results-form:results-pageblock:selected-account-ids").value = selectedAccountIds.toString();
+                }
+            </script>
+            <apex:pageBlockButtons id="results-section-buttons" location="bottom">
+                <apex:commandButton id="import-button" action="{!importSelectedAccounts}" value="Import Selected Accounts" reRender="messages,results-form" status="importing-status" rendered="{!m_bIncludeExternalAccounts}"/>
+                <apex:actionStatus id="importing-status" startText="Importing accounts..." stopText=""/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    <!-- End: Search Results form -->
+
+</apex:page>

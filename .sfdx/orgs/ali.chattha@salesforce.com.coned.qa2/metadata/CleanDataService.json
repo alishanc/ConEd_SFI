@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "cleanDataServices/DataCloudCompanyMatch.cleanDataService",
+      "fullName": "DataCloudCompanyMatch",
+      "id": "07S5Y0000004MmlUAE",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "CleanDataService"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "cleanDataServices/DataCloudLeadAppend.cleanDataService",
+      "fullName": "DataCloudLeadAppend",
+      "id": "07S5Y0000004MmjUAE",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "CleanDataService"
+    },
+    {
+      "createdById": "0055Y00000EuxcfQAB",
+      "createdByName": "Platform Integration User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "cleanDataServices/DataCloudGeoLocation.cleanDataService",
+      "fullName": "DataCloudGeoLocation",
+      "id": "07S5Y0000004MmkUAE",
+      "lastModifiedById": "0055Y00000EuxcfQAB",
+      "lastModifiedByName": "Platform Integration User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "CleanDataService"
+    }
+  ]
+}

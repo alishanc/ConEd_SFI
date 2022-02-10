@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>SupportTicketPC</fullName>
+        <description>SupportTicketPC</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/PCsupportTicket_1642563281882</template>
+    </alerts>
+    <alerts>
+        <fullName>SupportTicketTAM</fullName>
+        <description>SupportTicketTAM</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aminadab.morales@coned.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>edonahue@coned.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/TAMsupportTicket_1642563103382</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Changes the case priority to high.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

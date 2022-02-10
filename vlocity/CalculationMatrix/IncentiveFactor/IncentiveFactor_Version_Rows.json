@@ -1,0 +1,776 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "1fe364",
+            "dataType": "Text",
+            "displayOrder": 12,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000Hhi2QAC",
+            "listValues": null,
+            "name": "PromoEndDate"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "28469c",
+            "dataType": "Text",
+            "displayOrder": 14,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HhhsQAC",
+            "listValues": null,
+            "name": "ApplicationStatus"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2b3327",
+            "dataType": "Text",
+            "displayOrder": 11,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000Hhi3QAC",
+            "listValues": null,
+            "name": "PromoStartDate"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "454821",
+            "dataType": "Number",
+            "displayOrder": 9,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvWQAS",
+            "listValues": null,
+            "name": "PromoBonus"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "55c779",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvUQAS",
+            "listValues": null,
+            "name": "MeasureCode"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "77658f",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000Hsi8QAC",
+            "listValues": null,
+            "name": "Unit"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8ca12a",
+            "dataType": "Boolean",
+            "displayOrder": 7,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvaQAC",
+            "listValues": null,
+            "name": "PromoBonusActive"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "b5322c",
+            "dataType": "Number",
+            "displayOrder": 2,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvVQAS",
+            "listValues": null,
+            "name": "IncentiveFactor"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bbd244",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvXQAS",
+            "listValues": null,
+            "name": "EffectiveTo"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "c5fe7d",
+            "dataType": "Boolean",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvYQAS",
+            "listValues": null,
+            "name": "Active"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d275",
+            "dataType": "Text",
+            "displayOrder": 8,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HhhtQAC",
+            "listValues": null,
+            "name": "ApprovalReference"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "e43f05",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0n8G000000HdvZQAS",
+            "listValues": null,
+            "name": "EffectiveFrom"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-BS-COLROF"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kSF\",\n  \"IncentiveFactor\" : 50.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "dbbf83d8f360768a7933935811bc941b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-BS-ISPI-GT2-LTE8IN"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per LinearFoot\",\n  \"IncentiveFactor\" : 15.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "2794479eac9d650805971ec71ed2d3e1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-BS-ISPI-GT8-LTE16IN"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per Therm\",\n  \"IncentiveFactor\" : 4.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "12b4a333f0bbe0d2552300fb35040865",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-BS-ISPI-LTE2IN"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per LinearFoot\",\n  \"IncentiveFactor\" : 10.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "98b61a48f6974da5d20281a41cc111fd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-BS-WINFLM"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per SquareFeet\",\n  \"IncentiveFactor\" : 1.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "32f38c1c00c745f49fe1c2e61a5fed2c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-CAIR-AIR"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per HP\",\n  \"IncentiveFactor\" : 300.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "be1dd41d2bcb721e0e49651bfa1afe2b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-CUS-C2CCHP"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per Btuh\",\n  \"IncentiveFactor\" : 2000.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "cec00aa16a58545b8315c4a665a31cd6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-CUS-C4C"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2022-01-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 60.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"true\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per MMBTU\",\n  \"IncentiveFactor\" : 200.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "396141663c63d59887daac02fe7c7252",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-CUS-C6HPWH"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2022-01-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 60.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"true\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per MMBTU\",\n  \"IncentiveFactor\" : 200.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "2efc899b3e26f80348b9703ad29f76ae",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-DHW-LFA"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"unit\",\n  \"IncentiveFactor\" : 2.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "c52e553c824462342106937bd292dae3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-DHW-PRSV"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per Unit\",\n  \"IncentiveFactor\" : 15.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "15226c117f2fc1deb91bb64623c7ff0a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-HVAC-ACUAC"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per ton\",\n  \"IncentiveFactor\" : 75.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "e761374cb30cb74f204f5f86b65dc834",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-HVAC-AWCHIL"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"n/a\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.45\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "43f0e355685ca27098250b92aea9ab35",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-HVAC-PTACHP"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per Ton\",\n  \"IncentiveFactor\" : 150.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "0ec1c7ee2a4a635374c9bbc06e2bd86f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-HVAC-TUNCHS"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 10.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "b7a0d3e3806806c2b7eb6848dab48e6c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-HVACC-STLPSH"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"unit\",\n  \"IncentiveFactor\" : 600.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "7427d0bfbb5a9814f007ac9f37632edc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-LIG-PWD"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.25\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "f8e764ce870ca179045d5437e699e3bc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-MD-VFD"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"PromoBonus\" : 0.06,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "b031d15245e91e12059a509af3de7464",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-MOD-ELE"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.25\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "cd512bdccd87958999bf128e560d7098",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-ASHC"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"-\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"-\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"doorsPerController\",\n  \"IncentiveFactor\" : 25.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "5d83daab2039032cbb14219bca03f41c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-CNC"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kWh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "d28267c0709ab8f3a0b29c75663abebf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-DIC"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per Therm\",\n  \"IncentiveFactor\" : 2.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "3a2b82d8a334be4223bfc7b0af5dc912",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-ECM"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "16cff9acccc8e4d3791ae98bad9499c5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-EVF"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "01870886d3861c69e8cdace1d745c927",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-G"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "a25a5d8ae0a11c142279e206b1634f61",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-RDC"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kWh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "d5ce17e5e943b2b3e0f0648ba1c5a5d9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REF-STR"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-12-31\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.19\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "daf38575af4c1d58ea09156f4b5da439",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "COM-REFC-CRSU"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"N/A\",\n  \"PromoEndDate\" : \"N/A\",\n  \"PromoStartDate\" : \"N/A\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"2022-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kwh\",\n  \"IncentiveFactor\" : 0.45\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "f74d3a196767ca5b7376e587cbde4b68",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "CUST-OTHR-001"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"-\",\n  \"PromoEndDate\" : \"-\",\n  \"PromoStartDate\" : \"-\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"-\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"-\",\n  \"EffectiveFrom\" : \"-\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per kWh\",\n  \"IncentiveFactor\" : 0.45\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "e1cfe6e84afe03c41658e1c3bb8dfb41",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 16,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/16/%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "MeasureCode": "CUST-OTHR-002"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"ApplicationStatus\" : \"-\",\n  \"PromoEndDate\" : \"-\",\n  \"PromoStartDate\" : \"-\",\n  \"PromoBonus\" : 0.0,\n  \"ApprovalReference\" : \"-\",\n  \"PromoBonusActive\" : \"false\",\n  \"EffectiveTo\" : \"-\",\n  \"EffectiveFrom\" : \"-\",\n  \"Active\" : \"true\",\n  \"Unit\" : \"per Therm\",\n  \"IncentiveFactor\" : 7.0\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-10-20T17:16:18.000Z",
+        "Name": "897c1d3289fe12c9649a94be67ce8956",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

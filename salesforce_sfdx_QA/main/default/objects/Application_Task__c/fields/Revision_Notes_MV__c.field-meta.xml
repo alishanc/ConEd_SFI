@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_Notes_MV__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Details of the revision, discussions with the M&amp;V Contractor about completing the revision. If revision is complete then include file name for the revised deliverable.</inlineHelpText>
+    <label>Revision Notes - M&amp;V</label>
+    <length>2000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

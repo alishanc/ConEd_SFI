@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_ATRA_Account__c</fullName>
+    <description>ATRA Account Number - Contains Original Account Number after Account Transfer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ATRA Account Number - Contains Original Account Number after Account Transfer</inlineHelpText>
+    <label>ATRA Account</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

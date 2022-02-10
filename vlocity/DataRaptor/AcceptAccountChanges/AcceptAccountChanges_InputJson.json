@@ -1,0 +1,31 @@
+{
+    "ContextId": "",
+    "Step1": {
+        "Block1": {
+            "oldEmail": "tonyPerkis@gmail.com",
+            "oldFN": "Tony",
+            "oldLN": "Perkis",
+            "oldStreet": "1234 Hamilton St"
+        },
+        "Block2": {
+            "newEmail": "kyle.russell@salesforce.com",
+            "newFN": "Kyle",
+            "newLN": "Russell",
+            "newStreet": "415 Mission St"
+        }
+    },
+    "accountId": "0018G000002qYzG",
+    "id": "a2z8G00000000dSQAQ",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://connedev--dev--vlocity-cmt.visualforce.com",
+    "timeStamp": "2021-10-04T14:32:38.967Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UAgSQAW",
+    "userName": "kyle.russell@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

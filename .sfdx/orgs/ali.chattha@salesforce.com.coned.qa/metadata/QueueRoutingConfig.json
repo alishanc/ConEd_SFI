@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "queueRoutingConfigs/cases_Routing_config.queueRoutingConfig",
+      "fullName": "cases_Routing_config",
+      "id": "0K95Y0000008Q93SAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "QueueRoutingConfig"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "queueRoutingConfigs/rout_name.queueRoutingConfig",
+      "fullName": "rout_name",
+      "id": "0K95Y0000008Q92SAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "QueueRoutingConfig"
+    }
+  ]
+}

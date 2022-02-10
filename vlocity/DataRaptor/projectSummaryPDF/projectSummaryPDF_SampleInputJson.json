@@ -1,0 +1,630 @@
+{
+    "": "",
+    "AccountNumber": "",
+    "AccountNumberEligible": "",
+    "AppAnnual": "3171",
+    "AppCO2": "32.1177",
+    "AppIncentives": "0",
+    "AppMMBTU": "0",
+    "AppNetCost": "10000",
+    "AppPB": "3.15",
+    "AppProject": "10000",
+    "AppProjectId": null,
+    "AppROI": "31.71%",
+    "AppStatus": "\"Estimate\"",
+    "AppTherm": "0",
+    "AppkW": "4.88",
+    "AppkWH": "45300",
+    "ApplicationId": "a0L8G000000YbxnUAC",
+    "BS": null,
+    "BillingCity": "",
+    "BillingCountry": "",
+    "BillingPostalCode": "",
+    "BillingProvince": "",
+    "BillingState": "",
+    "BillingStreet": "",
+    "BuildingAndHvac": {
+        "BuildingTypeBlock": {
+            "BuildingTypeSelect": "Dormitory"
+        },
+        "CoolingSystemBlock": {
+            "CoolingSystemSelect": "Split System AC"
+        },
+        "DistributionTypeBlock": {
+            "DistributionTypeSelect": "Fan Coil"
+        },
+        "HeatingFuelBlock": {
+            "HeatingFuelSelect": "Electric"
+        },
+        "HeatingSystemBlock": {
+            "HeatingSystemSelect": "Heat Pump"
+        }
+    },
+    "CUST": null,
+    "ComAir": null,
+    "CustomerAccount": [
+        {
+            "Id": "0018G000002qa0CQAQ",
+            "Name": "TestDemoAct"
+        },
+        {
+            "Id": "0018G000002uEy1QAE",
+            "Name": "Autofill Test"
+        },
+        {
+            "Id": "0018G000007Ct5FQAS",
+            "Name": "wee"
+        },
+        {
+            "Id": "0018G000002trpiQAA",
+            "Name": "Pat Co"
+        },
+        {
+            "Id": "0018G000002uDPtQAM",
+            "Name": "testCompany"
+        },
+        {
+            "Id": "0018G000004I9CkQAK",
+            "Name": "Tim Contractor"
+        },
+        {
+            "Id": "0018G000007E9k4QAC",
+            "Name": "asdf"
+        },
+        {
+            "Id": "0018G000007DtDNQA0",
+            "Name": "boo shot"
+        },
+        {
+            "Id": "0018G000007ELhDQAW",
+            "Name": "Contractor 1"
+        },
+        {
+            "Id": "0018G000007ELhEQAW",
+            "Name": "Contractor 2"
+        },
+        {
+            "Id": "0018G000007ELhFQAW",
+            "Name": "Contractor 3"
+        },
+        {
+            "Id": "0018G000007ELhGQAW",
+            "Name": "Contractor 4"
+        },
+        {
+            "Id": "0018G000007ELhHQAW",
+            "Name": "Contractor 6"
+        },
+        {
+            "Id": "0018G000007ELhIQAW",
+            "Name": "Contractor 7"
+        },
+        {
+            "Id": "0018G000007ELhJQAW",
+            "Name": "Contractor 8"
+        },
+        {
+            "Id": "0018G000007ELhKQAW",
+            "Name": "Contractor 9"
+        },
+        {
+            "Id": "0018G000007ELhLQAW",
+            "Name": "Contractor 10"
+        },
+        {
+            "Id": "0018G000007ELhMQAW",
+            "Name": "Contractor 11"
+        },
+        {
+            "Id": "0018G000007ELhNQAW",
+            "Name": "Contractor 12"
+        },
+        {
+            "Id": "0018G000007ELhOQAW",
+            "Name": "Contractor 13"
+        },
+        {
+            "Id": "0018G000007ELhPQAW",
+            "Name": "Contractor 14"
+        },
+        {
+            "Id": "0018G000007ELhQQAW",
+            "Name": "Contractor 15"
+        },
+        {
+            "Id": "0018G000007ELhRQAW",
+            "Name": "Contractor 16"
+        },
+        {
+            "Id": "0018G000007ELhSQAW",
+            "Name": "Contractor 17"
+        },
+        {
+            "Id": "0018G000007ELhTQAW",
+            "Name": "Contractor 18"
+        },
+        {
+            "Id": "0018G000007ELhUQAW",
+            "Name": "Contractor 19"
+        },
+        {
+            "Id": "0018G000007ELhVQAW",
+            "Name": "Contractor 20"
+        },
+        {
+            "Id": "0018G000007EEsaQAG",
+            "Name": "Shakey Co"
+        },
+        {
+            "Id": "0018G000007DvYrQAK",
+            "Name": "nick"
+        },
+        {
+            "Id": "0018G000007Ct5tQAC",
+            "Name": "booshot"
+        },
+        {
+            "Id": "0018G0000058kmhQAA",
+            "Name": "Maco"
+        }
+    ],
+    "CustomerAccountId": "0018G000002qa0CQAQ",
+    "CustomerAccountName": "TestDemoAct",
+    "CustomerInformationStep": {
+        "Text3": "Project Id: PR-CI2021000051",
+        "customerContactBlock": {
+            "CustomerEmail": "e@e.com",
+            "CustomerFirstName": "Eric",
+            "CustomerLastName": "Chen",
+            "CustomerPriPhone": "1231312012",
+            "CustomerSecPhone": "3283202000",
+            "CustomerTitle": "CEO",
+            "customerAddressBlock": {
+                "CustomerCity": "San Francisco",
+                "CustomerCountry": "United States",
+                "CustomerPostalCode": null,
+                "CustomerProvince": null,
+                "CustomerState": "CA",
+                "CustomerStreetAddress": "123 Main St.",
+                "CustomerZipCode": "94005"
+            }
+        },
+        "projectContactBlock": {
+            "PCEmail": "j@j.com",
+            "PCFirstName": "John",
+            "PCLastName": "Doe",
+            "PCPriPhone": "1291239231",
+            "PCSecPhone": "2383247234",
+            "PCTitle": "CFO"
+        }
+    },
+    "DRId_%vlocity_namespace%__Application__c": "a0L8G000000YbxnUAC",
+    "DistributionSystem": "Fan Coil",
+    "EstimateID": "CI-2021080960",
+    "EstimateIDRandomNumber": "EST-CI2021007161",
+    "HVAC": null,
+    "HVACC": null,
+    "LIG": null,
+    "LIGC": null,
+    "LIGC_Measures": "",
+    "MAD": {
+        "MAD_Measures": {
+            "MAD_AppLineId": "a6C8G000000CfZAUA0",
+            "MAD_CalculationType": "Prescriptive",
+            "MAD_MeasureCategory": "Motors and Drives",
+            "MAD_MeasureCode": "COM-MD-VFD",
+            "MAD_MeasureName": "Variable Frequency Drive",
+            "MAD_VFD": true,
+            "MAD_baseIncentive": 8607,
+            "MAD_buildingType": "Dormitory",
+            "MAD_estimateId": "EST-CI2021007161",
+            "MAD_eul": "15",
+            "MAD_horsePower": 100,
+            "MAD_kWHSaving": null,
+            "MAD_kWHsavings": 45300,
+            "MAD_kWSavings": null,
+            "MAD_kWsavings": 4.88,
+            "MAD_laborCost": 5000,
+            "MAD_materialCost": 5000,
+            "MAD_promoIncentive": "",
+            "MAD_quantity": 1,
+            "MAD_totalIncentive": 8607,
+            "MAD_vfdApplication": "Chilled Water Pump"
+        }
+    },
+    "MarketSegment": {
+        "MarketSegmentSelect": "Commercial and Industrial"
+    },
+    "MarketSegmentResponse": "Commercial and Industrial",
+    "MeasureCode": "COM-MD-VFD",
+    "MeasureCodes": {
+    },
+    "MeasureDate": null,
+    "MeasureSelection": {
+        "BuildingShellBlock": null,
+        "BuildingShellFormula": false,
+        "CompressedAirBlock": null,
+        "CompressedAirFormula": false,
+        "CustomBlock": null,
+        "CustomFormula": false,
+        "HVACBlock": null,
+        "HVACControlBlock": null,
+        "HVACControlFormula": false,
+        "HVACFormula": false,
+        "LWC_AllMeasures": {
+            "AllSelectedMeasures": [
+                {
+                    "MAD_Measures": [
+                        {
+                            "MAD_MeasureName": "Variable Frequency Drive"
+                        }
+                    ],
+                    "MeasureTypeName": "Motors and Drives"
+                },
+                {
+                    "HVAC_Measures": [
+                    ],
+                    "MeasureTypeName": "HVAC"
+                },
+                {
+                    "LIG_Measures": [
+                    ],
+                    "MeasureTypeName": "Lighting"
+                },
+                {
+                    "BS_Measures": [
+                    ],
+                    "MeasureTypeName": "BuildingShell"
+                },
+                {
+                    "LIGC_Measures": [
+                    ],
+                    "MeasureTypeName": "LightingControl"
+                },
+                {
+                    "ComAir_Measures": [
+                    ],
+                    "MeasureTypeName": "CompressedAir"
+                }
+            ]
+        },
+        "LightingControlBlock": null,
+        "LightingControlFormula": false,
+        "LightingMainBlock": null,
+        "LightingMainFormula": false,
+        "MotorsandDrivesBlock": {
+            "MotorsandDrivesSelect": "Variable Frequency Drive"
+        },
+        "MotorsandDrivesFormula": true,
+        "RefrigerationControlBlock": null,
+        "RefrigerationControlFormula": false,
+        "RefrigerationMainBlock": null,
+        "RefrigerationMainFormula": false,
+        "SelectOrganizationFormula": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Variable Frequency Drive",
+            null,
+            null,
+            null
+        ]
+    },
+    "MeasureType": {
+        "MeasureTypeMultiSelect": "Motors and Drives"
+    },
+    "PCAccountId": "",
+    "PCCompanyName": "",
+    "PCPriContactId": "",
+    "PayeeCheckName": "TestDemoAct",
+    "PayeeCity": "San Francisco",
+    "PayeeCountry": "United States",
+    "PayeeInformationStep": {
+        "PayeeBlock": {
+            "PayeeAddressBlock": {
+                "CustomerPayeeAddress": "123 Main St.",
+                "CustomerPayeeCity": "San Francisco",
+                "CustomerPayeeCountry": "United States",
+                "CustomerPayeePostalCode": null,
+                "CustomerPayeeProvince": null,
+                "CustomerPayeeState": "CA",
+                "CustomerPayeeZip": "94005",
+                "OtherPayeeAddress": null,
+                "OtherPayeeCity": null,
+                "OtherPayeeCountry": null,
+                "OtherPayeePostalCode": null,
+                "OtherPayeeProvince": null,
+                "OtherPayeeState": null,
+                "OtherPayeeZip": null,
+                "PCPayeeAddress": null,
+                "PCPayeeCity": null,
+                "PCPayeeCountry": null,
+                "PCPayeePostalCode": null,
+                "PCPayeeProvince": null,
+                "PCPayeeState": null,
+                "PCPayeeZip": null
+            },
+            "PayeeInformationBlock": {
+                "CustomerAttnFirstName": "Eric",
+                "CustomerAttnLastName": "Chen",
+                "CustomerCheckName": "TestDemoAct",
+                "CustomerPayeeTitle": "CEO",
+                "OtherAttnFirstName": null,
+                "OtherAttnLastName": null,
+                "OtherCheckName": null,
+                "OtherPayeeTitle": null,
+                "PCAttnFirstName": null,
+                "PCAttnLastName": null,
+                "PCCheckName": null,
+                "PCPayeeTitle": null,
+                "payeeType": "Customer"
+            }
+        },
+        "Text1": "Project Id: PR-CI2021000051"
+    },
+    "PayeeState": "CA",
+    "PayeeStreet": "123 Main St.",
+    "PayeeTitle": "CEO",
+    "PayeeZip": "94005",
+    "ProgramForApp": "[object Object]",
+    "ProgramNeeded": "Commercial and Industrial",
+    "ProgramSelection": {
+        "ProgramSelect": "Commercial and Industrial Energy Efficiency Program"
+    },
+    "ProjectId": "PR-CI2021000051",
+    "ProjectName": {
+        "ProjectNameTextInput": "Eric's project 007"
+    },
+    "ProjectType": {
+        "ProjectTypeSelect": "Existing Building"
+    },
+    "PromoList": [
+        {
+            "Variable Frequency Drive": "Variable Frequency Drive"
+        }
+    ],
+    "REFRCON": null,
+    "REFRIG": null,
+    "RandomNumber": "2021080960",
+    "STEP_ApplicationRequirementsAndDocuments": {
+        "EarlyReplacementFileUploadBlock": null,
+        "ExtendedLifeFileUploadBlock": null,
+        "FORMULA_CustomNonLighting": false,
+        "FORMULA_EarlyReplacementDocuments": false,
+        "FORMULA_ExtendedLifeDocuments": false,
+        "FORMULA_GasPipeInsulation": false,
+        "FORMULA_LightingLPD": false,
+        "FORMULA_PrescriptiveLighting": false,
+        "FORMULA_PrescriptiveNonLighting": true,
+        "FORMULA_SteamTrap": false,
+        "File26": null,
+        "File27": null,
+        "File29": null,
+        "GasPipeInsulationBlock": null,
+        "LPDDocumentsFileUploadBlock": null,
+        "SLCT_HowDidYouHear": "ParticipatingContractor",
+        "SteamTrapBlock": null,
+        "TXT_HowDidYouHearSpecify": null,
+        "UploadedFiles": {
+            "CH_CostEstimateUploaded": true,
+            "CH_EnergySavingsAnalysisUploaded": true,
+            "ConEdisonToolUploaded": false,
+            "CustomerProposalUploaded": true,
+            "CutSheetsUploaded": false,
+            "StatementOfWorkUploaded": false,
+            "W9Uploaded": false
+        }
+    },
+    "STEP_EligibleAccount": {
+    },
+    "STEP_EnterAccountNumber": {
+    },
+    "STEP_EstimatesSummary": {
+        "BLK_BSDetails": null,
+        "BLK_ComAirDetails": null,
+        "BLK_LIGCDetails": null,
+        "BLK_LIGDetails": null,
+        "BLK_MADDetails": {
+        },
+        "BLK_SummaryHeader": {
+            "TXT_EstimateId": "EST-CI2021007161",
+            "TXT_ProjectID": null,
+            "TXT_ProjectName": "Eric's project 007",
+            "TXT_ProjectStatus": "\"Estimate\""
+        },
+        "BLK_SummaryInfo0": {
+            "TXT_AnnualSavings": 3171,
+            "TXT_PB": "3.15",
+            "TXT_ProjectCost": 10000,
+            "TXT_ProjectIncentive": 0,
+            "TXT_ROI": "31.71%",
+            "TXT_TotalNetCost": 10000
+        },
+        "BLK_SummaryInfo1": {
+            "TXT_BuildingType": "Dormitory",
+            "TXT_HeatingSystemType": "Heat Pump",
+            "TXT_MarketSegment": "Commercial and Industrial",
+            "TXT_ProjectType": "Existing Building"
+        },
+        "BLK_SummaryInfo2": {
+            "TXT_CoolingSystemType": "Split System AC",
+            "TXT_DistributionType": "Fan Coil",
+            "TXT_HeatingFuelType": "Electric"
+        },
+        "BLK_SummaryInfo3": {
+            "TXT_CO2": "32.1177",
+            "TXT_KW": "4.88",
+            "TXT_MMBTU": "0",
+            "TXT_SteamSavings": null,
+            "TXT_Therms": "0",
+            "TXT_kWh": "45300"
+        },
+        "CLWC_NavButtonsEstimatesSummary": "createProject"
+    },
+    "STEP_IneligibleAccount": null,
+    "STEP_MeasureDocs": {
+        "BS2": null,
+        "ComAir2": null,
+        "LIGC2": null,
+        "MAD2": {
+            "MAD2_Measures": {
+                "MAD2_AppLineId": "a6C8G000000CfZAUA0",
+                "MAD2_CalculationType": "Prescriptive",
+                "MAD2_MeasureCategory": "Motors and Drives",
+                "MAD2_MeasureCode": "COM-MD-VFD",
+                "MAD2_MeasureName": "Variable Frequency Drive",
+                "MAD2_VFD": true,
+                "MAD2_baseIncentive": 8607,
+                "MAD2_buildingType": "Dormitory",
+                "MAD2_estimateId": "EST-CI2021007161",
+                "MAD2_eul": "15",
+                "MAD2_horsePower": 100,
+                "MAD2_kWHSaving": null,
+                "MAD2_kWHsavings": 45300,
+                "MAD2_kWSavings": null,
+                "MAD2_kWsavings": 4.88,
+                "MAD2_laborCost": 5000,
+                "MAD2_materialCost": 5000,
+                "MAD2_promoIncentive": "",
+                "MAD2_quantity": 1,
+                "MAD2_totalIncentive": 8607,
+                "MAD2_vfdApplication": "Chilled Water Pump"
+            }
+        }
+    },
+    "STEP_MeasureType": null,
+    "STEP_PreviewApplication": {
+    },
+    "STEP_ProgramSelection": null,
+    "STEP_SaveEstimate": null,
+    "STEP_VFDOption": {
+        "RAD_VFDOption": "No"
+    },
+    "SelectedMeasureTypes": [
+        {
+            "MeasureTypeName": "Motors and Drives",
+            "Measures": [
+                {
+                    "CalcType": "Custom",
+                    "HorsepowerOfFanPump": "100",
+                    "LaborCost": "$400",
+                    "MaterialCost": "$500",
+                    "MeasureName": "Variable Frequency Drive",
+                    "Quantity": "1",
+                    "VFDApplication": "Chilled Water Pump"
+                },
+                {
+                    "CalcType": "Custom",
+                    "HorsepowerOfFanPump": "100",
+                    "LaborCost": "$400",
+                    "MaterialCost": "$500",
+                    "MeasureName": "Variable Frequency Drive",
+                    "Quantity": "12",
+                    "VFDApplication": "Chilled Water Pump"
+                }
+            ]
+        },
+        {
+            "MeasureTypeName": "Motors and Drives2",
+            "Measures": [
+                {
+                    "CalcType": "Custom",
+                    "HorsepowerOfFanPump": "100",
+                    "LaborCost": "$400",
+                    "MaterialCost": "$500",
+                    "MeasureName": "Variable Frequency Drive",
+                    "Quantity": "21",
+                    "VFDApplication": "Chilled Water Pump"
+                },
+                {
+                    "CalcType": "Custom",
+                    "HorsepowerOfFanPump": "100",
+                    "LaborCost": "$400",
+                    "MaterialCost": "$500",
+                    "MeasureName": "Variable Frequency Drive",
+                    "Quantity": "221",
+                    "VFDApplication": "Chilled Water Pump"
+                }
+            ]
+        }
+    ],
+    "SiteInformationStep": {
+        "ProjectInfoBlock": {
+            "BLOCK_CleanHeatProposedTechnology": {
+                "BLOCK_CH_ExistingBuildings": {
+                    "INPUT_CH_ExistingBuildingsOtherSpecify": "",
+                    "RADIO_CH_ExistingBuildings_Upgrade": "Comprehensive Upgrade",
+                    "RADIO_ExistingHeatingSystemFuel": "Natural Gas"
+                },
+                "BLOCK_CH_ProposedTechnologyLeft": {
+                    "CHECKBOX_CH_AirSourceHeatPump": true,
+                    "CHECKBOX_CH_CustomHeatPumpTechnologyApplication": true,
+                    "CHECKBOX_CH_WaterSourceHeatPump": true,
+                    "CHECKBOX_CH_WaterToWaterHeatPump": true,
+                    "RADIO_CH_AirSourceHeatPump": "Full Building Heating Load"
+                },
+                "BLOCK_CH_ProposedTechnologyRight": {
+                    "CHECKBOX_CH_GroundSourceHeatPump": true,
+                    "CHECKBOX_CH_HeatPumpWaterHeater": true,
+                    "CHECKBOX_CH_PackagedTerminalHeatPump": true,
+                    "CHECKBOX_CH_VariableRefrigeratorFlow": true,
+                    "RADIO_CH_HeatPumpWaterHeater": "< 120 Gallons"
+                },
+                "INPUT_BHLI_Percent": 90,
+                "INPUT_BHLS_Percent": 80
+            },
+            "ContainsSpecificMeasures": false,
+            "EstimatedkWPowerSavings": "4.880",
+            "EstimatedkWhSavings": "45300",
+            "OtherSystems": null,
+            "additionalIncentives": null,
+            "conEdIncentives": "true",
+            "programIncludesOther": false,
+            "programMultiSelect": "Boilers;Chillers;Furnaces",
+            "scopeSummary": "My Summary"
+        },
+        "SiteInformationBlock": {
+            "SqFootage": 3000,
+            "numFloors": 2,
+            "yearsBuilt": 1999
+        },
+        "Text2": "Project Id: PR-CI2021000051",
+        "estimationDatesBlock": {
+            "EstCompDate": "2021-12-11",
+            "EstInstDate": "2021-12-08"
+        },
+        "systemsMsSelected": {
+            "FORMULA_Boilers_Selected": true,
+            "FORMULA_BuildingControlsandEMS_Selected": true,
+            "FORMULA_BuildingEnvelope_Selected": true,
+            "FORMULA_Chillers_Selected": true,
+            "FORMULA_CompressedAir_Selected": true,
+            "FORMULA_DomesticWaterHeating_Selected": true,
+            "FORMULA_Elevators_Selected": true,
+            "FORMULA_Furnaces_Selected": true,
+            "FORMULA_LightingControls_Selected": true,
+            "FORMULA_Lighting_Selected": true,
+            "FORMULA_Other_Selected": true,
+            "FORMULA_ProcessUpgrades_Selected": true,
+            "FORMULA_PumpsFansPipingandDucts_Selected": true,
+            "FORMULA_Refrigeration_Selected": true,
+            "FORMULA_VariableFrequencyDrives_Selected": true
+        }
+    },
+    "buildingType": "Dormitory",
+    "coolingSystem": "Split System AC",
+    "customerState": "CA",
+    "eul": 15,
+    "heatingFuel": "Electric",
+    "heatingSystem": "Heat Pump",
+    "timeStamp": "2021-11-29T20:19:34.086Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000Wn8xQAC",
+    "userName": "echen2@salesforce.com.coneddev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "vfdApplication": "Return Fan"
+}

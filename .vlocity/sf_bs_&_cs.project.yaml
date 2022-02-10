@@ -1,0 +1,91 @@
+Name: SF Bs & Cs
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - applications/Sales.app
+    - applications/VlocityInstallationAssistant.app
+    - cleanDataServices/DataCloudCompanyMatch.cleanDataService
+    - cleanDataServices/DataCloudGeoLocation.cleanDataService
+    - cleanDataServices/DataCloudLeadAppend.cleanDataService
+    - communities/Internal Community.community
+    - connectedApps/CPQIntegrationUserApp.connectedApp
+    - contentassets/conedLetterhead.asset
+    - contentassets/Screen_Shot_20210920_at_93326_AM1.asset
+    - contentassets/Screen_Shot_20210920_at_93326_AM11.asset
+    - corsWhitelistOrigins/https_connedev_%vlocity_namespace%_visualforce_com.corsWhitelistOrigin
+    - corsWhitelistOrigins/https_docgen_congamerge_com.corsWhitelistOrigin
+    - cspTrustedSites/CommTrustedSite.cspTrustedSite
+    - customMetadata/%vlocity_namespace%__DRMatchingKey.CustomFieldMap.md
+    - customMetadata/%vlocity_namespace%__DRMatchingKey.OrchestrationDependencyDefinition.md
+    - customMetadata/%vlocity_namespace%__DRMatchingKey.OrchestrationScenario.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.CalculationMatrixVersion.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.CustomFieldMap.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.OrchestrationDependencyDefinition.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.OrchestrationItemDefinition.md
+    - customMetadata/%vlocity_namespace%__VlocityDataPackConfiguration.OrchestrationPlanDefinition.md
+    - labels/CustomLabels.labels
+    - objects/Account/compactLayouts/Account_Compact_Layout.compactLayout
+    - objects/Energy_Efficiency_Program__c/compactLayouts/Custom_Compact_Layout.compactLayout
+    - objects/Knowledge__kav/compactLayouts/Recommended_Compact_Layout.compactLayout
+    - objects/Lead/compactLayouts/Leads_Custom_Compact_Layout.compactLayout
+    - objects/Opportunity/compactLayouts/New_Awesome_Companct_Layout.compactLayout
+    - objects/User/compactLayouts/User_Layout.compactLayout
+    - objects/Case/businessProcesses/Intake Form.businessProcess
+    - sites/home.site
+    - tabs/%vlocity_namespace%__Application__c.tab
+    - tabs/%vlocity_namespace%__ApplicationTemplate__c.tab
+    - tabs/%vlocity_namespace%__ObjectClass__c.tab
+    - tabs/%vlocity_namespace%__Project__c.tab
+    - tabs/%vlocity_namespace%__VlocityErrorLogEntry__c.tab
+    - tabs/Account_Search.tab
+    - tabs/Application_Approvals_Model__c.tab
+    - tabs/Application_Approvers__c.tab
+    - tabs/Application_Document_Requirement_Model__c.tab
+    - tabs/Application_Line_Item__c.tab
+    - tabs/Application_Required_Documents__c.tab
+    - tabs/Application_Task__c.tab
+    - tabs/Application_Task_Model__c.tab
+    - tabs/CIS_Integration_Connection__c.tab
+    - tabs/Eligibility_Rule__c.tab
+    - tabs/Energy_Efficiency_Program__c.tab
+    - tabs/Knowledge__kav.tab
+    - tabs/Measure_Promotion_Request__c.tab
+    - tabs/MobileLanding.tab
+    - tabs/Partner_Program_Relationship__c.tab
+    - tabs/Program_Catalogue_Relationship__c.tab
+    - tabs/UpgradePlan__c.tab
+    - tabs/UpgradeStep__c.tab
+    - tabs/Vlocity_Diagnostic_Wizard.tab
+    - tabs/Vlocity_Step_Creator.tab
+    - tabs/Vlocity_Upgrade_Install_Wizard.tab
+VlocityTypesToFetch:
+
+SalesforceTypesToFetch:
+    - BrandingSet
+    - BusinessProcess
+    - CallCenter
+    - CampaignInfluenceModel
+    - CaseSubjectParticle
+    - Certificate
+    - ChannelLayout
+    - ChatterExtension
+    - CleanDataService
+    - CMSConnectSource
+    - Community
+    - CommunityTemplateDefinition
+    - CommunityThemeDefinition
+    - CompactLayout
+    - ConnectedApp
+    - ContentAsset
+    - CorsWhitelistOrigin
+    - CspTrustedSite
+    - CustomApplication
+    - CustomApplicationComponent
+    - CustomFeedFilter
+    - CustomHelpMenuSection
+    - CustomLabels
+    - CustomMetadata
+    - CustomNotificationType
+    - CustomPageWebLink
+    - CustomPermission
+    - CustomSite
+    - CustomTab

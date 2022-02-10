@@ -1,0 +1,18 @@
+<template>
+    <vlocity_cmt-combobox options={_realtimeOptions}
+                  label={_propSetMap.label}
+                  class={_styleClasses.input}
+                  required={_propSetMap.required}
+                  tab-index={tabIndex}
+                  onchange={handleChange}
+                  theme={_theme}
+                  value={elementValue}
+                  field-level-help={_handleHelpText}
+                  data-refresh={refresh}
+                  read-only={_isReadOnly}
+                  data-show-lookup="true"
+                  label-classes={labelClasses}
+                  message-when-value-missing={_messageWhenValueMissing}
+                  data-omni-input>
+    </vlocity_cmt-combobox>
+  </template>

@@ -1,0 +1,47 @@
+{
+    "bundleName": "CreateApplication",
+    "objectList": {
+        "Details": {
+            "AccountNumberEligible": "",
+            "BS": null,
+            "CUST": null,
+            "ComAir": null,
+            "CustomerInformationStep": null,
+            "HVAC": null,
+            "HVACC": null,
+            "LIG": null,
+            "LIGC": null,
+            "MAD": null,
+            "MarketSegment": {
+            },
+            "MarketSegmentResponse": "Commercial and Industrial",
+            "MeasureSelection": null,
+            "PayeeInformationStep": null,
+            "ProgramForApp": "",
+            "ProgramSelection": {
+            },
+            "REFRCON": null,
+            "REFRIG": null,
+            "STEP_ApplicationRequirementsAndDocuments": null,
+            "STEP_EligibleAccount": null,
+            "STEP_EnterAccountNumber": null,
+            "STEP_EstimatesSummary": null,
+            "STEP_IneligibleAccount": null,
+            "STEP_MeasureDocs": null,
+            "STEP_MeasureType": null,
+            "STEP_PreviewApplication": null,
+            "STEP_ProgramSelection": null,
+            "STEP_SaveEstimate": null,
+            "STEP_ThankYou": null,
+            "STEP_VFDOption": null,
+            "SiteInformationStep": null,
+            "timeStamp": "2022-01-13T16:47:31.051Z",
+            "totalMeasurecount": 0,
+            "userCurrencyCode": "USD",
+            "userId": "00503000001fw0LAAQ",
+            "userName": "edonahue@salesforce.com.qa.contractor",
+            "userProfile": "PC Partner",
+            "userTimeZone": "-480"
+        }
+    }
+}

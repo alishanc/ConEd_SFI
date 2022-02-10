@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MP_Super_Stage_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>PC Super Stage Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending Review</fullName>
+                <default>false</default>
+                <label>Pending Review</label>
+            </value>
+            <value>
+                <fullName>Preliminary Offer Letter</fullName>
+                <default>false</default>
+                <label>Preliminary Offer Letter</label>
+            </value>
+            <value>
+                <fullName>Pending Pre-Inspection</fullName>
+                <default>false</default>
+                <label>Pending Pre-Inspection</label>
+            </value>
+            <value>
+                <fullName>Approved for Installation</fullName>
+                <default>false</default>
+                <label>Approved for Installation</label>
+            </value>
+            <value>
+                <fullName>Pending Post-Inspection</fullName>
+                <default>false</default>
+                <label>Pending Post-Inspection</label>
+            </value>
+            <value>
+                <fullName>Pending Final Review</fullName>
+                <default>false</default>
+                <label>Pending Final Review</label>
+            </value>
+            <value>
+                <fullName>Pending Payment</fullName>
+                <default>false</default>
+                <label>Pending Payment</label>
+            </value>
+            <value>
+                <fullName>Complete - Paid</fullName>
+                <default>false</default>
+                <label>Complete - Paid</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Estimate</fullName>
+                <default>false</default>
+                <label>Estimate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

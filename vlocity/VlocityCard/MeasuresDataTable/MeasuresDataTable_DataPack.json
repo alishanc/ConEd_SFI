@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Author__c": "Dab",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "a0L8G000000T7BTUA0"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "GetApplicationLineItems",
+            "dsDelay": 0,
+            "inputMap": {
+                "ApplicationId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "MeasuresDataTable.json",
+    "%vlocity_namespace%__Description__c": "datatable for measures",
+    "%vlocity_namespace%__GlobalKey__c": "MeasuresDataTable/Dab/1/1637363547121",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "ProjectSummaryMeasuresTable/Dab/1/1637358157389",
+    "%vlocity_namespace%__SampleData__c": "[{\"MeasureType\":\"Motors and Drives\",\"Location\":\"street\",\"TotalQuantity\":1,\"Model\":\"123 model\",\"MeasureName\":\"Variable Frequency Drive\",\"Make\":\"123 make\",\"ProjectMeasureName\":\"1093\"},{\"MeasureType\":\"Motors and Drives\",\"Location\":\"location\",\"TotalQuantity\":2,\"Model\":\"123 make\",\"MeasureName\":\"Variable Frequency Drive\",\"Make\":\"123 make\",\"ProjectMeasureName\":\"1147\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "MeasuresDataTable",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/MeasuresDataTable"
+}

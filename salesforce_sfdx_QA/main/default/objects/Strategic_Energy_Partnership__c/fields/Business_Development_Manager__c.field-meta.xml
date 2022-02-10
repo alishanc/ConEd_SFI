@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Development_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Business Development Manager for Strategic Energy Partnership.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field contains the Business Development Manager for the Strategic Energy Partnership.</inlineHelpText>
+    <label>Business Development Manager</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Strategic Energy Partnerships</relationshipLabel>
+    <relationshipName>Strategic_Energy_Partnerships</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

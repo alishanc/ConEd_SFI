@@ -1,0 +1,14 @@
+{
+    "input": {
+        "MeasureCategory": "Building Shell",
+        "MeasureCode": "COM-CUS-EI",
+        "MeasureCost": 150,
+        "applicationId": "a0L8G000000T7AEUA0",
+        "customSecondrySteam": 1,
+        "customTherms": 1,
+        "customkW": 1,
+        "customkWh": 1,
+        "laborCost": 100,
+        "materialCost": 50
+    }
+}

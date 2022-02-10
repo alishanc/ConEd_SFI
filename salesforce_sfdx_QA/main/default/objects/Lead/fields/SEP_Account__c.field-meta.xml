@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEP_Account__c</fullName>
+    <description>Strategic Energy Partnership Custom Object name</description>
+    <externalId>false</externalId>
+    <formula>CE_Account__r.CE_SEPAccount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SEP Account</label>
+    <type>Checkbox</type>
+</CustomField>

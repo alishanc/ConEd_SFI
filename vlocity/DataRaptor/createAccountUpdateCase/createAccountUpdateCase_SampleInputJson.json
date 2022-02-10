@@ -1,0 +1,53 @@
+{
+    "Id": "L8zCu3Y4aCFZET-7eCYBcL-M9Et3jGtlyoA6jMmwsgU.f9Xn8qnW9xMawcQK3UP59nHDtxIF_oUO6sW_rdFFA0KkaEoQd_2Y7S_eQ5Q14clg",
+    "STEP_UpdateInfo": {
+        "BLK_AccountInfo": {
+            "NUM_PCN": "1231231231",
+            "TXT_PCE": "123@123.com",
+            "TXT_PCFN": "123",
+            "TXT_PCLN": "123",
+            "TXT_PCT": "123"
+        },
+        "BLK_CompanyInfo": {
+            "NUM_CNTE": 1,
+            "NUM_CYB": 1,
+            "NUM_CYCO": 1,
+            "NUM_CYNE": null,
+            "SLCT_CS": "AL",
+            "SLCT_CT": "Corporation",
+            "TXT_CC": "123",
+            "TXT_CN": "123",
+            "TXT_CSA": "123",
+            "TXT_CW": "123.com"
+        }
+    },
+    "Type": "UpdateAccount",
+    "id": "a2z8G00000000ZTQAY",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://connedev--dev--vlocity-cmt.visualforce.com",
+    "showCC": "show",
+    "showCN": "show",
+    "showCNTE": "show",
+    "showCNYE": "show",
+    "showCS": "show",
+    "showCSA": "show",
+    "showCT": "show",
+    "showCW": "show",
+    "showCYB": "show",
+    "showCYCO": "show",
+    "showEmail": "show",
+    "showFN": "show",
+    "showLN": "show",
+    "showNum": "show",
+    "showTitle": "show",
+    "timeStamp": "2021-09-30T16:53:31.847Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UAgSQAW",
+    "userName": "kyle.russell@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

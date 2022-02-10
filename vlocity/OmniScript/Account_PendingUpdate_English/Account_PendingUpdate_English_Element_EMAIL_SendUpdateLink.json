@@ -1,0 +1,78 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AccountUpdatesNeeded",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/PendingUpdate/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "OrgWideEmailAddress": "",
+        "attachmentList": "",
+        "contentVersionList": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "docList": "",
+        "emailInformation": {
+            "bccAddressList": [
+            ],
+            "ccAddressList": [
+            ],
+            "emailBody": "<p>Hi %Account:PrimaryFirstName%,</p>\n\n<p>UPDATE THIS %IPResult:Account:PrimaryFirstName% and request updated information. Please click the link below and fill out the form:</p>\n\n<a href=\"https://dev-coned1.cs219.force.com/homepage/s/update-account-registration?Id=%encryptedStringIfNecessary%&fields=  TXT_CN,TXT_CSA,TXT_CC,SLCT_CS,TXT_CW,SLCT_CT,NUM_CYB,NUM_CYCO,NUM_CNYE,NUM_CNTE,NUM_CZ,TXT_PCFN,TXT_PCLN,TXT_PCT,NUM_PCN,TXT_PCE\">Update Account Information Form</a",
+            "emailSubject": "Account Registration on Hold: Please Update Fields",
+            "setHtmlBody": true,
+            "toAddressList": [
+                "%Account:PrimaryEmail%"
+            ]
+        },
+        "emailTemplateInformation": {
+            "emailTargetObjectId": "",
+            "emailTemplateName": "",
+            "saveAsActivity": false,
+            "whatId": ""
+        },
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "fileAttachments": "",
+        "inProgressMessage": "In Progress",
+        "label": null,
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "staticDocList": [
+        ],
+        "useTemplate": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Email Action",
+    "Name": "EMAIL_SendUpdateLink",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/PendingUpdate/English/EMAIL_SendUpdateLink"
+}

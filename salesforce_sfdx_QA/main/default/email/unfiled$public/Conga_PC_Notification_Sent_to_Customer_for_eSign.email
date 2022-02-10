@@ -1,0 +1,20 @@
+Dear ,
+
+Your contractor {!vlocity_cmt__Application__c.Contractor_Full_Name__c}, has submitted an application on your behalf for project {!vlocity_cmt__Application__c.Project_Id__c} at account {!vlocity_cmt__Application__c.vlocity_cmt__AccountId__c} for incentives in Con Edison's {!vlocity_cmt__Application__c.Energy_Efficiency_Program__c} program.
+
+Please review the application and eSign the "Authorized Signature" field. if you are assigning the incentive payment to the Participating Contractor, please sign the "Payee Authorization" portion as well. To access the application, click the link below. If you have any questions about this project or the {!vlocity_cmt__Application__c.Energy_Efficiency_Program__c} program, contact us via email.
+
+If you do not eSign this request within 30 calendar days the project application will be cancelled.
+
+Next Steps: 
+
+Please respond to Conga sign email from sign@na1.conga-sign.com by clicking on "View Document" blue button and signing your application.
+
+Thank you for your participation in the {!vlocity_cmt__Application__c.Energy_Efficiency_Program__c} Program.
+
+If you have any questions, feel free to reach out to your Business Development Manager, or contact us at {!vlocity_cmt__Application__c.Program_Email__c}.
+
+Thank you,
+Con Edison
+commercial@coned.com
+Energy Efficiency & Demand Management Team

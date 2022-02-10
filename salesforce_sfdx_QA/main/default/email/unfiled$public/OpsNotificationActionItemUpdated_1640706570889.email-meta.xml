@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to Ops team once the PC uploads an attachment</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>OpsNotificationActionItemUpdated</name>
+    <relatedEntityType>vlocity_cmt__Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>{{{vlocity_cmt__Application__c.Contractor_Full_Name__c}}} has updated the requested Action Item for {{{vlocity_cmt__Application__c.Name}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_CI_Application_for_eSign__c</fullName>
+    <externalId>false</externalId>
+    <formula>"&amp;id=" + Id +
+"&amp;templateid=" + Conga_Template_Id__c  +
+"&amp;Queryid=" + "[" + Energy_Efficiency_Program__r.Get_App_Info_Query__r.APXTConga4__Name__c + "]" +  Energy_Efficiency_Program__r.Get_App_Info_Query__r.Id + "[" +  Energy_Efficiency_Program__r.Get_Selected_Systems_Query__r.APXTConga4__Name__c  + "]" +  Energy_Efficiency_Program__r.Get_App_Info_Query__r.Id +
+"&amp;sc0=0" +
+"&amp;fp0=1 " +
+"&amp;defaultpdf=1" +
+"&amp;ofn=" + Name + "_CI_Application_" + Base_File_Name_for_eSignature_Files__c +
+"&amp;csrequestreminder=15" +
+"&amp;csemailSubject=Please eSign by " + TEXT(Conga_eSign_Expiration_Date__c) + " your incentive application to Con Edison’s CI Program" +
+"&amp;csemailMessage=Dear Customer,Please review the application and eSign the 'Authorized Signature' field. If you are assigning the incentive payment to the Participating Contractor, please sign the 'Payee Authorization' portion as well. To access the application, click the link below.  If you do not eSign this request by " +  TEXT(Conga_eSign_Expiration_Date__c)  + " the project application will be cancelled." +
+"&amp;csrecipient1=" + Primary_Contact_Id__c +
+"&amp;CSExpiration=" + LEFT( TEXT(Conga_eSign_Expiration_Date__c),10) + "T23:59:01Z" +
+"&amp;UF0=1" +
+"&amp;MFTS0=CI_Application_File_Name__c" +
+"&amp;MFTSValue0=" + Project_Id__c + "_CI_Application_" + Base_File_Name_for_eSignature_Files__c +
+"&amp;businessunit=CI_Program" +
+"&amp;qmode=congasign"</formula>
+    <label>Send CI Application for eSign</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

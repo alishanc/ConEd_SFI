@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Heat Pump</fullName>
+        <default>false</default>
+        <label>Heat Pump</label>
+    </customValue>
+    <customValue>
+        <fullName>Furnace</fullName>
+        <default>false</default>
+        <label>Furnace</label>
+    </customValue>
+    <customValue>
+        <fullName>Hot Water Boiler</fullName>
+        <default>false</default>
+        <label>Hot Water Boiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Steam Boiler</fullName>
+        <default>false</default>
+        <label>Steam Boiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Resistance Heat</fullName>
+        <default>false</default>
+        <label>Electric Resistance Heat</label>
+    </customValue>
+    <customValue>
+        <fullName>PTHP</fullName>
+        <default>false</default>
+        <label>PTHP</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>Heating System Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

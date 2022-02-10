@@ -1,0 +1,220 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PCRegistration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "PCRegistration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/Registration/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SpecialtyBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/SpecialtyBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SpecialtyBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Specialty Type 3",
+        "optionSource": {
+            "source": "Account.Specialty_Type__c",
+            "type": "SObject"
+        },
+        "options": [
+            {
+                "developerName": null,
+                "name": "Air Compressor",
+                "value": "Air Compressor"
+            },
+            {
+                "developerName": null,
+                "name": "Air Flow Management",
+                "value": "Air Flow Management"
+            },
+            {
+                "developerName": null,
+                "name": "Air Sealing",
+                "value": "Air Sealing"
+            },
+            {
+                "developerName": null,
+                "name": "Boiler Cleaning & Tune Up",
+                "value": "Boiler Cleaning & Tune Up"
+            },
+            {
+                "developerName": null,
+                "name": "Boiler Controls",
+                "value": "Boiler Controls"
+            },
+            {
+                "developerName": null,
+                "name": "Boilers",
+                "value": "Boilers"
+            },
+            {
+                "developerName": null,
+                "name": "Boilers & Domestic Hot Water",
+                "value": "Boilers & Domestic Hot Water"
+            },
+            {
+                "developerName": null,
+                "name": "Building Design",
+                "value": "Building Design"
+            },
+            {
+                "developerName": null,
+                "name": "Chiller Controls & EMS",
+                "value": "Chiller Controls & EMS"
+            },
+            {
+                "developerName": null,
+                "name": "Chillers",
+                "value": "Chillers"
+            },
+            {
+                "developerName": null,
+                "name": "Compressed Air Refrigeration",
+                "value": "Compressed Air Refrigeration"
+            },
+            {
+                "developerName": null,
+                "name": "Compressed Air Systems",
+                "value": "Compressed Air Systems"
+            },
+            {
+                "developerName": null,
+                "name": "Distributed Generation Renewables",
+                "value": "Distributed Generation Renewables"
+            },
+            {
+                "developerName": null,
+                "name": "Elevators",
+                "value": "Elevators"
+            },
+            {
+                "developerName": null,
+                "name": "Energy Analysis & Benchmarking",
+                "value": "Energy Analysis & Benchmarking"
+            },
+            {
+                "developerName": null,
+                "name": "Energy Audit & Commissioning",
+                "value": "Energy Audit & Commissioning"
+            },
+            {
+                "developerName": null,
+                "name": "Energy Management Systems",
+                "value": "Energy Management Systems"
+            },
+            {
+                "developerName": null,
+                "name": "Furnaces",
+                "value": "Furnaces"
+            },
+            {
+                "developerName": null,
+                "name": "Heating Tune-Ups",
+                "value": "Heating Tune-Ups"
+            },
+            {
+                "developerName": null,
+                "name": "HVAC",
+                "value": "HVAC"
+            },
+            {
+                "developerName": null,
+                "name": "HVAC Refrigeration",
+                "value": "HVAC Refrigeration"
+            },
+            {
+                "developerName": null,
+                "name": "Insulations",
+                "value": "Insulations"
+            },
+            {
+                "developerName": null,
+                "name": "IT Optimization",
+                "value": "IT Optimization"
+            },
+            {
+                "developerName": null,
+                "name": "Lighting & Controls",
+                "value": "Lighting & Controls"
+            },
+            {
+                "developerName": null,
+                "name": "Master Venting - Risers, TRV’s Orifice Plates",
+                "value": "Master Venting - Risers, TRV’s Orifice Plates"
+            },
+            {
+                "developerName": null,
+                "name": "Motors",
+                "value": "Motors"
+            },
+            {
+                "developerName": null,
+                "name": "Power Management Strategies",
+                "value": "Power Management Strategies"
+            },
+            {
+                "developerName": null,
+                "name": "Process Upgrades",
+                "value": "Process Upgrades"
+            },
+            {
+                "developerName": null,
+                "name": "Refrigeration",
+                "value": "Refrigeration"
+            },
+            {
+                "developerName": null,
+                "name": "VFDS",
+                "value": "VFDS"
+            },
+            {
+                "developerName": null,
+                "name": "Virtualization",
+                "value": "Virtualization"
+            },
+            {
+                "developerName": null,
+                "name": "Steam Trap",
+                "value": "Steam Trap"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "specialtyType3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Account/Registration/English/specialtyType3"
+}

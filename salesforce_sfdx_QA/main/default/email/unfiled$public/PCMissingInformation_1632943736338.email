@@ -1,0 +1,54 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Company Name:&nbsp;{{{Account.Name}}}<br />
+Primary Contact Name:&nbsp;{{{Account.vlocity_cmt__PrimaryContactId__c}}}<br />
+Company Address:&nbsp;{{{Account.BillingAddress}}}<br />
+Contact Email:&nbsp;{{{Account.vlocity_cmt__BillingEmailAddress__c}}}<br />
+Reference ID:&nbsp;{{{Account.Contractor_Id__c}}}<br />
+<br />
+Thank you for submitting your Incentive Navigator registration. Please note your registration is not yet complete.<br />
+<br />
+<br />
+In order to complete your registration, please follow this link to provide the <a href="{{{Account.editURL__c}}}"><u>required documentation</u></a>.<br />
+<br />
+<br />
+Please complete your application within 7 business days.<br />
+<br />
+<i>For your reference, please see required information for supporting documentation. </i><br />
+<br />
+<b>Certificate of Insurance: </b><br />
+• Minimum general liability coverage of at least $1 million<br />
+• It must have an expiration date of no less than 3 months from the date of your registration<br />
+• "CECONY Inc. 4 Irving Pl, New York, NY 10003" should be listed on the Certificate Holder section in the bottom of the document.<br />
+<br />
+Please also see the attachment for an example of how to fill out the Certificate of Insurance.<br />
+<br />
+<b>W9 Tax Form: </b><br />
+• It must be the current version of the W9, which can be found <a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf"><u>here</u></a><br />
+• The address and tax ID must match the registration request and the COI<br />
+<br />
+<b>We also have a requirement that new contractors submit </b><b>their</b><b> first project outside the system, through our application process. All information about the program can be found in our Program Guidelines found </b><a href="https://www.coned.com/-/media/files/coned/documents/save-energy-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-commercial-industrial-buildings-customers/commercial-and-industrial-program/program-manual.pdf?la=en"><b><u>here</u></b></a><b>. </b><br />
+<br />
+<u>If you have submitted a project with us in the past, please send us the project number so we can confirm. </u><br />
+<br />
+<b>The Application Package must include: </b><br />
+• Completed program application (The full application can be found <a href="https://www.coned.com/-/media/files/coned/documents/save-energy-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-commercial-industrial-buildings-customers/commercial-and-industrial-program/program-application.pdf?la=en"><b><u>here</u></b></a>) Application outlines the project life cycle as well<br />
+• Con Edison tool or custom analysis (The <a href="https://www.coned.com/-/media/files/coned/documents/save-energy-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-commercial-industrial-buildings-customers/commercial-and-industrial-program/electric-tool.xlsx?la=en"><b><u>electric</u></b></a> and <a href="https://www.coned.com/-/media/files/coned/documents/save-energy-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-commercial-industrial-buildings-customers/commercial-and-industrial-program/gas-tool.xlsx?la=en"><b><u>gas</u></b></a> tools can be downloaded by clicking on the previous links or found on the following web page <a href="https://www.coned.com/en/save-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-commercial-industrial-buildings-customers/save-with-energy-efficiency-upgrades"><b><u>here</u></b></a>)<br />
+• Cut sheets or technical support details as specified by the program manual (Link to program manual can be found <a href="https://www.coned.com/-/media/files/coned/documents/save-energy-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-commercial-industrial-buildings-customers/commercial-and-industrial-program/program-manual.pdf?la=en"><b><u>here</u></b></a>)<br />
+• W-9 of the incentive recipient<br />
+<br />
+Additional information on the program can be found on our website, <a href="https://consolidatededison.sharepoint.com/sites/DMTS2.0-CI/Shared%20Documents/General/Sprints/Sprint%201/coned.com/largecommercial"><u>HERE</u></a>.<br />
+<br />
+Also, I would like to set up a call to further discuss the program. Are you available this week?<br />
+<br />
+Please let me know if you have any questions.<br />
+<br />
+<br />
+Thank you,<br />
+<br />
+Robert Peras<br />
+perasr@coned.com<br />
+Energy Efficiency &amp; Demand Management Team<br />
+&nbsp;
+</body></html>

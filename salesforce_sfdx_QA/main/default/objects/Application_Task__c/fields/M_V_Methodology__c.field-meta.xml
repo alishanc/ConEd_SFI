@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_V_Methodology__c</fullName>
+    <externalId>false</externalId>
+    <label>M&amp;V Methodology</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IPMVP Option A</fullName>
+                <default>false</default>
+                <label>IPMVP Option A</label>
+            </value>
+            <value>
+                <fullName>IPMVP Option B</fullName>
+                <default>false</default>
+                <label>IPMVP Option B</label>
+            </value>
+            <value>
+                <fullName>IPMVP Option C</fullName>
+                <default>false</default>
+                <label>IPMVP Option C</label>
+            </value>
+            <value>
+                <fullName>IPMVP Option D</fullName>
+                <default>false</default>
+                <label>IPMVP Option D</label>
+            </value>
+            <value>
+                <fullName>Hybrid</fullName>
+                <default>false</default>
+                <label>Hybrid</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Engineering Desk Review</fullName>
+                <default>false</default>
+                <label>Engineering Desk Review</label>
+            </value>
+            <value>
+                <fullName>Enhanced Desk Review</fullName>
+                <default>false</default>
+                <label>Enhanced Desk Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

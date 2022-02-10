@@ -1,0 +1,42 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Company Name: {{{Account.Name}}}<br />
+<br />
+Primary Contact&nbsp; Name:&nbsp;{{{Account.vlocity_cmt__PrimaryContactId__c}}}<br />
+<br />
+Company Address: {{{Account.BillingAddress}}}<br />
+<br />
+Contact Email:&nbsp;{{{Account.vlocity_cmt__BillingEmailAddress__c}}}<br />
+<br />
+Reference Id:&nbsp;{{{Account.Contractor_Id__c}}}<br />
+<br />
+<br />
+<br />
+Hello,<br />
+<br />
+Your company has applied to become a Participating Contractor in the C&amp;I Program on {{{Account.Agreement_Signature_Date__c}}}.&nbsp;We have contacted you regarding your outstanding registration.<br />
+<br />
+Your application has been rejected since we have not received the required documentation needed for approval.<br />
+<br />
+If you would like to reapply please reach out to commercial@coned.com with the missing items from your application.<br />
+<br />
+Last Contact:&nbsp;<br />
+{{{Account.LastActivityDate}}}<br />
+<br />
+<br />
+Reason(s) for Rejection:<br />
+<br />
+{{{Account.Reasons_For_Hold__c}}}<br />
+<br />
+Please let us know if you have any questions.<br />
+<br />
+Thank you,<br />
+<br />
+Con Edison<br />
+<br />
+commercial@coned.com<br />
+<br />
+Energy Efficiency &amp; Demand Management Team<br />
+&nbsp;
+</body></html>

@@ -1,0 +1,6 @@
+[
+    "DataRaptor/UpdateCCDocsStatus",
+    "DataRaptor/UpdateInvoiceDocsStatus",
+    "DataRaptor/UpdateLastDocTitle",
+    "DataRaptor/UpdateReinstatementRequest"
+]

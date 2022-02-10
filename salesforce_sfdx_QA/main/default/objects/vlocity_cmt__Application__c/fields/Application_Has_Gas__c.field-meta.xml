@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Has_Gas__c</fullName>
+    <description>Check to see if Account Eligibility is Both or Gas</description>
+    <externalId>false</externalId>
+    <formula>OR( ISPICKVAL( vlocity_cmt__AccountId__r.CE_C_I_Eligible__c, 'B'), ISPICKVAL( vlocity_cmt__AccountId__r.CE_C_I_Eligible__c, 'G') )</formula>
+    <label>Application Has Gas</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

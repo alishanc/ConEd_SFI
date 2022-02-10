@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch_Payment_Total__c</fullName>
+    <description>Automatically-calculated sum of payments in this batch</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically-calculated sum of payments in this batch</inlineHelpText>
+    <label>Batch Payment Total</label>
+    <summarizedField>Project_Payment__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Project_Payment__c.Included_In_Another_Payment__c</field>
+        <operation>notEqual</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Project_Payment__c.Payment_Batch__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

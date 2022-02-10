@@ -1,0 +1,33 @@
+{
+    "ContextId": "",
+    "HelpForm": {
+        "FormBlock": {
+            "AttemptingTextArea": "qwedfasdf",
+            "BrowserSelect": "Google Chrome",
+            "CompanyNameText": "salesforce",
+            "ContactNumberText": "910-910-9191",
+            "EmailField": "edonahue@salesforce.com",
+            "FullNameText": "Test Tester",
+            "NameSplitFormula": [
+                "Test",
+                "Tester"
+            ],
+            "ProblemTextArea": "qwer",
+            "TypeIssueSelect": "Page error"
+        },
+        "ScreenshotBlock": null
+    },
+    "id": "a2z8G00000000UBQAY",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://connedev--dev--vlocity-cmt.visualforce.com",
+    "timeStamp": "2021-10-01T01:30:29.010Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFnQAO",
+    "userName": "edonahue@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

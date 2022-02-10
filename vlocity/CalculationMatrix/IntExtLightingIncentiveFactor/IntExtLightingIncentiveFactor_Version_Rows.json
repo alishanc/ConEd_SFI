@@ -1,0 +1,708 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "261578",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ReplacementType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "9c8d86",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ReplacementLuminaireCategory"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "c44f9a",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "IncentiveFactor"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "1x4 Luminaires for Ambient Lighting",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "3cb806cfea5c23ba028fed58284fe63d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "1x4 Luminaires for Ambient Lighting",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "20"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "213f287f92cd349068fe0e8af41b978b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "2x2 Luminaires for Ambient Lighting",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "af91276edde213ee97c72f6cf39f5fae",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "2x2 Luminaires for Ambient Lighting",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "20"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "f1ea2d94b4b0a9662f35f2e5113e427a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "2x4 Luminaires for Ambient Lighting",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "80"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "eecf2170ade272c1e0631cd9aae5510c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "2x4 Luminaires for Ambient Lighting",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "91bf3022beae4a0bd16641579b710084",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Bollards/Landscape/Accent Flood and Spot Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "100"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "bde5edf759694cb495c3bfdd3697608c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Bollards/Landscape/Accent Flood and Spot Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "cecfaae4dbae2ee4214e913795122783",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Candle or Globe (Decorative)",
+            "ReplacementType": "Lamp"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "948fd3f94d84772a60e461c23f0ac7c1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Direct Linear Ambient Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "80"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "5c303f3a494d09539e222202ec9e18b2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Direct Linear Ambient Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "19130d83cf805d44f4949b150f58c818",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Downlights w. Screw-In or Pin-Based Lamps",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "ad417b4fe99a08b672c58b94316f4c5d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Downlights w. Screw-In or Pin-Based Lamps",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "20"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "e44149033735bb0b4a9638156dde9935",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Flood/Spot Reflector (Directional)",
+            "ReplacementType": "Lamp"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "5f8692928a6f1127aaa7c4d1ea330866",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Four Pin Replacement Lamps for CFLs",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "461715445a6cb19f7c72571565a8b168",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Four Pin Replacement Lamps for CFLs",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "3b207adc284311a1dde668711a98d5ee",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "General Pupose (Omnidirectional)",
+            "ReplacementType": "Lamp"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "df7cb59db82d03d85f32587041d155e3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "High Bay/Low Bay Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "140"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "14a2c65a79ec1a859116d572c06c2233",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "High Bay/Low Bay Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "70"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "07261795938cf1e0ec8b4088212d806a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "LED Exit Sign",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "20"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "890162dbaad74ce3c5a305befa382fe5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "LED Exit Sign",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "602d41ac4d714e221ab4290b51dc8a68",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Linear Ambient Luminaires with Indirect Component",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "80"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "903a153e056b46827249e77b469e3973",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Linear Ambient Luminaires with Indirect Component",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "186b757130cce115a7d9a37d40e328a9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Linear Ambient Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "6fce86d31beb55f07b66c2de3545cabf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Outdoor Full-Cutoff/Non-Cutoff/Semi-Cutoff Wall-Mounted Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "150"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "a4cfc22de2ac16dab7514e37b9570738",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Outdoor Full-Cutoff/Non-Cutoff/Semi-Cutoff Wall-Mounted Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "150"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "3137abfa25a5eb505f1a360657fa38b4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Outdoor Pole/Arm-Mounted Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "150"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "6db0ba2ba8775205c32792fd38e65428",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Outdoor Pole/Arm-Mounted Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "150"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "69a4190b9bc8cd5fca694fdf90176209",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Parking Garage/Fuel Canopy Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "180"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "7bd082f74537231e7167994b95734714",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Parking Garage/Fuel Canopy Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "f4bb491b61de7f2486e3f099abe1f7d1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Track or Mono-Point Luminaires",
+            "ReplacementType": "Fixture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "40"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "fbab133077dce2a5e9a24e06984c1abb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "IntExtLightingIncentiveFactor",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/IntExtLightingIncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ReplacementLuminaireCategory": "Track or Mono-Point Luminaires",
+            "ReplacementType": "Retrofit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "IncentiveFactor": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-23T22:41:16.000Z",
+        "Name": "4cbd04e3b48df9229d7dfeae5362f330",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

@@ -1,0 +1,46 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "permissionsets/cases_Permisssion_Set.permissionset",
+      "fullName": "cases_Permisssion_Set",
+      "id": "0PS5Y000001UlMpWAK",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "0055Y00000EQHrAQAX",
+      "createdByName": "Rajesh Turlapati",
+      "createdDate": "2021-10-27T15:24:38.000Z",
+      "fileName": "permissionsets/vlocity_cmt__VlocityMobilePermissions.permissionset",
+      "fullName": "vlocity_cmt__VlocityMobilePermissions",
+      "id": "0PS5Y0000006yMyWAI",
+      "lastModifiedById": "0055Y00000EQHrAQAX",
+      "lastModifiedByName": "Rajesh Turlapati",
+      "lastModifiedDate": "2021-10-27T15:24:38.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "vlocity_cmt",
+      "type": "PermissionSet"
+    },
+    {
+      "createdById": "0055Y00000EQHrAQAX",
+      "createdByName": "Rajesh Turlapati",
+      "createdDate": "2021-10-27T15:24:39.000Z",
+      "fileName": "permissionsets/vlocity_cmt__WaveIntegration.permissionset",
+      "fullName": "vlocity_cmt__WaveIntegration",
+      "id": "0PS5Y0000006yMzWAI",
+      "lastModifiedById": "0055Y00000EQHrAQAX",
+      "lastModifiedByName": "Rajesh Turlapati",
+      "lastModifiedDate": "2021-10-27T15:24:40.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "vlocity_cmt",
+      "type": "PermissionSet"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Life_Saving_Equipment_Description__c</fullName>
+    <description>Enter type of life saving equipment in the building</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter type of life saving equipment in the building</inlineHelpText>
+    <label>Life Saving Equipment Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

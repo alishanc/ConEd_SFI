@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification sent to PC when application has an action item</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PCNotificationNewActionItem</name>
+    <relatedEntityType>vlocity_cmt__Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Please respond to Con Edison’s Request for information for project {{{vlocity_cmt__Application__c.Name}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

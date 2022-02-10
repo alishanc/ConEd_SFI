@@ -1,0 +1,117 @@
+{
+    "registration": {
+        "COIAddress": "asdf street",
+        "COICompanyName": "asdf",
+        "City": "asdf",
+        "CompanyName": "asdf",
+        "NYEmployees": "12",
+        "PhoneNumber": "1234123123",
+        "PostalCode": "12345",
+        "PriContFirstName": "asdf",
+        "PriContactEmail": "asdf@asedf.com",
+        "PriContactLastName": "asdf",
+        "PriContactTitle": "asdf",
+        "Referral": "otherReferral",
+        "State": "tx",
+        "StreetAddress": "asdf",
+        "agreementDate": "2021-09-11",
+        "agreementEmail": "email@email.com",
+        "agreementFirstName": "a",
+        "agreementLastName": "b",
+        "agreementPhone": "1231243123",
+        "agreementSignature": "sig",
+        "agreementTitle": "c",
+        "businessClassification": "minorityBusiness;womanBusiness",
+        "businessType1": "consultantBusiness",
+        "businessType2": "architectBusiness",
+        "coiCity": "adsf",
+        "coiContactName": "asdfadf",
+        "coiCoverageAmount": "31231231312",
+        "coiCoverages": "adfaf",
+        "coiEffDate": "2021-09-11",
+        "coiExpDate": "2021-09-11",
+        "coiPhone": "1231234412",
+        "coiState": "tx",
+        "coiZip": "12341231",
+        "companyWebsite": "asdf.com",
+        "companyYears": "23",
+        "contact1": {
+            "contact1Email": "test@test.com",
+            "contact1Name": "test",
+            "contact1Phone": "1231231231",
+            "contact1Title": "asdfa"
+        },
+        "contact2": {
+            "contact2Email": "asdf@asdf.com",
+            "contact2Name": "asdf",
+            "contact2Phone": "1231231231",
+            "contact2Title": "asdf"
+        },
+        "contact3": {
+            "contact3Email": "adf@asdf.com",
+            "contact3Name": "adsf",
+            "contact3Phone": "1234123121",
+            "contact3Title": "asdf"
+        },
+        "corpType": "partnership",
+        "fuelSpecialty": "electricFuel;gasFuel",
+        "hasDocuments": true,
+        "hasdocumentInsuranceCertificate": true,
+        "license1": {
+            "Text2": "123123123",
+            "licenseAuthority1": "adfadf",
+            "licenseExp1": "2021-09-11",
+            "licenseType1": "adsfadf"
+        },
+        "license2": {
+            "Text3": "asdfaf",
+            "Text5": "23123123",
+            "licenseAuthority2": "asdfa",
+            "licenseExp2": "2021-09-11"
+        },
+        "license3": {
+            "licenseAuthority3": "adsfa",
+            "licenseExp3": "2021-09-11",
+            "licenseNum3": "123123",
+            "licenseType3": "asdf"
+        },
+        "numTotalEmployees": "123",
+        "otherReferral": "test",
+        "otherViolation": null,
+        "ownershipYears": "12",
+        "programOption": "BQDMFamilyProgram;DemandResponseProgram;InstantLightingInventiceProgram",
+        "projectContactEmail": "test@test.com",
+        "projectPrimaryName": "test",
+        "reference1": {
+            "referenceCompany1": "asdf",
+            "referenceContact1": "asdf",
+            "referenceDescription1": "adsfasdf ds adfasdfasdfadsfewfads adsfdsf",
+            "referenceTelephone1": "1231231231"
+        },
+        "reference2": {
+            "referenceCompany2": "asdfa",
+            "referenceContact2": "adf",
+            "referenceDescription2": "asdf fda fadfadfadsfafa 1231241321",
+            "referenceTelephone2": "2312312312"
+        },
+        "reference3": {
+            "Text1": "adsfaf",
+            "referenceContact3": "asdfa",
+            "referenceDescription3": "asdfasdfa fsdfaf21",
+            "referenceTelephone3": "1231241231"
+        },
+        "serviceArea": "QueensService;WestchesterCountyService",
+        "specialtyType1": "compressorSpecialty",
+        "specialtyType2": "flowSpecialty",
+        "specialtyType3": "airSealingSpecialty",
+        "taxId": "1234",
+        "violation": "yes",
+        "violationProgram": "miltiFam"
+    },
+    "timeStamp": "2021-09-09T17:47:16.508Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

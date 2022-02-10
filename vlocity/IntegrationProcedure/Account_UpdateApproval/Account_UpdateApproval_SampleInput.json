@@ -1,0 +1,18 @@
+{
+    "ContextId": "0018G000002trpiQAA",
+    "STEP_FieldsToUpdate": {
+        "BLK_AccountInformation": {
+            "MULTI_AccountFields": "TXT_PCFN;TXT_PCLN"
+        },
+        "BLK_CompanyInformation": {
+            "MSLCT_CompanyFields": "TXT_CC"
+        }
+    },
+    "fieldsToUpdate": "TXT_PCFN;TXT_PCLN;TXT_CC",
+    "timeStamp": "2021-10-04T13:34:01.551Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

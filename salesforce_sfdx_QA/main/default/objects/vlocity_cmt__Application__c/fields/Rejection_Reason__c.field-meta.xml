@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>vlocity_cmt__Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Application Not Signed</fullName>
+                <default>false</default>
+                <label>Application Not Signed</label>
+            </value>
+            <value>
+                <fullName>Gaps Not Addressed</fullName>
+                <default>false</default>
+                <label>Gaps Not Addressed</label>
+            </value>
+            <value>
+                <fullName>Offer Not Signed</fullName>
+                <default>false</default>
+                <label>Offer Not Signed</label>
+            </value>
+            <value>
+                <fullName>Post Inspection Not Passed</fullName>
+                <default>false</default>
+                <label>Post Inspection Not Passed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

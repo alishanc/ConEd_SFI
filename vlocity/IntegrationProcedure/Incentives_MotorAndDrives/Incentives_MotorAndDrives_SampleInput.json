@@ -1,0 +1,28 @@
+{
+    "input": {
+        "Location": "",
+        "MeasureCategory": "Motors and Drives",
+        "MeasureCode": "COM-MOD-ELE",
+        "MeasureCost": 10000,
+        "Quantity_ee": "",
+        "ReplacementLuminaireCategory": "",
+        "ReplacementType": "",
+        "SFdoor": "",
+        "Watts": "",
+        "compressorHp": "",
+        "controlType": "",
+        "coolingCapacity": "",
+        "customTherms": "",
+        "customkW": "",
+        "customkWh": "",
+        "delkWh": 17130,
+        "displayCaseType": "",
+        "doorsPerController": "",
+        "glazingArea": "",
+        "quantity": 1,
+        "quantityEe": "",
+        "sensorQuantity": "",
+        "tonsPerUnit": "",
+        "units": ""
+    }
+}

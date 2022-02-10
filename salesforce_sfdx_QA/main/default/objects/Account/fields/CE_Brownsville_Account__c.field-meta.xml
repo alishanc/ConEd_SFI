@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Brownsville_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>CIS Data - Imported - Brooklyn-Queens Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is this a Brooklyn-Queens Account?</inlineHelpText>
+    <label>BQ Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

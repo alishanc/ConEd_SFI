@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Type__c</fullName>
+    <description>Type of equipment</description>
+    <externalId>false</externalId>
+    <label>Equipment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Air Conditioner - Room</fullName>
+                <default>false</default>
+                <label>Air Conditioner - Room</label>
+            </value>
+            <value>
+                <fullName>Air Purifier</fullName>
+                <default>false</default>
+                <label>Air Purifier</label>
+            </value>
+            <value>
+                <fullName>Bldg Env</fullName>
+                <default>false</default>
+                <label>Bldg Env</label>
+            </value>
+            <value>
+                <fullName>Clothes Dryer</fullName>
+                <default>false</default>
+                <label>Clothes Dryer</label>
+            </value>
+            <value>
+                <fullName>Clothes Washer</fullName>
+                <default>false</default>
+                <label>Clothes Washer</label>
+            </value>
+            <value>
+                <fullName>Comprehensive Rebate</fullName>
+                <default>false</default>
+                <label>Comprehensive Rebate</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Energy Star clothes washer</fullName>
+                <default>false</default>
+                <label>Energy Star clothes washer</label>
+            </value>
+            <value>
+                <fullName>Energy Star dishwasher</fullName>
+                <default>false</default>
+                <label>Energy Star dishwasher</label>
+            </value>
+            <value>
+                <fullName>Energy Star dryer</fullName>
+                <default>false</default>
+                <label>Energy Star dryer</label>
+            </value>
+            <value>
+                <fullName>Energy Star refrigerator</fullName>
+                <default>false</default>
+                <label>Energy Star refrigerator</label>
+            </value>
+            <value>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+                <label>HVAC</label>
+            </value>
+            <value>
+                <fullName>Incandescent Lighting</fullName>
+                <default>false</default>
+                <label>Incandescent Lighting</label>
+            </value>
+            <value>
+                <fullName>LED Lighting</fullName>
+                <default>false</default>
+                <label>LED Lighting</label>
+            </value>
+            <value>
+                <fullName>Lighting</fullName>
+                <default>false</default>
+                <label>Lighting</label>
+            </value>
+            <value>
+                <fullName>Lighting - LED Lamp Replacement</fullName>
+                <default>false</default>
+                <label>Lighting - LED Lamp Replacement</label>
+            </value>
+            <value>
+                <fullName>Lighting - Refrigerated Case</fullName>
+                <default>false</default>
+                <label>Lighting - Refrigerated Case</label>
+            </value>
+            <value>
+                <fullName>Lighting - Retail Lamps</fullName>
+                <default>false</default>
+                <label>Lighting - Retail Lamps</label>
+            </value>
+            <value>
+                <fullName>M&amp;V Adjustment</fullName>
+                <default>false</default>
+                <label>M&amp;V Adjustment</label>
+            </value>
+            <value>
+                <fullName>Refrigerator Replacement</fullName>
+                <default>false</default>
+                <label>Refrigerator Replacement</label>
+            </value>
+            <value>
+                <fullName>Sound Bar</fullName>
+                <default>false</default>
+                <label>Sound Bar</label>
+            </value>
+            <value>
+                <fullName>Storage Tank Water Heater</fullName>
+                <default>false</default>
+                <label>Storage Tank Water Heater</label>
+            </value>
+            <value>
+                <fullName>Thermostat - WiFi</fullName>
+                <default>false</default>
+                <label>Thermostat - WiFi</label>
+            </value>
+            <value>
+                <fullName>Water Heater</fullName>
+                <default>false</default>
+                <label>Water Heater</label>
+            </value>
+            <value>
+                <fullName>Mini Split ASHP</fullName>
+                <default>false</default>
+                <label>Mini Split ASHP</label>
+            </value>
+            <value>
+                <fullName>GSHP</fullName>
+                <default>false</default>
+                <label>GSHP</label>
+            </value>
+            <value>
+                <fullName>Pool Pumps</fullName>
+                <default>false</default>
+                <label>Pool Pumps</label>
+            </value>
+            <value>
+                <fullName>Lighting - Fixtures</fullName>
+                <default>false</default>
+                <label>Lighting - Fixtures</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

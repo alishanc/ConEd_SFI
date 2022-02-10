@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VFD_Application__c</fullName>
+    <externalId>false</externalId>
+    <label>VFD Application</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Boiler Feedwater Pump</fullName>
+                <default>false</default>
+                <label>Boiler Feedwater Pump</label>
+            </value>
+            <value>
+                <fullName>Chilled Water Pump</fullName>
+                <default>false</default>
+                <label>Chilled Water Pump</label>
+            </value>
+            <value>
+                <fullName>Condenser Water Pump</fullName>
+                <default>false</default>
+                <label>Condenser Water Pump</label>
+            </value>
+            <value>
+                <fullName>Exhaust Fan</fullName>
+                <default>false</default>
+                <label>Exhaust Fan</label>
+            </value>
+            <value>
+                <fullName>Hot Water Pump</fullName>
+                <default>false</default>
+                <label>Hot Water Pump</label>
+            </value>
+            <value>
+                <fullName>MAF</fullName>
+                <default>false</default>
+                <label>MAF</label>
+            </value>
+            <value>
+                <fullName>Return Fan</fullName>
+                <default>false</default>
+                <label>Return Fan</label>
+            </value>
+            <value>
+                <fullName>Supply Fan</fullName>
+                <default>false</default>
+                <label>Supply Fan</label>
+            </value>
+            <value>
+                <fullName>Tower Fan</fullName>
+                <default>false</default>
+                <label>Tower Fan</label>
+            </value>
+            <value>
+                <fullName>Water Loop Heat Pump Circ Pump</fullName>
+                <default>false</default>
+                <label>Water Loop Heat Pump Circ Pump</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

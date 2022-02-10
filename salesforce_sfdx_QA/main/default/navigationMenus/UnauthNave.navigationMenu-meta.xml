@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>home</container>
+    <containerType>Network</containerType>
+    <label>UnauthNav</label>
+    <navigationMenuItem>
+        <label>Register</label>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/registration</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Support</label>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/support</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

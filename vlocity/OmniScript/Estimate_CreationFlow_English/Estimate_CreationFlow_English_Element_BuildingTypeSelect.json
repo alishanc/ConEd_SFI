@@ -1,0 +1,276 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "EstimateCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "EstimateCreation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "BuildingTypeBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/BuildingTypeBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "BuildingTypeBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": "SObject"
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Building Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Assembly",
+                "value": "Assembly"
+            },
+            {
+                "name": "Automotive/Transportation Service or Repair Facility",
+                "value": "Automotive/Transportation Service or Repair Facility"
+            },
+            {
+                "name": "Bakery",
+                "value": "Bakery"
+            },
+            {
+                "name": "Banks",
+                "value": "Banks"
+            },
+            {
+                "name": "Cafeteria",
+                "value": "Cafeteria"
+            },
+            {
+                "name": "College - University",
+                "value": "College - University"
+            },
+            {
+                "name": "College - Community",
+                "value": "College - Community"
+            },
+            {
+                "name": "Commercial Condos",
+                "value": "Commercial Condos"
+            },
+            {
+                "name": "Convenience Stores",
+                "value": "Convenience Stores"
+            },
+            {
+                "name": "Convention Center",
+                "value": "Convention Center"
+            },
+            {
+                "name": "Court House",
+                "value": "Court House"
+            },
+            {
+                "name": "Dormitory",
+                "value": "Dormitory"
+            },
+            {
+                "name": "Entertainment",
+                "value": "Entertainment"
+            },
+            {
+                "name": "Exercise Center",
+                "value": "Exercise Center"
+            },
+            {
+                "name": "Grocery/Food Store",
+                "value": "Grocery/Food Store"
+            },
+            {
+                "name": "Gymnasium",
+                "value": "Gymnasium"
+            },
+            {
+                "name": "Hospital",
+                "value": "Hospital"
+            },
+            {
+                "name": "Industrial/Manufacturing",
+                "value": "Industrial/Manufacturing"
+            },
+            {
+                "name": "Laundromats",
+                "value": "Laundromats"
+            },
+            {
+                "name": "Library",
+                "value": "Library"
+            },
+            {
+                "name": "Lodging - Hotel",
+                "value": "Lodging - Hotel"
+            },
+            {
+                "name": "Lodging - Motel",
+                "value": "Lodging - Motel"
+            },
+            {
+                "name": "Mall Concourse",
+                "value": "Mall Concourse"
+            },
+            {
+                "name": "Medical Offices",
+                "value": "Medical Offices"
+            },
+            {
+                "name": "Motion Picture Theatre",
+                "value": "Motion Picture Theatre"
+            },
+            {
+                "name": "Museum",
+                "value": "Museum"
+            },
+            {
+                "name": "Nursing Homes High-Rise",
+                "value": "Nursing Homes High-Rise"
+            },
+            {
+                "name": "Nursing Homes Low-Rise",
+                "value": "Nursing Homes Low-Rise"
+            },
+            {
+                "name": "Office - Large",
+                "value": "Office - Large"
+            },
+            {
+                "name": "Office - Small",
+                "value": "Office - Small"
+            },
+            {
+                "name": "Parking Garage",
+                "value": "Parking Garage"
+            },
+            {
+                "name": "Parking Lot",
+                "value": "Parking Lot"
+            },
+            {
+                "name": "Penitentiary",
+                "value": "Penitentiary"
+            },
+            {
+                "name": "Performing Arts Theatre",
+                "value": "Performing Arts Theatre"
+            },
+            {
+                "name": "Police/Firestation",
+                "value": "Police/Firestation"
+            },
+            {
+                "name": "Post Office",
+                "value": "Post Office"
+            },
+            {
+                "name": "Pump Stations",
+                "value": "Pump Stations"
+            },
+            {
+                "name": "Religious/Church",
+                "value": "Religious/Church"
+            },
+            {
+                "name": "Restaurant - Quick Service/Fast Food",
+                "value": "Restaurant - Quick Service/Fast Food"
+            },
+            {
+                "name": "Restaurant - Casual Dining",
+                "value": "Restaurant - Casual Dining"
+            },
+            {
+                "name": "Restaurant - Full Service",
+                "value": "Restaurant - Full Service"
+            },
+            {
+                "name": "Retail - Big Box/Large",
+                "value": "Retail - Big Box/Large"
+            },
+            {
+                "name": "Retail - Small",
+                "value": "Retail - Small"
+            },
+            {
+                "name": "School - Jr./Sr. High",
+                "value": "School - Jr./Sr. High"
+            },
+            {
+                "name": "School - Preschool/Elementary",
+                "value": "School - Preschool/Elementary"
+            },
+            {
+                "name": "School - Technical/Vocational",
+                "value": "School - Technical/Vocational"
+            },
+            {
+                "name": "Small Services",
+                "value": "Small Services"
+            },
+            {
+                "name": "Sports Arena",
+                "value": "Sports Arena"
+            },
+            {
+                "name": "Town Hall",
+                "value": "Town Hall"
+            },
+            {
+                "name": "Transportation",
+                "value": "Transportation"
+            },
+            {
+                "name": "Warehouse - Refrigerated",
+                "value": "Warehouse - Refrigerated"
+            },
+            {
+                "name": "Warehouse - Non-Refrigerated",
+                "value": "Warehouse - Non-Refrigerated"
+            },
+            {
+                "name": "Waste Water Treatment Plant",
+                "value": "Waste Water Treatment Plant"
+            },
+            {
+                "name": "Workshop",
+                "value": "Workshop"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "BuildingTypeSelect",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Estimate/CreationFlow/English/BuildingTypeSelect"
+}

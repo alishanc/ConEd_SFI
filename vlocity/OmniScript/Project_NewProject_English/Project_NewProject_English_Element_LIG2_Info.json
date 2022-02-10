@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "createNewProject",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "createNewProject",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "LIG2_Measures",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/LIG2_Measures",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "LIG2_Measures",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "TextBlock37",
+        "sanitize": false,
+        "show": null,
+        "text": "<div style=\"display: grid; grid-template-columns: repeat(3, 1fr);\">\n<div style=\"color: gray; margin-bottom: 10px;\">Quantity Base</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Quantity Ee</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Lighting Hours</div>\n<div>%LIG2_quantityBase|n%</div>\n<div>%LIG2_quantityEe|n%</div>\n<div>%LIG2_hours|n%</div>\n</div>\n<div style=\"margin-top: 30px; display: grid; grid-template-columns: repeat(2, 1fr);\">\n<div style=\"color: gray; margin-bottom: 10px;\">Luminaire Length</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Existing Lighting Type</div>\n<div>%LIG2_displayCaseType|n%</div>\n<div>%LIG2_existingLightingType|n%</div>\n</div>\n<div style=\"margin-top: 30px; display: grid; grid-template-columns: repeat(3, 1fr);\">\n<div style=\"color: gray; margin-bottom: 10px;\">Make</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Model</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Measure Location</div>\n<div>%LIG2_make|n%</div>\n<div>%LIG2_model|n%</div>\n<div>%LIG2_measureLocation|n%</div>\n</div>\n<div style=\"margin-top: 30px; display: grid; grid-template-columns: repeat(4, 1fr);\">\n<div style=\"color: gray; margin-bottom: 10px;\">Power Savings (kW)</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Savings (kWH)</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Incentive</div>\n<div style=\"color: gray; margin-bottom: 10px;\">Cost</div>\n<div>%LIG2_kWsavings|n%</div>\n<div>%LIG2_kWHsavings|n%</div>\n<div>%LIG2_totalIncentive|n%</div>\n<div>%LIG2_measureCost|n%</div>\n</div>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "LIG2_Info",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/LIG2_Info"
+}

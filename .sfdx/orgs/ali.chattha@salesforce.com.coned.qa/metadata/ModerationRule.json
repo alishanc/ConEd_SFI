@@ -1,0 +1,65 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "moderation/home.Replace_banned.rule",
+      "fullName": "home.Replace_banned",
+      "id": "0LJ030000004CS3GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "moderation/home.Freeze_for_frequent_posting.rule",
+      "fullName": "home.Freeze_for_frequent_posting",
+      "id": "0LJ030000004CS2GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "moderation/home.Block_banned_keywords.rule",
+      "fullName": "home.Block_banned_keywords",
+      "id": "0LJ030000004CS0GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "moderation/home.Flag_banned.rule",
+      "fullName": "home.Flag_banned",
+      "id": "0LJ030000004CS1GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "moderation/home.Review_the_first_post.rule",
+      "fullName": "home.Review_the_first_post",
+      "id": "0LJ030000004CS4GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "ModerationRule"
+    }
+  ]
+}

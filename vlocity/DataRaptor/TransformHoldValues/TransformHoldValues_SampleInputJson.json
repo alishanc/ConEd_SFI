@@ -1,0 +1,23 @@
+{
+    "Account": {
+        "AccountId": "0018G000002trpiQAA",
+        "Name": "pat co",
+        "PrimaryContactId": "0038G0000026TD1QAM",
+        "PrimaryEmail": "aminadab.morales@salesforce.com",
+        "PrimaryFirstName": "dab",
+        "PrimaryLastName": "dab"
+    },
+    "ContextId": "0018G000002trpiQAA",
+    "STEP_FieldsToUpdate": {
+        "BLK_AccountInformation": {
+            "MULTI_AccountFields": "TXT_PCFN;TXT_PCLN;TXT_PCT;TXT_PCN;TXT_PCE"
+        }
+    },
+    "encryptedStringIfNecessary": "aMnJM1NZ3of7p0c5rkKg-B0WvIQrMuyOmEQq-ysVlZ4.Jyj-gdE-GdM4qgNE441TnS3ZxC95CWLBXZ8kn4W5dOqD-wbnHvN1JisPgDGfBiOm",
+    "timeStamp": "2021-09-30T13:03:18.634Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UCFYQA4",
+    "userName": "aminadab.morales@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

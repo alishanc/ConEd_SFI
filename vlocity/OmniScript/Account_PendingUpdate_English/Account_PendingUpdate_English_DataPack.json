@@ -1,0 +1,33 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Account_PendingUpdate_English_Element_SetValues2.json",
+        "Account_PendingUpdate_English_Element_STEP_FieldsToUpdate.json",
+        "Account_PendingUpdate_English_Element_TXTBLK_AccountUpdateInfo.json",
+        "Account_PendingUpdate_English_Element_BLK_AccountInformation.json",
+        "Account_PendingUpdate_English_Element_MULTI_AccountFields.json",
+        "Account_PendingUpdate_English_Element_BLK_CompanyInformation.json",
+        "Account_PendingUpdate_English_Element_MSLCT_CompanyFields.json",
+        "Account_PendingUpdate_English_Element_HoldFieldsList.json",
+        "Account_PendingUpdate_English_Element_IP_GetRequestedInformation.json",
+        "Account_PendingUpdate_English_Element_EMAIL_SendUpdateLink.json",
+        "Account_PendingUpdate_English_Element_EmailPC.json",
+        "Account_PendingUpdate_English_Element_Step_EmailSent.json",
+        "Account_PendingUpdate_English_Element_TXT_EmailSent.json",
+        "Account_PendingUpdate_English_Element_NAV_BackToAccount.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "Account_PendingUpdate_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "PendingUpdate",
+    "%vlocity_namespace%__Type__c": "Account",
+    "Name": "AccountUpdatesNeeded",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Account/PendingUpdate/English"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Referred_By__c</fullName>
+    <externalId>false</externalId>
+    <label>Referred By</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Customer Engagement</fullName>
+                <default>false</default>
+                <label>Customer Engagement</label>
+            </value>
+            <value>
+                <fullName>Cameron Engineering</fullName>
+                <default>false</default>
+                <label>Cameron Engineering</label>
+            </value>
+            <value>
+                <fullName>Con Edison</fullName>
+                <default>false</default>
+                <label>Con Edison</label>
+            </value>
+            <value>
+                <fullName>Customer by Hotline</fullName>
+                <default>false</default>
+                <label>Customer by Hotline</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Email Blast</fullName>
+                <default>false</default>
+                <label>Email Blast</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Market Partner/Trade Ally</fullName>
+                <default>false</default>
+                <label>Market Partner/Trade Ally</label>
+            </value>
+            <value>
+                <fullName>Multifamily</fullName>
+                <default>false</default>
+                <label>Multifamily</label>
+            </value>
+            <value>
+                <fullName>NYSERDA</fullName>
+                <default>false</default>
+                <label>NYSERDA</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>SBDI</fullName>
+                <default>false</default>
+                <label>SBDI</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Utility Representative</fullName>
+                <default>false</default>
+                <label>Utility Representative</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Network Contact</fullName>
+                <default>false</default>
+                <label>Network Contact</label>
+            </value>
+            <value>
+                <fullName>Personal Contact</fullName>
+                <default>false</default>
+                <label>Personal Contact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

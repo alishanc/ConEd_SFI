@@ -1,0 +1,434 @@
+{
+    "bundleName": "UpdateNewPCAccount",
+    "objectList": {
+        "Account Information": "AccountInformationStep",
+        "AccountInformationStep": {
+            "AccountInfo": {
+                "PhoneNumber": "1231243124",
+                "PriContFirstName": "Shakey",
+                "PriContactEmail": "aminadab.morales@salesforce.com",
+                "PriContactLastName": "Graves",
+                "PriContactTitle": "title"
+            },
+            "CompanyInfo": {
+                "City": "Austin",
+                "CompanyName": "Shakey Co",
+                "Country": "US",
+                "NYEmployees": 1,
+                "PostalCode": "12345",
+                "ProvinceChoice": null,
+                "StateChoice": "AK",
+                "StreetAddress": "123 Street",
+                "companyWebsite": "website.com",
+                "companyYears": 1,
+                "corpType": "corp",
+                "numTotalEmployees": 1,
+                "ownershipYears": 1,
+                "taxId": "990123456"
+            },
+            "ContactInfo": {
+                "Contact1": {
+                    "contactEmail1": "am@bv.com",
+                    "contactFirstName1": "Aminadab Morales",
+                    "contactLastName1": "Aminadab Morales",
+                    "contactPhone1": "1231231233",
+                    "contactTitle1": "title"
+                }
+            }
+        },
+        "AcknowledgementStep": {
+            "AcknowledgmentBlock": {
+                "agreementDate": "2021-11-15",
+                "agreementEmail": "aminadab.morales@salesforce.com",
+                "agreementFirstName": "first",
+                "agreementLastName": "last",
+                "agreementPhone": "1231231233",
+                "agreementSignature": "first last",
+                "agreementTitle": "title"
+            },
+            "Disclosure1": true
+        },
+        "Business Information": "BusinessInformationStep",
+        "BusinessInformationStep": {
+            "BusinessInfo": {
+                "BusinessClassificationBlock": {
+                    "businessClassification1": "Minority Owned Business"
+                },
+                "BusinessTypeBlock": {
+                    "businessType1": "Consultant"
+                },
+                "SpecialtyBlock": {
+                    "specialtyType1": "Air Sealing"
+                }
+            },
+            "LicensesBlock": {
+                "license1": {
+                    "licenseAuthority1": "123123123",
+                    "licenseExp1": "2021-11-24",
+                    "licenseNum1": "123License",
+                    "licenseType1": "License"
+                },
+                "license2": {
+                    "licenseExp2": null
+                },
+                "license3": {
+                    "licenseExp3": null
+                }
+            },
+            "ProgramOptionsBlock": {
+                "Block1": {
+                    "otherViolation": null,
+                    "violation": "no",
+                    "violationProgram": null
+                },
+                "Block2": {
+                    "Referral": "Website",
+                    "otherReferral": null
+                },
+                "FuelSpecialtyBlock": {
+                    "fuelSpecialty1": "Gas"
+                },
+                "ServiceAreaBlock": {
+                    "serviceArea1": "Manhattan"
+                }
+            }
+        },
+        "COIStep": {
+            "COIBlock": {
+                "COIAddress": "c1123 coi",
+                "COICompanyName": "coi ",
+                "COICountry": "US",
+                "coiCity": "coi c",
+                "coiContactName": "person",
+                "coiCoverageAmount": 1231231231,
+                "coiCoverages": "tcoverage",
+                "coiEffDate": "2021-11-03",
+                "coiExpDate": "2021-12-15",
+                "coiPhone": "1231231231",
+                "coiProvinceChoice": null,
+                "coiStateChoice": "AZ",
+                "coiZip": "12312"
+            },
+            "WorkersCompBlock": {
+                "WCAccident": null,
+                "WCEffDate": null,
+                "WCEmployee": null,
+                "WCExpDate": null,
+                "WCLiabilityName": null,
+                "WCPolicyLimit": null,
+                "provideWorkersComp": false
+            }
+        },
+        "Certificate of Insurance (COI) Policy Information": "a",
+        "Company Information": "AccountInformationStep",
+        "CompanyState": "AK",
+        "Contact Information": "AccountInformationStep",
+        "Customer References": "a",
+        "CustomerReferencesStep": {
+            "CustomerReferencesBlock": {
+                "reference1": {
+                    "referenceCompany1": "ref 1",
+                    "referenceContact1": "ref 1",
+                    "referenceDescription1": "ref 1",
+                    "referenceTelephone1": "1231231231"
+                },
+                "reference2": {
+                    "referenceCompany2": "ref 2",
+                    "referenceContact2": "ref 2",
+                    "referenceDescription2": "ref 2",
+                    "referenceTelephone2": "2323223232"
+                },
+                "reference3": {
+                    "referenceCompany3": "ref 3",
+                    "referenceContact3": "ref 3",
+                    "referenceDescription3": "ref 3",
+                    "referenceTelephone3": "1231231231"
+                }
+            }
+        },
+        "DRCreateAccountResponse": {
+            "AccountInformationStep": {
+                "AccountInfo": {
+                    "PhoneNumber": "1231243124",
+                    "PriContFirstName": "Shakey",
+                    "PriContactEmail": "aminadab.morales@salesforce.com",
+                    "PriContactLastName": "Graves",
+                    "PriContactTitle": "title"
+                },
+                "CompanyInfo": {
+                    "City": "Austin",
+                    "CompanyName": "Shakey Co",
+                    "Country": "US",
+                    "NYEmployees": 1,
+                    "PostalCode": "12345",
+                    "ProvinceChoice": null,
+                    "StateChoice": "AK",
+                    "StreetAddress": "123 Street",
+                    "companyWebsite": "website.com",
+                    "companyYears": 1,
+                    "corpType": "corp",
+                    "numTotalEmployees": 1,
+                    "ownershipYears": 1,
+                    "taxId": "990123456"
+                },
+                "ContactInfo": {
+                    "Contact1": {
+                        "contactEmail1": "am@bv.com",
+                        "contactFirstName1": "Aminadab Morales",
+                        "contactLastName1": "Aminadab Morales",
+                        "contactPhone1": "1231231233",
+                        "contactTitle1": "title"
+                    }
+                }
+            },
+            "CompanyState": "AK",
+            "ConditionalBlock3": null,
+            "ConditionalBlock3Status": true,
+            "ConditionalBlock4Status": false,
+            "ExistingAccount": "valid",
+            "InstructionsStep": {
+                "hasDocuments": true
+            },
+            "ResponseAction1Status": true,
+            "createAccount": {
+                "AccountId": "0018G000007E307QAC",
+                "Account_1": [
+                    {
+                        "%vlocity_namespace%__BillingEmailAddress__c": "aminadab.morales@salesforce.com",
+                        "%vlocity_namespace%__TaxID__c": "990123456",
+                        "BillingCity": "Austin",
+                        "BillingCountry": "US",
+                        "BillingPostalCode": "12345",
+                        "BillingState": "AK",
+                        "BillingStreet": "123 Street",
+                        "Federal_Tax_ID__c": "990123456",
+                        "Id": "0018G000007E307QAC",
+                        "Name": "Shakey Co",
+                        "NumberOfEmployees": 1,
+                        "Number_of_NY_Employees__c": 1,
+                        "Phone": "1231243124",
+                        "RecordTypeId": "0128G000000GrxwQAC",
+                        "Type_of_Corporation__c": "corp",
+                        "UpsertSuccess": true,
+                        "Website": "website.com",
+                        "Years_Under_Current_Ownership__c": 1,
+                        "Years_in_Business__c": 1
+                    }
+                ],
+                "error": "OK",
+                "responseType": "SObject"
+            },
+            "createAccountStatus": true,
+            "createEmployee1": {
+                "Contact_1": [
+                    {
+                        "AccountId": "0018G000007E307QAC",
+                        "Email": "am@bv.com",
+                        "FirstName": "Aminadab Morales",
+                        "Id": "0038G000005sya9QAA",
+                        "LastName": "Aminadab Morales",
+                        "Phone": "1231231233",
+                        "Title": "title",
+                        "UpsertSuccess": true
+                    }
+                ],
+                "error": "OK",
+                "responseType": "SObject"
+            },
+            "createEmployee1Status": true,
+            "createPrimaryEmployee": {
+                "Contact_1": [
+                    {
+                        "AccountId": "0018G000007E307QAC",
+                        "Email": "aminadab.morales@salesforce.com",
+                        "FirstName": "Shakey",
+                        "Id": "0038G000005sya8QAA",
+                        "LastName": "Graves",
+                        "Phone": "1231243124",
+                        "Title": "title",
+                        "UpsertSuccess": true
+                    }
+                ],
+                "error": "OK",
+                "primaryContactId": "0038G000005sya8QAA",
+                "responseType": "SObject"
+            },
+            "createPrimaryEmployeeStatus": true,
+            "options": {
+                "chainable": false,
+                "ignoreCache": false,
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "useContinuation": false,
+                "useFuture": false,
+                "useQueueableApexRemoting": false,
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "response": {
+                "contact1": {
+                    "Contact_1": [
+                        {
+                            "AccountId": "0018G000007E307QAC",
+                            "Email": "am@bv.com",
+                            "FirstName": "Aminadab Morales",
+                            "Id": "0038G000005sya9QAA",
+                            "LastName": "Aminadab Morales",
+                            "Phone": "1231231233",
+                            "Title": "title",
+                            "UpsertSuccess": true
+                        }
+                    ],
+                    "error": "OK",
+                    "responseType": "SObject"
+                }
+            },
+            "test": "test",
+            "timeStamp": "2021-11-15T23:43:24.125Z",
+            "updateAccountPrimaryContact": {
+                "Account_1": [
+                    {
+                        "%vlocity_namespace%__PrimaryContactId__c": "0038G000005sya8QAA",
+                        "Id": "0018G000007E307QAC",
+                        "UpsertSuccess": true
+                    }
+                ],
+                "error": "OK",
+                "responseType": "SObject"
+            },
+            "updateAccountPrimaryContactStatus": true,
+            "userCurrencyCode": "USD",
+            "userId": "0058G000000UCFYQA4",
+            "userName": "aminadab.morales@coned.com.dev",
+            "userProfile": "System Administrator",
+            "userTimeZone": "-480"
+        },
+        "ExistingAccount": "valid",
+        "InstructionsStep": {
+            "hasDocuments": true
+        },
+        "Licenses & Certifications": "a",
+        "PreviewStep": {
+            "Block11": {
+                "Block12": {
+                    "Date1": "2021-11-24",
+                    "Text30": "123License",
+                    "Text31": "123123123",
+                    "Text32": "License"
+                }
+            },
+            "Block15": {
+                "Block16": {
+                    "Telephone1": null,
+                    "Text36": "ref 1",
+                    "Text40": "ref 1",
+                    "Text42": "ref 1"
+                },
+                "Block17": {
+                    "Telephone2": null,
+                    "Text41": "ref 2",
+                    "Text43": "ref 2",
+                    "Text44": "ref 2"
+                },
+                "Block18": {
+                    "Telephone3": null,
+                    "Text45": "ref 3",
+                    "Text47": "ref 3",
+                    "Text48": "ref 3"
+                }
+            },
+            "Block19": {
+                "Date4": "2021-11-03",
+                "Date5": "2021-12-15",
+                "Text46": "coi ",
+                "Text49": "c1123 coi",
+                "Text50": "coi c",
+                "Text51": "AZ",
+                "Text52": "AZ",
+                "Text53": "person",
+                "Text54": "1231231231",
+                "Text56": "tcoverage"
+            },
+            "Block20": null,
+            "BusinessInfoReview": {
+                "Block4": {
+                    "Text9": "Minority Owned Business"
+                },
+                "Block5": {
+                    "Text12": "Consultant"
+                },
+                "Block6": {
+                    "Text16": "Air Sealing"
+                }
+            },
+            "CompanyInfoBlock": {
+                "previewCity": "Austin",
+                "previewCompany": "Shakey Co",
+                "previewCorpType": "corp",
+                "previewStreet": "123 Street",
+                "previewTaxId": "990123456",
+                "previewWebsite": "website.com",
+                "previewZip": "12345"
+            },
+            "ServiceAreaPreview": {
+                "Block10": {
+                    "Text27": null,
+                    "Text28": "Website"
+                },
+                "Block3": {
+                    "Text1": "Manhattan",
+                    "Text2": null,
+                    "Text3": null,
+                    "Text7": null,
+                    "Text8": null
+                },
+                "Block7": {
+                    "Text18": "Gas"
+                },
+                "Block8": {
+                    "Text22": "Gas"
+                },
+                "Block9": {
+                    "Text24": null,
+                    "Text25": "no",
+                    "Text26": null
+                },
+                "previewProgramOptionsBlock": {
+                    "Text29": "Residential Clean Heat;Residential Retail Lighting ;Small-Medium Business Clean Heat;"
+                }
+            },
+            "accountInfoBlock": {
+                "previewEmail": "aminadab.morales@salesforce.com",
+                "previewFirstName": "Shakey",
+                "previewLastName": "Graves",
+                "previewPhone": "1231243124",
+                "previewTitle": "title"
+            },
+            "contactInfo": {
+                "ContactReview1": {
+                    "previewContactEmail1": "am@bv.com",
+                    "previewContactFirst1": "Aminadab Morales",
+                    "previewContactLast1": "Aminadab Morales",
+                    "previewContactPhone1": "1231231233",
+                    "previewContactTitle1": "title"
+                }
+            }
+        },
+        "Service Area & Program Options": "d",
+        "Worker's Compensation (WC) and Employer's Liability": "a",
+        "agreementFullName": "first last",
+        "businessClassification": "Minority Owned Business;;",
+        "businessSpecialty": "Air Sealing;;;",
+        "businessTypes": "Consultant",
+        "coiState": "AZ",
+        "favoriteOptions": "Residential Clean Heat;Residential Retail Lighting ;Small-Medium Business Clean Heat;",
+        "fuelSpecialty": "Gas;;",
+        "serviceAreas": "Manhattan;;;;;",
+        "test": "test",
+        "timeStamp": "2021-11-15T23:43:24.125Z",
+        "userCurrencyCode": "USD",
+        "userId": "0058G000000UCFYQA4",
+        "userName": "aminadab.morales@coned.com.dev",
+        "userProfile": "System Administrator",
+        "userTimeZone": "-480"
+    }
+}

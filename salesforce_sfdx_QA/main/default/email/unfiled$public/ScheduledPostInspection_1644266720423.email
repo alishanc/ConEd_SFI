@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello,&nbsp;
+<p>Your post-inspection has been scheduled for {{{vlocity_cmt__Application__c.Post_Inspection_Scheduled_Date__c}}}. Please see below the information regarding your pre-inspection.<br />
+&nbsp;</p>
+
+<p>Project Name:&nbsp;{{{vlocity_cmt__Application__c.Name}}}</p>
+
+<p>Site Address:&nbsp;{{{vlocity_cmt__Application__c.vlocity_cmt__StreetAddress__c}}}</p>
+
+<p>Post-Inspection Scheduled Date:&nbsp;{{{vlocity_cmt__Application__c.Post_Inspection_Scheduled_Date__c}}}</p>
+
+<p>Time:&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Thank you,</p>
+
+<p>&nbsp;</p>
+
+<p>Con Edison</p>
+
+<p>Energy Efficiency &amp; Demand Management Team</p>
+
+</body></html>

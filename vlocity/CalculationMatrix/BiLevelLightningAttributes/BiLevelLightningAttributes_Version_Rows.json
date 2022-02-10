@@ -1,0 +1,446 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2c1963",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Wattage"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "551f4c",
+            "dataType": "Text",
+            "displayOrder": 7,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "EffectiveTo"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "6876bf",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "EffectiveFrom"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "6a74c1",
+            "dataType": "Text",
+            "displayOrder": 12,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "PromoEndDate"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "6d1faf",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "PromoBonus"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "82f9c1",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Location"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "883773",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "IncentiveFactor"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "975af4",
+            "dataType": "Text",
+            "displayOrder": 11,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "PromoStartDate"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a5d23",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Active"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "abcee",
+            "dataType": "Text",
+            "displayOrder": 8,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "PromoBonusActive"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "ad306",
+            "dataType": "Text",
+            "displayOrder": 9,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ApprovalReference"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "f099c2",
+            "dataType": "Text",
+            "displayOrder": 10,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ApplicationStatus"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Corridor",
+            "Wattage": "Any Wattage"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-10-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"TRUE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"50\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "363ff84f11c0f86ae1f3640fbb8a5e1b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Garage",
+            "Wattage": "0-100"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-10-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"TRUE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"180\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "263a9224b0e6c1912537b34a07758ba5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Garage",
+            "Wattage": "101-249"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"FALSE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"230\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "d186ade2b3b32adc09f2fea897bad9e0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Garage",
+            "Wattage": "250-399"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-10-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"TRUE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"230\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "4779a0bbc91dda7023f6beb447478f8b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Lot",
+            "Wattage": "0-100"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"FALSE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"25\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "13a6d38aff4c1d0a0873a260a6e46e4a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Lot",
+            "Wattage": "101-249"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-10-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"TRUE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"75\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "c42cabbdb0b100b4c19f50cd7eea41c0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Lot",
+            "Wattage": "250-399"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"FALSE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"100\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "2be72f1bc0d6ef7e6155e5ad36df52e0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Lot",
+            "Wattage": "400-999"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"FALSE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"125\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "04bef4104a54102053ed623b0eb04f64",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Parking Lot",
+            "Wattage": ">1000"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-01-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"FALSE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"150\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "f0145f4d53429ced241d183776fb26ce",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "BiLevelLightningAttributes",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/BiLevelLightningAttributes",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Location": "Stairwell",
+            "Wattage": "Any Wattage"
+        },
+        "%vlocity_namespace%__OutputDataLong__c": "{\n  \"PromoEndDate\" : \"2021-12-31\",\n  \"PromoStartDate\" : \"2021-10-01\",\n  \"ApplicationStatus\" : \"N/A\",\n  \"ApprovalReference\" : \"N/A\",\n  \"PromoBonusActive\" : \"TRUE\",\n  \"EffectiveTo\" : \"2021-12-31\",\n  \"EffectiveFrom\" : \"2021-01-01\",\n  \"Active\" : \"TRUE\",\n  \"PromoBonus\" : \"0\",\n  \"IncentiveFactor\" : \"85\"\n}",
+        "%vlocity_namespace%__StartDateTime__c": "2021-11-02T15:43:00.000Z",
+        "Name": "6cb1ec287b7a659ae58e6450d6212c7d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

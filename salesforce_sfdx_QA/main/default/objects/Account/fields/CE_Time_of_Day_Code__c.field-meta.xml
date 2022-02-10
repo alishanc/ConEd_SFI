@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Time_of_Day_Code__c</fullName>
+    <description>CIS Data - Defines a time of day billing meter</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CIS Data - Defines a time of day billing meter</inlineHelpText>
+    <label>Time of Day Code</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

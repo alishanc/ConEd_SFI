@@ -1,0 +1,20 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear {{{vlocity_cmt__Application__c.Contractor_Full_Name__c}}},<br />
+&nbsp;</p>
+
+<p>Thank you for completing the application for the&nbsp;{{{vlocity_cmt__Application__c.Energy_Efficiency_Program__c}}} Program for the project {{{vlocity_cmt__Application__c.Name}}}. The application has been sent to the {{{vlocity_cmt__Application__c.Customer_Full_Name__c}}},&nbsp;Site Name: {{{vlocity_cmt__Application__c.vlocity_cmt__AccountId__c}}}-{{{vlocity_cmt__Application__c.vlocity_cmt__StreetAddress__c}}},&nbsp;for signature. Once the application is signed, you will receive a confirmation email. Thank you for your interest. If you have any questions, feel free to contact us.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Thank you,&nbsp;</p>
+
+<p>Con Edison&nbsp;</p>
+
+<p>commercial@coned.com&nbsp;</p>
+
+<p>Energy Efficiency &amp; Demand Management Team&nbsp;</p>
+
+</body></html>

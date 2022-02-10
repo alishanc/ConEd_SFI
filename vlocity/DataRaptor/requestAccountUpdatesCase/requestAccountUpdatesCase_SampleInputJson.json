@@ -1,0 +1,33 @@
+{
+    "AccountStep": {
+        "AccountInfo": {
+            "PriContFirstName": "asdf",
+            "PriContactEmail": "asdf@asdf.com",
+            "PriContactLastName": "asdf"
+        },
+        "CompanyInfo": {
+            "City": "asdf",
+            "CompanyName": "asdfasdf",
+            "PostalCode": "123123",
+            "State": "AK",
+            "StreetAddress": "asdfadsf",
+            "companyWebsite": "asdf",
+            "corpType": "corp",
+            "taxId": "asdfasdf"
+        }
+    },
+    "ContextId": "",
+    "id": "a2z8G00000000bTQAQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://connedev--dev--vlocity-cmt.visualforce.com",
+    "timeStamp": "2021-10-04T13:30:48.492Z",
+    "userCurrencyCode": "USD",
+    "userId": "0058G000000UAgSQAW",
+    "userName": "kyle.russell@coned.com.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

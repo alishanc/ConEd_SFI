@@ -1,0 +1,81 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "createNewProject",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "SelectedMeasureTypes": [
+                {
+                    "MeasureTypeName": "Motors and Drives",
+                    "Measures": [
+                        {
+                            "CalcType": "Custom",
+                            "HorsepowerOfFanPump": "100",
+                            "LaborCost": "$400",
+                            "MaterialCost": "$500",
+                            "MeasureName": "Variable Frequency Drive",
+                            "Quantity": "1",
+                            "VFDApplication": "Chilled Water Pump"
+                        },
+                        {
+                            "CalcType": "Custom",
+                            "HorsepowerOfFanPump": "100",
+                            "LaborCost": "$400",
+                            "MaterialCost": "$500",
+                            "MeasureName": "Variable Frequency Drive",
+                            "Quantity": "12",
+                            "VFDApplication": "Chilled Water Pump"
+                        }
+                    ]
+                },
+                {
+                    "MeasureTypeName": "Motors and Drives2",
+                    "Measures": [
+                        {
+                            "CalcType": "Custom",
+                            "HorsepowerOfFanPump": "100",
+                            "LaborCost": "$400",
+                            "MaterialCost": "$500",
+                            "MeasureName": "Variable Frequency Drive",
+                            "Quantity": "21",
+                            "VFDApplication": "Chilled Water Pump"
+                        },
+                        {
+                            "CalcType": "Custom",
+                            "HorsepowerOfFanPump": "100",
+                            "LaborCost": "$400",
+                            "MaterialCost": "$500",
+                            "MeasureName": "Variable Frequency Drive",
+                            "Quantity": "221",
+                            "VFDApplication": "Chilled Water Pump"
+                        }
+                    ]
+                }
+            ]
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SeedSummaryValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/SeedSummaryValues"
+}

@@ -1,0 +1,136 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "createNewProject",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "createNewProject",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Project/NewProject/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "PayeeAddressBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/PayeeAddressBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PayeeAddressBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Province",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "AB",
+                "value": "AB"
+            },
+            {
+                "autoAdv": null,
+                "name": "BC",
+                "value": "BC"
+            },
+            {
+                "autoAdv": null,
+                "name": "MB",
+                "value": "MB"
+            },
+            {
+                "autoAdv": null,
+                "name": "NB",
+                "value": "NB"
+            },
+            {
+                "autoAdv": null,
+                "name": "NL",
+                "value": "NL"
+            },
+            {
+                "autoAdv": null,
+                "name": "NT",
+                "value": "NT"
+            },
+            {
+                "autoAdv": null,
+                "name": "NS",
+                "value": "NS"
+            },
+            {
+                "autoAdv": null,
+                "name": "NU",
+                "value": "NU"
+            },
+            {
+                "autoAdv": null,
+                "name": "ON",
+                "value": "ON"
+            },
+            {
+                "autoAdv": null,
+                "name": "PE",
+                "value": "PE"
+            },
+            {
+                "autoAdv": null,
+                "name": "QC",
+                "value": "QC"
+            },
+            {
+                "autoAdv": null,
+                "name": "SK",
+                "value": "SK"
+            },
+            {
+                "autoAdv": null,
+                "name": "YT",
+                "value": "YT"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Canada",
+                        "field": "PCPayeeCountry"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "PCPayeeProvince",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Project/NewProject/English/PCPayeeProvince"
+}

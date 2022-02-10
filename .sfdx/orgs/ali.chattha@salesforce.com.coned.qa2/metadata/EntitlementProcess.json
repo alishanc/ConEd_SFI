@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055Y00000EuxcfQAB",
+    "createdByName": "Platform Integration User",
+    "createdDate": "2021-02-26T17:37:09.000Z",
+    "fileName": "entitlementProcesses/standard case.entitlementProcess",
+    "fullName": "standard case",
+    "id": "5525Y000000PbqNQAS",
+    "lastModifiedById": "0055Y00000EuxcfQAB",
+    "lastModifiedByName": "Platform Integration User",
+    "lastModifiedDate": "2021-02-26T17:37:09.000Z",
+    "type": "EntitlementProcess"
+  }
+}

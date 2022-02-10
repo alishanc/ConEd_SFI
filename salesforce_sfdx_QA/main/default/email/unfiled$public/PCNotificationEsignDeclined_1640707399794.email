@@ -1,0 +1,23 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>The {{{vlocity_cmt__Application__c.Name}}}-{{{vlocity_cmt__Application__c.vlocity_cmt__StreetAddress__c}}}&nbsp;has declined to sign the application for and&nbsp;{{{vlocity_cmt__Application__c.Name}}} this project has been cancelled. If&nbsp;you believe the project was cancelled in error,&nbsp;contact&nbsp;your&nbsp;Business Development Manager&nbsp;{{{vlocity_cmt__Application__c.Business_Development_Manager__c}}}&nbsp;or email&nbsp;us&nbsp;at&nbsp;Commercial@coned.com.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Portal Link: https://dev-coned1.cs219.force.com/homepage/s/application/{{{vlocity_cmt__Application__c.Id}}}</p>
+
+<p>Project ID:&nbsp;{{{vlocity_cmt__Application__c.Project_Id__c}}}&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Thank you,&nbsp;</p>
+
+<p>Con Edison&nbsp;</p>
+
+<p>commercial@coned.com&nbsp;</p>
+
+<p>Energy Efficiency &amp; Demand Management Team&nbsp;</p>
+
+</body></html>

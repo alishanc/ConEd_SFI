@@ -1,0 +1,7 @@
+{
+    "input": {
+        "MeasureCost": "600",
+        "customTherms": 10,
+        "customkWh": 1000
+    }
+}

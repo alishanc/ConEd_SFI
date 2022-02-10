@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Full_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>Contractor_First_Name__c &amp; " " &amp; Contractor_Last_Name__c</formula>
+    <label>Contractor Full Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

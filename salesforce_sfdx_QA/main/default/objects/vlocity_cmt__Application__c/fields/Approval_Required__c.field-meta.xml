@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Generic field used to record whether there is a condition on the application that requires approval. Business logic varies by specific use case and it is left open ended on purpose. Setting this field to TRUE will trigger the approval process.</description>
+    <externalId>false</externalId>
+    <label>Approval Required</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

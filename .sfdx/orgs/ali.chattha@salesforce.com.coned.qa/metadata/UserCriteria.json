@@ -1,0 +1,41 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "userCriteria/home.Partner_and_Customer_members.userCriteria",
+      "fullName": "home.Partner_and_Customer_members",
+      "id": "0LV030000004CU3GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "UserCriteria"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "userCriteria/home.Members_without_contribution.userCriteria",
+      "fullName": "home.Members_without_contribution",
+      "id": "0LV030000004CU2GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "UserCriteria"
+    },
+    {
+      "createdById": "00503000001dlN5AAI",
+      "createdByName": "Fahd Alfadli",
+      "createdDate": "2021-11-11T19:25:26.000Z",
+      "fileName": "userCriteria/home.Customer_Members.userCriteria",
+      "fullName": "home.Customer_Members",
+      "id": "0LV030000004CU1GAM",
+      "lastModifiedById": "00503000001dlN5AAI",
+      "lastModifiedByName": "Fahd Alfadli",
+      "lastModifiedDate": "2021-11-11T19:25:26.000Z",
+      "type": "UserCriteria"
+    }
+  ]
+}

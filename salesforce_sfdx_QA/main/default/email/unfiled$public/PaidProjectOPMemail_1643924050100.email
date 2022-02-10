@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Dear {{{vlocity_cmt__Application__c.vlocity_cmt__AccountId__c}}},</p>
+
+<p>Thank you for your participation in the&nbsp;{{{vlocity_cmt__Application__c.Program__c}}} program.&nbsp;Your project has been paid.</p>
+
+<p>&nbsp;</p>
+
+<p>Project Name:{{{vlocity_cmt__Application__c.Name}}}</p>
+
+<p>Project ID:&nbsp;{{{vlocity_cmt__Application__c.Project_Id__c}}}</p>
+
+<p>Total kW Savings:&nbsp;{{{vlocity_cmt__Application__c.Total_kW_Savings__c}}}</p>
+
+<p>Total kWh Savings:&nbsp;{{{vlocity_cmt__Application__c.Total_kWH_Savings__c}}}</p>
+
+<p>Total Therms Savings:&nbsp;{{{vlocity_cmt__Application__c.Total_Therms_Savings__c}}}</p>
+
+<p>Total Mlbs. Savings:&nbsp;{{{vlocity_cmt__Application__c.Total_Steam_MLBS__c}}}</p>
+
+<p>Total Incentive Amount:&nbsp;{{{vlocity_cmt__Application__c.Total_Incentive_Amount__c}}}</p>
+
+<p>Payee:&nbsp;{{{vlocity_cmt__Application__c.Customer_Payee__c}}}{{{vlocity_cmt__Application__c.Contractor_Payee_Contact__c}}}{{{vlocity_cmt__Application__c.Customer_Payee_Account__c}}}</p>
+
+<p>Payee Type:&nbsp;{{{vlocity_cmt__Application__c.Payee_Type__c}}}</p>
+
+<p>Payee Mailing Address:&nbsp;{{{vlocity_cmt__Application__c.Payee_Street_Address__c}}},&nbsp;{{{vlocity_cmt__Application__c.Payee_City__c}}},&nbsp;{{{vlocity_cmt__Application__c.Payee_State__c}}}</p>
+
+<p>If you have any questions please let us know.</p>
+
+<p>&nbsp;</p>
+
+<p>Regards,</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;Lead Owner&gt;&nbsp;{{{vlocity_cmt__Application__c.Lead_Owner__c}}}<br />
+{{{vlocity_cmt__Application__c.Business_Development_Manager__c}}}</p>
+
+<p>&lt;Lead Owner Email&gt;&nbsp;{{{vlocity_cmt__Application__c.BDM_Email__c}}}</p>
+
+</body></html>

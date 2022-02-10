@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Trade specialist/ contractor user with access to the Incentive Navigator Portal for registration into the PC Network, managing a portfolio of projects and scheduling inspections.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Participating Contractor</label>
+    <permissionSets>Account_Create</permissionSets>
+    <permissionSets>Activity_Create</permissionSets>
+    <permissionSets>Application_Create</permissionSets>
+    <permissionSets>Application_Edit</permissionSets>
+    <permissionSets>Application_Line_Item_Create</permissionSets>
+    <permissionSets>Application_Line_Item_Edit</permissionSets>
+    <permissionSets>Application_Line_Item_Read</permissionSets>
+    <permissionSets>Application_Read</permissionSets>
+    <permissionSets>Application_Task_Create</permissionSets>
+    <permissionSets>Application_Task_Edit</permissionSets>
+    <permissionSets>Contact_Create</permissionSets>
+    <permissionSets>DocumentPCPartner</permissionSets>
+    <permissionSets>Products_and_Prices_Read</permissionSets>
+    <permissionSets>Program_Read</permissionSets>
+    <permissionSets>SFI_Platform</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

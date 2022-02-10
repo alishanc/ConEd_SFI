@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "presenceDeclineReasons/Misrouted.presenceDeclineReason",
+      "fullName": "Misrouted",
+      "id": "0KR5Y000000GoCPWA0",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "PresenceDeclineReason"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "presenceDeclineReasons/Busy.presenceDeclineReason",
+      "fullName": "Busy",
+      "id": "0KR5Y000000GoCOWA0",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "PresenceDeclineReason"
+    }
+  ]
+}

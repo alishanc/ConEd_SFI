@@ -1,0 +1,16 @@
+<template>
+    <div class="btn-container">
+        <button type="button" value="measureTypes" class="white-button slds-button slds-button_brand button-brand" onclick={handleNav}>Add Measures</button>
+        <button type="button" value="previous" class="slds-button slds-button_outline button-outline" onclick={handleNav}>Previous</button>
+        <button type="button" class="white-button slds-button slds-button_brand button-brand" onclick={handleIP}>Next</button>
+    </div>
+    <template if:true={isPageLoading}>
+        <vlocity_cmt-spinner variant="brand"
+                            alternative-text="Loading..."
+                            extraclass="nds-theme_default"
+                            theme={_theme}
+                            message={spinnerMessage}
+                            size="medium">
+        </vlocity_cmt-spinner>
+    </template>
+</template>

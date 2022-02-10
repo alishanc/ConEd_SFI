@@ -1,0 +1,61 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EQHrAQAX",
+      "createdByName": "Rajesh Turlapati",
+      "createdDate": "2021-10-27T15:24:40.000Z",
+      "fileName": "cachePartitions/vlocity_cmt__VlocityMetadata.cachePartition",
+      "fullName": "vlocity_cmt__VlocityMetadata",
+      "id": "0Er5Y000000Cb6NSAS",
+      "lastModifiedById": "0055Y00000G75ReQAJ",
+      "lastModifiedByName": "Pratap Kotra",
+      "lastModifiedDate": "2021-11-19T15:19:51.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "vlocity_cmt",
+      "type": "PlatformCachePartition"
+    },
+    {
+      "createdById": "0055Y00000EQHrAQAX",
+      "createdByName": "Rajesh Turlapati",
+      "createdDate": "2021-10-27T15:24:40.000Z",
+      "fileName": "cachePartitions/vlocity_cmt__VlocityAPIResponse.cachePartition",
+      "fullName": "vlocity_cmt__VlocityAPIResponse",
+      "id": "0Er5Y000000Cb6MSAS",
+      "lastModifiedById": "0055Y00000EQHrAQAX",
+      "lastModifiedByName": "Rajesh Turlapati",
+      "lastModifiedDate": "2021-10-27T15:24:40.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "vlocity_cmt",
+      "type": "PlatformCachePartition"
+    },
+    {
+      "createdById": "0055Y00000EQHrAQAX",
+      "createdByName": "Rajesh Turlapati",
+      "createdDate": "2021-10-27T15:24:40.000Z",
+      "fileName": "cachePartitions/vlocity_cmt__CPQPartition.cachePartition",
+      "fullName": "vlocity_cmt__CPQPartition",
+      "id": "0Er5Y000000Cb6KSAS",
+      "lastModifiedById": "0055Y00000EQHrAQAX",
+      "lastModifiedByName": "Rajesh Turlapati",
+      "lastModifiedDate": "2021-10-27T15:24:40.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "vlocity_cmt",
+      "type": "PlatformCachePartition"
+    },
+    {
+      "createdById": "0055Y00000EQHrAQAX",
+      "createdByName": "Rajesh Turlapati",
+      "createdDate": "2021-10-27T15:24:40.000Z",
+      "fileName": "cachePartitions/vlocity_cmt__OrchestrationItems.cachePartition",
+      "fullName": "vlocity_cmt__OrchestrationItems",
+      "id": "0Er5Y000000Cb6LSAS",
+      "lastModifiedById": "0055Y00000EQHrAQAX",
+      "lastModifiedByName": "Rajesh Turlapati",
+      "lastModifiedDate": "2021-10-27T15:24:40.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "vlocity_cmt",
+      "type": "PlatformCachePartition"
+    }
+  ]
+}

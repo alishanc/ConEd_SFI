@@ -1,0 +1,101 @@
+<template>
+  <div class="nds-grid nds-wrap nds-is-relative ">
+    <div if:false={cardLoaded} class="nds-is-absolute vloc-loader_override"
+      style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+      <div>
+        <vlocity_cmt-spinner variant="brand" alternative-text="Loading content..." size="small" theme="nds">
+        </vlocity_cmt-spinner>
+      </div>
+    </div>
+    <template if:false={hasPermission}>
+      You don't have required permissions to view this card.
+    </template>
+    <template if:true={hasPermission}>
+      <template if:true={hasRecords}>
+        <template for:each={_records} for:item="record" for:index="rindex">
+          <vlocity_cmt-flex-card-state if:true={record} key={record._flex.uniqueKey} data-recordid={record.Id}
+            record={record} data-statue="true" data-index="0" data-rindex={rindex}
+            class="cf-vlocity-state-0 cf-vlocity-state nds-size_12-of-12 " tracking-obj={_childCardTrackingObj}>
+            <div if:true={cardLoaded} class="nds-grid nds-wrap nds-card nds-p-around_small "
+              style="      #ccc 1px solid; ">
+              <!--
+              <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+                <vlocity_cmt-action data-style-id="state0element0_child" tracking-obj={_childCardTrackingObj}
+                  record={record} card={card} state-obj={record}
+                  state-action='\{"id":"flex-action-1637765801344","type":"OmniScript","displayName":"Update Information","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"newport","omniType":{"Name":"Account/PendingUpdate/English","Id":"a2z8G00000000P1QAI","isLwcOs":true},"isLwcOS":true,"tabIcon":"","tabLabel":"Update Information"}'
+                  display-as-button="true" button-variant="outline-brand" is-tracking-disabled="true"
+                  context-id="\{recordId}" styles='\{"label":{"textAlign":""}}' hide-action-icon="true" theme="nds">
+                </vlocity_cmt-action>
+              </div>
+              <div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+                <vlocity_cmt-action data-style-id="state0element1_child" tracking-obj={_childCardTrackingObj}
+                  record={record} card={card} state-obj={record}
+                  state-action='\{"id":"flex-action-1637765796665","type":"OmniScript","displayName":"Approve Changes","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"newport","omniType":{"Name":"Account/ApproveChanges/English","Id":"a2z8G00000000dSQAQ","isLwcOs":true},"isLwcOS":true,"tabIcon":"","tabLabel":"Approve Changes"}'
+                  display-as-button="true" button-variant="outline-brand" is-tracking-disabled="true"
+                  context-id="\{recordId}" styles='\{"label":{"textAlign":""}}' hide-action-icon="true" theme="nds">
+                </vlocity_cmt-action>
+              </div>
+      -->
+              <div data-style-id="state0element2" class="" data-rindex={rindex} style="">
+                <vlocity_cmt-action data-style-id="state0element2_child" tracking-obj={_childCardTrackingObj}
+                  record={record} card={card} state-obj={record}
+                  state-action='\{"id":"flex-action-1637765966425","type":"OmniScript","displayName":"Create Estimate","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"newport","omniType":{"Name":"Estimate/CreationFlow/English","Id":"a2z8G00000001cJQAQ","isLwcOs":true},"isLwcOS":true,"tabIcon":"","tabLabel":"Create Estimate","hasExtraParams":true,"extraParams":{"AccountNumber":"{&#39;Id&#39;}","AccountNumber2":"{&#39;recordId&#39;}","AccountNumber3":"{&#39;AccountId&#39;}"}}'
+                  display-as-button="true" button-variant="outline-brand" is-tracking-disabled="true"
+                  context-id="\{recordId}" styles='\{"label":{"textAlign":""}}' hide-action-icon="true" theme="nds">
+                </vlocity_cmt-action>
+              </div>
+            </div>
+          </vlocity_cmt-flex-card-state>
+        </template>
+      </template>
+      <template if:false={hasRecords}>
+        <vlocity_cmt-flex-card-state record={record} data-statue="false" data-index="0" data-rindex={rindex}
+          class="cf-vlocity-state-0 cf-vlocity-state nds-size_12-of-12 " tracking-obj={_childCardTrackingObj}>
+          <div if:true={cardLoaded} class="nds-grid nds-wrap nds-card nds-p-around_small "
+            style="     : #ccc 1px solid; ">
+            <!-- 
+            <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+              <vlocity_cmt-action data-style-id="state0element0_child" tracking-obj={_childCardTrackingObj}
+                record={record} card={card} state-obj={record}
+                state-action='\{"id":"flex-action-1637765801344","type":"OmniScript","displayName":"Update Information","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"newport","omniType":{"Name":"Account/PendingUpdate/English","Id":"a2z8G00000000P1QAI","isLwcOs":true},"isLwcOS":true,"tabIcon":"","tabLabel":"Update Information"}'
+                display-as-button="true" button-variant="outline-brand" is-tracking-disabled="true"
+                context-id="\{recordId}" styles='\{"label":{"textAlign":""}}' hide-action-icon="true" theme="nds">
+              </vlocity_cmt-action>
+            </div>
+            <div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+              <vlocity_cmt-action data-style-id="state0element1_child" tracking-obj={_childCardTrackingObj}
+                record={record} card={card} state-obj={record}
+                state-action='\{"id":"flex-action-1637765796665","type":"OmniScript","displayName":"Approve Changes","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"newport","omniType":{"Name":"Account/ApproveChanges/English","Id":"a2z8G00000000dSQAQ","isLwcOs":true},"isLwcOS":true,"tabIcon":"","tabLabel":"Approve Changes"}'
+                display-as-button="true" button-variant="outline-brand" is-tracking-disabled="true"
+                context-id="\{recordId}" styles='\{"label":{"textAlign":""}}' hide-action-icon="true" theme="nds">
+              </vlocity_cmt-action>
+            </div>
+            -->
+            <div data-style-id="state0element2" class="" data-rindex={rindex} style="">
+              <vlocity_cmt-action data-style-id="state0element2_child" tracking-obj={_childCardTrackingObj}
+                record={record} card={card} state-obj={record}
+                state-action='\{"id":"flex-action-1637765966425","type":"OmniScript","displayName":"Create Estimate","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"newport","omniType":{"Name":"Estimate/CreationFlow/English","Id":"a2z8G00000001cJQAQ","isLwcOs":true},"isLwcOS":true,"tabIcon":"","tabLabel":"Create Estimate","hasExtraParams":true,"extraParams":{"AccountNumber":"{&#39;Id&#39;}","AccountNumber2":"{&#39;recordId&#39;}","AccountNumber3":"{&#39;AccountId&#39;}"}}'
+                display-as-button="true" button-variant="outline-brand" is-tracking-disabled="true"
+                context-id="\{recordId}" styles='\{"label":{"textAlign":""}}' hide-action-icon="true" theme="nds">
+
+              </vlocity_cmt-action>
+            </div>
+          </div>
+        </vlocity_cmt-flex-card-state>
+      </template>
+    </template>
+    <template if:true={hasError}>
+      {error}
+    </template>
+
+    <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col"
+      onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+
+    </vlocity_cmt-action>
+
+    <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide"
+      onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+
+    </vlocity_cmt-action>
+  </div>
+</template>

@@ -1,0 +1,31 @@
+.slds-path__nav .slds-is-current:before, .slds-path__nav .slds-is-current:after {
+    background-color: #FFEB9C;
+}
+.slds-path__nav .slds-is-lost:before, .slds-path__nav .slds-is-lost:after {
+    background-color: #FFC7CE;
+}
+.slds-is-won .slds-path__title {
+   color: #FFFFFF !important;
+} 
+.slds-path__title {
+    font-size: 10px;
+    overflow: visible;
+}
+.slds-path__nav .slds-is-current:hover:before, .slds-path__nav .slds-is-current:hover:after {
+    background-image: none;
+}
+.slds-path__nav .slds-path-item:hover:before, .slds-path__nav .slds-path-item:hover:after {
+    background-image: none;
+}
+.slds-path__link {
+    padding-left: 4px;
+}
+.slds-path__item:before, .slds-path__item:after  {
+    background: #ECEBEA;
+}
+.slds-is-won:before, .slds-is-won:after { 
+    background: #2E844A; 
+}
+.slds-is-lost, .slds-is-lost:before, .slds-is-lost:after { 
+    background: #FFC7CE !important; 
+}

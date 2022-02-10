@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Type_Category__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Task_Type__c, 
+      "Application Review Task", "OPS",
+      "Final Application Review Task", "OPS",
+      "FIOL Send Task", "OPS", 
+      "Final Engineering Review Task", "ENG",
+      "Initial Technical Review Task", "ENG",
+      "Post-Inspection Cure Action (MR2) Task", "ENG",
+      "Pre-Inspection Cure Action (MR1) Task", "ENG",
+      "SOW Mid Review Task", "ENG",
+      "Post-Inspection Task", "INSP",
+      "Pre-Inspection Task", "INSP",
+      "SOW Pre-Inspection Task", "INSP", 
+      "QAQC Post-Inspection Task", "QAQC",
+      "QAQC Pre-Inspection Task", "QAQC",
+      "M&amp;V Plan Development Task", "M&amp;V",
+      "Post-Installation M&amp;V Report Task", "M&amp;V",
+      "Pre-Installation M&amp;V Report Task", "M&amp;V",
+      "Invalid Task Type")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Task Type Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

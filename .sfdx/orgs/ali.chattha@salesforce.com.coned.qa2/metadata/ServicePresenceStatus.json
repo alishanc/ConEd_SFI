@@ -1,0 +1,77 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "servicePresenceStatuses/Busy_Meeting.servicePresenceStatus",
+      "fullName": "Busy_Meeting",
+      "id": "0N55Y0000008QdqSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "servicePresenceStatuses/Busy_Lunch.servicePresenceStatus",
+      "fullName": "Busy_Lunch",
+      "id": "0N55Y0000008QdpSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "servicePresenceStatuses/Busy_Break.servicePresenceStatus",
+      "fullName": "Busy_Break",
+      "id": "0N55Y0000008QdoSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "servicePresenceStatuses/Available_Email_and_Web.servicePresenceStatus",
+      "fullName": "Available_Email_and_Web",
+      "id": "0N55Y0000008QdlSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "servicePresenceStatuses/Available_Phone.servicePresenceStatus",
+      "fullName": "Available_Phone",
+      "id": "0N55Y0000008QdmSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "0055Y00000EuxceQAB",
+      "createdByName": "Admin User",
+      "createdDate": "2021-02-26T17:35:43.000Z",
+      "fileName": "servicePresenceStatuses/Available_Social_Cases.servicePresenceStatus",
+      "fullName": "Available_Social_Cases",
+      "id": "0N55Y0000008QdnSAE",
+      "lastModifiedById": "0055Y00000EuxceQAB",
+      "lastModifiedByName": "Admin User",
+      "lastModifiedDate": "2021-02-26T17:35:43.000Z",
+      "type": "ServicePresenceStatus"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+    "ElapsedTime": 707,
+    "ElapsedTimeCPU": 320,
+    "Input": {
+        "AccountId": "0018G000002qYzGQAU",
+        "ContextId": "0018G000002qYzGQAU",
+        "DRE_GetAccountInfo": {
+            "Account": {
+                "AccountId": "0018G000002qYzGQAU",
+                "Name": "testAccount1",
+                "PrimaryEmail": "kyle.russell@salesforce.com",
+                "PrimaryFirstName": "123",
+                "PrimaryLastName": "123"
+            },
+            "AccountId": "0018G000002qYzGQAU"
+        },
+        "DRE_GetAccountInfoStatus": true,
+        "RA_GenerateEncryptionKey": {
+            "encryptedStringIfNecessary": "8qWcyWId4CrGVcJo12JPxkyK1Lcb5L-ohqdc5BZ_ZsU.Cg_FTqCorLx6Z139-5wlA4riowsGLfhytZgvhQV3ICMtkH4oX3jf36f9bvcPgycZ",
+            "error": "OK",
+            "errorCode": "INVOKE-200"
+        },
+        "RA_GenerateEncryptionKeyStatus": true,
+        "STEP_FieldsToUpdate": {
+            "BLK_AccountInformation": {
+                "MULTI_AccountFields": "TXT_PCFN;TXT_PCLN;TXT_PCT;TXT_PCN;TXT_PCE"
+            }
+        },
+        "SetValuesEditURL": {
+            "URL": "https://dev-coned1.cs219.force.com/homepage/s/update-account-registration?Id=8qWcyWId4CrGVcJo12JPxkyK1Lcb5L-ohqdc5BZ_ZsU.Cg_FTqCorLx6Z139-5wlA4riowsGLfhytZgvhQV3ICMtkH4oX3jf36f9bvcPgycZ&fields=TXT_PCN,TXT_PCFN,TXT_PCLN"
+        },
+        "SetValuesEditURLStatus": true,
+        "options": {
+            "chainable": false,
+            "ignoreCache": true,
+            "queueableChainable": false,
+            "resetCache": false,
+            "useQueueableApexRemoting": false
+        },
+        "timeStamp": "2021-09-30T15:56:05.575Z",
+        "userCurrencyCode": "USD",
+        "userId": "0058G000000UCFYQA4",
+        "userName": "aminadab.morales@coned.com.dev",
+        "userProfile": "System Administrator",
+        "userTimeZone": "-420"
+    },
+    "Status": true,
+    "Type": "DataRaptor Post Action"
+}

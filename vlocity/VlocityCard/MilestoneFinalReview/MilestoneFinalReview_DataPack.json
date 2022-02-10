@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Author__c": "Dab",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "a0L8G000000Yc3eUAC"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "ApplicationId": "{recordId}"
+            },
+            "ipMethod": "Project_FinalReviewMilestone",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "MilestoneFinalReview.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "MilestoneFinalReview/Dab/1/1639149931063",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "MilestonePostInstallation/Dab/1/1639081507986",
+    "%vlocity_namespace%__SampleData__c": "{\"Fields\":{\"Final_Technical_Review_Result__c\":\"Pass\",\"Final_Technical_Review_Summary__c\":\"Final Tech Review Summary\",\"Final_Review_Requested_Date__c\":\"2021-12-12\",\"Final_Technical_Review_Complete_Date__c\":\"2022-12-12\",\"Action_Required__c\":\"action required text\",\"%vlocity_namespace%__Status__c\":\"Post-Inspection\",\"Id\":\"a0L8G000000Yc3eUAC\"},\"Dates\":{\"RequestDate\":\"12-12-2021\",\"CompleteDate\":\"12-12-2022\"}}",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "MilestoneFinalReview",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/MilestoneFinalReview"
+}

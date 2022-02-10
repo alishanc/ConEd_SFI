@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Added Building Automation Systems",
+    "%vlocity_namespace%__CustomJavaScript__c": "Incentives_HVACControl_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Incentives_HVACControl_Element_SteamTrapCOM-HVACC-STLPSH.json",
+        "Incentives_HVACControl_Element_SV_RemapInput.json",
+        "Incentives_HVACControl_Element_CalculateIncentives_COM-HVACC-STLPSH.json",
+        "Incentives_HVACControl_Element_ResponseSteamTrap.json",
+        "Incentives_HVACControl_Element_BuildingAutomationSystemsControls.json",
+        "Incentives_HVACControl_Element_LookupIncentiveRate.json",
+        "Incentives_HVACControl_Element_BaseIncentive.json",
+        "Incentives_HVACControl_Element_MeasureCostValidation.json",
+        "Incentives_HVACControl_Element_ResponseAction3.json",
+        "Incentives_HVACControl_Element_UnmatchedMeasureErrorResponse.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Incentives_HVACControl",
+    "%vlocity_namespace%__PropertySet__c": "Incentives_HVACControl_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "HVACControl",
+    "%vlocity_namespace%__Type__c": "Incentives",
+    "Name": "IPCalculateIncentivesHVACControl",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Incentives/HVACControl/Procedure"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Task_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Application Task Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Application Review</fullName>
+                <default>false</default>
+                <label>Application Review</label>
+            </value>
+            <value>
+                <fullName>Initial Technical Review</fullName>
+                <default>false</default>
+                <label>Initial Technical Review</label>
+            </value>
+            <value>
+                <fullName>Pre-Inspection</fullName>
+                <default>false</default>
+                <label>Pre-Inspection</label>
+            </value>
+            <value>
+                <fullName>Pre-Inspection Cure Action (MR1)</fullName>
+                <default>false</default>
+                <label>Pre-Inspection Cure Action (MR1)</label>
+            </value>
+            <value>
+                <fullName>Post Inspection</fullName>
+                <default>false</default>
+                <label>Post Inspection</label>
+            </value>
+            <value>
+                <fullName>Post Inspection Cure Action (MR2)</fullName>
+                <default>false</default>
+                <label>Post Inspection Cure Action (MR2)</label>
+            </value>
+            <value>
+                <fullName>Final Engineering Review</fullName>
+                <default>false</default>
+                <label>Final Engineering Review</label>
+            </value>
+            <value>
+                <fullName>Final Review</fullName>
+                <default>false</default>
+                <label>Final Review</label>
+            </value>
+            <value>
+                <fullName>FIOL Send</fullName>
+                <default>false</default>
+                <label>FIOL Send</label>
+            </value>
+            <value>
+                <fullName>SOW Change Mid Review</fullName>
+                <default>false</default>
+                <label>SOW Change Mid Review</label>
+            </value>
+            <value>
+                <fullName>SOW Pre-Inspection</fullName>
+                <default>false</default>
+                <label>SOW Pre-Inspection</label>
+            </value>
+            <value>
+                <fullName>QAQC Pre-Inspection</fullName>
+                <default>false</default>
+                <label>QAQC Pre-Inspection</label>
+            </value>
+            <value>
+                <fullName>QAQC Post-Inspection</fullName>
+                <default>false</default>
+                <label>QAQC Post-Inspection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

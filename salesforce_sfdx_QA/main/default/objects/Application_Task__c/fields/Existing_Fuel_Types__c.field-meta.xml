@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Fuel_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Existing Fuel Types</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CE Natural Gas</fullName>
+                <default>false</default>
+                <label>CE Natural Gas</label>
+            </value>
+            <value>
+                <fullName>Other Natural Gas</fullName>
+                <default>false</default>
+                <label>Other Natural Gas</label>
+            </value>
+            <value>
+                <fullName>CE Steam</fullName>
+                <default>false</default>
+                <label>CE Steam</label>
+            </value>
+            <value>
+                <fullName>Electricity</fullName>
+                <default>false</default>
+                <label>Electricity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

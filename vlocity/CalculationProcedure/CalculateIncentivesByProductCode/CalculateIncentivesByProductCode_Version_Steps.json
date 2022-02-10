@@ -1,0 +1,1081 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "IncentiveFactor",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/IncentiveFactor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "55c779",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "MeasureCode"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "b5322c",
+                "dataType": "Number",
+                "label": null,
+                "listValues": null,
+                "name": "IncentiveFactor"
+            },
+            {
+                "columnKey": "454821",
+                "dataType": "Number",
+                "label": null,
+                "listValues": null,
+                "name": "PromoBonus"
+            },
+            {
+                "columnKey": "bbd244",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "EffectiveTo"
+            },
+            {
+                "columnKey": "c5fe7d",
+                "dataType": "Boolean",
+                "label": null,
+                "listValues": null,
+                "name": "Active"
+            },
+            {
+                "columnKey": "e43f05",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "EffectiveFrom"
+            },
+            {
+                "columnKey": "8ca12a",
+                "dataType": "Boolean",
+                "label": null,
+                "listValues": null,
+                "name": "PromoBonusActive"
+            },
+            {
+                "columnKey": "28469c",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "ApplicationStatus"
+            },
+            {
+                "columnKey": "d275",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "ApprovalReference"
+            },
+            {
+                "columnKey": "1fe364",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "PromoEndDate"
+            },
+            {
+                "columnKey": "2b3327",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "PromoStartDate"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"IncentiveFactor\":\"IncentiveFactor__IncentiveFactor\",\"PromoBonus\":\"IncentiveFactor__PromoBonus\",\"EffectiveTo\":\"IncentiveFactor__EffectiveTo\",\"Active\":\"IncentiveFactor__Active\",\"EffectiveFrom\":\"IncentiveFactor__EffectiveFrom\",\"PromoBonusActive\":\"IncentiveFactor__PromoBonusActive\",\"ApplicationStatus\":\"IncentiveFactor__ApplicationStatus\",\"ApprovalReference\":\"IncentiveFactor__ApprovalReference\",\"PromoEndDate\":\"IncentiveFactor__PromoEndDate\",\"PromoStartDate\":\"IncentiveFactor__PromoStartDate\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "IncentiveFactor__PromoStartDate",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "IncentiveFactor__PromoStartDate",
+                "dataType": "Text",
+                "text": "PromoStartDate ( IncentiveFactor )",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "PE_START",
+            "dataType": "Date",
+            "name": "PE_START"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"PE_START\":\"PE_START\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "IncentiveFactor__PromoEndDate",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "IncentiveFactor__PromoEndDate",
+                "dataType": "Text",
+                "text": "PromoEndDate ( IncentiveFactor )",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "PE_END",
+            "dataType": "Date",
+            "name": "PE_END"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"PE_END\":\"PE_END\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "BOOL_TRUE",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "PE_END",
+                "dataType": "Date",
+                "text": "PE_END",
+                "userDefined": true
+            },
+            {
+                "alias": ">",
+                "text": ">"
+            },
+            {
+                "alias": "TODAY ( )",
+                "text": "TODAY ( )"
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "PE_START",
+                "dataType": "Date",
+                "text": "PE_START",
+                "userDefined": true
+            },
+            {
+                "alias": "<",
+                "text": "<"
+            },
+            {
+                "alias": "TODAY ( )",
+                "text": "TODAY ( )"
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "IncentiveFactor__PromoBonusActive",
+                "dataType": "Boolean",
+                "text": "PromoBonusActive ( IncentiveFactor )",
+                "userDefined": false
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "( PE_END > TODAY ( ) ) AND ( PE_START < TODAY ( ) ) AND IncentiveFactor__PromoBonusActive == BOOL_TRUE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Boolean",
+                "name": "BOOL_TRUE"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "ValidPromotionEffectivity",
+            "dataType": "Boolean",
+            "name": "ValidPromotionEffectivity"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"ValidPromotionEffectivity\":\"ValidPromotionEffectivity\"}",
+        "%vlocity_namespace%__Sequence__c": 4,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "IncentiveFactor__EffectiveFrom",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "IncentiveFactor__EffectiveFrom",
+                "dataType": "Text",
+                "text": "EffectiveFrom ( IncentiveFactor )",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "E_FROM",
+            "dataType": "Date",
+            "name": "E_FROM"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"E_FROM\":\"E_FROM\"}",
+        "%vlocity_namespace%__Sequence__c": 5,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "IncentiveFactor__EffectiveTo",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "IncentiveFactor__EffectiveTo",
+                "dataType": "Text",
+                "text": "EffectiveTo ( IncentiveFactor )",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "E_TO",
+            "dataType": "Date",
+            "name": "E_TO"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"E_TO\":\"E_TO\"}",
+        "%vlocity_namespace%__Sequence__c": 6,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "BOOL_TRUE",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "E_TO",
+                "dataType": "Date",
+                "text": "E_TO",
+                "userDefined": true
+            },
+            {
+                "alias": ">",
+                "text": ">"
+            },
+            {
+                "alias": "TODAY ( )",
+                "text": "TODAY ( )"
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "E_FROM",
+                "dataType": "Date",
+                "text": "E_FROM",
+                "userDefined": true
+            },
+            {
+                "alias": "<",
+                "text": "<"
+            },
+            {
+                "alias": "TODAY ( )",
+                "text": "TODAY ( )"
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "IncentiveFactor__Active",
+                "dataType": "Boolean",
+                "text": "Active ( IncentiveFactor )",
+                "userDefined": false
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "( E_TO > TODAY ( ) ) AND ( E_FROM < TODAY ( ) ) AND IncentiveFactor__Active == BOOL_TRUE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Boolean",
+                "name": "BOOL_TRUE"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "ValidEffectivity",
+            "dataType": "Boolean",
+            "name": "ValidEffectivity"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"ValidEffectivity\":\"ValidEffectivity\"}",
+        "%vlocity_namespace%__Sequence__c": 7,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "IncentiveFactor__IncentiveFactor * kwh",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "IncentiveFactor__IncentiveFactor",
+                "dataType": "Number",
+                "text": "IncentiveFactor ( IncentiveFactor )",
+                "userDefined": false
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "kwh",
+                "dataType": "Number",
+                "text": "kwh",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "IncentiveFactor__Active",
+                "dataType": "Boolean",
+                "text": "Active ( IncentiveFactor )",
+                "userDefined": false
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "IncentiveFactor__Active == BOOL_TRUE AND ValidEffectivity == BOOL_TRUE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "kwh"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "BaseIncentive",
+            "dataType": "Number",
+            "name": "BaseIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"BaseIncentive\":\"BaseIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 8,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "IncentiveFactor__PromoBonus * kwh",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "IncentiveFactor__PromoBonus",
+                "dataType": "Number",
+                "text": "PromoBonus ( IncentiveFactor )",
+                "userDefined": false
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "kwh",
+                "dataType": "Number",
+                "text": "kwh",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "ValidPromotionEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidPromotionEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "ValidEffectivity == BOOL_TRUE AND ValidPromotionEffectivity == BOOL_TRUE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "kwh"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "PromoIncentive",
+            "dataType": "Number",
+            "name": "PromoIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"PromoIncentive\":\"PromoIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 9,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "PromoIncentive + BaseIncentive",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "PromoIncentive",
+                "dataType": "Number",
+                "text": "PromoIncentive",
+                "userDefined": true
+            },
+            {
+                "alias": "+",
+                "text": "+"
+            },
+            {
+                "alias": "BaseIncentive",
+                "dataType": "Number",
+                "text": "BaseIncentive",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "ValidEffectivity == BOOL_TRUE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "PromoIncentive"
+            },
+            {
+                "dataType": "Number",
+                "name": "BaseIncentive"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "TotalIncentive",
+            "dataType": "Number",
+            "name": "TotalIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"TotalIncentive\":\"TotalIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 10,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "MeasureCost",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "MeasureCost",
+                "dataType": "Number",
+                "text": "MeasureCost",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "TotalIncentive",
+                "dataType": "Number",
+                "text": "TotalIncentive",
+                "userDefined": true
+            },
+            {
+                "alias": ">",
+                "text": ">"
+            },
+            {
+                "alias": "MeasureCost",
+                "dataType": "Number",
+                "text": "MeasureCost",
+                "userDefined": true
+            },
+            {
+                "alias": "AND",
+                "text": "AND"
+            },
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_TRUE",
+                "dataType": "Boolean",
+                "text": "BOOL_TRUE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "TotalIncentive > MeasureCost AND ValidEffectivity == BOOL_TRUE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "MeasureCost"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "TotalIncentive",
+            "dataType": "Number",
+            "name": "TotalIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"TotalIncentive\":\"TotalIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 11,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "BaseIncentive",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "BaseIncentive",
+                "dataType": "Number",
+                "text": "BaseIncentive",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_FALSE",
+                "dataType": "Boolean",
+                "text": "BOOL_FALSE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "ValidEffectivity == BOOL_FALSE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "BaseIncentive"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "TotalIncentive",
+            "dataType": "Number",
+            "name": "TotalIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"TotalIncentive\":\"TotalIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 12,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "BaseIncentive",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "BaseIncentive",
+                "dataType": "Number",
+                "text": "BaseIncentive",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_FALSE",
+                "dataType": "Boolean",
+                "text": "BOOL_FALSE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "ValidEffectivity == BOOL_FALSE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "BaseIncentive"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "PromoIncentive",
+            "dataType": "Number",
+            "name": "PromoIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"PromoIncentive\":\"PromoIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 13,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "PromoIncentive",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "PromoIncentive",
+                "dataType": "Number",
+                "text": "PromoIncentive",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_FALSE",
+                "dataType": "Boolean",
+                "text": "BOOL_FALSE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "ValidEffectivity == BOOL_FALSE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "PromoIncentive"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "BaseIncentive",
+            "dataType": "Number",
+            "name": "BaseIncentive"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"BaseIncentive\":\"BaseIncentive\"}",
+        "%vlocity_namespace%__Sequence__c": 14,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "BOOL_FALSE",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "BOOL_FALSE",
+                "dataType": "Boolean",
+                "text": "BOOL_FALSE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CalculateIncentivesByProductCode",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CalculateIncentivesByProductCode",
+            "%vlocity_namespace%__VersionNumber__c": 8,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/8/%vlocity_namespace%__CalculationProcedure__c/CalculateIncentivesByProductCode",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+            {
+                "alias": "ValidEffectivity",
+                "dataType": "Boolean",
+                "text": "ValidEffectivity",
+                "userDefined": true
+            },
+            {
+                "alias": "==",
+                "text": "=="
+            },
+            {
+                "alias": "BOOL_FALSE",
+                "dataType": "Boolean",
+                "text": "BOOL_FALSE",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__Conditions__c": "ValidEffectivity == BOOL_FALSE",
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Boolean",
+                "name": "BOOL_FALSE"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": true,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "ValidEffectivity",
+            "dataType": "Boolean",
+            "name": "ValidEffectivity"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"ValidEffectivity\":\"ValidEffectivity\"}",
+        "%vlocity_namespace%__Sequence__c": 15,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055Y00000EQHrAQAX",
+    "createdByName": "Rajesh Turlapati",
+    "createdDate": "2021-10-27T15:24:40.000Z",
+    "fileName": "customHelpMenuSections/vlocity_cmt__CustomHelpMenuSection.customHelpMenuSection",
+    "fullName": "vlocity_cmt__CustomHelpMenuSection",
+    "id": "2Cx5Y000000blZWSAY",
+    "lastModifiedById": "0055Y00000EQHrAQAX",
+    "lastModifiedByName": "Rajesh Turlapati",
+    "lastModifiedDate": "2021-10-27T15:24:40.000Z",
+    "manageableState": "installed",
+    "namespacePrefix": "vlocity_cmt",
+    "type": "CustomHelpMenuSection"
+  }
+}

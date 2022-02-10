@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "00503000001dlN5AAI",
+    "createdByName": "Fahd Alfadli",
+    "createdDate": "2021-11-11T19:23:48.000Z",
+    "fileName": "networks/home.network",
+    "fullName": "home",
+    "id": "0DB03000000CavCGAS",
+    "lastModifiedById": "00503000001eLSBAA2",
+    "lastModifiedByName": "Jeremy-ADMIN Brown",
+    "lastModifiedDate": "2021-11-18T17:16:05.000Z",
+    "type": "Network"
+  }
+}

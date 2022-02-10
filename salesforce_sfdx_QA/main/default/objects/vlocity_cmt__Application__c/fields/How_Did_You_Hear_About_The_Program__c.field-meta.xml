@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Did_You_Hear_About_The_Program__c</fullName>
+    <externalId>false</externalId>
+    <label>How Did You Hear About The Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ParticipatingContractor</fullName>
+                <default>false</default>
+                <label>ParticipatingContractor</label>
+            </value>
+            <value>
+                <fullName>OnlineSearch</fullName>
+                <default>false</default>
+                <label>OnlineSearch</label>
+            </value>
+            <value>
+                <fullName>EventSeminar</fullName>
+                <default>false</default>
+                <label>EventSeminar</label>
+            </value>
+            <value>
+                <fullName>SalesRep</fullName>
+                <default>false</default>
+                <label>SalesRep</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello,&nbsp;<br />
+&nbsp;
+<p>Your pre-inspection has been scheduled for {{{vlocity_cmt__Application__c.Scheduled_Pre_Inspection_Date__c}}}. Please see below the information regarding your pre-inspection.</p>
+
+<p>&nbsp;</p>
+
+<p>Project Name:&nbsp;{{{vlocity_cmt__Application__c.Name}}}</p>
+
+<p>Site Address:&nbsp;{{{vlocity_cmt__Application__c.vlocity_cmt__StreetAddress__c}}}</p>
+
+<p>Pre-Inspection Scheduled Date:&nbsp;{{{vlocity_cmt__Application__c.Scheduled_Pre_Inspection_Date__c}}}</p>
+
+<p>Time:&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Thank you,</p>
+
+<p>&nbsp;</p>
+
+<p>Con Edison</p>
+
+<p>Energy Efficiency &amp; Demand Management Team</p>
+
+</body></html>

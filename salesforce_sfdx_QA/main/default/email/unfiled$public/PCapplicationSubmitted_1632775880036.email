@@ -1,0 +1,20 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Thank you for registering to access the Incentive Navigator. Upon registration approval you will receive an email with a <b>First-Time Log-In</b> Link prompting you to <b>Create A Password.</b> &nbsp;<br />
+<br />
+Below is a summary of your registration.<br />
+<br />
+Date:&nbsp;{{{Account.CreatedDate}}}<br />
+Company:&nbsp;{{{Account.Name}}}<br />
+Company Address:&nbsp;{{{Account.BillingAddress}}}<br />
+Primary Contact: {{{Account.vlocity_cmt__PrimaryContactId__c}}}<br />
+<br />
+Reference ID:{{{Account.Contractor_Id__c}}}<br />
+Incentive Navigator Username:&nbsp;{{{Account.vlocity_cmt__BillingEmailAddress__c}}}<br />
+**Pending Approval<br />
+A member of the C&amp;I Trade Ally Management Team will contact you within the next 5-10 business days.<br />
+<br />
+Thank you,<br />
+Con Edisoncommercial@coned.comEnergy Efficiency &amp; Demand Management Team
+</body></html>

@@ -1,0 +1,77 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<br />
+{{{Account.Name}}} has been approved as a Participating Contractor in our C&amp;I incentive program. You now have access to the Incentive Navigator and should have already received an email from <a href="mailto:dl-sfoktahelp@coned.com"><u>dl-sfoktahelp@coned.com</u></a>&nbsp;&lt;&lt;NEW_EMAIL&gt;&gt; to create a password. The below link must be used to access Incentive Navigator: &lt;&lt;LINK&gt;&gt;<br />
+<br />
+Your account information is shown on our file as follow:<br />
+<b>Company Name:&nbsp;</b>{{{Account.Name}}}<br />
+<b>Company Address:&nbsp;</b>{{{Account.Name}}}<br />
+<b>Primary Contact Name:&nbsp;</b><br />
+<b>Primary Contact Email:&nbsp;</b><br />
+<b>Incentive Navigator Username:&nbsp;</b><br />
+<b>Reference Id:&nbsp;</b>{{{Account.Reference_Id__c}}}<br />
+<b>C&amp;I Incentive Program Benefits and How to Access them:</b>
+<ul>
+	<li>Attend utility training's, webinars and events
+	<ul>
+		<li>The training's are in relation to project submissions, use of the Incentive Navigator, future program changes and more. Online webinars invitations will be sent out to the Primary Contact Email associated with your account as shown above.</li>
+	</ul>
+	</li>
+	<li>Appear in C&amp;I Participating Contractor Directory
+	<ul>
+		<li>Link: <a href="https://conedee.force.com/CIPCPortal/s/searchpage"><u>https://conedee.force.com/CIPCPortal/s/searchpage</u></a>&nbsp;&lt;&lt;NEW LINK&gt;&gt;</li>
+		<li>Should you choose, you can have your company logo displayed on your listing.
+		<ul>
+			<li>Process to Submit Logo for PC Directory
+			<ul>
+				<li>Send us the Logo in .png format for upload to <a href="mailto:rperas@coned.com"><u>p</u><u>erasr@coned.com</u></a><u> </u></li>
+				<li>Program team will confirm that the logo has been uploaded and it will appear next to your company in the PC Directory.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Access to Incentive Navigator (the only software for Participating Contractors to submit C&amp;I projects). The platform allows you to:</li>
+</ul>
+
+<ol>
+	<li>Register as a Participating Contractor in C&amp;I program</li>
+	<li>Check customer eligibility for projects</li>
+	<li>Create branded estimates</li>
+	<li>View and edit estimates in Estimates Calculator dashboard</li>
+	<li>Convert estimates into projects</li>
+	<li>View and edit projects submitted in Project Portal dashboar</li>
+	<li>Schedule Pre inspections</li>
+</ol>
+
+<ul>
+	<li>Link: <a href="https://incentivenavigator.coned.com/"><u>https://incentivenavigator.coned.com/</u></a></li>
+	<li>Access to Incentive Navigator Ref Manual. This document is a detailed guide that shows how to navigate through Incentive Navigator.</li>
+	<li>Co-Branding Opportunities</li>
+</ul>
+You will be able to Co-Brand with Con Edison using your PC Badge ID. See below for more information<br />
+Process for Co-Branding<br />
+You should review the Badge usage guidelines that is attached to this email<br />
+Once you have created Co-Branding literature, it should be sent to <a href="mailto:Commercial@coned.com"><u>Commercial@coned.com</u></a> for review<br />
+Trade Ally manager will touch base with you regarding your inquiry. Please allow up to 30 days for response to your inquiry.<br />
+Once, the request is reviewed and approved via email by Tarde Ally Manager, you will be able to begin using the approved material<br />
+Link: <a href="https://conedee.force.com/CIPCPortal/login?startURL=%2FCIPCPortal%2Fs%2Fco-branding%3Ft%3D1594336876679"><u>Co-Branding Page</u></a>&nbsp;&lt;&lt;NEW LINK&gt;&gt;<br />
+Early notice of program updates<br />
+Rebate and Technical Support<br />
+Program support will be provided by your Con Edison Business Development (BD) manager, which you will be assigned to. Your assigned BD is <u>Account Owner of PC.</u><br />
+You can find the name and contact information of your BD in the Estimates Calculator Dashboard page once you sign into Incentive Navigator<br />
+If you encounter any technical issues while navigating Incentive Navigator, you can reach out to our technical support team by submitting a Help Form at the link here: <a href="https://conedee.force.com/IncentiveNavigator/HelpForm"><u>https://conedee.force.com/IncentiveNavigator/HelpForm</u></a><br />
+Assign customer rebates to your company – PCs can assign incentives only with customer consent<br />
+As a reminder, Commercial &amp; Industrial Participating Contractors must adhere to program and Participating Contractor requirements as they appear in the <a href="https://conedee.my.salesforce.com/sfc/p/"><u>C&amp;I Participating Contractor Agreement</u></a>. &lt;&lt;NEW LINK?&gt;&gt;&gt;<br />
+<br />
+Please let me know if you have any other questions, and once again welcome to our C&amp;I Participating Contractor network.<br />
+Thank you,<br />
+Robert M. Peras, Trade Ally Manager<br />
+Con Edison<br />
+Energy Efficiency &amp; Demand Management Team<br />
+<a href="https://coned--dev.my.salesforce.com/p/email/template/EmailTemplateEditorUi/www.coned.com/largecommercial"><u>www.coned.com/Largecommercial</u></a><br />
+&nbsp;
+</body></html>
